@@ -447,3 +447,23 @@ PalletTown_EventScript_SignLadyStartShowSign::
 	call PalletTown_EventScript_SignLadyShowSign
 	release
 	end
+
+PalletTown_EventScript_ItemFireStone::
+    finditem ITEM_FIRE_STONE, 1
+    end
+
+PalletTown_EventScript_ItemWaterStone::
+    finditem ITEM_WATER_STONE, 1
+    end
+
+PalletTown_EventScript_ItemThunderStone::
+    finditem ITEM_THUNDER_STONE, 1
+    end
+
+PalletTown_EventScript_Zaynab::
+    msgbox PalletTown_Text_Zaynab, MSGBOX_NPC
+    end
+
+PalletTown_EventScript_Aliyah::
+    msgbox PalletTown_Text_Aliyah, MSGBOX_NPC
+    end

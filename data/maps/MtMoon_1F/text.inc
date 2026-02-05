@@ -71,7 +71,7 @@ MtMoon_1F_Text_KentPostBattle::
 
 MtMoon_1F_Text_RobbyIntro::
     .string "You need to go through this cave\n"
-    .string "to get to CERULEAN CITY.$"
+    .string "to get to LETCHWORTH.$"
 
 MtMoon_1F_Text_RobbyDefeat::
     .string "I lost.$"

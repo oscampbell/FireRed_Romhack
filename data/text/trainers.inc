@@ -591,7 +591,7 @@ Route20_Text_NoraRematchIntro::
 	.string "And, they've grown bigger!$"
 
 Route20_Text_MissyRematchIntro::
-	.string "I swam here from CINNABAR ISLAND.\n"
+	.string "I swam here from MADEIRA.\n"
 	.string "It wasn't easy, like I said.$"
 
 Route20_Text_MelissaRematchIntro::
@@ -647,7 +647,7 @@ Route25_Text_JoeyRematchIntro::
 
 Route25_Text_DanRematchIntro::
 	.string "Dad took me to a great party on\n"
-	.string "the S.S. ANNE at VERMILION CITY.$"
+	.string "the S.S. ANNE at SOUTHAMPTON.$"
 
 Route25_Text_FlintRematchIntro::
 	.string "I'm a cool guy.\n"

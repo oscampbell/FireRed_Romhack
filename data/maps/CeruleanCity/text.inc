@@ -160,7 +160,7 @@ CeruleanCity_Text_ThisIsCeruleanCave::
     .string "made a great achievement.$"
 
 CeruleanCity_Text_CitySign::
-    .string "CERULEAN CITY\n"
+    .string "LETCHWORTH\n"
     .string "A Mysterious, Blue Aura Surrounds\l"
     .string "It$"
 
@@ -176,7 +176,7 @@ CeruleanCity_Text_BikeShopSign::
     .string "BIKE SHOP$"
 
 CeruleanCity_Text_GymSign::
-    .string "CERULEAN CITY POKéMON GYM\n"
+    .string "LETCHWORTH POKéMON GYM\n"
     .string "LEADER: MISTY\l"
     .string "The Tomboyish Mermaid!$"
 

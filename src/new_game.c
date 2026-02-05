@@ -110,6 +110,10 @@ void ResetMenuAndMonGlobals(void)
     ResetSpecialVars();
 }
 
+static const u8 sShuktiName[] = {0xCD, 0xC2, 0xCF, 0xC5, 0xCE, 0xC3, 0xFF};
+
+static const u8 sShuktiName[] = {0xCD, 0xC2, 0xCF, 0xC5, 0xCE, 0xC3, 0xFF};
+
 void NewGameInitData(void)
 {
     u8 rivalName[PLAYER_NAME_LENGTH + 1];
@@ -133,6 +137,10 @@ void NewGameInitData(void)
     PlayTimeCounter_Reset();
     ClearPokedexFlags();
     InitEventData();
+    gSaveBlock2Ptr->playerGender = FEMALE;
+    StringCopy(gSaveBlock2Ptr->playerName, sShuktiName);
+    FlagSet(FLAG_HIDE_BULBASAUR_BALL);
+    FlagSet(FLAG_HIDE_CHARMANDER_BALL);
     InitTimeBasedEvents(); // remove if wallclock
     ResetFameChecker();
     SetMoney(&gSaveBlock1Ptr->money, 3000);

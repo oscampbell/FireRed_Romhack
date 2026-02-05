@@ -1,39 +1,48 @@
-# Pokémon FireRed and LeafGreen Ultra
+# Pokémon FireRed and LeafGreen Ultra (Customized)
 
-![Screenshot](fireredultra-box-art.jpg)
+This is a customized version of **FireRed Ultra** (based on `mlastes1987/FireRedUltra`), which includes the **Following Pokémon** feature.
 
-Based on the pokefirered disassembly with Pokeemerald Expansion Updates from [**cawtds**](https://github.com/cawtds/pokefirered-expansion)
+## Branches
 
-# Features
+*   **`master`**: Customized vanilla FireRed (Decompilation).
+*   **`followers-ultra`**: FireRed Ultra (CFRU features + Followers) + Customizations. **<-- USE THIS BRANCH**
 
-- **Reusable TMs**
+## Completed Features (Customized on `followers-ultra`)
 
-- **Forgettable HMs** Without a Move Tutor.
+*   **Following Pokémon:** The first Pokémon in your party follows you! (Inherited from FireRed Ultra).
+*   **Forced Player Identity:**
+    *   Name is forced to **SHUKTI**.
+    *   Gender is forced to **Female**.
+    *   Intro gender/name selection screens are skipped.
+*   **Custom Starter:**
+    *   The starter Pokémon is **Eevee** (replacing Squirtle).
+    *   Bulbasaur and Charmander Poké Balls are removed.
+    *   Text updated to reflect Eevee selection.
+*   **Evolution Items:**
+    *   Added **Fire Stone**, **Water Stone**, and **Thunder Stone** as pickup items in Mill Town (outside the player's house) to allow early evolution.
+*   **Town Renames (UK Theme):**
+    *   **Pallet Town** -> **Mill Town** (Mill Hill, London).
+    *   **Viridian City** -> **St Albans**.
+    *   **Pewter City** -> **Stevenage**.
+    *   **Cerulean City** -> **Letchworth**.
+    *   **Lavender Town** -> **York**.
+    *   **Vermilion City** -> **Southampton**.
+    *   **Celadon City** -> **Birmingham**.
+    *   **Fuchsia City** -> **Bristol**.
+    *   **Saffron City** -> **Manchester**.
+    *   **Cinnabar Island** -> **Madeira**.
+    *   **Indigo Plateau** -> **Wembley**.
+*   **New NPCs:**
+    *   Added **Zaynab** and **Aliyah** to Mill Town, representing friends from home with custom messages.
 
-- **Startup Money** Startup money has been changed from 3,000 to 35,000 Pokedollars.
+## FireRed Ultra Features (Inherited)
+*   Reusable TMs
+*   Forgettable HMs
+*   Startup Money (35,000)
+*   HGSS Pokedex Plus
+*   Trade Evolutions via Link Cable item
 
-- **HGSS Pokedex Plus** Backported from HeartGold SoulSilver, you get to enjoy the features of Pokedex Plus.
+## To Do
 
-- **Follower Pokemon** Any Pokemon in the first party slot will follow you through the overworld.
-
-- **Trade Evolutions** All Trade Evolutions can evolve by using either a Linking Cable or their specific evolution items like Metal Coat or King's Rock, but can also evolve by trading between FR and LG out of the box.
-
-- **Debug Menu** By pressing R+Start you can open a special debug menu made by a few people. [**See here**](/include/config/debug.h) and it includes features like giving you items, pokemon, and other changes to the game.
-
-- **Double Battles** All double battles no longer require you to have two pokemon in your party and 25% of the time wild battles will be double.  This also means that you can battle two trainers at once.
-
-- **Gen 5 Map Area Popups** All Map Area Popups are switched to Gen 5 and include a 12hr clock displayed at the bottom.
-
-- **Gen 6 Exp. Share** Exp Share is available in your PC at the start of the game, and much like Gen 6 gives experience points to your whole party during battle and capture.
-
-- **Running Indoors** This makes traversing all of Kanto much easier and faster, great for speed runs.
-
-- **Fast-Run** During wild battles you can hold B to run.
-
-- **Known Issues** Any known or reported issues will be put here.
-
-# Thanks/Credit
-
-Thank you to [**cawtds**](https://github.com/cawtds) for bringing the Emerald Expansion to Fire Red.
-
-Thank you to [**rh-hideout**](https://github.com/rh-hideout/pokeemerald-expansion) for the Emerald Expansion code base.
+*   Finalise Zaynab and Aliyah dialogue.
+*   Finalise location names.

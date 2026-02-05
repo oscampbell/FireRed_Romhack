@@ -107,10 +107,10 @@ PalletTown_ProfessorOaksLab_Text_OakChoosingCharmander::
     .string "FIRE POKéMON CHARMANDER?$"
 
 PalletTown_ProfessorOaksLab_Text_OakChoosingSquirtle::
-    .string "Hm! SQUIRTLE is your choice.\n"
+    .string "Hm! EEVEE is your choice.\n"
     .string "It's one worth raising.\p"
     .string "So, {PLAYER}, you've decided on the\n"
-    .string "WATER POKéMON SQUIRTLE?$"
+    .string "EVOLUTION POKéMON EEVEE?$"
 
 PalletTown_ProfessorOaksLab_Text_OakChoosingBulbasaur::
     .string "I see! BULBASAUR is your choice.\n"
@@ -260,7 +260,7 @@ PalletTown_ProfessorOaksLab_Text_EmailMessage::
     .string "Bring your best POKéMON and see\n"
     .string "how you rate as a TRAINER!\p"
     .string "POKéMON LEAGUE HQ\n"
-    .string "INDIGO PLATEAU\p"
+    .string "WEMBLEY\p"
     .string "PROF. OAK, please visit us!\n"
     .string "…$"
 

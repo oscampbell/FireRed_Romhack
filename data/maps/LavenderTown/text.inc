@@ -22,7 +22,7 @@ LavenderTown_Text_GhostsAppearedInTower::
     .string "POKéMON that the ROCKETS killed.$"
 
 LavenderTown_Text_TownSign::
-    .string "LAVENDER TOWN\n"
+    .string "YORK\n"
     .string "The Noble Purple Town$"
 
 LavenderTown_Text_SilphScopeNotice::

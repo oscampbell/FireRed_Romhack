@@ -30,7 +30,7 @@ PalletTown_Text_RivalsHouse::
     .string "{RIVAL}'s house$"
 
 PalletTown_Text_TownSign::
-    .string "PALLET TOWN\n"
+    .string "MILL TOWN\n"
     .string "Shades of your journey await!$"
 
 PalletTown_Text_OakLetMeSeePokedex::
@@ -64,4 +64,13 @@ PalletTown_Text_OakYouEnjoyingTraveling::
     .string "exotic locales.\p"
     .string "Good for you, good for you.\n"
     .string "Hohoho.$"
+
+PalletTown_Text_Zaynab::
+    .string "ZAYNAB: Good luck, SHUKTI!\n"
+    .string "Don't forget us London girls!$"
+
+PalletTown_Text_Aliyah::
+    .string "ALIYAH: We'll miss you here in\n"
+    .string "MILL TOWN! Go show them what a\l"
+    .string "North West girl can do!$"
 
