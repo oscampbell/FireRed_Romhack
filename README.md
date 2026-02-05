@@ -14,12 +14,13 @@ This is a customized version of **FireRed Ultra** (based on `mlastes1987/FireRed
     *   Name is forced to **SHUKTI**.
     *   Gender is forced to **Female**.
     *   Intro gender/name selection screens are skipped.
-*   **Custom Starter:**
-    *   The starter Pokémon is **Eevee** (replacing Squirtle).
-    *   Bulbasaur and Charmander Poké Balls are removed.
-    *   Text updated to reflect Eevee selection.
+*   **Custom Starters:**
+    *   **Morpeko** (Full Belly Mode).
+    *   **Eevee** (Evolution Pokémon).
+    *   **Alolan Raichu** (Surfing Raichu).
+    *   Text updated to reflect these choices.
 *   **Evolution Items:**
-    *   Added **Fire Stone**, **Water Stone**, and **Thunder Stone** as pickup items in Mill Town (outside the player's house) to allow early evolution.
+    *   Added **Fire, Water, Thunder, Leaf, Ice, Sun, Moon, Shiny, Dusk, and Dawn Stones** as pickup items scattered around Mill Town (outside the player's house and near the water) to allow early evolution for Eevee.
 *   **Town Renames (UK Theme):**
     *   **Pallet Town** -> **Mill Town** (Mill Hill, London).
     *   **Viridian City** -> **St Albans**.
@@ -41,6 +42,7 @@ This is a customized version of **FireRed Ultra** (based on `mlastes1987/FireRed
 *   Startup Money (35,000)
 *   HGSS Pokedex Plus
 *   Trade Evolutions via Link Cable item
+*   All Gen 1-9 Pokémon available in engine (awaiting distribution).
 
 ## To Do
 

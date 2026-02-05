@@ -460,6 +460,34 @@ PalletTown_EventScript_ItemThunderStone::
     finditem ITEM_THUNDER_STONE, 1
     end
 
+PalletTown_EventScript_ItemLeafStone::
+    finditem ITEM_LEAF_STONE, 1
+    end
+
+PalletTown_EventScript_ItemIceStone::
+    finditem ITEM_ICE_STONE, 1
+    end
+
+PalletTown_EventScript_ItemSunStone::
+    finditem ITEM_SUN_STONE, 1
+    end
+
+PalletTown_EventScript_ItemMoonStone::
+    finditem ITEM_MOON_STONE, 1
+    end
+
+PalletTown_EventScript_ItemShinyStone::
+    finditem ITEM_SHINY_STONE, 1
+    end
+
+PalletTown_EventScript_ItemDuskStone::
+    finditem ITEM_DUSK_STONE, 1
+    end
+
+PalletTown_EventScript_ItemDawnStone::
+    finditem ITEM_DAWN_STONE, 1
+    end
+
 PalletTown_EventScript_Zaynab::
     msgbox PalletTown_Text_Zaynab, MSGBOX_NPC
     end
