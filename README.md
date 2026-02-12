@@ -1,32 +1,50 @@
+> **Note:** Some features implemented were to test feasibility; nothing is final.
+
 # Pokémon FireRed and LeafGreen Ultra (Customized for Shukti)
 
 This is a deeply personalized version of **FireRed Ultra**, created as a gift for Shukti.
 
 ## Core Story Changes
-*   **The Rival:** Stacey (Shukti's old boss). She's "very stupid" and redundant-prone.
-*   **The Main Quest:** Team Rocket has stolen **Fig**, a special Shiny dog (Shiny Rockruff).
-*   **The Reward:** Upon defeating the Rocket boss in Silph Co., Shukti rescues Fig and gets to keep her!
-*   **Bowie:** A legendary black dog (Houndoom) who can be found and caught in the Letchworth Gym.
-*   **The Final Boss:** The Champion is **Ollie**, with a powerhouse team: Gengar, Charizard, Gyarados, Raichu, Dragonite, and Snorlax.
+*   **The Rival:** **STACEY** (Shukti's old boss). She's "very stupid" and redundant-prone. Her dialogue reflects her bossy persona and the closure of her hair salon.
+*   **The Main Quest:** Team Rocket has stolen **Fig**, a special Shiny dog (Shiny Rockruff). NPCs in Mill Town and York provide clues about her whereabouts.
+*   **The Reward:** Upon defeating the Rocket boss in Silph Co., Shukti rescues Fig from the President and gets to keep her!
+*   **Bowie (The Black Dog):** A catchable wild "legendary" encounter in the Letchworth Gym. The Gym Leader, Bryony, has special dialogue if you catch or defeat him.
+*   **The Final Boss:** The Champion is **OLLIE**. He features a powerhouse team of Gengar, Charizard, Gyarados, Raichu, Dragonite, and Snorlax.
 
 ## Completed Features
 *   **Following Pokémon:** The first Pokémon in your party follows you!
-*   **Forced Identity:** Name is **SHUKTI**, Gender is **Female**.
-*   **Custom Starters:** Morpeko, Eevee, Alolan Raichu (with heavily buffed "Ultra" stats).
-*   **Town Renames:** UK-themed (Pallet -> Mill Town, etc.).
-*   **New NPCs:** Zaynab and Aliyah in Mill Town (with dialogue about FIG).
+*   **Forced Identity:** Name is forced to **SHUKTI**, Gender is forced to **Female**. Intro selection screens are skipped.
+*   **Custom Starters:** Morpeko, Eevee, and Alolan Raichu (all with heavily buffed "Ultra" base stats).
+*   **Town Renames:** Global UK-themed overhaul:
+    *   Pallet -> **Mill Town**
+    *   Viridian -> **St Albans**
+    *   Pewter -> **Stevenage**
+    *   Cerulean -> **Letchworth**
+    *   Lavender -> **York**
+    *   Vermilion -> **Southampton**
+    *   Celadon -> **Birmingham**
+    *   Fuchsia -> **Bristol**
+    *   Saffron -> **Manchester**
+    *   Cinnabar -> **Madeira**
+    *   Indigo Plateau -> **Wembley**
+*   **New NPCs:** Zaynab and Aliyah added to Mill Town with custom dialogue about Fig.
 *   **Gym Leader Overhaul:**
-    *   Brock (Stevenage) -> **FARIS** (Psychic/Fairy)
-    *   Misty (Letchworth) -> **BRYONY** (Mixed Team)
-    *   Lt. Surge (Southampton) -> **DAVID** (Rock Team)
-    *   Sabrina (Manchester) -> **BRYONY & FARIS** (Double Battle!)
-*   **Letchworth Gym (Cerulean):** All other trainers removed. Added **Bowie**, a wild black dog (Houndoom) that you can catch!
-*   **Rival:** Renamed to **STACEY** globally, with new bossy dialogue.
-*   **Gym Guide:** The guy in every gym is now **OLLIE**. He gives cryptic advice eluding to his role as Champion and gives SHUKTI romantically themed gifts (Love Balls, Sweet Hearts, etc.) in every gym.
-*   **Secret Message:** Check the NES in your room!
+    *   Stevenage (Brock): **FARIS** (Psychic/Fairy Team: Ralts, Kirlia).
+    *   Letchworth (Misty): **BRYONY** (Mixed Team: Jigglypuff, Jynx, Mr. Mime, Poliwhirl, Flareon, Vileplume). All other trainers removed.
+    *   Southampton (Lt. Surge): **DAVID** (Rock Team: Graveler, Sudowoodo, Golem).
+    *   Manchester (Sabrina): **BRYONY & FARIS** (Double Battle!)
+*   **Gym Guide (OLLIE):** The guy in every gym is now **OLLIE** (using the Rival sprite). He acts as a loving, supportive partner giving genuine advice and romantic gifts in every gym:
+    *   Stevenage: Love Ball
+    *   Letchworth: Sweet Heart
+    *   Southampton: Heart Scale
+    *   Birmingham: Destiny Knot
+    *   Bristol: Rose Incense
+    *   Manchester: Friend Ball
+    *   Madeira: Luxury Ball
+    *   St Albans: 5x Love Balls
+*   **Secret Message:** A hidden message from Ollie on the NES in Shukti's room.
 
 ## To-Do List
-*   [ ] **Finalise Town names:** (Pallet -> Mill Town, Viridian -> St Albans, Pewter -> Stevenage, Cerulean -> Letchworth, Lavender -> York, Vermilion -> Southampton, Celadon -> Birmingham, Fuchsia -> Bristol, Saffron -> Manchester, Cinnabar -> Madeira, Indigo -> Wembley).
 *   [ ] **Rename remaining Gym Leaders:**
     *   Erika (Birmingham) -> ?
     *   Koga (Bristol) -> ?
