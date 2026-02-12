@@ -3992,12 +3992,12 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
 #if P_ALOLAN_FORMS
     [SPECIES_RAICHU_ALOLA] =
     {
-        .baseHP        = 60,
-        .baseAttack    = 85,
-        .baseDefense   = 50,
-        .baseSpeed     = 110,
-        .baseSpAttack  = 95,
-        .baseSpDefense = 85,
+        .baseHP        = 75,
+        .baseAttack    = 95,
+        .baseDefense   = 75,
+        .baseSpeed     = 120,
+        .baseSpAttack  = 110,
+        .baseSpDefense = 95,
         .types = MON_TYPES(TYPE_ELECTRIC, TYPE_PSYCHIC),
         .catchRate = 75,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_8) ? 243 : 218,
@@ -17969,12 +17969,12 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
 
     [SPECIES_EEVEE] =
     {
-        .baseHP        = 55,
-        .baseAttack    = 55,
-        .baseDefense   = 50,
-        .baseSpeed     = 55,
-        .baseSpAttack  = EEVEE_SP_ATK,
-        .baseSpDefense = 65,
+        .baseHP        = 75,
+        .baseAttack    = 80,
+        .baseDefense   = 75,
+        .baseSpeed     = 80,
+        .baseSpAttack  = 80,
+        .baseSpDefense = 80,
         .types = MON_TYPES(TYPE_NORMAL),
         .catchRate = 45,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 65 : 92,

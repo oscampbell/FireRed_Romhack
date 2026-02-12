@@ -1,25 +1,31 @@
 SaffronCity_Gym_Text_SabrinaIntro::
-    .string "I had a vision of your arrival.\p"
-    .string "I have had psychic powers since\n"
-    .string "I was a child.\p"
-    .string "It started when a spoon I\n"
-    .string "carelessly tossed, bent.\p"
-    .string "I dislike battling, but if you wish,\n"
-    .string "I will show you my powers!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+    .string "BRYONY: Welcome to Manchester!\n"
+    .string "We've been waiting for you.\p"
+    .string "FARIS: We heard you were doing\n"
+    .string "big things, SHUKTI!\p"
+    .string "BRYONY: But don't think we'll go\n"
+    .string "easy on you just because we're\l"
+    .string "friends!\p"
+    .string "FARIS: Ready? Let's show her our\n"
+    .string "double-team power!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
 
 SaffronCity_Gym_Text_SabrinaDefeat::
-    .string "This loss shocks me!\n"
-    .string "But, a loss is a loss.\p"
-    .string "I admit, I didn't work hard enough\n"
-    .string "to win.\p"
-    .string "Your victory has earned you the\n"
-    .string "MARSHBADGE.$"
+    .string "BRYONY: Wow! You really have\n"
+    .string "become strong!\p"
+    .string "FARIS: That was an amazing battle!\n"
+    .string "You definitely earned this!$"
+
+SaffronCity_Gym_Text_SabrinaNotEnoughMons::
+    .string "BRYONY: Oh! You only have one\n"
+    .string "POKéMON with you?\p"
+    .string "FARIS: We only battle two-on-two.\n"
+    .string "Come back when you have more!$"
 
 SaffronCity_Gym_Text_SabrinaPostBattle::
-    .string "Psychic power isn't something that\n"
-    .string "only a few people have.\p"
-    .string "Everyone has psychic power.\n"
-    .string "People just don't realize it.$"
+    .string "FARIS: You and your POKéMON have\n"
+    .string "an incredible bond.\p"
+    .string "BRYONY: Keep going, SHUKTI!\n"
+    .string "We're all rooting for you!$"
 
 SaffronCity_Gym_Text_ExplainMarshBadgeTakeThis::
     .string "The MARSHBADGE makes POKéMON up\n"

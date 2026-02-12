@@ -18,7 +18,60 @@ CeruleanCity_Gym_EventScript_MistyDefeated::
 	goto CeruleanCity_Gym_EventScript_GiveTM03
 	end
 
+CeruleanCity_Gym_EventScript_Bowie::
+	lock
+	faceplayer
+	setvar VAR_TEMP_1, SPECIES_HOUNDOOM
+	givemon_msg CeruleanCity_Gym_Text_BowieIntro, SPECIES_HOUNDOOM, 20
+	@ Wild battle script style
+	waitse
+	playmoncry SPECIES_HOUNDOOM, CRY_MODE_ENCOUNTER
+	delay 40
+	waitmoncry
+	setwildbattle SPECIES_HOUNDOOM, 20
+	setflag FLAG_SYS_CTRL_OBJ_CONFIRM
+	special BattleSetup_StartLegendaryBattle
+	waitstate
+	clearflag FLAG_SYS_CTRL_OBJ_CONFIRM
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_CAUGHT, CeruleanCity_Gym_EventScript_CaughtBowie
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, CeruleanCity_Gym_EventScript_DefeatedBowie
+	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, CeruleanCity_Gym_EventScript_DefeatedBowie
+	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, CeruleanCity_Gym_EventScript_DefeatedBowie
+	release
+	end
+
+CeruleanCity_Gym_EventScript_CaughtBowie::
+	setflag FLAG_HIDE_CERULEAN_GYM_BOWIE
+	setflag FLAG_CAUGHT_BOWIE
+	removeobject VAR_LAST_TALKED
+	release
+	end
+
+CeruleanCity_Gym_EventScript_DefeatedBowie::
+	setflag FLAG_HIDE_CERULEAN_GYM_BOWIE
+	removeobject VAR_LAST_TALKED
+	release
+	end
+
 CeruleanCity_Gym_EventScript_GiveTM03::
+	goto_if_set FLAG_CAUGHT_BOWIE, CeruleanCity_Gym_EventScript_BryonyCaughtBowie
+	goto_if_set FLAG_HIDE_CERULEAN_GYM_BOWIE, CeruleanCity_Gym_EventScript_BryonyBeatBowie
+	msgbox CeruleanCity_Gym_Text_MistyDefeat
+	goto CeruleanCity_Gym_EventScript_FinishGiveTM03
+	end
+
+CeruleanCity_Gym_EventScript_BryonyCaughtBowie::
+	msgbox CeruleanCity_Gym_Text_BryonyPostBattleCaughtBowie
+	goto CeruleanCity_Gym_EventScript_FinishGiveTM03
+	end
+
+CeruleanCity_Gym_EventScript_BryonyBeatBowie::
+	msgbox CeruleanCity_Gym_Text_BryonyPostBattleBeatBowie
+	goto CeruleanCity_Gym_EventScript_FinishGiveTM03
+	end
+
+CeruleanCity_Gym_EventScript_FinishGiveTM03::
 	msgbox CeruleanCity_Gym_Text_ExplainCascadeBadge
 	checkitemspace ITEM_TM03
 	goto_if_eq VAR_RESULT, FALSE, CeruleanCity_Gym_EventScript_NoRoomForTM03
@@ -34,14 +87,11 @@ CeruleanCity_Gym_EventScript_NoRoomForTM03::
 	end
 
 CeruleanCity_Gym_EventScript_Diana::
-	trainerbattle_single TRAINER_PICNICKER_DIANA, CeruleanCity_Gym_Text_DianaIntro, CeruleanCity_Gym_Text_DianaDefeat
-	msgbox CeruleanCity_Gym_Text_DianaPostBattle, MSGBOX_AUTOCLOSE
+	msgbox CeruleanCity_Gym_Text_DianaPostBattle, MSGBOX_NPC
 	end
 
 CeruleanCity_Gym_EventScript_Luis::
-	trainerbattle_single TRAINER_SWIMMER_MALE_LUIS, CeruleanCity_Gym_Text_LuisIntro, CeruleanCity_Gym_Text_LuisDefeat
-	famechecker FAMECHECKER_MISTY, 2
-	msgbox CeruleanCity_Gym_Text_LuisPostBattle, MSGBOX_AUTOCLOSE
+	msgbox CeruleanCity_Gym_Text_LuisPostBattle, MSGBOX_NPC
 	end
 
 CeruleanCity_Gym_EventScript_GymGuy::

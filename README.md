@@ -1,50 +1,37 @@
-# Pokémon FireRed and LeafGreen Ultra (Customized)
+# Pokémon FireRed and LeafGreen Ultra (Customized for Shukti)
 
-This is a customized version of **FireRed Ultra** (based on `mlastes1987/FireRedUltra`), which includes the **Following Pokémon** feature.
+This is a deeply personalized version of **FireRed Ultra**, created as a gift for Shukti.
 
-## Branches
+## Core Story Changes
+*   **The Rival:** Stacey (Shukti's old boss). She's "very stupid" and redundant-prone.
+*   **The Main Quest:** Team Rocket has stolen **Fig**, a special Shiny dog (Shiny Rockruff).
+*   **The Reward:** Upon defeating the Rocket boss in Silph Co., Shukti rescues Fig and gets to keep her!
+*   **Bowie:** A legendary black dog (Houndoom) who can be found and caught in the Letchworth Gym.
+*   **The Final Boss:** The Champion is **Ollie**, with a powerhouse team: Gengar, Charizard, Gyarados, Raichu, Dragonite, and Snorlax.
 
-*   **`master`**: Customized vanilla FireRed (Decompilation).
-*   **`followers-ultra`**: FireRed Ultra (CFRU features + Followers) + Customizations. **<-- USE THIS BRANCH**
+## Completed Features
+*   **Following Pokémon:** The first Pokémon in your party follows you!
+*   **Forced Identity:** Name is **SHUKTI**, Gender is **Female**.
+*   **Custom Starters:** Morpeko, Eevee, Alolan Raichu (with heavily buffed "Ultra" stats).
+*   **Town Renames:** UK-themed (Pallet -> Mill Town, etc.).
+*   **New NPCs:** Zaynab and Aliyah in Mill Town (with dialogue about FIG).
+*   **Gym Leader Overhaul:**
+    *   Brock (Stevenage) -> **FARIS** (Psychic/Fairy)
+    *   Misty (Letchworth) -> **BRYONY** (Mixed Team)
+    *   Lt. Surge (Southampton) -> **DAVID** (Rock Team)
+    *   Sabrina (Manchester) -> **BRYONY & FARIS** (Double Battle!)
+*   **Letchworth Gym (Cerulean):** All other trainers removed. Added **Bowie**, a wild black dog (Houndoom) that you can catch!
+*   **Rival:** Renamed to **STACEY** globally, with new bossy dialogue.
+*   **Secret Message:** Check the NES in your room!
 
-## Completed Features (Customized on `followers-ultra`)
-
-*   **Following Pokémon:** The first Pokémon in your party follows you! (Inherited from FireRed Ultra).
-*   **Forced Player Identity:**
-    *   Name is forced to **SHUKTI**.
-    *   Gender is forced to **Female**.
-    *   Intro gender/name selection screens are skipped.
-*   **Custom Starters:**
-    *   **Morpeko** (Full Belly Mode).
-    *   **Eevee** (Evolution Pokémon).
-    *   **Alolan Raichu** (Surfing Raichu).
-    *   Text updated to reflect these choices.
-*   **Evolution Items:**
-    *   Added **Fire, Water, Thunder, Leaf, Ice, Sun, Moon, Shiny, Dusk, and Dawn Stones** as pickup items scattered around Mill Town (outside the player's house and near the water) to allow early evolution for Eevee.
-*   **Town Renames (UK Theme):**
-    *   **Pallet Town** -> **Mill Town** (Mill Hill, London).
-    *   **Viridian City** -> **St Albans**.
-    *   **Pewter City** -> **Stevenage**.
-    *   **Cerulean City** -> **Letchworth**.
-    *   **Lavender Town** -> **York**.
-    *   **Vermilion City** -> **Southampton**.
-    *   **Celadon City** -> **Birmingham**.
-    *   **Fuchsia City** -> **Bristol**.
-    *   **Saffron City** -> **Manchester**.
-    *   **Cinnabar Island** -> **Madeira**.
-    *   **Indigo Plateau** -> **Wembley**.
-*   **New NPCs:**
-    *   Added **Zaynab** and **Aliyah** to Mill Town, representing friends from home with custom messages.
-
-## FireRed Ultra Features (Inherited)
-*   Reusable TMs
-*   Forgettable HMs
-*   Startup Money (35,000)
-*   HGSS Pokedex Plus
-*   Trade Evolutions via Link Cable item
-*   All Gen 1-9 Pokémon available in engine (awaiting distribution).
-
-## To Do
-
-*   Finalise Zaynab and Aliyah dialogue.
-*   Finalise location names.
+## To-Do List
+*   [ ] **Finalise Town names:** (Pallet -> Mill Town, Viridian -> St Albans, Pewter -> Stevenage, Cerulean -> Letchworth, Lavender -> York, Vermilion -> Southampton, Celadon -> Birmingham, Fuchsia -> Bristol, Saffron -> Manchester, Cinnabar -> Madeira, Indigo -> Wembley).
+*   [ ] **Rename remaining Gym Leaders:**
+    *   Erika (Birmingham) -> ?
+    *   Koga (Bristol) -> ?
+    *   Blaine (Madeira) -> ?
+    *   Giovanni (St Albans) -> ?
+*   [ ] **Custom NPC Messages:** Add David, and some other friends to more locations.
+*   [ ] **Visuals:**
+    *   Custom Title Screen (Replace Charizard).
+    *   Custom Player Sprite (To look more like Shukti).

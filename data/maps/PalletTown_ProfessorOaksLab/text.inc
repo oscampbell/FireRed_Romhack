@@ -1,19 +1,27 @@
 PalletTown_ProfessorOaksLab_Text_RivalGrampsIsntAround::
     .string "{RIVAL}: What, it's only {PLAYER}?\n"
-    .string "Gramps isn't around.$"
+    .string "Ugh, I'm already annoyed.\p"
+    .string "Where's the Professor? I have a\n"
+    .string "salon to run! Or I did... before\l"
+    .string "everyone became redundant.$"
 
 PalletTown_ProfessorOaksLab_Text_RivalFedUpWithWaiting::
-    .string "{RIVAL}: Gramps!\n"
-    .string "I'm fed up with waiting!$"
+    .string "{RIVAL}: Professor!\n"
+    .string "I'm fed up with waiting!\p"
+    .string "I'm a very busy businesswoman,\n"
+    .string "you know! Time is money!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalNoFairWhatAboutMe::
-    .string "{RIVAL}: Hey! Gramps! No fair!\n"
-    .string "What about me?$"
+    .string "{RIVAL}: Hey! Professor! No fair!\n"
+    .string "What about my special treatment?\p"
+    .string "I was the BOSS, remember?$"
 
 PalletTown_ProfessorOaksLab_Text_RivalGoChoosePlayer::
-    .string "{RIVAL}: Heh, I don't need to be\n"
-    .string "greedy like you. I'm mature!\p"
-    .string "Go ahead and choose, {PLAYER}!$"
+    .string "{RIVAL}: Heh, I'll let you choose\n"
+    .string "first, {PLAYER}.\p"
+    .string "I need to check my reflection in\n"
+    .string "the window anyway. My hair is\l"
+    .string "absolutely perfect today.$"
 
 PalletTown_ProfessorOaksLab_Text_RivalIllTakeThisOneThen::
     .string "{RIVAL}: I'll take this one, then!$"
@@ -33,8 +41,8 @@ PalletTown_ProfessorOaksLab_Text_RivalLetsCheckOutMons::
 
 PalletTown_ProfessorOaksLab_Text_RivalDefeat::
     .string "WHAT?\n"
-    .string "Unbelievable!\l"
-    .string "I picked the wrong POKéMON!$"
+    .string "You're all redundant!\l"
+    .string "I'm closing this battle!$"
 
 @ Also used for early Route 22 battle
 Text_RivalVictory::
@@ -44,8 +52,8 @@ Text_RivalVictory::
 PalletTown_ProfessorOaksLab_Text_RivalGoToughenMyMon::
     .string "{RIVAL}: Okay! I'll make my\n"
     .string "POKéMON battle to toughen it up!\p"
-    .string "{PLAYER}! Gramps!\n"
-    .string "Smell you later!$"
+    .string "{PLAYER}! Professor!\n"
+    .string "I'm off to fire some more staff!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalGramps::
     .string "{RIVAL}: Gramps!$"
@@ -55,7 +63,7 @@ PalletTown_ProfessorOaksLab_Text_RivalWhatDidYouCallMeFor::
     .string "What did you call me for?$"
 
 PalletTown_ProfessorOaksLab_Text_RivalLeaveItToMeGramps::
-    .string "{RIVAL}: All right, Gramps!\n"
+    .string "{RIVAL}: All right, Professor!\n"
     .string "Leave it all to me!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalTellSisNotToGiveYouMap::
@@ -65,8 +73,7 @@ PalletTown_ProfessorOaksLab_Text_RivalTellSisNotToGiveYouMap::
     .string "from my sis!\p"
     .string "I'll tell her not to lend you one,\n"
     .string "{PLAYER}! Hahaha!\p"
-    .string "Don't bother coming around to\n"
-    .string "my place after this!$"
+    .string "Consider yourself redundant!$"
 
 PalletTown_ProfessorOaksLab_Text_OakThreeMonsChooseOne::
     .string "OAK: {RIVAL}?\n"

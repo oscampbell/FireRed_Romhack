@@ -44,7 +44,8 @@
 #define TEMP_FLAGS_END   FLAG_TEMP_1F
 
 #define FLAG_0x020               0x020
-#define FLAG_0x021               0x021
+#define FLAG_HIDE_CERULEAN_GYM_BOWIE                       FLAG_0x020
+#define FLAG_CAUGHT_BOWIE                                  FLAG_0x021
 #define FLAG_0x022               0x022
 #define FLAG_0x023               0x023
 #define FLAG_0x024               0x024

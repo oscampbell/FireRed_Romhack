@@ -1,5 +1,7 @@
 PalletTown_PlayersHouse_2F_Text_PlayedWithNES::
     .string "{PLAYER} played with the NES.\p"
+    .string "A message appears on the screen:\n"
+    .string "“I love you SHUKTI! Love, OLLIE.”\p"
     .string "…Okay!\n"
     .string "It's time to go!$"
 

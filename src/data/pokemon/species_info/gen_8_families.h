@@ -5828,12 +5828,12 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
 #if P_FAMILY_MORPEKO
     [SPECIES_MORPEKO_FULL_BELLY] =
     {
-        .baseHP        = 58,
-        .baseAttack    = 95,
-        .baseDefense   = 58,
-        .baseSpeed     = 97,
-        .baseSpAttack  = 70,
-        .baseSpDefense = 58,
+        .baseHP        = 70,
+        .baseAttack    = 105,
+        .baseDefense   = 75,
+        .baseSpeed     = 110,
+        .baseSpAttack  = 85,
+        .baseSpDefense = 75,
         .types = MON_TYPES(TYPE_ELECTRIC, TYPE_DARK),
         .catchRate = 180,
         .expYield = 153,

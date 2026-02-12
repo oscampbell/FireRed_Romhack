@@ -9,28 +9,28 @@ SilphCo_11F_Text_ThanksForSavingMeDearBoy::
     .string "Here, maybe this will do.$"
 
 SilphCo_11F_Text_ThanksForSavingMeDearGirl::
-    .string "PRESIDENT: Oh, dear girl!\n"
+    .string "PRESIDENT: Oh, SHUKTI!\n"
     .string "Thank you for saving SILPH.\p"
     .string "I will never forget you saved us in\n"
     .string "our moment of peril.\p"
-    .string "I have to thank you in some way.\p"
-    .string "Because I am rich, I can give you\n"
-    .string "anything.\p"
-    .string "Here, maybe this will do.$"
+    .string "And more importantly, thank you for\n"
+    .string "rescuing poor FIG!\p"
+    .string "TEAM ROCKET stole her because she\n"
+    .string "is so special and rare.\p"
+    .string "She's a dog, and as you can see,\n"
+    .string "she's SHINY!\p"
+    .string "FIG seems to have taken a liking\n"
+    .string "to you. Please, take her with you!$"
 
-SilphCo_11F_Text_ObtainedMasterBallFromPresident::
-    .string "{PLAYER} obtained a MASTER BALL\n"
-    .string "from the PRESIDENT!$"
+SilphCo_11F_Text_ObtainedFig::
+    .string "{PLAYER} rescued FIG the Shiny dog!$"
 
 SilphCo_11F_Text_ThatsOurSecretPrototype::
-    .string "PRESIDENT: You can't buy that\n"
-    .string "anywhere.\p"
-    .string "It's our secret prototype MASTER\n"
-    .string "BALL.\p"
-    .string "It will catch any POKéMON without\n"
-    .string "fail!\p"
-    .string "You should be quiet about using it,\n"
-    .string "though.$"
+    .string "PRESIDENT: Take good care of FIG.\p"
+    .string "She's been through a lot with those\n"
+    .string "awful TEAM ROCKET people.\p"
+    .string "I'm sure she'll be much happier\n"
+    .string "traveling with you!$"
 
 SilphCo_11F_Text_YouHaveNoRoomForThis::
     .string "You have no room for this.$"

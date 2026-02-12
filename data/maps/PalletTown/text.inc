@@ -66,11 +66,14 @@ PalletTown_Text_OakYouEnjoyingTraveling::
     .string "Hohoho.$"
 
 PalletTown_Text_Zaynab::
-    .string "ZAYNAB: Good luck, SHUKTI!\n"
-    .string "Don't forget us London girls!$"
+    .string "ZAYNAB: SHUKTI! It's terrible!\n"
+    .string "TEAM ROCKET stole FIG!\p"
+    .string "They took our favorite dog...\n"
+    .string "Please find her!$"
 
 PalletTown_Text_Aliyah::
-    .string "ALIYAH: We'll miss you here in\n"
-    .string "MILL TOWN! Go show them what a\l"
-    .string "North West girl can do!$"
+    .string "ALIYAH: I saw those ROCKET thugs\n"
+    .string "running towards ST ALBANS with a\l"
+    .string "shiny dog in a cage!\p"
+    .string "That must have been FIG!$"
 

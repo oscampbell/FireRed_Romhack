@@ -13,6 +13,13 @@ SilphCo_11F_EventScript_President::
 	checkplayergender
 	call_if_eq VAR_RESULT, MALE, SilphCo_11F_EventScript_PresidentThanksMale
 	call_if_eq VAR_RESULT, FEMALE, SilphCo_11F_EventScript_PresidentThanksFemale
+	textcolor NPC_TEXT_COLOR_NEUTRAL
+	givemon SPECIES_ROCKRUFF, 25, ITEM_NONE, ITEM_POKE_BALL, NATURE_JOLLY, 0, MON_FEMALE, 0, 0, 0, 0, 0, 0, 31, 31, 31, 31, 31, 31, MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE, 1
+	playfanfare MUS_OBTAIN_ITEM
+	message SilphCo_11F_Text_ObtainedFig
+	waitmessage
+	waitfanfare
+	call EventScript_RestorePrevTextColor
 	checkitemspace ITEM_MASTER_BALL
 	goto_if_eq VAR_RESULT, FALSE, SilphCo_11F_EventScript_NoRoomForMasterBall
 	giveitem_msg SilphCo_11F_Text_ObtainedMasterBallFromPresident, ITEM_MASTER_BALL, 1, MUS_OBTAIN_KEY_ITEM

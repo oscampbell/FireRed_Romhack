@@ -106,9 +106,10 @@ Text_SoftboiledTaught::
 
 CeladonCity_Text_SomeoneStoleSilphScope::
     .string "Oh, what am I to do…\p"
-    .string "Someone stole our SILPH SCOPE.\p"
-    .string "The thief came running this way,\n"
-    .string "I'm sure of it.\p"
-    .string "But I lost sight of him!\n"
-    .string "Where'd he go?$"
+    .string "Someone stole poor FIG!\p"
+    .string "The thief came running this way\n"
+    .string "with a tricolour collie, I'm sure\l"
+    .string "of it!\p"
+    .string "But I lost sight of them!\n"
+    .string "Where'd they go?$"
 

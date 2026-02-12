@@ -18,8 +18,10 @@ LavenderTown_Text_TownKnownAsMonGraveSite::
 
 LavenderTown_Text_GhostsAppearedInTower::
     .string "Ghosts appeared in POKéMON TOWER.\p"
-    .string "I think they're the spirits of\n"
-    .string "POKéMON that the ROCKETS killed.$"
+    .string "I heard TEAM ROCKET is holding a\n"
+    .string "dog named FIG up there!\p"
+    .string "They're probably planning to take\n"
+    .string "her to their boss in MANCHESTER.$"
 
 LavenderTown_Text_TownSign::
     .string "YORK\n"

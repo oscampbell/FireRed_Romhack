@@ -111,17 +111,13 @@ void ResetMenuAndMonGlobals(void)
 }
 
 static const u8 sShuktiName[] = {0xCD, 0xC2, 0xCF, 0xC5, 0xCE, 0xC3, 0xFF};
-
-static const u8 sShuktiName[] = {0xCD, 0xC2, 0xCF, 0xC5, 0xCE, 0xC3, 0xFF};
+static const u8 sStaceyName[] = {0xCD, 0xCE, 0xBB, 0xBD, 0xBF, 0xD3, 0xFF};
 
 void NewGameInitData(void)
 {
-    u8 rivalName[PLAYER_NAME_LENGTH + 1];
-
     if (gSaveFileStatus == SAVE_STATUS_EMPTY || gSaveFileStatus == SAVE_STATUS_INVALID)
         RtcReset();
 
-    StringCopy(rivalName, gSaveBlock1Ptr->rivalName);
     gDifferentSaveFile = TRUE;
     ZeroPlayerPartyMons();
     ZeroEnemyPartyMons();
@@ -139,11 +135,12 @@ void NewGameInitData(void)
     InitEventData();
     gSaveBlock2Ptr->playerGender = FEMALE;
     StringCopy(gSaveBlock2Ptr->playerName, sShuktiName);
+    StringCopy(gSaveBlock1Ptr->rivalName, sStaceyName);
     FlagSet(FLAG_HIDE_BULBASAUR_BALL);
     FlagSet(FLAG_HIDE_CHARMANDER_BALL);
     InitTimeBasedEvents(); // remove if wallclock
     ResetFameChecker();
-    SetMoney(&gSaveBlock1Ptr->money, 3000);
+    SetMoney(&gSaveBlock1Ptr->money, 35000); // Updated startup money per README
     ResetGameStats();
     ClearPlayerLinkBattleRecords();
     InitHeracrossSizeRecord();
@@ -165,7 +162,6 @@ void NewGameInitData(void)
     SetAllRenewableItemFlags();
     WarpToPlayersRoom();
     RunScriptImmediately(EventScript_ResetAllMapFlags);
-    StringCopy(gSaveBlock1Ptr->rivalName, rivalName);
     ResetTrainerTowerResults();
     ResetItemFlags();
     ResetDexNav();
