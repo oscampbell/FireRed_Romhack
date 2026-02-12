@@ -14,6 +14,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 *   **The Final Boss:** The Champion is **OLLIE**. He features a powerhouse team of Gengar, Charizard, Gyarados, Raichu, Dragonite, and Snorlax.
 
 ## Completed Features
+*   **PokeASDA:** Every **POKéMON MART** and **POKéMART** has been globally renamed to **PokeASDA**.
 *   **Following Pokémon:** The first Pokémon in your party follows you!
 *   **Forced Identity:** Name is forced to **SHUKTI**, Gender is forced to **Female**. Intro selection screens are skipped.
 *   **Custom Starters:** Morpeko, Eevee, and Alolan Raichu (all with heavily buffed "Ultra" base stats).

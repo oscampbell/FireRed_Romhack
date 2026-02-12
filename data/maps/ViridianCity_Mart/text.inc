@@ -9,7 +9,7 @@ ViridianCity_Mart_Text_TakeThisToProfOak::
 
 ViridianCity_Mart_Text_ReceivedOaksParcelFromClerk::
     .string "{PLAYER} received OAK'S PARCEL\n"
-    .string "from the POKéMON MART clerk.$"
+    .string "from the PokeASDA clerk.$"
 
 ViridianCity_Mart_Text_SayHiToOakForMe::
     .string "Okay, thanks! Please say hi to\n"

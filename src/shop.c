@@ -1370,7 +1370,7 @@ static void RecordTransactionForQuestLog(void)
         SetQuestLogEvent(eventId + QL_EVENT_USED_POKEMART, (const u16 *)&sHistory[1]);
 }
 
-void CreatePokemartMenu(const u16 *itemsForSale)
+void CreatePokeASDAMenu(const u16 *itemsForSale)
 {
     SetShopItemsForSale(itemsForSale);
     CreateShopMenu(MART_TYPE_REGULAR);

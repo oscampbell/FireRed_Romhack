@@ -2580,7 +2580,7 @@ bool8 ScrCmd_pokemart(struct ScriptContext * ctx)
 
     Script_RequestEffects(SCREFF_V1 | SCREFF_HARDWARE);
 
-    CreatePokemartMenu(ptr);
+    CreatePokeASDAMenu(ptr);
     ScriptContext_Stop();
     return TRUE;
 }
