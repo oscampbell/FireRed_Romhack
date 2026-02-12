@@ -83,8 +83,8 @@ VermilionCity_Gym_Text_DwaynePostBattle::
     .string "second lock is right next to it.$"
 
 VermilionCity_Gym_Text_OllieIntro::
-    .string "OLLIE: Hey SHUKTI! Electric energy...\n"
-    .string "it's like the spark between us.\p"
+    .string "OLLIE: Missed you! I hope you're\n"
+    .string "liking the journey so far.\p"
     .string "I've got a little something for you.\n"
     .string "It's a scale from my heart.$"
 
@@ -92,17 +92,17 @@ VermilionCity_Gym_Text_OllieGiftVermilion::
     .string "OLLIE: Here, take this.$"
 
 VermilionCity_Gym_Text_OllieAdvice::
-    .string "OLLIE: DAVID is an expert on ROCK\n"
-    .string "POKéMON now. He's solid as a wall,\l"
-    .string "but every wall can be scaled.\p"
-    .string "You'll need all that power when you\n"
-    .string "finally face the greatest trainer of all.$"
+    .string "OLLIE: DAVID is a solid trainer—\n"
+    .string "literally! His ROCK types are tough.\p"
+    .string "But I've seen you battle, SHUKTI.\n"
+    .string "You're special. Keep that strength\l"
+    .string "up for the big challenges later!$"
 
 VermilionCity_Gym_Text_OlliePostVictory::
     .string "OLLIE: Whew! That match was\n"
     .string "electric!\p"
     .string "You're scaling the heights of the\n"
-    .string "POKéMON world. See you soon.$"
+    .string "POKéMON world. See you soon!$"
 
 VermilionCity_Gym_Text_NoRoomForGift::
     .string "OLLIE: Oh, your BAG is full!\n"

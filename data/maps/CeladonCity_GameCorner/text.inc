@@ -55,8 +55,8 @@ CeladonCity_GameCorner_Text_WinOrLoseItsOnlyLuck::
     .string "Win or lose, it's only by luck.$"
 
 CeladonCity_GameCorner_Text_OllieIntro::
-    .string "OLLIE: Hey SHUKTI! Nature is beautiful,\n"
-    .string "but a legend is eternal.\p"
+    .string "OLLIE: Hey SHUKTI! Fancy seeing\n"
+    .string "you here in BIRMINGHAM!\p"
     .string "I've got a little something for you.\n"
     .string "It's a knot that ties us together.$"
 
@@ -65,14 +65,16 @@ CeladonCity_GameCorner_Text_OllieGiftCeladon::
 
 CeladonCity_GameCorner_Text_OllieAdvice::
     .string "OLLIE: ERIKA is at one with nature.\n"
-    .string "She's calm, but the storm is coming.\p"
-    .string "I've been preparing a special place\n"
-    .string "for us at the summit of your journey.$"
+    .string "She's calm, but don't let her\l"
+    .string "catch you off guard.\p"
+    .string "I've been working hard to make our\n"
+    .string "future exactly what you've\l"
+    .string "always dreamed of.$"
 
 CeladonCity_GameCorner_Text_OlliePostVictory::
     .string "OLLIE: You're doing great, SHUKTI!\n"
-    .string "I'm already at the top, making sure\l"
-    .string "everything is ready for you.$"
+    .string "I'm heading out to finalize some\l"
+    .string "plans. I'll see you later!$"
 
 CeladonCity_GameCorner_Text_NoRoomForGift::
     .string "OLLIE: Oh, your BAG is full!\n"

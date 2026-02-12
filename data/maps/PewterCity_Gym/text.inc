@@ -63,8 +63,8 @@ PewterCity_Gym_Text_LiamPostBattle::
     .string "whole other level!$"
 
 PewterCity_Gym_Text_OllieIntro::
-    .string "OLLIE: Hey SHUKTI! I'm watching you...\n"
-    .string "you're doing great.\p"
+    .string "OLLIE: Hey baby! I'm so glad you\n"
+    .string "made it here safely.\p"
     .string "I've got a little something for you.\n"
     .string "It reminded me of us.$"
 
@@ -72,17 +72,18 @@ PewterCity_Gym_Text_OllieGiftPewter::
     .string "OLLIE: Here, take this.$"
 
 PewterCity_Gym_Text_OllieAdvice::
-    .string "OLLIE: FARIS uses Psychic and Fairy\n"
-    .string "types. They're strong, but they\l"
-    .string "can't hide from what's coming.\p"
-    .string "I'll be waiting for you at the\n"
-    .string "very end, Shukti.$"
+    .string "OLLIE: FARIS is into mind games.\n"
+    .string "He uses Psychic and Fairy types.\p"
+    .string "Just keep your focus and you'll\n"
+    .string "blow right through him.\p"
+    .string "I'm so proud of you, SHUKTI.\n"
+    .string "I know you can make it all the way.$"
 
 PewterCity_Gym_Text_OlliePostVictory::
     .string "OLLIE: Just as I thought!\n"
     .string "You're POKéMON champ material!\p"
-    .string "I'm already at the summit, waiting\n"
-    .string "for our final date with destiny.$"
+    .string "I'm off to handle some business,\n"
+    .string "but I'll be keeping an eye on you.$"
 
 PewterCity_Gym_Text_NoRoomForGift::
     .string "OLLIE: Oh, your BAG is full!\n"

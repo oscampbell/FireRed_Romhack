@@ -153,16 +153,17 @@ ViridianCity_Gym_Text_OllieGiftViridian::
 
 ViridianCity_Gym_Text_OllieAdvice::
     .string "OLLIE: GIOVANNI is the toughest\n"
-    .string "test yet. But only the Elite Four\l"
-    .string "stand between you and... well, me.\p"
-    .string "I'll see you at WEMBLEY soon.\n"
-    .string "Don't be late for our date.$"
+    .string "test yet. But I know you're ready.\p"
+    .string "I've secured a very special spot\n"
+    .string "for us to meet once you've won.\l"
+    .string "I'll be waiting with open arms.$"
 
 ViridianCity_Gym_Text_OlliePostVictory::
     .string "OLLIE: Blow me away! GIOVANNI was\n"
     .string "no match for you!\p"
-    .string "WEMBLEY is calling, SHUKTI.\n"
-    .string "I'm already there, waiting.$"
+    .string "It's time, SHUKTI. Head to WEMBLEY.\n"
+    .string "I'll be there, waiting for our\l"
+    .string "final date.$"
 
 ViridianCity_Gym_Text_NoRoomForGift::
     .string "OLLIE: Oh, your BAG is full!\n"

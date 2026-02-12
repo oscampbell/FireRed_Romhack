@@ -138,9 +138,8 @@ SaffronCity_Gym_Text_PrestonPostBattle::
     .string "read your mind!$"
 
 CeruleanCity_Gym_Text_OllieIntro::
-    .string "OLLIE: Hey SHUKTI! Psychic powers?\n"
-    .string "I don't need them to know you're\l"
-    .string "going to make it all the way to me.\p"
+    .string "OLLIE: Hey SHUKTI! A double battle!\n"
+    .string "Reminds me of us—the perfect team.\p"
     .string "I've got a little something for you.\n"
     .string "A ball for a true friend.$"
 
@@ -148,17 +147,17 @@ SaffronCity_Gym_Text_OllieGiftSaffron::
     .string "OLLIE: Here, take this.$"
 
 SaffronCity_Gym_Text_OllieAdvice::
-    .string "OLLIE: BRYONY and FARIS are quite\n"
-    .string " the team, but they're just another\l"
-    .string "stepping stone on your path.\p"
-    .string "I've already seen the future, and\n"
-    .string "I'm standing at the end of it.$"
+    .string "OLLIE: They use a lot of Psychic\n"
+    .string "types here. You've got this!\p"
+    .string "Every badge you get makes me more\n"
+    .string "excited for when we're finally\l"
+    .string "reunited at the finish line.$"
 
 SaffronCity_Gym_Text_OlliePostVictory::
     .string "OLLIE: You did it! They were no\n"
     .string "match for your bond.\p"
-    .string "I'm waiting for you at the end of\n"
-    .string "time itself. See you soon.$"
+    .string "I'm heading to my final stop now.\n"
+    .string "I'll be waiting for you!$"
 
 SaffronCity_Gym_Text_NoRoomForGift::
     .string "OLLIE: Oh, your BAG is full!\n"

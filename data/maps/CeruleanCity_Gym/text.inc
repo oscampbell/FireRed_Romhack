@@ -43,8 +43,8 @@ CeruleanCity_Gym_Text_LuisPostBattle::
     .string "duo here in LETCHWORTH!$"
 
 CeruleanCity_Gym_Text_OllieIntro::
-    .string "OLLIE: Hey SHUKTI! This gym is full\n"
-    .string "of surprises, isn't it?\p"
+    .string "OLLIE: You look amazing today,\n"
+    .string "SHUKTI. The journey suits you.\p"
     .string "I've got a little something sweet\n"
     .string "for you. Just like you.$"
 
@@ -52,17 +52,18 @@ CeruleanCity_Gym_Text_OllieGiftCerulean::
     .string "OLLIE: Here, take this.$"
 
 CeruleanCity_Gym_Text_OllieAdvice::
-    .string "OLLIE: BRYONY uses her favorites.\n"
-    .string "She's tough, but she doesn't know\l"
-    .string "that I'm always one step ahead.\p"
-    .string "I'm making sure everything is\n"
-    .string "perfect for our final meeting.$"
+    .string "OLLIE: BRYONY doesn't stick to one\n"
+    .string "type, she uses what she loves.\p"
+    .string "Be ready for anything! I'm actually\n"
+    .string "scouting out the path ahead for us.\l"
+    .string "See you soon!$"
 
 CeruleanCity_Gym_Text_OlliePostVictory::
     .string "OLLIE: You beat BRYONY! That was\n"
     .string "an incredible match!\p"
-    .string "You're getting closer to me with\n"
-    .string "every step. I can't wait.$"
+    .string "You're getting stronger so fast.\n"
+    .string "I better work hard too, just to\l"
+    .string "keep up with you!$"
 
 CeruleanCity_Gym_Text_NoRoomForGift::
     .string "OLLIE: Oh, your BAG is full!\n"

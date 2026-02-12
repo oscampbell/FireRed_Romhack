@@ -139,17 +139,15 @@ FuchsiaCity_Gym_Text_OllieGiftFuchsia::
     .string "OLLIE: Here, take this.$"
 
 FuchsiaCity_Gym_Text_OllieAdvice::
-    .string "OLLIE: KOGA uses poison and shadows.\n"
-    .string "Tricky, but not as tricky as what\l"
-    .string "awaits you at the Plateau.\p"
-    .string "I'm literally the top of the world\n"
-    .string "right now, waiting for you.$"
+    .string "OLLIE: KOGA loves his status moves.\n"
+    .string "Don't let him slow you down!\p"
+    .string "You're moving so fast, I can barely\n"
+    .string "keep up... or maybe I'm just\l"
+    .string "waiting for you to catch up? Haha.$"
 
 FuchsiaCity_Gym_Text_OlliePostVictory::
     .string "OLLIE: You found the path! I knew\n"
-    .string "you would.\p"
-    .string "The shadows are fading, and our\n"
-    .string "final meeting is drawing near.$"
+    .string "you would. See you soon, baby!$"
 
 FuchsiaCity_Gym_Text_NoRoomForGift::
     .string "OLLIE: Oh, your BAG is full!\n"

@@ -125,9 +125,8 @@ CinnabarIsland_Gym_Text_ZacPostBattle::
     .string "type beats ICE-type POKéMON.$"
 
 CinnabarIsland_Gym_Text_OllieIntro::
-    .string "OLLIE: Hey SHUKTI! It's hot here,\n"
-    .string "but the heat of our final battle\l"
-    .string "will be even more intense.\p"
+    .string "OLLIE: It's boiling in here! I hope\n"
+    .string "you're doing okay, SHUKTI.\p"
     .string "I've got a little something for you.\n"
     .string "Something luxurious, just for you.$"
 
@@ -135,11 +134,12 @@ CinnabarIsland_Gym_Text_OllieGiftCinnabar::
     .string "OLLIE: Here, take this.$"
 
 CinnabarIsland_Gym_Text_OllieAdvice::
-    .string "OLLIE: BLAINE is a firebrand, but\n"
-    .string "fire always burns out. I'm not\l"
-    .string "just a guide, SHUKTI. I'm your destiny.\p"
-    .string "Head to the mainland. Our date is\n"
-    .string "waiting at the plateau.$"
+    .string "OLLIE: BLAINE's FIRE types are no\n"
+    .string "joke. Douse those flames!\p"
+    .string "I've actually just reached the\n"
+    .string "final stop of my own errand. It's\l"
+    .string "beautiful... I can't wait to\l"
+    .string "show it to you.$"
 
 CinnabarIsland_Gym_Text_OlliePostVictory::
     .string "OLLIE: {PLAYER}!\n"
