@@ -42,8 +42,9 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
     *   Indigo Plateau -> **In-Dye-Go Plateau** (Hair)
 *   **New NPCs:** Zaynab and Aliyah added to Mill Town with custom dialogue about Fig.
 *   **Gym Leader Overhaul:**
-    *   Perm-ter City (Brock): **FARIS** (Psychic/Fairy Team: Ralts, Kirlia).
+    *   Perm-ter City (Brock): **FARIS** (Bird Team: Pidgey, Hoothoot, Spearow, Pidgeotto). He refers to SHUKTI as "Auntie" and is obsessed with his hair, birds, and creme eggs.
     *   Curl-ulean City (Misty): **BRYONY** (Mixed Team: Jigglypuff, Jynx, Mr. Mime, Poliwhirl, Flareon, Vileplume). All other trainers removed.
+*   **New Item: Poo Bag:** A bag containing Bowie's poop, given by Faris in the Perm-ter Gym (must speak to him again after the battle). It has an **unknown effect** (it actually reduces a Pokémon's level by 1).
     *   Ver-Mullet-on (Lt. Surge): **DAVID** (Rock Team: Graveler, Sudowoodo, Golem).
     *   Sal-on City (Erika): **DAVID** (Bodybuilder. Team: Arcanine, Magikarp, Dragonair, Mr. Mime, Haunter, Machamp). He thinks he's in a fitness gym. Two cats, **Billie** and **Puddin**, roam the gym and say "Meow!".
     *   Virid-LAN City (Giovanni): **ZAYNAB & ALIYAH** (Double Battle! Team: Venusaur, Arcanine, Lapras, Tyranitar, Metagross, Salamence). They kicked Giovanni out for being evil and took over their local gym.
@@ -211,9 +212,9 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 - [ ] Tested
 
 **Story & Dialogue Synopsis:**
-*   **The Gym:** **FARIS** is the new Leader. He is obsessed with his hair, creme eggs, and his team of birds. He refers to SHUKTI as "Auntie."
-*   **The Reward:** After defeat, FARIS must be spoken to again to receive the **POO BAG** (Bowie's poop). He explains its gross nature causes Pokémon to lose their will to fight .
-*   **The Guide:** **OLLIE** is here to give SHUKTI a **Love Ball** and advice on how to handle the high-flying team.
+*   **The Gym:** **FARIS** is the new Leader. He refers to SHUKTI as "Auntie" and talks about his love for birds, his hair, and creme eggs.
+*   **The Reward:** After defeat, FARIS must be spoken to a second time to receive the **POO BAG**. He describes it as gross and explains it makes Pokémon lose their will to fight.
+*   **The Guide:** **OLLIE** provides a **Love Ball** and advice on how to handle Faris's avian team.
 **NPCs:**
 - **OBJ_EVENT_GFX_LASS** (Script: `PewterCity_EventScript_Lass`)
   - Dialogue (PewterCity_Text_ClefairyCameFromMoon): *"CLEFAIRY came from the moon.  That's what the rumor is.  They appeared after MOON STONES  fell on MT. MOON.$"*
