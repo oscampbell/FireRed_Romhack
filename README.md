@@ -15,6 +15,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 *   **Following Pokémon:** The first Pokémon in your party follows you!
 *   **Forced Identity:** Name is forced to **SHUKTI**, Gender is forced to **Female**. Intro selection screens are skipped.
 *   **Custom Starters:** Morpeko, Eevee, and Alolan Raichu (all with heavily buffed "Ultra" base stats).
+*   **Evolution Items:** Added **Fire, Water, Thunder, Leaf, Ice, Sun, Moon, Shiny, Dusk, and Dawn Stones** as pickup items scattered around Mill Town to allow early evolution for Eevee.
 *   **Town Renames:** Global UK-themed overhaul (Work in Progress).
 *   **New NPCs:** Zaynab and Aliyah added to Mill Town with custom dialogue about Fig.
 *   **Gym Guide (OLLIE):** The guy in every gym is now **OLLIE**. He acts as a loving, supportive partner giving genuine advice and romantic gifts in every gym.
@@ -41,16 +42,16 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 ## Zones (Progress Tracker)
 *Note: None are checked yet as we are working through them for a final pass of all NPCs and dialogue.*
 
-1.  [ ] **Mill Town** (Pallet Town)
+1.  [x] **Mill Town** (Pallet Town)
 2.  [ ] Route 1
 3.  [ ] **St Albans** (Viridian City)
 4.  [ ] Route 2
 5.  [ ] Viridian Forest
-6.  [ ] **Stevenage** (Pewter City)
+6.  [x] **Stevenage Gym** (Pewter Gym - Faris)
 7.  [ ] Route 3
 8.  [ ] Mt. Moon
 9.  [ ] Route 4
-10. [ ] **Letchworth** (Cerulean City)
+10. [x] **Letchworth Gym** (Cerulean Gym - Bryony & Bowie)
 11. [ ] Route 24
 12. [ ] Route 25
 13. [ ] Route 5
