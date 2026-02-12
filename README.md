@@ -70,6 +70,8 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 
 ## Zones (Progress Tracker)
 ### [x] Mill Town (Pallet Town)
+- [ ] Quality Control
+- [ ] Tested
 ---
 ### Route 1
 #### Route1
