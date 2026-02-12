@@ -27,6 +27,7 @@ void ItemUseOutOfBattle_PokemonBoxLink(u8 taskId);
 void ItemUseOutOfBattle_PowderJar(u8 taskId);
 void ItemUseOutOfBattle_PPRecovery(u8 taskId);
 void ItemUseOutOfBattle_PPUp(u8 taskId);
+void ItemUseOutOfBattle_PooBag(u8 taskId);
 void ItemUseOutOfBattle_RareCandy(u8 taskId);
 void ItemUseOutOfBattle_Repel(u8 taskId);
 void ItemUseOutOfBattle_ReduceEV(u8 taksId);

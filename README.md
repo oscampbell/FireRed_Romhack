@@ -60,7 +60,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 *   **Secret Message:** A hidden message from Ollie on the NES in Shukti's room.
 
 ## Modified Gym Leader Teams
-*   **Perm-ter City (Faris):** Ralts (Lv. 12), Kirlia (Lv. 14).
+*   **Perm-ter City (Faris):** Pidgey (Lv. 10), Hoothoot (Lv. 11), Spearow (Lv. 12), Pidgeotto (Lv. 14).
 *   **Curl-ulean City (Bryony):** Jigglypuff (Lv. 18), Jynx (Lv. 19), Mr. Mime (Lv. 19), Poliwhirl (Lv. 20), Flareon (Lv. 20), Vileplume (Lv. 21).
 *   **Ver-Mullet-on (David):** Graveler (Lv. 21), Sudowoodo (Lv. 23), Golem (Lv. 24).
 *   **Saffron-Swan City (Bryony & Faris):** Espeon (Lv. 43), Sylveon (Lv. 43), Gardevoir (Lv. 44), Gallade (Lv. 44), Alakazam (Lv. 43).
@@ -73,7 +73,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 *   [ ] **NPC Personalization:** Modify many more NPCs to represent real-life friends and family.
 *   [ ] **Custom Dialogue:** Add significantly more custom dialogue, in-jokes, and personal references throughout the entire game.
 *   [ ] **Visuals:**
-    *   **Custom Trainer Sprites:** Sourcing and importing a set of custom sprites (especially for Zaynab, Aliyah, and others) to ensure accurate representation and avoid placeholders.
+    *   **Custom Trainer Sprites:** Sourcing and importing a set of custom sprites (Zaynab, Aliyah, and **Faris** [Indian]) to ensure accurate representation.
     *   Custom Title Screen (Replace Charizard).
     *   Custom Player Sprite (To look more like Shukti).
 

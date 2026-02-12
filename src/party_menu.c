@@ -5729,6 +5729,70 @@ static void Task_TryLearningNextMoveAfterText(u8 taskId)
         Task_TryLearningNextMove(taskId);
 }
 
+static void ItemUseCB_PooBagStep(u8 taskId, TaskFunc func);
+
+void ItemUseCB_PooBag(u8 taskId, TaskFunc func)
+{
+    struct Pokemon *mon = &gPlayerParty[gPartyMenu.slotId];
+    u16 *itemPtr = &gSpecialVar_ItemId;
+
+    sInitialLevel = GetMonData(mon, MON_DATA_LEVEL);
+    
+    if (sInitialLevel > 1)
+    {
+        u32 exp = GetMonData(mon, MON_DATA_EXP);
+        u16 species = GetMonData(mon, MON_DATA_SPECIES);
+        u8 growthRate = gSpeciesInfo[species].growthRate;
+        u32 targetExp = gExperienceTables[growthRate][sInitialLevel - 1];
+        
+        GetMonLevelUpWindowStats(mon, sLevelUpStatsBefore);
+        
+        // Decrease level logic
+        SetMonData(mon, MON_DATA_EXP, &targetExp);
+        CalculateMonStats(mon);
+        
+        sFinalLevel = sInitialLevel - 1;
+        GetMonLevelUpWindowStats(mon, sLevelUpStatsAfter);
+        
+        PlaySE(SE_SELECT);
+        Task_DoUseItemAnim(taskId);
+        gItemUseCB = ItemUseCB_PooBagStep;
+    }
+    else
+    {
+        PlaySE(SE_SELECT);
+        gPartyMenuUseExitCallback = FALSE;
+        DisplayPartyMenuMessage(gText_WontHaveEffect, TRUE);
+        ScheduleBgCopyTilemapToVram(2);
+        gTasks[taskId].func = func;
+    }
+}
+
+static void ItemUseCB_PooBagStep(u8 taskId, TaskFunc func)
+{
+    struct Pokemon *mon = &gPlayerParty[gPartyMenu.slotId];
+    u8 i;
+
+    for (i = 0; i < NUM_STATS; i++) {
+        sPartyMenuInternal->data[i] = sLevelUpStatsBefore[i];
+        sPartyMenuInternal->data[NUM_STATS + i] = sLevelUpStatsAfter[i];
+    }
+
+    gPartyMenuUseExitCallback = TRUE;
+    ItemUse_SetQuestLogEvent(QL_EVENT_USED_ITEM, mon, gSpecialVar_ItemId, 0xFFFF);
+    UpdateMonDisplayInfoAfterRareCandy(gPartyMenu.slotId, mon);
+    RemoveBagItem(gSpecialVar_ItemId, 1);
+    GetMonNickname(mon, gStringVar1);
+    
+    PlayFanfareByFanfareNum(FANFARE_LEVEL_UP); // Reuse level up fanfare for now
+    ConvertIntToDecimalStringN(gStringVar2, sFinalLevel, STR_CONV_MODE_LEFT_ALIGN, 3);
+    StringExpandPlaceholders(gStringVar4, gText_PkmnElevatedToLvVar2); // Reuse text for now
+    
+    DisplayPartyMenuMessage(gStringVar4, TRUE);
+    ScheduleBgCopyTilemapToVram(2);
+    gTasks[taskId].func = Task_DisplayLevelUpStatsPg1;
+}
+
 void ItemUseCB_RareCandy(u8 taskId, TaskFunc func)
 {
     struct Pokemon *mon = &gPlayerParty[gPartyMenu.slotId];

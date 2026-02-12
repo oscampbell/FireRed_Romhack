@@ -1,41 +1,35 @@
 PewterCity_Gym_Text_BrockIntro::
-    .string "Hi there! I'm FARIS.\n"
-    .string "I'm the LEADER of the PERM-TER CITY GYM.\p"
-    .string "I believe in the power of the mind\n"
-    .string "and the magic of friendship!\p"
-    .string "Are you ready to see what my\n"
-    .string "POKéMON can do?\p"
-    .string "Let's have a great match!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+    .string "Hello Auntie, it's me FARIS.\n"
+    .string "I love my hair.\p"
+    .string "I love creme eggs and I love birds.\n"
+    .string "Do you like my BIRDS?\p"
+    .string "I hope you're ready for some\n"
+    .string "high-flying action!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
 
 PewterCity_Gym_Text_BrockDefeat::
-    .string "Wow! You're really amazing!\p"
-    .string "As proof of your victory, please\n"
-    .string "take the BOULDERBADGE.\p"
+    .string "YOU BEAT ME?!\n"
+    .string "Take this to remember me by.\p"
     .string "{FONT_NORMAL}{PLAYER} received the BOULDERBADGE\n"
     .string "from FARIS!{PAUSE_MUSIC}{PLAY_BGM}{MUS_OBTAIN_BADGE}{PAUSE 0xFE}{PAUSE 0x56}{RESUME_MUSIC}\p"
-    .string "{FONT_MALE}That badge is a symbol of your\n"
-    .string "strength and determination.$"
+    .string "{FONT_MALE}That badge is proof that your\n"
+    .string "POKéMON are even faster than birds!$"
 
 PewterCity_Gym_Text_TakeThisWithYou::
     .string "Wait!\n"
     .string "Take this with you.$"
 
 PewterCity_Gym_Text_ReceivedTM39FromBrock::
-    .string "{PLAYER} received TM39\n"
+    .string "{PLAYER} received a POO BAG\n"
     .string "from FARIS.$"
 
 PewterCity_Gym_Text_ExplainTM39::
-    .string "A TM, Technical Machine, contains a\n"
-    .string "technique for POKéMON.\p"
-    .string "Using a TM teaches the move it\n"
-    .string "contains to a POKéMON.\p"
-    .string "A TM is good for only one use.\p"
-    .string "So, when you use one, pick the\n"
-    .string "POKéMON carefully.\p"
-    .string "Anyways…\n"
-    .string "TM39 contains ROCK TOMB.\p"
-    .string "It hurls boulders at the foe and\n"
-    .string "lowers its SPEED.$"
+    .string "That bag contains some of BOWIE'S\n"
+    .string "very special POOP.\p"
+    .string "It's so gross that any POKéMON\n"
+    .string "exposed to it will lose their\l"
+    .string "will to fight and drop a level!\p"
+    .string "Use it wisely... or just keep it\n"
+    .string "away from me.$"
 
 PewterCity_Gym_Text_BrockPostBattle::
     .string "You have a bright future ahead of\n"
@@ -72,10 +66,10 @@ PewterCity_Gym_Text_OllieGiftPewter::
     .string "OLLIE: Here, take this.$"
 
 PewterCity_Gym_Text_OllieAdvice::
-    .string "OLLIE: FARIS is into mind games.\n"
-    .string "He uses Psychic and Fairy types.\p"
-    .string "Just keep your focus and you'll\n"
-    .string "blow right through him.\p"
+    .string "OLLIE: FARIS is obsessed with BIRDS.\n"
+    .string "He uses Flying-type POKéMON.\p"
+    .string "Just watch the skies and you'll\n"
+    .string "be just fine.\p"
     .string "I'm so proud of you, SHUKTI.\n"
     .string "I know you can make it all the way.$"
 
