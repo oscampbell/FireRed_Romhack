@@ -76,20 +76,9 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 - [ ] Quality Control
 - [ ] Tested
 ---
-### Route 1
-#### Route1
-**NPCs:**
-- **OBJ_EVENT_GFX_CLERK** (Script: `Route1_EventScript_MartClerk`)
-  - Dialogue (Route1_Text_WorkAtPokeMartTakeSample): *"Hi!  I work at a POKéMON MART.  It's part of a convenient chain  selling all sorts of items.  Please, visit us in VIRID-LAN CITY.  I know, I'll give you a sample.  Here you go!$"*
-  - Dialogue (Text_ObtainedTheX): *"(Global/External Text: Text_ObtainedTheX)"*
-  - Dialogue (waitfanfare): *"(Global/External Text: waitfanfare)"*
-  - Dialogue (Route1_Text_PutPotionAway): *"{PLAYER} put the POTION away in  the BAG's ITEMS POCKET.$"*
-- **OBJ_EVENT_GFX_BOY** (Script: `Route1_EventScript_Boy`)
-  - Dialogue (Route1_Text_CanJumpFromLedges): *"See those ledges along the road?  It's a bit scary, but you can jump  from them.  You can get back to MILL TOWN  quicker that way.$"*
-**Interactables / Signs:**
-- **Sign** (Script: `Route1_EventScript_RouteSign`)
-  - Text (Route1_Text_RouteSign): *"ROUTE 1  MILL TOWN - VIRID-LAN CITY$"*
-
+### [x] Route 1
+- [ ] Quality Control
+- [ ] Tested
 ---
 ### Virid-LAN City
 #### ViridianCity

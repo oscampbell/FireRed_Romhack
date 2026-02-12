@@ -1,5 +1,5 @@
 Route1_Text_WorkAtPokeMartTakeSample::
-    .string "Hi!\n"
+    .string "ANDY: Hi!\n"
     .string "I work at a PokeASDA.\p"
     .string "It's part of a convenient chain\n"
     .string "selling all sorts of items.\p"
