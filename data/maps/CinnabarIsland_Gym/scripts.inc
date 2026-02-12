@@ -173,12 +173,27 @@ CinnabarIsland_Gym_EventScript_GymGuy::
 	lock
 	faceplayer
 	goto_if_set FLAG_DEFEATED_BLAINE, CinnabarIsland_Gym_EventScript_GymGuyPostVictory
-	msgbox CinnabarIsland_Gym_Text_GymGuyAdvice
+	goto_if_set FLAG_GOT_OLLIE_GIFT_CINNABAR, CinnabarIsland_Gym_EventScript_GymGuyAdvice
+	msgbox CinnabarIsland_Gym_Text_OllieIntro
+	checkitemspace ITEM_LUXURY_BALL, 1
+	goto_if_eq VAR_RESULT, FALSE, CinnabarIsland_Gym_EventScript_NoRoomForGift
+	giveitem_msg CinnabarIsland_Gym_Text_OllieGiftCinnabar, ITEM_LUXURY_BALL, 1
+	setflag FLAG_GOT_OLLIE_GIFT_CINNABAR
+	goto CinnabarIsland_Gym_EventScript_GymGuyAdvice
+	end
+
+CinnabarIsland_Gym_EventScript_NoRoomForGift::
+	msgbox CinnabarIsland_Gym_Text_NoRoomForGift
 	release
 	end
 
 CinnabarIsland_Gym_EventScript_GymGuyPostVictory::
-	msgbox CinnabarIsland_Gym_Text_GymGuyPostVictory
+	msgbox CinnabarIsland_Gym_Text_OlliePostVictory
+	release
+	end
+
+CinnabarIsland_Gym_EventScript_GymGuyAdvice::
+	msgbox CinnabarIsland_Gym_Text_OllieAdvice
 	release
 	end
 

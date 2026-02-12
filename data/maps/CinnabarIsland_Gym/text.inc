@@ -124,18 +124,32 @@ CinnabarIsland_Gym_Text_ZacPostBattle::
     .string "But fire melts ice, so the FIRE\n"
     .string "type beats ICE-type POKéMON.$"
 
-CinnabarIsland_Gym_Text_GymGuyAdvice::
-    .string "Yo!\n"
-    .string "Champ in the making!\p"
-    .string "The hotheaded BLAINE is a FIRE\n"
-    .string "POKéMON pro.\p"
-    .string "Douse his spirits with water!\p"
-    .string "You'd better take some\n"
-    .string "BURN HEALS, too.$"
+CinnabarIsland_Gym_Text_OllieIntro::
+    .string "OLLIE: Hey SHUKTI! It's hot here,\n"
+    .string "but the heat of our final battle\l"
+    .string "will be even more intense.\p"
+    .string "I've got a little something for you.\n"
+    .string "Something luxurious, just for you.$"
 
-CinnabarIsland_Gym_Text_GymGuyPostVictory::
-    .string "{PLAYER}!\n"
-    .string "You beat that firebrand!$"
+CinnabarIsland_Gym_Text_OllieGiftCinnabar::
+    .string "OLLIE: Here, take this.$"
+
+CinnabarIsland_Gym_Text_OllieAdvice::
+    .string "OLLIE: BLAINE is a firebrand, but\n"
+    .string "fire always burns out. I'm not\l"
+    .string "just a guide, SHUKTI. I'm your destiny.\p"
+    .string "Head to the mainland. Our date is\n"
+    .string "waiting at the plateau.$"
+
+CinnabarIsland_Gym_Text_OlliePostVictory::
+    .string "OLLIE: {PLAYER}!\n"
+    .string "You beat that firebrand!\p"
+    .string "Only one badge left. I'm already\n"
+    .string "feeling the heat of our reunion.$"
+
+CinnabarIsland_Gym_Text_NoRoomForGift::
+    .string "OLLIE: Oh, your BAG is full!\n"
+    .string "I'll hold onto this for you.$"
 
 CinnabarIsland_Gym_Text_GymStatue::
     .string "CINNABAR POKéMON GYM\n"

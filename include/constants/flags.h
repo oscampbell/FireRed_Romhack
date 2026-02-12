@@ -45,7 +45,14 @@
 
 #define FLAG_0x020               0x020
 #define FLAG_HIDE_CERULEAN_GYM_BOWIE                       FLAG_0x020
+#define FLAG_0x021               0x021
 #define FLAG_CAUGHT_BOWIE                                  FLAG_0x021
+#define FLAG_GOT_OLLIE_GIFT_PEWTER                         0x022
+#define FLAG_GOT_OLLIE_GIFT_CERULEAN                       0x023
+#define FLAG_GOT_OLLIE_GIFT_VERMILION                      0x024
+#define FLAG_GOT_OLLIE_GIFT_CELADON                        0x025
+#define FLAG_GOT_OLLIE_GIFT_FUCHSIA                        0x026
+#define FLAG_GOT_OLLIE_GIFT_SAFFRON                        0x027
 #define FLAG_0x022               0x022
 #define FLAG_0x023               0x023
 #define FLAG_0x024               0x024
@@ -133,8 +140,8 @@
 #define FLAG_HIDE_TWO_ISLAND_GAME_CORNER_BIKER             0x074
 #define FLAG_HIDE_TWO_ISLAND_GAME_CORNER_LOSTELLE          0x075
 #define FLAG_HIDE_LOSTELLE_IN_HER_HOME                     0x076
-#define FLAG_0x077                                         0x077
-#define FLAG_0x078                                         0x078
+#define FLAG_GOT_OLLIE_GIFT_CINNABAR                       0x077
+#define FLAG_GOT_OLLIE_GIFT_VIRIDIAN                       0x078
 #define FLAG_HIDE_THREE_ISLAND_BIKERS                      0x079
 #define FLAG_HIDE_LOSTELLE_IN_BERRY_FOREST                 0x07A
 #define FLAG_HIDE_TWO_ISLAND_WOMAN                         0x07B

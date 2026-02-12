@@ -68,12 +68,27 @@ FuchsiaCity_Gym_EventScript_GymGuy::
 	lock
 	faceplayer
 	goto_if_set FLAG_DEFEATED_KOGA, FuchsiaCity_Gym_EventScript_GymGuyPostVictory
-	msgbox FuchsiaCity_Gym_Text_GymGuyAdvice
+	goto_if_set FLAG_GOT_OLLIE_GIFT_FUCHSIA, FuchsiaCity_Gym_EventScript_GymGuyAdvice
+	msgbox FuchsiaCity_Gym_Text_OllieIntro
+	checkitemspace ITEM_ROSE_INCENSE, 1
+	goto_if_eq VAR_RESULT, FALSE, FuchsiaCity_Gym_EventScript_NoRoomForGift
+	giveitem_msg FuchsiaCity_Gym_Text_OllieGiftFuchsia, ITEM_ROSE_INCENSE, 1
+	setflag FLAG_GOT_OLLIE_GIFT_FUCHSIA
+	goto FuchsiaCity_Gym_EventScript_GymGuyAdvice
+	end
+
+FuchsiaCity_Gym_EventScript_NoRoomForGift::
+	msgbox FuchsiaCity_Gym_Text_NoRoomForGift
 	release
 	end
 
 FuchsiaCity_Gym_EventScript_GymGuyPostVictory::
-	msgbox FuchsiaCity_Gym_Text_GymGuyPostVictory
+	msgbox FuchsiaCity_Gym_Text_OlliePostVictory
+	release
+	end
+
+FuchsiaCity_Gym_EventScript_GymGuyAdvice::
+	msgbox FuchsiaCity_Gym_Text_OllieAdvice
 	release
 	end
 

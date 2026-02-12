@@ -142,20 +142,31 @@ ViridianCity_Gym_Text_SamuelPostBattle::
     .string "LEAGUE only by defeating our GYM\l"
     .string "LEADER!$"
 
-ViridianCity_Gym_Text_GymGuyAdvice::
-    .string "Yo!\n"
-    .string "Champ in the making!\p"
-    .string "Even I don't know the VIRIDIAN\n"
-    .string "LEADER's identity.\p"
-    .string "But one thing's certain.\n"
-    .string "This will be the toughest of all\l"
-    .string "the GYM LEADERS.\p"
-    .string "Also, I heard that the TRAINERS\n"
-    .string "here like GROUND-type POKéMON.$"
+ViridianCity_Gym_Text_OllieIntro::
+    .string "OLLIE: Hey SHUKTI! The final badge.\n"
+    .string "You've come so far. I'm so proud.\p"
+    .string "I've got a final gift for you.\n"
+    .string "Five tokens of my love.$"
 
-ViridianCity_Gym_Text_GymGuyPostVictory::
-    .string "Blow me away! GIOVANNI was the\n"
-    .string "GYM LEADER of VIRIDIAN?$"
+ViridianCity_Gym_Text_OllieGiftViridian::
+    .string "OLLIE: Here, take these.$"
+
+ViridianCity_Gym_Text_OllieAdvice::
+    .string "OLLIE: GIOVANNI is the toughest\n"
+    .string "test yet. But only the Elite Four\l"
+    .string "stand between you and... well, me.\p"
+    .string "I'll see you at WEMBLEY soon.\n"
+    .string "Don't be late for our date.$"
+
+ViridianCity_Gym_Text_OlliePostVictory::
+    .string "OLLIE: Blow me away! GIOVANNI was\n"
+    .string "no match for you!\p"
+    .string "WEMBLEY is calling, SHUKTI.\n"
+    .string "I'm already there, waiting.$"
+
+ViridianCity_Gym_Text_NoRoomForGift::
+    .string "OLLIE: Oh, your BAG is full!\n"
+    .string "I'll hold onto these for you.$"
 
 ViridianCity_Gym_Text_GymStatue::
     .string "VIRIDIAN POKéMON GYM\n"

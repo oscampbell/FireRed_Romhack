@@ -266,12 +266,27 @@ VermilionCity_Gym_EventScript_GymGuy::
 	lock
 	faceplayer
 	goto_if_set FLAG_DEFEATED_LT_SURGE, VermilionCity_Gym_EventScript_GymGuyPostVictory
-	msgbox VermilionCity_Gym_Text_GymGuyAdvice
+	goto_if_set FLAG_GOT_OLLIE_GIFT_VERMILION, VermilionCity_Gym_EventScript_GymGuyAdvice
+	msgbox VermilionCity_Gym_Text_OllieIntro
+	checkitemspace ITEM_HEART_SCALE, 1
+	goto_if_eq VAR_RESULT, FALSE, VermilionCity_Gym_EventScript_NoRoomForGift
+	giveitem_msg VermilionCity_Gym_Text_OllieGiftVermilion, ITEM_HEART_SCALE, 1
+	setflag FLAG_GOT_OLLIE_GIFT_VERMILION
+	goto VermilionCity_Gym_EventScript_GymGuyAdvice
+	end
+
+VermilionCity_Gym_EventScript_NoRoomForGift::
+	msgbox VermilionCity_Gym_Text_NoRoomForGift
 	release
 	end
 
 VermilionCity_Gym_EventScript_GymGuyPostVictory::
-	msgbox VermilionCity_Gym_Text_GymGuyPostVictory
+	msgbox VermilionCity_Gym_Text_OlliePostVictory
+	release
+	end
+
+VermilionCity_Gym_EventScript_GymGuyAdvice::
+	msgbox VermilionCity_Gym_Text_OllieAdvice
 	release
 	end
 

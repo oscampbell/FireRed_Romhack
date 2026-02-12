@@ -74,12 +74,27 @@ SaffronCity_Gym_EventScript_GymGuy::
 	lock
 	faceplayer
 	goto_if_set FLAG_DEFEATED_SABRINA, SaffronCity_Gym_EventScript_GymGuyPostVictory
-	msgbox SaffronCity_Gym_Text_GymGuyAdvice
+	goto_if_set FLAG_GOT_OLLIE_GIFT_SAFFRON, SaffronCity_Gym_EventScript_GymGuyAdvice
+	msgbox SaffronCity_Gym_Text_OllieIntro
+	checkitemspace ITEM_FRIEND_BALL, 1
+	goto_if_eq VAR_RESULT, FALSE, SaffronCity_Gym_EventScript_NoRoomForGift
+	giveitem_msg SaffronCity_Gym_Text_OllieGiftSaffron, ITEM_FRIEND_BALL, 1
+	setflag FLAG_GOT_OLLIE_GIFT_SAFFRON
+	goto SaffronCity_Gym_EventScript_GymGuyAdvice
+	end
+
+SaffronCity_Gym_EventScript_NoRoomForGift::
+	msgbox SaffronCity_Gym_Text_NoRoomForGift
 	release
 	end
 
 SaffronCity_Gym_EventScript_GymGuyPostVictory::
-	msgbox SaffronCity_Gym_Text_GymGuyPostVictory
+	msgbox SaffronCity_Gym_Text_OlliePostVictory
+	release
+	end
+
+SaffronCity_Gym_EventScript_GymGuyAdvice::
+	msgbox SaffronCity_Gym_Text_OllieAdvice
 	release
 	end
 

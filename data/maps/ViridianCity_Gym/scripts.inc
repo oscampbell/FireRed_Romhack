@@ -82,13 +82,28 @@ ViridianCity_Gym_EventScript_GymGuy::
 	lock
 	faceplayer
 	goto_if_set FLAG_DEFEATED_LEADER_GIOVANNI, ViridianCity_Gym_EventScript_GymGuyPostVictory
-	msgbox ViridianCity_Gym_Text_GymGuyAdvice
+	goto_if_set FLAG_GOT_OLLIE_GIFT_VIRIDIAN, ViridianCity_Gym_EventScript_GymGuyAdvice
+	msgbox ViridianCity_Gym_Text_OllieIntro
+	checkitemspace ITEM_LOVE_BALL, 5
+	goto_if_eq VAR_RESULT, FALSE, ViridianCity_Gym_EventScript_NoRoomForGift
+	giveitem_msg ViridianCity_Gym_Text_OllieGiftViridian, ITEM_LOVE_BALL, 5
+	setflag FLAG_GOT_OLLIE_GIFT_VIRIDIAN
+	goto ViridianCity_Gym_EventScript_GymGuyAdvice
+	end
+
+ViridianCity_Gym_EventScript_NoRoomForGift::
+	msgbox ViridianCity_Gym_Text_NoRoomForGift
 	release
 	end
 
 ViridianCity_Gym_EventScript_GymGuyPostVictory::
 	famechecker FAMECHECKER_GIOVANNI, 4
-	msgbox ViridianCity_Gym_Text_GymGuyPostVictory
+	msgbox ViridianCity_Gym_Text_OlliePostVictory
+	release
+	end
+
+ViridianCity_Gym_EventScript_GymGuyAdvice::
+	msgbox ViridianCity_Gym_Text_OllieAdvice
 	release
 	end
 

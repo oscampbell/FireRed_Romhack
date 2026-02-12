@@ -82,24 +82,31 @@ VermilionCity_Gym_Text_DwaynePostBattle::
     .string "When you open the first lock, the\n"
     .string "second lock is right next to it.$"
 
-VermilionCity_Gym_Text_GymGuyAdvice::
-    .string "Yo!\n"
-    .string "Champ in the making!\p"
-    .string "LT. SURGE has a nickname.\p"
-    .string "People refer to him as the\n"
-    .string "Lightning American!\p"
-    .string "He's an expert on electric\n"
-    .string "POKéMON.\p"
-    .string "BIRD/WATER-type POKéMON match\n"
-    .string "poorly against the ELECTRIC type.\p"
-    .string "Beware of paralysis, too.\p"
-    .string "LT. SURGE is very cautious.\p"
-    .string "He's locked himself in, so it won't\n"
-    .string "be easy getting to him.$"
+VermilionCity_Gym_Text_OllieIntro::
+    .string "OLLIE: Hey SHUKTI! Electric energy...\n"
+    .string "it's like the spark between us.\p"
+    .string "I've got a little something for you.\n"
+    .string "It's a scale from my heart.$"
 
-VermilionCity_Gym_Text_GymGuyPostVictory::
-    .string "Whew!\n"
-    .string "That match was electric!$"
+VermilionCity_Gym_Text_OllieGiftVermilion::
+    .string "OLLIE: Here, take this.$"
+
+VermilionCity_Gym_Text_OllieAdvice::
+    .string "OLLIE: DAVID is an expert on ROCK\n"
+    .string "POKéMON now. He's solid as a wall,\l"
+    .string "but every wall can be scaled.\p"
+    .string "You'll need all that power when you\n"
+    .string "finally face the greatest trainer of all.$"
+
+VermilionCity_Gym_Text_OlliePostVictory::
+    .string "OLLIE: Whew! That match was\n"
+    .string "electric!\p"
+    .string "You're scaling the heights of the\n"
+    .string "POKéMON world. See you soon.$"
+
+VermilionCity_Gym_Text_NoRoomForGift::
+    .string "OLLIE: Oh, your BAG is full!\n"
+    .string "I'll hold onto this for you.$"
 
 VermilionCity_Gym_Text_GymStatue::
     .string "VERMILION POKéMON GYM\n"

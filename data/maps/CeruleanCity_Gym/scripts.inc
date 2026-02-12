@@ -98,12 +98,27 @@ CeruleanCity_Gym_EventScript_GymGuy::
 	lock
 	faceplayer
 	goto_if_set FLAG_DEFEATED_MISTY, CeruleanCity_Gym_EventScript_GymGuyPostVictory
-	msgbox CeruleanCity_Gym_Text_GymGuyAdvice
+	goto_if_set FLAG_GOT_OLLIE_GIFT_CERULEAN, CeruleanCity_Gym_EventScript_GymGuyAdvice
+	msgbox CeruleanCity_Gym_Text_OllieIntro
+	checkitemspace ITEM_SWEET_HEART, 1
+	goto_if_eq VAR_RESULT, FALSE, CeruleanCity_Gym_EventScript_NoRoomForGift
+	giveitem_msg CeruleanCity_Gym_Text_OllieGiftCerulean, ITEM_SWEET_HEART, 1
+	setflag FLAG_GOT_OLLIE_GIFT_CERULEAN
+	goto CeruleanCity_Gym_EventScript_GymGuyAdvice
+	end
+
+CeruleanCity_Gym_EventScript_NoRoomForGift::
+	msgbox CeruleanCity_Gym_Text_NoRoomForGift
 	release
 	end
 
 CeruleanCity_Gym_EventScript_GymGuyPostVictory::
-	msgbox CeruleanCity_Gym_Text_WeMakePrettyGoodTeam
+	msgbox CeruleanCity_Gym_Text_OlliePostVictory
+	release
+	end
+
+CeruleanCity_Gym_EventScript_GymGuyAdvice::
+	msgbox CeruleanCity_Gym_Text_OllieAdvice
 	release
 	end
 

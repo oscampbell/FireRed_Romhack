@@ -62,34 +62,31 @@ PewterCity_Gym_Text_LiamPostBattle::
     .string "You're good, but FARIS is on a\n"
     .string "whole other level!$"
 
-PewterCity_Gym_Text_LetMeTakeYouToTheTop::
-    .string "Hiya!\n"
-    .string "Do you want to dream big?\p"
-    .string "Do you dare to dream of becoming\n"
-    .string "the POKéMON champ?\p"
-    .string "I'm no TRAINER, but I can advise\n"
-    .string "you on how to win.\p"
-    .string "Let me take you to the top!$"
+PewterCity_Gym_Text_OllieIntro::
+    .string "OLLIE: Hey SHUKTI! I'm watching you...\n"
+    .string "you're doing great.\p"
+    .string "I've got a little something for you.\n"
+    .string "It reminded me of us.$"
 
-PewterCity_Gym_Text_LetsGetHappening::
-    .string "All right!\n"
-    .string "Let's get happening!$"
+PewterCity_Gym_Text_OllieGiftPewter::
+    .string "OLLIE: Here, take this.$"
 
-PewterCity_Gym_Text_TryDifferentPartyOrders::
-    .string "The first POKéMON out in a match is\n"
-    .string "at the left of the POKéMON LIST.\p"
-    .string "By changing the order of POKéMON,\n"
-    .string "you may gain an advantage.\p"
-    .string "Try different orders to suit your\n"
-    .string "opponent's party.$"
+PewterCity_Gym_Text_OllieAdvice::
+    .string "OLLIE: FARIS uses Psychic and Fairy\n"
+    .string "types. They're strong, but they\l"
+    .string "can't hide from what's coming.\p"
+    .string "I'll be waiting for you at the\n"
+    .string "very end, Shukti.$"
 
-PewterCity_Gym_Text_ItsFreeLetsGetHappening::
-    .string "It's a free service!\n"
-    .string "Let's get happening!$"
+PewterCity_Gym_Text_OlliePostVictory::
+    .string "OLLIE: Just as I thought!\n"
+    .string "You're POKéMON champ material!\p"
+    .string "I'm already at the summit, waiting\n"
+    .string "for our final date with destiny.$"
 
-PewterCity_Gym_Text_YoureChampMaterial::
-    .string "Just as I thought!\n"
-    .string "You're POKéMON champ material!$"
+PewterCity_Gym_Text_NoRoomForGift::
+    .string "OLLIE: Oh, your BAG is full!\n"
+    .string "I'll hold onto this for you.$"
 
 PewterCity_Gym_Text_GymStatue::
     .string "STEVENAGE POKéMON GYM\n"

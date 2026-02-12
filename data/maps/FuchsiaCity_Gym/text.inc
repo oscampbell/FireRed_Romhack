@@ -128,19 +128,32 @@ FuchsiaCity_Gym_Text_ShawnPostBattle::
     .string "Light and shadow!\n"
     .string "Which do you choose?$"
 
-FuchsiaCity_Gym_Text_GymGuyAdvice::
-    .string "Yo!\n"
-    .string "Champ in the making!\p"
-    .string "FUCHSIA GYM is a tricked-up place.\n"
-    .string "It's riddled with invisible walls!\p"
-    .string "KOGA might appear close, but he's\n"
-    .string "blocked off.\p"
-    .string "You have to find gaps in the walls\n"
-    .string "to reach him.$"
+FuchsiaCity_Gym_Text_OllieIntro::
+    .string "OLLIE: Hey SHUKTI! Tricky walls,\n"
+    .string "tricky ninjas... everything is a\l"
+    .string "puzzle until we're together.\p"
+    .string "I've got a little something for you.\n"
+    .string "The scent of a thousand memories.$"
 
-FuchsiaCity_Gym_Text_GymGuyPostVictory::
-    .string "It's amazing how ninja can terrify,\n"
-    .string "even now!$"
+FuchsiaCity_Gym_Text_OllieGiftFuchsia::
+    .string "OLLIE: Here, take this.$"
+
+FuchsiaCity_Gym_Text_OllieAdvice::
+    .string "OLLIE: KOGA uses poison and shadows.\n"
+    .string "Tricky, but not as tricky as what\l"
+    .string "awaits you at the Plateau.\p"
+    .string "I'm literally the top of the world\n"
+    .string "right now, waiting for you.$"
+
+FuchsiaCity_Gym_Text_OlliePostVictory::
+    .string "OLLIE: You found the path! I knew\n"
+    .string "you would.\p"
+    .string "The shadows are fading, and our\n"
+    .string "final meeting is drawing near.$"
+
+FuchsiaCity_Gym_Text_NoRoomForGift::
+    .string "OLLIE: Oh, your BAG is full!\n"
+    .string "I'll hold onto this for you.$"
 
 FuchsiaCity_Gym_Text_GymStatue::
     .string "FUCHSIA POKéMON GYM\n"

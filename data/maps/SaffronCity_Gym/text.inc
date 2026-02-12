@@ -137,20 +137,32 @@ SaffronCity_Gym_Text_PrestonPostBattle::
     .string "That's right! I used telepathy to\n"
     .string "read your mind!$"
 
-SaffronCity_Gym_Text_GymGuyAdvice::
-    .string "Yo!\n"
-    .string "Champ in the making!\p"
-    .string "SABRINA's POKéMON use psychic\n"
-    .string "power instead of force.\p"
-    .string "FIGHTING POKéMON are especially\n"
-    .string "weak against PSYCHIC POKéMON.\p"
-    .string "They'll get destroyed before they\n"
-    .string "can even aim a punch!$"
+CeruleanCity_Gym_Text_OllieIntro::
+    .string "OLLIE: Hey SHUKTI! Psychic powers?\n"
+    .string "I don't need them to know you're\l"
+    .string "going to make it all the way to me.\p"
+    .string "I've got a little something for you.\n"
+    .string "A ball for a true friend.$"
 
-SaffronCity_Gym_Text_GymGuyPostVictory::
-    .string "Psychic power, huh?\p"
-    .string "If I had that, I'd make a bundle\n"
-    .string "at the slots!$"
+SaffronCity_Gym_Text_OllieGiftSaffron::
+    .string "OLLIE: Here, take this.$"
+
+SaffronCity_Gym_Text_OllieAdvice::
+    .string "OLLIE: BRYONY and FARIS are quite\n"
+    .string " the team, but they're just another\l"
+    .string "stepping stone on your path.\p"
+    .string "I've already seen the future, and\n"
+    .string "I'm standing at the end of it.$"
+
+SaffronCity_Gym_Text_OlliePostVictory::
+    .string "OLLIE: You did it! They were no\n"
+    .string "match for your bond.\p"
+    .string "I'm waiting for you at the end of\n"
+    .string "time itself. See you soon.$"
+
+SaffronCity_Gym_Text_NoRoomForGift::
+    .string "OLLIE: Oh, your BAG is full!\n"
+    .string "I'll hold onto this for you.$"
 
 SaffronCity_Gym_Text_GymStatue::
     .string "SAFFRON POKéMON GYM\n"

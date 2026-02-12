@@ -22,6 +22,7 @@ This is a deeply personalized version of **FireRed Ultra**, created as a gift fo
     *   Sabrina (Manchester) -> **BRYONY & FARIS** (Double Battle!)
 *   **Letchworth Gym (Cerulean):** All other trainers removed. Added **Bowie**, a wild black dog (Houndoom) that you can catch!
 *   **Rival:** Renamed to **STACEY** globally, with new bossy dialogue.
+*   **Gym Guide:** The guy in every gym is now **OLLIE**. He gives cryptic advice eluding to his role as Champion and gives SHUKTI romantically themed gifts (Love Balls, Sweet Hearts, etc.) in every gym.
 *   **Secret Message:** Check the NES in your room!
 
 ## To-Do List

@@ -59,7 +59,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_GYM_GUY",
+      "graphics_id": "OBJ_EVENT_GFX_BLUE",
       "x": 4,
       "y": 17,
       "elevation": 3,

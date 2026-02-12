@@ -153,12 +153,27 @@ CeladonCity_GameCorner_EventScript_GymGuy::
 	lock
 	faceplayer
 	goto_if_set FLAG_DEFEATED_ERIKA, CeladonCity_GameCorner_EventScript_GymGuyPostVictory
-	msgbox CeladonCity_GameCorner_Text_GymGuyAdvice
+	goto_if_set FLAG_GOT_OLLIE_GIFT_CELADON, CeladonCity_GameCorner_EventScript_GymGuyAdvice
+	msgbox CeladonCity_GameCorner_Text_OllieIntro
+	checkitemspace ITEM_DESTINY_KNOT, 1
+	goto_if_eq VAR_RESULT, FALSE, CeladonCity_GameCorner_EventScript_NoRoomForGift
+	giveitem_msg CeladonCity_GameCorner_Text_OllieGiftCeladon, ITEM_DESTINY_KNOT, 1
+	setflag FLAG_GOT_OLLIE_GIFT_CELADON
+	goto CeladonCity_GameCorner_EventScript_GymGuyAdvice
+	end
+
+CeladonCity_GameCorner_EventScript_NoRoomForGift::
+	msgbox CeladonCity_GameCorner_Text_NoRoomForGift
 	goto CeladonCity_GameCorner_EventScript_FaceSlotMachine
 	end
 
 CeladonCity_GameCorner_EventScript_GymGuyPostVictory::
-	msgbox CeladonCity_GameCorner_Text_RareMonsForCoins
+	msgbox CeladonCity_GameCorner_Text_OlliePostVictory
+	goto CeladonCity_GameCorner_EventScript_FaceSlotMachine
+	end
+
+CeladonCity_GameCorner_EventScript_GymGuyAdvice::
+	msgbox CeladonCity_GameCorner_Text_OllieAdvice
 	goto CeladonCity_GameCorner_EventScript_FaceSlotMachine
 	end
 

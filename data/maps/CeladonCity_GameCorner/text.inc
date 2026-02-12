@@ -54,22 +54,29 @@ CeladonCity_GameCorner_Text_WinOrLoseItsOnlyLuck::
     .string "These slot games…\n"
     .string "Win or lose, it's only by luck.$"
 
-CeladonCity_GameCorner_Text_GymGuyAdvice::
-    .string "Hey!\p"
-    .string "You have better things to do,\n"
-    .string "champ in the making!\p"
-    .string "CELADON GYM's LEADER is ERIKA.\p"
-    .string "She is a user of GRASS-type\n"
-    .string "POKéMON, and at one with nature.\p"
-    .string "She might appear docile because of\n"
-    .string "her flower arranging…\p"
-    .string "But she's not one to be taken\n"
-    .string "lightly!$"
+CeladonCity_GameCorner_Text_OllieIntro::
+    .string "OLLIE: Hey SHUKTI! Nature is beautiful,\n"
+    .string "but a legend is eternal.\p"
+    .string "I've got a little something for you.\n"
+    .string "It's a knot that ties us together.$"
 
-CeladonCity_GameCorner_Text_RareMonsForCoins::
-    .string "They offer rare POKéMON that can\n"
-    .string "be exchanged for your COINS.\p"
-    .string "But, I just can't seem to win!$"
+CeladonCity_GameCorner_Text_OllieGiftCeladon::
+    .string "OLLIE: Here, take this.$"
+
+CeladonCity_GameCorner_Text_OllieAdvice::
+    .string "OLLIE: ERIKA is at one with nature.\n"
+    .string "She's calm, but the storm is coming.\p"
+    .string "I've been preparing a special place\n"
+    .string "for us at the summit of your journey.$"
+
+CeladonCity_GameCorner_Text_OlliePostVictory::
+    .string "OLLIE: You're doing great, SHUKTI!\n"
+    .string "I'm already at the top, making sure\l"
+    .string "everything is ready for you.$"
+
+CeladonCity_GameCorner_Text_NoRoomForGift::
+    .string "OLLIE: Oh, your BAG is full!\n"
+    .string "I'll hold onto this for you.$"
 
 CeladonCity_GameCorner_Text_SoEasyToGetHooked::
     .string "Games are scary!\n"

@@ -44,28 +44,27 @@ PewterCity_Gym_EventScript_GymGuy::
 	lock
 	faceplayer
 	goto_if_set FLAG_DEFEATED_BROCK, PewterCity_Gym_EventScript_GymGuyPostVictory
-	msgbox PewterCity_Gym_Text_LetMeTakeYouToTheTop, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, PewterCity_Gym_EventScript_GymGuyTakeMeToTop
-	goto_if_eq VAR_RESULT, NO, PewterCity_Gym_EventScript_GymGuyDontTakeMeToTop
+	goto_if_set FLAG_GOT_OLLIE_GIFT_PEWTER, PewterCity_Gym_EventScript_GymGuyAdvice
+	msgbox PewterCity_Gym_Text_OllieIntro
+	checkitemspace ITEM_LOVE_BALL, 1
+	goto_if_eq VAR_RESULT, FALSE, PewterCity_Gym_EventScript_NoRoomForGift
+	giveitem_msg PewterCity_Gym_Text_OllieGiftPewter, ITEM_LOVE_BALL, 1
+	setflag FLAG_GOT_OLLIE_GIFT_PEWTER
+	goto PewterCity_Gym_EventScript_GymGuyAdvice
 	end
 
-PewterCity_Gym_EventScript_GymGuyPostVictory::
-	msgbox PewterCity_Gym_Text_YoureChampMaterial
+PewterCity_Gym_EventScript_NoRoomForGift::
+	msgbox PewterCity_Gym_Text_NoRoomForGift
 	release
 	end
 
-PewterCity_Gym_EventScript_GymGuyTakeMeToTop::
-	msgbox PewterCity_Gym_Text_LetsGetHappening
-	goto PewterCity_Gym_EventScript_GymGuyAdvice
-	end
-
-PewterCity_Gym_EventScript_GymGuyDontTakeMeToTop::
-	msgbox PewterCity_Gym_Text_ItsFreeLetsGetHappening
-	goto PewterCity_Gym_EventScript_GymGuyAdvice
+PewterCity_Gym_EventScript_GymGuyPostVictory::
+	msgbox PewterCity_Gym_Text_OlliePostVictory
+	release
 	end
 
 PewterCity_Gym_EventScript_GymGuyAdvice::
-	msgbox PewterCity_Gym_Text_TryDifferentPartyOrders
+	msgbox PewterCity_Gym_Text_OllieAdvice
 	release
 	end
 
