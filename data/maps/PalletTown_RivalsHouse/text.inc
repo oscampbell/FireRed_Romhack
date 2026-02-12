@@ -4,9 +4,11 @@ PalletTown_RivalsHouse_Text_HiBrothersAtLab::
     .string "{RIVAL}, is at the professor's LAB.$"
 
 PalletTown_RivalsHouse_Text_HeardYouBattledRival::
-    .string "DAISY: {PLAYER}, I heard you had\n"
+    .string "DAISY: {PLAYER}, I'm collecting\n"
+    .string "statements. I heard you had\l"
     .string "a battle against {RIVAL}.\p"
-    .string "I wish I'd seen that!$"
+    .string "I wish I'd been there to document\n"
+    .string "her behavior!$"
 
 PalletTown_RivalsHouse_Text_ErrandForGrandpaThisWillHelp::
     .string "That mad old professor asked you\n"
@@ -28,10 +30,11 @@ PalletTown_RivalsHouse_Text_ExplainTownMap::
     .string "names of places.$"
 
 PalletTown_RivalsHouse_Text_PleaseGiveMonsRest::
-    .string "DAISY: Just like people, POKéMON\n"
-    .string "are living things.\p"
-    .string "When they get tired, please give\n"
-    .string "them a rest.$"
+    .string "DAISY: I've seen how she treats\n"
+    .string "her staff, so I worry for her\l"
+    .string "POKéMON, too.\p"
+    .string "Please, make sure you give yours\n"
+    .string "plenty of rest.$"
 
 PalletTown_RivalsHouse_Text_ItsBigMapOfKanto::
     .string "It's a big map of the KANTO region.\n"
@@ -44,15 +47,15 @@ PalletTown_RivalsHouse_Text_ShelvesCrammedFullOfBooks::
 PalletTown_RivalsHouse_Text_LikeMeToGroomMon::
     .string "DAISY: Hi, {PLAYER}!\n"
     .string "Good timing.\p"
-    .string "I'm about to have some tea.\n"
-    .string "Would you like to join me?\p"
+    .string "I'm taking a break from these\n"
+    .string "messy financial records.\p"
     .string "Oh, but look.\n"
     .string "Your POKéMON are a little dirty.\p"
     .string "Would you like me to groom one?$"
 
 PalletTown_RivalsHouse_Text_DontNeedAnyGrooming::
     .string "You don't need any grooming done?\n"
-    .string "Okay, we'll just have tea.$"
+    .string "Okay, I'll get back to the files.$"
 
 PalletTown_RivalsHouse_Text_GroomWhichOne::
     .string "Which one should I groom?$"
