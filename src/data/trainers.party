@@ -8289,55 +8289,35 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Rock Tomb
 
 === TRAINER_ELITE_FOUR_AGATHA ===
-Name: AGATHA
+Name: JACQUIE
 Class: Elite Four
 Pic: Elite Four Agatha
-Gender: Male
+Gender: Female
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Pink
 
-Gengar
-Level: 54
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Punch
-- Confuse Ray
-- Toxic
-- Double Team
+Swinub
+Level: 15
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Golbat
-Level: 54
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Confuse Ray
-- Poison Fang
-- Air Cutter
-- Bite
+Snorunt
+Level: 12
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Haunter
-Level: 53
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Hypnosis
-- Dream Eater
-- Curse
-- Mean Look
+Spheal
+Level: 14
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Arbok
-Level: 56
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Sludge Bomb
-- Screech
-- Iron Tail
-- Bite
+Smoochum
+Level: 10
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Gengar @ Sitrus Berry
-Level: 58
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Ball
-- Sludge Bomb
-- Hypnosis
-- Nightmare
+Delibird
+Level: 16
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ELITE_FOUR_LANCE ===
 Name: LANCE
@@ -15155,55 +15135,35 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rock Slide
 
 === TRAINER_ELITE_FOUR_AGATHA_2 ===
-Name: AGATHA
+Name: JACQUIE
 Class: Elite Four
 Pic: Elite Four Agatha
-Gender: Male
+Gender: Female
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Pink
 
-Gengar
-Level: 66
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Shadow Ball
-- Psychic
-- Confuse Ray
-- Hypnosis
+Piloswine
+Level: 25
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
-Crobat
-Level: 66
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Sludge Bomb
-- Air Cutter
-- Shadow Ball
-- Confuse Ray
+Glalie
+Level: 22
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
-Misdreavus
-Level: 65
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Shadow Ball
-- Psychic
-- Thunderbolt
-- Attract
+Sealeo
+Level: 24
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
-Arbok
-Level: 68
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Sludge Bomb
-- Earthquake
-- Giga Drain
-- Double Team
+Jynx
+Level: 20
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
-Gengar @ Chesto Berry
-Level: 70
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Shadow Ball
-- Psychic
-- Thunderbolt
-- Sludge Bomb
+Delibird
+Level: 26
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 === TRAINER_ELITE_FOUR_LANCE_2 ===
 Name: LANCE

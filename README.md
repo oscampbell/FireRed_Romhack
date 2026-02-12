@@ -48,6 +48,8 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
     *   Sal-on City (Erika): **DAVID** (Bodybuilder. Team: Arcanine, Magikarp, Dragonair, Mr. Mime, Haunter, Machamp). He thinks he's in a fitness gym. Two cats, **Billie** and **Puddin**, roam the gym and say "Meow!".
     *   Virid-LAN City (Giovanni): **ZAYNAB & ALIYAH** (Double Battle! Team: Venusaur, Arcanine, Lapras, Tyranitar, Metagross, Salamence). They kicked Giovanni out for being evil and took over their local gym.
     *   Saffron-Swan City (Sabrina): **BRYONY & FARIS** (Double Battle!)
+*   **Elite Four Overhaul:**
+    *   Member 3 (Agatha): **JACQUIE**. She is a technologically inept old lady who is constantly struggling with her iPad and trying to send emails to Professor Tree. Her team consists of **severely underleveled Ice-type POKéMON** (Lv. 10-16).
 *   **Gym Guide (OLLIE):** The guy in every gym is now **OLLIE**. He acts as a loving, supportive partner giving genuine advice and romantic gifts in every gym:
     *   Perm-ter City: Love Ball
     *   Curl-ulean City: Sweet Heart
@@ -65,6 +67,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 *   **Ver-Mullet-on (David):** Graveler (Lv. 21), Sudowoodo (Lv. 23), Golem (Lv. 24).
 *   **Saffron-Swan City (Bryony & Faris):** Espeon (Lv. 43), Sylveon (Lv. 43), Gardevoir (Lv. 44), Gallade (Lv. 44), Alakazam (Lv. 43).
 *   **Virid-LAN City (Zaynab & Aliyah):** Venusaur (Lv. 50), Arcanine (Lv. 50), Lapras (Lv. 50), Tyranitar (Lv. 52), Metagross (Lv. 52), Salamence (Lv. 54).
+*   **Elite Four Member 3 (Jacquie):** Swinub (Lv. 15), Snorunt (Lv. 12), Spheal (Lv. 14), Smoochum (Lv. 10), Delibird (Lv. 16).
 
 ## To-Do List
 *   [ ] **Rename remaining Gym Leaders:**
@@ -73,7 +76,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 *   [ ] **NPC Personalization:** Modify many more NPCs to represent real-life friends and family.
 *   [ ] **Custom Dialogue:** Add significantly more custom dialogue, in-jokes, and personal references throughout the entire game.
 *   [ ] **Visuals:**
-    *   **Custom Trainer Sprites:** Sourcing and importing a set of custom sprites (Zaynab, Aliyah, and **Faris** [Indian]) to ensure accurate representation.
+    *   **Custom Trainer Sprites:** Sourcing and importing a set of custom sprites (Zaynab, Aliyah, and **Faris**) to ensure accurate representation.
     *   Custom Title Screen (Replace Charizard).
     *   Custom Player Sprite (To look more like Shukti).
 
@@ -203,8 +206,14 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
   - Text: *(No local text calls found in script)*
 
 ---
-### Perm-ter City
-#### PewterCity
+### [ ] Perm-ter City (Pewter City)
+- [ ] Quality Control
+- [ ] Tested
+
+**Story & Dialogue Synopsis:**
+*   **The Gym:** **FARIS** is the new Leader. He is obsessed with his hair, creme eggs, and his team of birds. He refers to SHUKTI as "Auntie."
+*   **The Reward:** After defeat, FARIS must be spoken to again to receive the **POO BAG** (Bowie's poop). He explains its gross nature causes Pokémon to lose their will to fight .
+*   **The Guide:** **OLLIE** is here to give SHUKTI a **Love Ball** and advice on how to handle the high-flying team.
 **NPCs:**
 - **OBJ_EVENT_GFX_LASS** (Script: `PewterCity_EventScript_Lass`)
   - Dialogue (PewterCity_Text_ClefairyCameFromMoon): *"CLEFAIRY came from the moon.  That's what the rumor is.  They appeared after MOON STONES  fell on MT. MOON.$"*

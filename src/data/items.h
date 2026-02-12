@@ -7248,8 +7248,8 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffect = HOLD_EFFECT_NONE,
         .description = COMPOUND_STRING(
             "A bag of Bowie's\n"
-            "poop. It reduces\n"
-            "a Pokémon's level."),
+            "poop. It has an\n"
+            "unknown effect."),
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_PooBag,

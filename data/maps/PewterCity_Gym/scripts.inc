@@ -17,13 +17,13 @@ PewterCity_Gym_EventScript_DefeatedBrock::
 	setflag FLAG_HIDE_PEWTER_CITY_GYM_GUIDE
 	clearflag FLAG_HIDE_PEWTER_CITY_RUNNING_SHOES_GUY
 	set_gym_trainers 1
-	goto PewterCity_Gym_EventScript_GiveTM39
+	release
 	end
 
 PewterCity_Gym_EventScript_GiveTM39::
-	msgbox PewterCity_Gym_Text_TakeThisWithYou
 	checkitemspace ITEM_POO_BAG
 	goto_if_eq VAR_RESULT, FALSE, PewterCity_Gym_EventScript_NoRoomForTM39
+	msgbox PewterCity_Gym_Text_TakeThisWithYou
 	giveitem_msg PewterCity_Gym_Text_ReceivedTM39FromBrock, ITEM_POO_BAG
 	setflag FLAG_GOT_TM39_FROM_BROCK
 	msgbox PewterCity_Gym_Text_ExplainTM39
