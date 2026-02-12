@@ -1,15 +1,53 @@
 ViridianCity_Gym_MapScripts::
 	.byte 0
 
+ViridianCity_Gym_EventScript_Zaynab::
+	lock
+	faceplayer
+	goto_if_set FLAG_BADGE08_GET, ViridianCity_Gym_EventScript_ZaynabPostVictory
+	msgbox ViridianCity_Gym_Text_ZaynabIntro
+	trainerbattle_double TRAINER_LEADER_GIOVANNI, ViridianCity_Gym_Text_ZaynabIntro, ViridianCity_Gym_Text_ZaynabDefeat, ViridianCity_Gym_Text_ZaynabNotEnoughMons, ViridianCity_Gym_EventScript_DefeatedZaynab, NO_MUSIC
+	release
+	end
+
+ViridianCity_Gym_EventScript_Aliyah::
+	lock
+	faceplayer
+	goto_if_set FLAG_BADGE08_GET, ViridianCity_Gym_EventScript_AliyahPostVictory
+	msgbox ViridianCity_Gym_Text_AliyahIntro
+	release
+	end
+
+ViridianCity_Gym_EventScript_DefeatedZaynab::
+	setflag FLAG_HIDE_MISC_KANTO_ROCKETS
+	setflag FLAG_DEFEATED_LEADER_GIOVANNI
+	setflag FLAG_BADGE08_GET
+	setvar VAR_MAP_SCENE_ROUTE22, 3
+	set_gym_trainers 8
+	msgbox ViridianCity_Gym_Text_ExplainEarthBadgeTakeThis
+	checkitemspace ITEM_TM26
+	goto_if_eq VAR_RESULT, FALSE, ViridianCity_Gym_EventScript_NoRoomForTM26
+	giveitem_msg ViridianCity_Gym_Text_ReceivedTM26FromZaynab, ITEM_TM26
+	setflag FLAG_GOT_TM26_FROM_GIOVANNI
+	msgbox ViridianCity_Gym_Text_ExplainTM26
+	release
+	end
+
+ViridianCity_Gym_EventScript_ZaynabPostVictory::
+	msgbox ViridianCity_Gym_Text_ZaynabPostVictory
+	release
+	end
+
+ViridianCity_Gym_EventScript_AliyahPostVictory::
+	msgbox ViridianCity_Gym_Text_AliyahPostVictory
+	release
+	end
+
 ViridianCity_Gym_EventScript_Giovanni::
 	famechecker FAMECHECKER_GIOVANNI, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
-	trainerbattle_single TRAINER_LEADER_GIOVANNI, ViridianCity_Gym_Text_GiovanniIntro, ViridianCity_Gym_Text_GiovanniDefeat, ViridianCity_Gym_EventScript_DefeatedGiovanni, NO_MUSIC
+	trainerbattle_single TRAINER_LEADER_GIOVANNI, ViridianCity_Gym_Text_ZaynabIntro, ViridianCity_Gym_Text_ZaynabDefeat, ViridianCity_Gym_EventScript_DefeatedZaynab, NO_MUSIC
 	goto_if_unset FLAG_GOT_TM26_FROM_GIOVANNI, ViridianCity_Gym_EventScript_GiveTM26
-	msgbox ViridianCity_Gym_Text_GiovanniPostBattle
-	closemessage
-	fadescreen FADE_TO_BLACK
-	removeobject LOCALID_VIRIDIAN_GIOVANNI
-	fadescreen FADE_FROM_BLACK
+	msgbox ViridianCity_Gym_Text_ZaynabPostVictory
 	release
 	end
 
@@ -27,7 +65,7 @@ ViridianCity_Gym_EventScript_GiveTM26::
 	msgbox ViridianCity_Gym_Text_ExplainEarthBadgeTakeThis
 	checkitemspace ITEM_TM26
 	goto_if_eq VAR_RESULT, FALSE, ViridianCity_Gym_EventScript_NoRoomForTM26
-	giveitem_msg ViridianCity_Gym_Text_ReceivedTM26FromGiovanni, ITEM_TM26
+	giveitem_msg ViridianCity_Gym_Text_ReceivedTM26FromZaynab, ITEM_TM26
 	setflag FLAG_GOT_TM26_FROM_GIOVANNI
 	msgbox ViridianCity_Gym_Text_ExplainTM26
 	release

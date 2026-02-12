@@ -40,6 +40,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
     *   Curl-ulean City (Misty): **BRYONY** (Mixed Team: Jigglypuff, Jynx, Mr. Mime, Poliwhirl, Flareon, Vileplume). All other trainers removed.
     *   Ver-Mullet-on (Lt. Surge): **DAVID** (Rock Team: Graveler, Sudowoodo, Golem).
     *   Sal-on City (Erika): **DAVID** (Bodybuilder. Team: Arcanine, Magikarp, Dragonair, Mr. Mime, Haunter, Machamp). He thinks he's in a fitness gym. Two cats, **Billie** and **Puddin**, roam the gym and say "Meow!".
+    *   Virid-LAN City (Giovanni): **ZAYNAB & ALIYAH** (Double Battle! Team: Venusaur, Arcanine, Lapras, Tyranitar, Metagross, Salamence). They kicked Giovanni out for being evil and took over their local gym.
     *   Saffron-Swan City (Sabrina): **BRYONY & FARIS** (Double Battle!)
 *   **Gym Guide (OLLIE):** The guy in every gym is now **OLLIE**. He acts as a loving, supportive partner giving genuine advice and romantic gifts in every gym:
     *   Perm-ter City: Love Ball
@@ -57,12 +58,12 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 *   **Curl-ulean City (Bryony):** Jigglypuff (Lv. 18), Jynx (Lv. 19), Mr. Mime (Lv. 19), Poliwhirl (Lv. 20), Flareon (Lv. 20), Vileplume (Lv. 21).
 *   **Ver-Mullet-on (David):** Graveler (Lv. 21), Sudowoodo (Lv. 23), Golem (Lv. 24).
 *   **Saffron-Swan City (Bryony & Faris):** Espeon (Lv. 43), Sylveon (Lv. 43), Gardevoir (Lv. 44), Gallade (Lv. 44), Alakazam (Lv. 43).
+*   **Virid-LAN City (Zaynab & Aliyah):** Venusaur (Lv. 50), Arcanine (Lv. 50), Lapras (Lv. 50), Tyranitar (Lv. 52), Metagross (Lv. 52), Salamence (Lv. 54).
 
 ## To-Do List
 *   [ ] **Rename remaining Gym Leaders:**
     *   Koga (Fo-Shear-ia City) -> ?
     *   Blaine (Cinna-Bella Island) -> ?
-    *   Giovanni (Virid-LAN City) -> ?
 *   [ ] **NPC Personalization:** Modify many more NPCs to represent real-life friends and family.
 *   [ ] **Custom Dialogue:** Add significantly more custom dialogue, in-jokes, and personal references throughout the entire game.
 *   [ ] **Visuals:**
