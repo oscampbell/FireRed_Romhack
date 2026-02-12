@@ -67,6 +67,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 *   [ ] **NPC Personalization:** Modify many more NPCs to represent real-life friends and family.
 *   [ ] **Custom Dialogue:** Add significantly more custom dialogue, in-jokes, and personal references throughout the entire game.
 *   [ ] **Visuals:**
+    *   **Custom Trainer Sprites:** Sourcing and importing a set of custom sprites (especially for Zaynab, Aliyah, and others) to ensure accurate representation and avoid placeholders.
     *   Custom Title Screen (Replace Charizard).
     *   Custom Player Sprite (To look more like Shukti).
 
