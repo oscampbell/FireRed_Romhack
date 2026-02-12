@@ -42,16 +42,16 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 ## Zones (Progress Tracker)
 *Note: None are checked yet as we are working through them for a final pass of all NPCs and dialogue.*
 
-1.  [x] **Mill Town** (Pallet Town)
+1.  [ ] **Mill Town** (Pallet Town)
 2.  [ ] Route 1
 3.  [ ] **St Albans** (Viridian City)
 4.  [ ] Route 2
 5.  [ ] Viridian Forest
-6.  [x] **Stevenage Gym** (Pewter Gym - Faris)
+6.  [ ] **Stevenage** (Pewter City)
 7.  [ ] Route 3
 8.  [ ] Mt. Moon
 9.  [ ] Route 4
-10. [x] **Letchworth Gym** (Cerulean Gym - Bryony & Bowie)
+10. [ ] **Letchworth** (Cerulean City)
 11. [ ] Route 24
 12. [ ] Route 25
 13. [ ] Route 5
