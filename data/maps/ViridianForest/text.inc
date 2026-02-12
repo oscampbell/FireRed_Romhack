@@ -83,7 +83,7 @@ ViridianForest_Text_UseAntidoteForPoison::
 
 ViridianForest_Text_ContactOakViaPCToRatePokedex::
     .string "TRAINER TIPS\p"
-    .string "Contact PROF. OAK via a PC to\n"
+    .string "Contact PROF. TREE via a PC to\n"
     .string "get your POKéDEX evaluated!$"
 
 ViridianForest_Text_CantCatchOwnedMons::
@@ -101,5 +101,5 @@ ViridianForest_Text_WeakenMonsBeforeCapture::
 
 ViridianForest_Text_LeavingViridianForest::
     .string "LEAVING VIRIDIAN FOREST\n"
-    .string "STEVENAGE AHEAD$"
+    .string "PERM-TER CITY AHEAD$"
 

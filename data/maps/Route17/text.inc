@@ -118,7 +118,7 @@ Route17_Text_PressBToStayInPlace::
 
 Route17_Text_RouteSign::
     .string "ROUTE 17\n"
-    .string "BIRMINGHAM - BRISTOL$"
+    .string "SAL-ON CITY - FO-SHEAR-IA$"
 
 Route17_Text_DontThrowGameThrowBalls::
     .string "It's a notice!\p"

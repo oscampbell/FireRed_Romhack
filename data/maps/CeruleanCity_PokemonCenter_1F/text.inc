@@ -5,13 +5,22 @@ CeruleanCity_PokemonCenter_1F_Text_BillDoesWhateverForRareMons::
     .string "He's not above doing all sorts\n"
     .string "of things, I've heard.$"
 
-CeruleanCity_PokemonCenter_1F_Text_EveryoneCallsBillPokemaniac::
-    .string "Have you heard about BILL?\p"
-    .string "Everyone calls him a POKéMANIAC!\p"
-    .string "I think people are just jealous of\n"
-    .string "BILL, though.\p"
-    .string "Who wouldn't want to boast about\n"
-    .string "their POKéMON?$"
+CeruleanCity_PokemonCenter_1F_Text_ProfTree_Intro::
+    .string "TREE: Hello, {PLAYER}!\n"
+    .string "I was just doing some research on\l"
+    .string "the rare POKéMON in this area.\p"
+    .string "I happened to have another one of\n"
+    .string "my special starters with me.\p"
+    .string "I'd like you to have it!$"
+
+CeruleanCity_PokemonCenter_1F_Text_ProfTree_Outro::
+    .string "TREE: That POKéMON should help\n"
+    .string "you on your journey.\p"
+    .string "Keep up the good work!$"
+
+CeruleanCity_PokemonCenter_1F_Text_ProfTree_AlreadyGot::
+    .string "TREE: How is the POKéMON I gave\n"
+    .string "you? I hope it's doing well!$"
 
 CeruleanCity_PokemonCenter_1F_Text_BillCollectsRareMons::
     .string "BILL has lots of POKéMON!\n"

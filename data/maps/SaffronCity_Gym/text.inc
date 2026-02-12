@@ -1,5 +1,5 @@
 SaffronCity_Gym_Text_SabrinaIntro::
-    .string "BRYONY: Welcome to Manchester!\n"
+    .string "BRYONY: Welcome to Saffron-Swan City!\n"
     .string "We've been waiting for you.\p"
     .string "FARIS: We heard you were doing\n"
     .string "big things, SHUKTI!\p"

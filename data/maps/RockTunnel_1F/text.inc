@@ -79,5 +79,5 @@ RockTunnel_1F_Text_ArianaPostBattle::
 
 RockTunnel_1F_Text_RouteSign::
     .string "ROCK TUNNEL\n"
-    .string "LETCHWORTH - YORK$"
+    .string "CURL-ULEAN CITY - LA-VAMPIRE TOWN$"
 

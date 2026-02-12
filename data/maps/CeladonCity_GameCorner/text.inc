@@ -56,7 +56,7 @@ CeladonCity_GameCorner_Text_WinOrLoseItsOnlyLuck::
 
 CeladonCity_GameCorner_Text_OllieIntro::
     .string "OLLIE: Hey SHUKTI! Fancy seeing\n"
-    .string "you here in BIRMINGHAM!\p"
+    .string "you here in SAL-ON CITY!\p"
     .string "I've got a little something for you.\n"
     .string "It's a knot that ties us together.$"
 

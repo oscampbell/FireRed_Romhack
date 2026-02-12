@@ -1,6 +1,6 @@
 SSAnne_2F_Room5_Text_HaveYouGoneToSafariZone::
     .string "Have you gone to the SAFARI ZONE\n"
-    .string "in BRISTOL?\p"
+    .string "in FO-SHEAR-IA?\p"
     .string "There are many kinds of rare\n"
     .string "POKéMON.$"
 

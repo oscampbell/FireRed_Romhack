@@ -192,9 +192,9 @@
 #define FLAG_HIDE_SAFFRON_CITY_POKECENTER_SABRINA_JOURNALS 0x0AE
 
 // Unused?
-#define FLAG_0x0AF               0x0AF
-#define FLAG_0x0B0               0x0B0
-#define FLAG_0x0B1               0x0B1
+#define FLAG_GOT_SECOND_STARTER                            0x0AF
+#define FLAG_GOT_THIRD_STARTER                             0x0B0
+#define FLAG_GOT_ALL_STARTERS                              0x0B1
 #define FLAG_0x0B2               0x0B2
 #define FLAG_0x0B3               0x0B3
 #define FLAG_0x0B4               0x0B4

@@ -1,6 +1,6 @@
 PewterCity_Gym_Text_BrockIntro::
     .string "Hi there! I'm FARIS.\n"
-    .string "I'm the LEADER of the STEVENAGE GYM.\p"
+    .string "I'm the LEADER of the PERM-TER CITY GYM.\p"
     .string "I believe in the power of the mind\n"
     .string "and the magic of friendship!\p"
     .string "Are you ready to see what my\n"
@@ -42,7 +42,7 @@ PewterCity_Gym_Text_BrockPostBattle::
     .string "you as a TRAINER.\p"
     .string "Keep believing in yourself and\n"
     .string "your POKéMON!\p"
-    .string "Why don't you head to LETCHWORTH\n"
+    .string "Why don't you head to CURL-ULEAN CITY\n"
     .string "next? BRYONY will be happy to\l"
     .string "see you!$"
 
@@ -90,13 +90,13 @@ PewterCity_Gym_Text_NoRoomForGift::
     .string "I'll hold onto this for you.$"
 
 PewterCity_Gym_Text_GymStatue::
-    .string "STEVENAGE POKéMON GYM\n"
+    .string "PERM-TER CITY POKéMON GYM\n"
     .string "LEADER: FARIS\p"
     .string "WINNING TRAINERS:\n"
     .string "{RIVAL}$"
 
 PewterCity_Gym_Text_GymStatuePlayerWon::
-    .string "STEVENAGE POKéMON GYM\n"
+    .string "PERM-TER CITY POKéMON GYM\n"
     .string "LEADER: FARIS\p"
     .string "WINNING TRAINERS:\n"
     .string "{RIVAL}, {PLAYER}$"

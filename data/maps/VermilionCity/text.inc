@@ -30,7 +30,7 @@ VermilionCity_Text_SSAnneVisitsOnceAYear::
     .string "It visits VERMILION once a year.$"
 
 VermilionCity_Text_CitySign::
-    .string "SOUTHAMPTON\n"
+    .string "VER-MULLET-ON\n"
     .string "The Port of Exquisite Sunsets$"
 
 VermilionCity_Text_SnorlaxBlockingRoute12::
@@ -38,7 +38,7 @@ VermilionCity_Text_SnorlaxBlockingRoute12::
     .string "ROUTE 12 may be blocked off by a\n"
     .string "sleeping POKéMON.\p"
     .string "Detour through ROCK TUNNEL to\n"
-    .string "YORK.\p"
+    .string "LA-VAMPIRE TOWN.\p"
     .string "VERMILION POLICE$"
 
 VermilionCity_Text_PokemonFanClubSign::
@@ -46,7 +46,7 @@ VermilionCity_Text_PokemonFanClubSign::
     .string "All POKéMON fans welcome!$"
 
 VermilionCity_Text_GymSign::
-    .string "SOUTHAMPTON POKéMON GYM\n"
+    .string "VER-MULLET-ON POKéMON GYM\n"
     .string "LEADER: LT. SURGE\l"
     .string "The Lightning American!$"
 
@@ -120,9 +120,9 @@ VermilionCity_Text_Seagallop12Departing::
 VermilionCity_Text_Route2AideHasPackageForYou::
     .string "Oh, hello, {PLAYER}!\n"
     .string "How are you doing?\p"
-    .string "It's me, one of PROF. OAK's AIDES.\p"
+    .string "It's me, one of PROF. TREE's AIDES.\p"
     .string "Did you meet the other AIDE?\p"
-    .string "He had a package from PROF. OAK\n"
+    .string "He had a package from PROF. TREE\n"
     .string "for you, {PLAYER}.\p"
     .string "He said he'd look for you around\n"
     .string "ROUTE 2, {PLAYER}.\p"

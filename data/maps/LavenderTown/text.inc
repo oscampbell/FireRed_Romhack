@@ -21,10 +21,10 @@ LavenderTown_Text_GhostsAppearedInTower::
     .string "I heard TEAM ROCKET is holding a\n"
     .string "dog named FIG up there!\p"
     .string "They're probably planning to take\n"
-    .string "her to their boss in MANCHESTER.$"
+    .string "her to their boss in SAFFRON-SWAN CITY.$"
 
 LavenderTown_Text_TownSign::
-    .string "YORK\n"
+    .string "LA-VAMPIRE TOWN\n"
     .string "The Noble Purple Town$"
 
 LavenderTown_Text_SilphScopeNotice::

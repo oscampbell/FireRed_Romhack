@@ -14,9 +14,21 @@ CeruleanCity_PokemonCenter_1F_EventScript_Nurse::
 	release
 	end
 
-CeruleanCity_PokemonCenter_1F_EventScript_Gentleman::
-	msgbox CeruleanCity_PokemonCenter_1F_Text_EveryoneCallsBillPokemaniac, MSGBOX_NPC
-	end
+CeruleanCity_PokemonCenter_1F_EventScript_ProfTree::
+    lock
+    faceplayer
+    goto_if_set FLAG_GOT_SECOND_STARTER, CeruleanCity_PokemonCenter_1F_EventScript_ProfTree_AlreadyGot
+    msgbox CeruleanCity_PokemonCenter_1F_Text_ProfTree_Intro
+    call PalletTown_ProfessorOaksLab_EventScript_GiveRemainingStarter1
+    setflag FLAG_GOT_SECOND_STARTER
+    msgbox CeruleanCity_PokemonCenter_1F_Text_ProfTree_Outro
+    release
+    end
+
+CeruleanCity_PokemonCenter_1F_EventScript_ProfTree_AlreadyGot::
+    msgbox CeruleanCity_PokemonCenter_1F_Text_ProfTree_AlreadyGot
+    release
+    end
 
 CeruleanCity_PokemonCenter_1F_EventScript_Rocker::
 	msgbox CeruleanCity_PokemonCenter_1F_Text_BillDoesWhateverForRareMons, MSGBOX_NPC

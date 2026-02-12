@@ -616,7 +616,7 @@ Help_Text_UsingMailbox::
 	.string "  Using “MAILBOX”$"
 
 Help_Text_UsingProfOaksPC::
-	.string " Using “PROF. OAK'S PC”$"
+	.string " Using “PROF. TREE'S PC”$"
 
 Help_Text_OpeningMenu::
 	.string "Opening the MENU$"
@@ -917,8 +917,8 @@ Help_Text_HowToUseMailbox::
 	.string "   make a POKéMON hold MAIL.$"
 
 Help_Text_HowToUseProfOaksPC::
-	.string "{CIRCLE_1} Select “PROF. OAK'S PC” on the PC.\n"
-	.string "{CIRCLE_2} PROF. OAK will evaluate your\n"
+	.string "{CIRCLE_1} Select “PROF. TREE'S PC” on the PC.\n"
+	.string "{CIRCLE_2} PROF. TREE will evaluate your\n"
 	.string "   POKéDEX.\n"
 	.string "His evaluations should give you hints\n"
 	.string "for catching more POKéMON!$"

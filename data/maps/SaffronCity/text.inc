@@ -63,14 +63,14 @@ SaffronCity_Text_HesTakingASnooze::
     .string "Hah! He's taking a snooze!$"
 
 SaffronCity_Text_CitySign::
-    .string "MANCHESTER\n"
+    .string "SAFFRON-SWAN CITY\n"
     .string "Shining, Golden Land of Commerce$"
 
 SaffronCity_Text_FightingDojo::
     .string "FIGHTING DOJO$"
 
 SaffronCity_Text_GymSign::
-    .string "MANCHESTER POKéMON GYM\n"
+    .string "SAFFRON-SWAN CITY POKéMON GYM\n"
     .string "LEADER: SABRINA\l"
     .string "The Master of PSYCHIC POKéMON!$"
 

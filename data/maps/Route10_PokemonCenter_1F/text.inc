@@ -10,16 +10,16 @@ Route10_PokemonCenter_1F_Text_NuggetUselessSoldFor5000::
 
 Route10_PokemonCenter_1F_Text_HeardGhostsHauntLavender::
     .string "I heard that ghosts haunt\n"
-    .string "YORK.$"
+    .string "LA-VAMPIRE TOWN.$"
 
 Route10_PokemonCenter_1F_Text_GiveEverstoneIfCaught20Mons::
     .string "Oh… {PLAYER}!\n"
     .string "I've been looking for you!\p"
     .string "It's me, one of the ever-present\n"
-    .string "AIDES to PROF. OAK.\p"
+    .string "AIDES to PROF. TREE.\p"
     .string "If your POKéDEX has complete data\n"
     .string "on twenty species, I'm supposed to\l"
-    .string "give you a reward from PROF. OAK.\p"
+    .string "give you a reward from PROF. TREE.\p"
     .string "He entrusted me with this\n"
     .string "EVERSTONE.\p"
     .string "So, {PLAYER}, let me ask you.\p"

@@ -950,7 +950,7 @@ Text_ItNeedsCardKey::
 	.string "It needs a CARD KEY!$"
 
 Text_AccessedProfOaksPC::
-	.string "Accessed PROF. OAK's PC…\p"
+	.string "Accessed PROF. TREE's PC…\p"
 	.string "Accessed the POKéDEX Rating\n"
 	.string "System…$"
 
@@ -959,7 +959,7 @@ Text_HavePokedexRated::
 	.string "POKéDEX rated?$"
 
 Text_ClosedLinkToProfOaksPC::
-	.string "Closed link to PROF. OAK's PC.$"
+	.string "Closed link to PROF. TREE's PC.$"
 
 Text_VoiceRangOutDontRunAway::
 	.string "Someone's voice rang out,\n"

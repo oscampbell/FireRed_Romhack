@@ -161,7 +161,7 @@ ViridianCity_Gym_Text_OllieAdvice::
 ViridianCity_Gym_Text_OlliePostVictory::
     .string "OLLIE: Blow me away! GIOVANNI was\n"
     .string "no match for you!\p"
-    .string "It's time, SHUKTI. Head to WEMBLEY.\n"
+    .string "It's time, SHUKTI. Head to IN-DYE-GO PLATEAU.\n"
     .string "I'll be there, waiting for our\l"
     .string "final date.$"
 

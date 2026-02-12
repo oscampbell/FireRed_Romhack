@@ -3,7 +3,7 @@ ViridianCity_Mart_Text_YouCameFromPallet::
     .string "You came from MILL TOWN?$"
 
 ViridianCity_Mart_Text_TakeThisToProfOak::
-    .string "You know PROF. OAK, right?\p"
+    .string "You know PROF. TREE, right?\p"
     .string "His order came in.\n"
     .string "Can I get you to take it to him?$"
 
@@ -13,7 +13,7 @@ ViridianCity_Mart_Text_ReceivedOaksParcelFromClerk::
 
 ViridianCity_Mart_Text_SayHiToOakForMe::
     .string "Okay, thanks! Please say hi to\n"
-    .string "PROF. OAK for me, too.$"
+    .string "PROF. TREE for me, too.$"
 
 ViridianCity_Mart_Text_ShopDoesGoodBusinessInAntidotes::
     .string "This shop does good business in\n"

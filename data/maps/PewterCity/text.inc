@@ -87,12 +87,12 @@ PewterCity_Text_MuseumOfScience::
     .string "PEWTER MUSEUM OF SCIENCE$"
 
 PewterCity_Text_GymSign::
-    .string "STEVENAGE POKéMON GYM\n"
+    .string "PERM-TER CITY POKéMON GYM\n"
     .string "LEADER: BROCK\l"
     .string "The Rock-Solid POKéMON TRAINER!$"
 
 PewterCity_Text_CitySign::
-    .string "STEVENAGE\n"
+    .string "PERM-TER CITY\n"
     .string "A Stone Gray City$"
 
 @ The below 3 JP texts are unused. Possibly a cut NPC meant to give the player the Berry Pouch
@@ -122,7 +122,7 @@ PewterCity_Text_OhPlayer::
 
 PewterCity_Text_AskedToDeliverThis::
     .string "I'm glad I caught up to you.\n"
-    .string "I'm PROF. OAK's AIDE.\p"
+    .string "I'm PROF. TREE's AIDE.\p"
     .string "I've been asked to deliver this,\n"
     .string "so here you go.$"
 

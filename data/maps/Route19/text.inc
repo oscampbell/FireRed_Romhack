@@ -115,7 +115,7 @@ Route19_Text_ConniePostBattle::
 
 Route19_Text_RouteSign::
     .string "SEA ROUTE 19\n"
-    .string "BRISTOL - SEAFOAM ISLANDS$"
+    .string "FO-SHEAR-IA - SEAFOAM ISLANDS$"
 
 Route19_Text_LiaIntro::
     .string "LIA: I'm looking after my brother.\n"

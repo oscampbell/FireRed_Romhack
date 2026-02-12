@@ -567,6 +567,9 @@ PalletTown_ProfessorOaksLab_EventScript_RivalChoseStarter::
 PalletTown_ProfessorOaksLab_EventScript_ProfOak::
 	lock
 	faceplayer
+	goto_if_set FLAG_GOT_ALL_STARTERS, PalletTown_ProfessorOaksLab_EventScript_OakCheckPokedex
+	goto_if_set FLAG_SYS_GAME_CLEAR, PalletTown_ProfessorOaksLab_EventScript_GiveFinalStarter
+	goto_if_set FLAG_SYS_NATIONAL_DEX, PalletTown_ProfessorOaksLab_EventScript_GiveSecondStarter
 	goto_if_set SHOWED_OAK_COMPLETE_DEX, PalletTown_ProfessorOaksLab_EventScript_OakJustShownCompleteDex
 	goto_if_eq VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 9, PalletTown_ProfessorOaksLab_EventScript_RatePokedex
 	goto_if_eq VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 8, PalletTown_ProfessorOaksLab_EventScript_MonsAroundWorldWait
@@ -579,6 +582,65 @@ PalletTown_ProfessorOaksLab_EventScript_ProfOak::
 	msgbox PalletTown_ProfessorOaksLab_Text_OakWhichOneWillYouChoose
 	release
 	end
+
+PalletTown_ProfessorOaksLab_EventScript_OakCheckPokedex::
+    goto PalletTown_ProfessorOaksLab_EventScript_RatePokedex
+    end
+
+PalletTown_ProfessorOaksLab_EventScript_GiveSecondStarter::
+    goto_if_set FLAG_GOT_SECOND_STARTER, PalletTown_ProfessorOaksLab_EventScript_RatePokedex
+    msgbox PalletTown_ProfessorOaksLab_Text_OakTakeSecondStarter
+    goto PalletTown_ProfessorOaksLab_EventScript_ChooseSecondStarter
+    end
+
+PalletTown_ProfessorOaksLab_EventScript_ChooseSecondStarter::
+    call PalletTown_ProfessorOaksLab_EventScript_GiveRemainingStarter1
+    setflag FLAG_GOT_SECOND_STARTER
+    release
+    end
+
+PalletTown_ProfessorOaksLab_EventScript_GiveFinalStarter::
+    goto_if_set FLAG_GOT_THIRD_STARTER, PalletTown_ProfessorOaksLab_EventScript_OakCheckPokedex
+    msgbox PalletTown_ProfessorOaksLab_Text_OakTakeFinalStarter
+    goto PalletTown_ProfessorOaksLab_EventScript_ChooseThirdStarter
+    end
+
+PalletTown_ProfessorOaksLab_EventScript_ChooseThirdStarter::
+    call PalletTown_ProfessorOaksLab_EventScript_GiveRemainingStarter2
+    setflag FLAG_GOT_THIRD_STARTER
+    setflag FLAG_GOT_ALL_STARTERS
+    release
+    end
+
+PalletTown_ProfessorOaksLab_EventScript_GiveRemainingStarter1::
+    goto_if_eq VAR_STARTER_MON, 0, PalletTown_ProfessorOaksLab_EventScript_GiveSquirtle
+    goto_if_eq VAR_STARTER_MON, 1, PalletTown_ProfessorOaksLab_EventScript_GiveCharmander
+    goto_if_eq VAR_STARTER_MON, 2, PalletTown_ProfessorOaksLab_EventScript_GiveBulbasaur
+    return
+
+PalletTown_ProfessorOaksLab_EventScript_GiveRemainingStarter2::
+    goto_if_eq VAR_STARTER_MON, 0, PalletTown_ProfessorOaksLab_EventScript_GiveCharmander
+    goto_if_eq VAR_STARTER_MON, 1, PalletTown_ProfessorOaksLab_EventScript_GiveBulbasaur
+    goto_if_eq VAR_STARTER_MON, 2, PalletTown_ProfessorOaksLab_EventScript_GiveSquirtle
+    return
+
+PalletTown_ProfessorOaksLab_EventScript_GiveBulbasaur::
+    givemon SPECIES_MORPEKO, 5
+    bufferspeciesname STR_VAR_1, SPECIES_MORPEKO
+    msgbox PalletTown_ProfessorOaksLab_Text_ReceivedMonFromOak
+    return
+
+PalletTown_ProfessorOaksLab_EventScript_GiveSquirtle::
+    givemon SPECIES_EEVEE, 5
+    bufferspeciesname STR_VAR_1, SPECIES_EEVEE
+    msgbox PalletTown_ProfessorOaksLab_Text_ReceivedMonFromOak
+    return
+
+PalletTown_ProfessorOaksLab_EventScript_GiveCharmander::
+    givemon SPECIES_RAICHU_ALOLA, 5
+    bufferspeciesname STR_VAR_1, SPECIES_RAICHU_ALOLA
+    msgbox PalletTown_ProfessorOaksLab_Text_ReceivedMonFromOak
+    return
 
 PalletTown_ProfessorOaksLab_EventScript_OakJustShownCompleteDex::
 	msgbox PokedexRating_Text_ThankYouMadeDreamReality

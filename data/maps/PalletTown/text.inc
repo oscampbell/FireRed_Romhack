@@ -73,7 +73,7 @@ PalletTown_Text_Zaynab::
 
 PalletTown_Text_Aliyah::
     .string "ALIYAH: I saw those ROCKET thugs\n"
-    .string "running towards ST ALBANS with a\l"
+    .string "running towards VIRID-LAN CITY with a\l"
     .string "shiny dog in a cage!\p"
     .string "That must have been FIG!$"
 

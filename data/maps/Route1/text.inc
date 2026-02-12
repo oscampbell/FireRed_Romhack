@@ -3,7 +3,7 @@ Route1_Text_WorkAtPokeMartTakeSample::
     .string "I work at a POKéMON MART.\p"
     .string "It's part of a convenient chain\n"
     .string "selling all sorts of items.\p"
-    .string "Please, visit us in ST ALBANS.\p"
+    .string "Please, visit us in VIRID-LAN CITY.\p"
     .string "I know, I'll give you a sample.\n"
     .string "Here you go!$"
 
@@ -24,5 +24,5 @@ Route1_Text_CanJumpFromLedges::
 
 Route1_Text_RouteSign::
     .string "ROUTE 1\n"
-    .string "MILL TOWN - ST ALBANS$"
+    .string "MILL TOWN - VIRID-LAN CITY$"
 

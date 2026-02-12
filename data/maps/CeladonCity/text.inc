@@ -44,11 +44,11 @@ CeladonCity_Text_ExplainXAccuracyDireHit::
     .string "DEPT. STORE!$"
 
 CeladonCity_Text_CitySign::
-    .string "BIRMINGHAM\n"
+    .string "SAL-ON CITY\n"
     .string "The City of Rainbow Dreams$"
 
 CeladonCity_Text_GymSign::
-    .string "BIRMINGHAM POKéMON GYM\n"
+    .string "SAL-ON CITY POKéMON GYM\n"
     .string "LEADER: ERIKA\l"
     .string "The Nature-Loving Princess!$"
 
