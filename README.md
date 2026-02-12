@@ -15,6 +15,10 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 
 ## Completed Features
 *   **PokeASDA:** Every **POKéMON MART** and **POKéMART** has been globally renamed to **PokeASDA**.
+*   **Completable Pokédex:**
+    *   **No Trading Required:** All trade-only evolutions (like Alakazam, Gengar, Machamp, Golem, Scizor, etc.) now evolve via **Level-up (Lv. 36)** or by using the relevant **Evolution Item** directly.
+    *   **Version Exclusives merged:** All LeafGreen exclusive Pokémon (Sandshrew, Vulpix, Bellsprout, etc.) are now findable in the wild in the FireRed version.
+    *   **Wild Starters:** Bulbasaur (Route 1), Charmander (Route 2), and Squirtle (Route 3) are now findable as rare encounters.
 *   **Virid-LAN Business School:** The trainer school has been converted into a business school where **STACEY** is forced to take lessons on basic logic and tax avoidance by the Business Inspector.
 *   **Following Pokémon:** The first Pokémon in your party follows you!
 *   **Forced Identity:** Name is forced to **SHUKTI**, Gender is forced to **Female**. Intro selection screens are skipped.
