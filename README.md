@@ -81,13 +81,31 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 ### [x] Mill Town (Pallet Town)
 - [ ] Quality Control
 - [ ] Tested
+
+**Story & Dialogue Synopsis:**
+*   **The Home:** SHUKTI starts her journey here. Ollie has left a secret romantic message on her NES.
+*   **The Crisis:** Local NPCs **ZAYNAB** and **ALIYAH** inform SHUKTI that **TEAM ROCKET** has stolen **FIG** (a special shiny dog).
+*   **The Investigation:** Investigator **DAISY** is currently stationed in **STACEY'S** house, combing through records of her "redundancies" and fraud. Daisy gives SHUKTI the **TOWN MAP** to help track Stacey's movements.
+*   **The Lab:** **PROFESSOR TREE** (the "mad old professor") gives SHUKTI her first "Ultra" starter.
+
 ---
 ### [x] Route 1
 - [ ] Quality Control
 - [ ] Tested
+
+**Story & Dialogue Synopsis:**
+*   **The Clerk:** **ANDY** from **PokeASDA** gives SHUKTI a free sample Potion.
+*   **Wild Life:** Rare **Bulbasaur** can be found hiding in the tall grass.
+
 ---
 ### [x] Virid-LAN City
----
+- [ ] Quality Control
+- [ ] Tested
+
+**Story & Dialogue Synopsis:**
+*   **The Business School:** The local school has been repurposed. **STACEY** is found here taking mandatory remedial lessons on business logic and tax avoidance, ordered by the investigator. She's annoyed but insists redundancies are "strategic."
+*   **The Network Admin:** The "Coffee Old Man" is now the **Lead Network Admin**. He's miserable due to "packet loss" and a lack of espresso. He offers a tutorial, but SHUKTI can tell him to **"FUCK OFF!"**, to which he grumpily agrees.
+*   **The Gym:** Currently closed for "maintenance." Rumors suggest two local women (**ZAYNAB & ALIYAH**) are inside dealing with a "hostile takeover of the network stack" (hinting at their future roles as Leaders).
 ### Route 2
 #### Route2
 **NPCs:**
