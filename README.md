@@ -38,6 +38,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
     *   Perm-ter City (Brock): **FARIS** (Psychic/Fairy Team: Ralts, Kirlia).
     *   Curl-ulean City (Misty): **BRYONY** (Mixed Team: Jigglypuff, Jynx, Mr. Mime, Poliwhirl, Flareon, Vileplume). All other trainers removed.
     *   Ver-Mullet-on (Lt. Surge): **DAVID** (Rock Team: Graveler, Sudowoodo, Golem).
+    *   Sal-on City (Erika): **DAVID** (Bodybuilder. Team: Arcanine, Magikarp, Dragonair, Mr. Mime, Haunter, Machamp). He thinks he's in a fitness gym.
     *   Saffron-Swan City (Sabrina): **BRYONY & FARIS** (Double Battle!)
 *   **Gym Guide (OLLIE):** The guy in every gym is now **OLLIE**. He acts as a loving, supportive partner giving genuine advice and romantic gifts in every gym:
     *   Perm-ter City: Love Ball
@@ -58,7 +59,6 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 
 ## To-Do List
 *   [ ] **Rename remaining Gym Leaders:**
-    *   Erika (Sal-on City) -> ?
     *   Koga (Fo-Shear-ia City) -> ?
     *   Blaine (Cinna-Bella Island) -> ?
     *   Giovanni (Virid-LAN City) -> ?
