@@ -15,6 +15,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 
 ## Completed Features
 *   **PokeASDA:** Every **POKéMON MART** and **POKéMART** has been globally renamed to **PokeASDA**.
+*   **Heated Rivalry:** Every interactable TV in the game now displays the message: **"Heated rivalry is on!"**
 *   **Completable Pokédex:**
     *   **No Trading Required:** All trade-only evolutions (like Alakazam, Gengar, Machamp, Golem, Scizor, etc.) now evolve via **Level-up (Lv. 36)** or by using the relevant **Evolution Item** directly.
     *   **Version Exclusives merged:** All LeafGreen exclusive Pokémon (Sandshrew, Vulpix, Bellsprout, etc.) are now findable in the wild in the FireRed version.
