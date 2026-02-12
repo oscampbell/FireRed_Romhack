@@ -11,23 +11,29 @@ PalletTown_RivalsHouse_Text_HeardYouBattledRival::
     .string "her behavior!$"
 
 PalletTown_RivalsHouse_Text_ErrandForGrandpaThisWillHelp::
-    .string "That mad old professor asked you\n"
-    .string "to run an errand?\p"
-    .string "Gee, that's lazy of him.\n"
-    .string "Here, this will help you.$"
+    .string "DAISY: That mad old professor\n"
+    .string "asked you to help him?\p"
+    .string "Perfect. I need you to keep a close\n"
+    .string "eye on STACEY while you're out.\p"
+    .string "She's a flight risk with all these\n"
+    .string "fraud allegations.\p"
+    .string "Here, I found this among her\n"
+    .string "confiscated assets. It'll help\l"
+    .string "you track her movements.$"
 
 PalletTown_RivalsHouse_Text_ReceivedTownMapFromDaisy::
     .string "{PLAYER} received a TOWN MAP\n"
-    .string "from DAISY.$"
+    .string "from investigator DAISY.$"
 
 PalletTown_RivalsHouse_Text_DontHaveSpaceForThis::
     .string "You don't have space for this in\n"
     .string "your BAG.$"
 
 PalletTown_RivalsHouse_Text_ExplainTownMap::
-    .string "You can use the TOWN MAP to find\n"
-    .string "out where you are, or check the\l"
-    .string "names of places.$"
+    .string "Use that TOWN MAP to ensure\n"
+    .string "STACEY doesn't try to flee the\l"
+    .string "region or set up any illegal\l"
+    .string "pop-up salons.$"
 
 PalletTown_RivalsHouse_Text_PleaseGiveMonsRest::
     .string "DAISY: I've seen how she treats\n"
