@@ -150,3 +150,6 @@ CeladonCity_Gym_Text_GymStatuePlayerWon::
     .string "WINNING TRAINERS:\n"
     .string "{RIVAL}, {PLAYER}$"
 
+CeladonCity_Gym_Text_Meow::
+    .string "Meow!$"
+

@@ -82,3 +82,23 @@ CeladonCity_Gym_EventScript_GymStatuePostVictory::
 	msgbox CeladonCity_Gym_Text_GymStatuePlayerWon
 	releaseall
 	end
+
+CeladonCity_Gym_EventScript_Billie::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_MEOWTH, CRY_MODE_NORMAL
+	msgbox CeladonCity_Gym_Text_Meow
+	waitmoncry
+	release
+	end
+
+CeladonCity_Gym_EventScript_Puddin::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_MEOWTH, CRY_MODE_NORMAL
+	msgbox CeladonCity_Gym_Text_Meow
+	waitmoncry
+	release
+	end
