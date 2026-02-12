@@ -5,11 +5,13 @@ ViridianCity_Text_CanCarryMonsAnywhere::
     .string "use POKéMON anytime, anywhere.$"
 
 ViridianCity_Text_GymClosedWonderWhoLeaderIs::
-    .string "This POKéMON GYM is always closed.\p"
-    .string "I wonder who the LEADER is?$"
+    .string "The GYM is closed for 'maintenance'.\p"
+    .string "I heard two local women are currently\n"
+    .string "inside dealing with a hostile\l"
+    .string "takeover of the network stack.$"
 
 ViridianCity_Text_ViridiansGymLeaderReturned::
-    .string "VIRIDIAN GYM's LEADER returned!$"
+    .string "The network admin is back online!$"
 
 ViridianCity_Text_WantToKnowAboutCaterpillarMons::
     .string "You want to know about the two\n"
@@ -25,10 +27,10 @@ ViridianCity_Text_ExplainCaterpieWeedle::
     .string "stabbed by WEEDLE's POISON STING.$"
 
 ViridianCity_Text_GrandpaHasntHadCoffeeYet::
-    .string "Oh, Grandpa!\n"
-    .string "Don't be so mean!\p"
-    .string "I'm so sorry.\n"
-    .string "He hasn't had his coffee yet.$"
+    .string "Oh, leave him alone!\n"
+    .string "He's the lead network admin.\p"
+    .string "He's absolutely miserable until\n"
+    .string "he's had his third espresso.$"
 
 ViridianCity_Text_GoShoppingInPewterOccasionally::
     .string "I go shopping in PERM-TER CITY\n"
@@ -42,21 +44,17 @@ ViridianCity_Text_ThisIsPrivateProperty::
     .string "This is private property!$"
 
 ViridianCity_Text_ShowYouHowToCatchMons::
-    .string "Well, now, I've had my coffee, and\n"
-    .string "that's what I need to get going!\p"
-    .string "Hm?\n"
-    .string "What is that red box you have?\p"
-    .string "Ah, so you're working on your\n"
-    .string "POKéDEX.\p"
-    .string "Then let me give you a word of\n"
-    .string "advice.\p"
-    .string "Whenever you catch a POKéMON,\n"
-    .string "the POKéDEX automatically updates\l"
-    .string "its data.\p"
-    .string "…You don't know how to catch\n"
-    .string "a POKéMON?\p"
-    .string "I suppose I had better show you\n"
-    .string "then!$"
+    .string "Ugh, the packet loss is insane!\n"
+    .string "Wait... you're that intern, right?\p"
+    .string "Since I've finally had my coffee,\n"
+    .string "I suppose I can show you how to\l"
+    .string "capture some packets... I mean,\l"
+    .string "POKéMON.\p"
+    .string "Well? Want a demo or what?$"
+
+ViridianCity_Text_FuckOff::
+    .string "Hmph! Fine! Go get yourself\n"
+    .string "firewalled for all I care!$"
 
 ViridianCity_Text_ThatWasEducationalTakeThis::
     .string "There! Now tell me, that was\n"

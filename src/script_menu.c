@@ -100,6 +100,11 @@ static const struct ListMenuTemplate sScriptableListMenuTemplate =
     .fontId = FONT_NORMAL,
 };
 
+static const struct MenuAction sMultichoiceList_FuckOff[] = {
+    { gText_Yes },
+    { gText_FuckOff }
+};
+
 static const struct MenuAction sMultichoiceList_YesNo[] = {
     { gText_Yes },
     { gText_No }
@@ -623,6 +628,7 @@ static const struct MultichoiceListStruct sMultichoiceLists[] = {
     [MULTICHOICE_62]                                         = MULTICHOICE(sMultichoiceList_62),
     [MULTICHOICE_JOIN_OR_LEAD]                               = MULTICHOICE(sMultichoiceList_JoinOrLead),
     [MULTICHOICE_TRAINER_TOWER_MODE]                         = MULTICHOICE(sMultichoiceList_TrainerTowerMode),
+    [MULTICHOICE_FUCK_OFF]                                   = MULTICHOICE(sMultichoiceList_FuckOff),
 };
 
 // From Cool to Berries goes unused

@@ -440,6 +440,7 @@ const u8 gOtherText_Quit[] = _("QUIT");
 const u8 gText_SawIt[] = _("みました");
 const u8 gText_NotYet[] = _("これから");
 const u8 gText_Yes[] = _("YES");
+const u8 gText_FuckOff[] = _("FUCK OFF!");
 const u8 gText_No[] = _("NO");
 const u8 gText_Info4[] = _("せつめい");
 const u8 gText_SingleBattle[] = _("SINGLE BATTLE");
