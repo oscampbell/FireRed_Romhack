@@ -1,9 +1,9 @@
 PalletTown_ProfessorOaksLab_Text_RivalGrampsIsntAround::
     .string "{RIVAL}: What, it's only {PLAYER}?\n"
     .string "Ugh, I'm already annoyed.\p"
-    .string "Where's the Professor? I have a\n"
-    .string "salon to run! Or I did... before\l"
-    .string "everyone became redundant.$"
+    .string "Where's that mad old professor?\n"
+    .string "I have a salon to run! Or I did...\l"
+    .string "before everyone became redundant.$"
 
 PalletTown_ProfessorOaksLab_Text_RivalFedUpWithWaiting::
     .string "{RIVAL}: Professor!\n"
@@ -56,7 +56,7 @@ PalletTown_ProfessorOaksLab_Text_RivalGoToughenMyMon::
     .string "I'm off to fire some more staff!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalGramps::
-    .string "{RIVAL}: Gramps!$"
+    .string "{RIVAL}: Professor!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalWhatDidYouCallMeFor::
     .string "{RIVAL}: I almost forgot!\n"
@@ -70,7 +70,7 @@ PalletTown_ProfessorOaksLab_Text_RivalTellSisNotToGiveYouMap::
     .string "{PLAYER}, I hate to say it, but you\n"
     .string "won't be necessary for this.\p"
     .string "I know! I'll borrow a TOWN MAP\n"
-    .string "from my sis!\p"
+    .string "from that investigator, DAISY!\p"
     .string "I'll tell her not to lend you one,\n"
     .string "{PLAYER}! Hahaha!\p"
     .string "Consider yourself redundant!$"
@@ -317,7 +317,7 @@ PalletTown_ProfessorOaksLab_Text_OakSightingsOfRareMons::
 
 PalletTown_ProfessorOaksLab_Text_RivalJustLetMeHandleEverything::
     .string "{RIVAL}: Hey, I heard that!\p"
-    .string "Gramps, what's with favoring\n"
+    .string "Professor, what's with favoring\n"
     .string "{PLAYER} over me all the time?\p"
     .string "I went and collected more POKéMON,\n"
     .string "and faster, too.\p"
@@ -354,7 +354,7 @@ PalletTown_ProfessorOaksLab_Text_OakMustReallyWorkToFillPokedex::
     .string "undertaking in POKéMON history!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalIllCompleteThePokedex::
-    .string "{RIVAL}: Gramps, calm down.\n"
+    .string "{RIVAL}: Professor, calm down.\n"
     .string "Don't get so excited.\p"
     .string "I'll get the POKéDEX completed,\n"
     .string "don't you worry about a thing.\p"

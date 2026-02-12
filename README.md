@@ -6,6 +6,8 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 
 ## Core Story Changes
 *   **The Rival:** **STACEY** (Shukti's old boss). She's "very stupid" and makes lots of jokes about redundancies and poor business strategy. Her dialogue reflects her bossy persona and the closure of her hair salon.
+*   **The Professor:** **PROFESSOR TREE** (formerly Oak). Stacey is NOT related to him. She refers to him as "the mad old professor" and is frequently annoyed by his antics.
+*   **Daisy:** A **Business Practices Investigator** investigating Stacey for her shady business ethics at the hair salon. She operates out of what was formerly the Rival's house.
 *   **The Main Quest:** Team Rocket has stolen **Fig**, a special Shiny dog (Shiny Rockruff). NPCs in Mill Town and La-Vampire Town provide clues about her whereabouts.
 *   **The Reward:** Upon defeating the Rocket boss in Silph Co., Shukti rescues Fig from the President and gets to keep her!
 *   **Bowie (Pug):** A catchable wild "legendary" encounter in the Curl-ulean Gym. The Gym Leader, Bryony, has special dialogue if you catch or defeat him.
@@ -67,7 +69,9 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
     *   Custom Player Sprite (To look more like Shukti).
 
 ## Zones (Progress Tracker)
-### Mill Town
+### [x] Mill Town (Pallet Town)
+- [ ] Quality Control
+- [ ] Tested
 #### PalletTown
 **NPCs:**
 - **OBJ_EVENT_GFX_WOMAN_1** (Script: `PalletTown_EventScript_SignLady`)
