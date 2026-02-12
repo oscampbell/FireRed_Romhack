@@ -103,12 +103,8 @@ ViridianCity_Text_CitySign::
     .string "VIRID-LAN CITY \n"
     .string "The Eternally Green Paradise$"
 
-ViridianCity_Text_CatchMonsForEasierBattles::
-    .string "TRAINER TIPS\p"
-    .string "Catch POKéMON and expand your\n"
-    .string "collection.\p"
-    .string "The more you have, the easier it\n"
-    .string "is to battle.$"
+ViridianCity_Text_SchoolSign::
+    .string "VIRID-LAN BUSINESS SCHOOL$"
 
 ViridianCity_Text_MovesLimitedByPP::
     .string "TRAINER TIPS\p"

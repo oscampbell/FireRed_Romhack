@@ -21,6 +21,13 @@ ViridianCity_School_EventScript_Woman::
 	release
 	end
 
+ViridianCity_School_EventScript_Stacey::
+	lock
+	faceplayer
+	msgbox ViridianCity_School_Text_StaceyIntro
+	release
+	end
+
 ViridianCity_School_EventScript_Notebook::
 	lockall
 	msgbox ViridianCity_School_Text_NotebookFirstPage

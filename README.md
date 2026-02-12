@@ -15,6 +15,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 
 ## Completed Features
 *   **PokeASDA:** Every **POKéMON MART** and **POKéMART** has been globally renamed to **PokeASDA**.
+*   **Virid-LAN Business School:** The trainer school has been converted into a business school where **STACEY** is forced to take lessons on basic logic and tax avoidance by the Business Inspector.
 *   **Following Pokémon:** The first Pokémon in your party follows you!
 *   **Forced Identity:** Name is forced to **SHUKTI**, Gender is forced to **Female**. Intro selection screens are skipped.
 *   **Custom Starters:** Morpeko, Eevee, and Alolan Raichu (all with heavily buffed "Ultra" base stats).
@@ -80,7 +81,9 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 - [ ] Quality Control
 - [ ] Tested
 ---
-### Virid-LAN City
+### [ ] Virid-LAN City
+- [ ] Quality Control
+- [ ] Tested
 #### ViridianCity
 **NPCs:**
 - **OBJ_EVENT_GFX_FAT_MAN** (Script: `ViridianCity_EventScript_DreamEaterTutor`)
@@ -115,27 +118,10 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
   - Text (ViridianCity_Text_GymDoorsAreLocked): *"VIRIDIAN GYM's doors are locked…$"*
 #### ViridianCity_Gym
 **NPCs:**
-- **OBJ_EVENT_GFX_BLACKBELT** (Script: `ViridianCity_Gym_EventScript_Takashi`)
-  - Dialogue (ViridianCity_Gym_Text_TakashiPostBattle): *"The POKéMON LEAGUE?  You? Don't get cocky!$"*
-- **OBJ_EVENT_GFX_COOLTRAINER_M** (Script: `ViridianCity_Gym_EventScript_Yuji`)
-  - Dialogue (ViridianCity_Gym_Text_YujiPostBattle): *"You'll need power to keep up with  our GYM LEADER.$"*
-- **OBJ_EVENT_GFX_BLACKBELT** (Script: `ViridianCity_Gym_EventScript_Atsushi`)
-  - Dialogue (ViridianCity_Gym_Text_AtsushiPostBattle): *"I'm still not worthy!$"*
-- **OBJ_EVENT_GFX_MAN** (Script: `ViridianCity_Gym_EventScript_Jason`)
-  - Dialogue (ViridianCity_Gym_Text_JasonPostBattle): *"Do you know the identity of our  GYM LEADER?$"*
-- **OBJ_EVENT_GFX_MAN** (Script: `ViridianCity_Gym_EventScript_Cole`)
-  - Dialogue (ViridianCity_Gym_Text_ColePostBattle): *"Wait!  I was just careless!$"*
-- **OBJ_EVENT_GFX_BLACKBELT** (Script: `ViridianCity_Gym_EventScript_Kiyo`)
-  - Dialogue (ViridianCity_Gym_Text_KiyoPostBattle): *"If my POKéMON were as good at  karate as I…$"*
-- **OBJ_EVENT_GFX_COOLTRAINER_M** (Script: `ViridianCity_Gym_EventScript_Samuel`)
-  - Dialogue (ViridianCity_Gym_Text_SamuelPostBattle): *"You can go on to the POKéMON  LEAGUE only by defeating our GYM\l LEADER!$"*
-- **OBJ_EVENT_GFX_GIOVANNI** (Script: `ViridianCity_Gym_EventScript_Giovanni`)
-  - Dialogue (ViridianCity_Gym_Text_GiovanniPostBattle): *"Having lost in this fashion,   I can't face my followers.\l I have betrayed their trust.  As of today, TEAM ROCKET is  finished forever!  As for myself, I shall dedicate  my life to training again.  Let us meet again someday!  Farewell!$"*
-  - Dialogue (fadescreen): *"(Global/External Text: fadescreen)"*
-- **OBJ_EVENT_GFX_COOLTRAINER_M** (Script: `ViridianCity_Gym_EventScript_Warren`)
-  - Dialogue (ViridianCity_Gym_Text_WarrenPostBattle): *"The LEADER will scold me for  losing this way…$"*
-- **OBJ_EVENT_GFX_BLUE** (Script: `ViridianCity_Gym_EventScript_GymGuy`)
-  - Dialogue (ViridianCity_Gym_Text_OllieIntro): *"OLLIE: Hey SHUKTI! The final badge.  You've come so far. I'm so proud.  I've got a final gift for you.  Five tokens of my love.$"*
+- **OBJ_EVENT_GFX_LORELEI** (Script: `ViridianCity_Gym_EventScript_Zaynab`)
+  - Dialogue: ZAYNAB intro about kicking Giovanni out.
+- **OBJ_EVENT_GFX_RS_MAY** (Script: `ViridianCity_Gym_EventScript_Aliyah`)
+  - Dialogue: ALIYAH intro about teamwork.
 **Interactables / Signs:**
 - **Sign** (Script: `ViridianCity_Gym_EventScript_GymStatue`)
   - Text (ViridianCity_Gym_Text_GymStatue): *"VIRIDIAN POKéMON GYM  LEADER: ?  WINNING TRAINERS:  {RIVAL}$"*
@@ -187,29 +173,16 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 #### ViridianCity_School
 **NPCs:**
 - **OBJ_EVENT_GFX_WOMAN_2** (Script: `ViridianCity_School_EventScript_Woman`)
-  - Dialogue (ViridianCity_School_Text_ReadBlackboardCarefully): *"Okay!  Be sure to read what's on the  blackboard carefully!$"*
-  - Dialogue (applymovement): *"(Global/External Text: applymovement)"*
+  - Dialogue (ViridianCity_School_Text_ReadBlackboardCarefully): *"Be sure to read the board carefully! Some students here... like STACEY... really struggle with basic logic."*
 - **OBJ_EVENT_GFX_LASS** (Script: `ViridianCity_School_EventScript_Lass`)
-  - Dialogue (ViridianCity_School_Text_TryingToMemorizeNotes): *"Whew! I'm trying to memorize all my  notes.$"*
-  - Dialogue (applymovement): *"(Global/External Text: applymovement)"*
+  - Dialogue (ViridianCity_School_Text_TryingToMemorizeNotes): *"Whew! I'm trying to memorize all these tax avoidance strategies."*
+- **OBJ_EVENT_GFX_BLUE** (Script: `ViridianCity_School_EventScript_Stacey`)
+  - Dialogue (ViridianCity_School_Text_StaceyIntro): *"STACEY: Ugh, {PLAYER}!? Don't look at me! That mean investigator DAISY sent me here to 're-educate' me... Redundancies are a perfectly valid strategy!"*
 **Interactables / Signs:**
 - **Sign** (Script: `ViridianCity_School_EventScript_Notebook`)
-  - Text (ViridianCity_School_Text_NotebookFirstPage): *"Let's check out the notebook.  First page…  POKé BALLS are used to catch  POKéMON.  Up to six POKéMON can be carried  in your party.  People who raise and battle  with POKéMON are called TRAINERS.$"*
-  - Text (ViridianCity_School_Text_TurnThePage): *"Turn the page?$"*
-  - Text (ViridianCity_School_Text_NotebookSecondPage): *"Second page…  A healthy POKéMON may be hard to  catch, so weaken it first.  Poison, burn, or cause another  status problem to weaken it.$"*
-  - Text (ViridianCity_School_Text_TurnThePage): *"Turn the page?$"*
-  - Text (ViridianCity_School_Text_NotebookThirdPage): *"Third page…  POKéMON TRAINERS seek others to  engage in POKéMON battles.  To TRAINERS, the taste of victory  is sweet, indeed.  Battles are constantly waged at  POKéMON GYMS everywhere.$"*
-  - Text (ViridianCity_School_Text_TurnThePage): *"Turn the page?$"*
-  - Text (ViridianCity_School_Text_NotebookFourthPage): *"Fourth page…  The ultimate goal for all POKéMON  TRAINERS is simple.  It is to defeat the top eight  POKéMON GYM LEADERS.  Do so to earn the right to face…  The ELITE FOUR of the POKéMON  LEAGUE!$"*
-  - Text (ViridianCity_School_Text_HeyDontLookAtMyNotes): *"GIRL: Hey!  Don't look at my notes!$"*
+  - Text: Business ledger with notes on revenue, profit, offshore accounts, and hostile takeovers.
 - **Sign** (Script: `ViridianCity_School_EventScript_Blackboard`)
-  - Text (ViridianCity_School_Text_BlackboardListsStatusProblems): *"The blackboard lists POKéMON  STATUS problems during battles.$"*
-- **Sign** (Script: `ViridianCity_School_EventScript_Blackboard`)
-  - Text (ViridianCity_School_Text_BlackboardListsStatusProblems): *"The blackboard lists POKéMON  STATUS problems during battles.$"*
-- **Sign** (Script: `ViridianCity_School_EventScript_PokemonJournal`)
-  - Text: *(No local text calls found in script)*
-- **Sign** (Script: `ViridianCity_School_EventScript_PokemonJournal`)
-  - Text: *(No local text calls found in script)*
+  - Text: Blackboard listing business concepts and "students who struggle with basic logic".
 
 ---
 ### Route 2

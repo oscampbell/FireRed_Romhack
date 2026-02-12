@@ -1,47 +1,52 @@
 ViridianCity_School_Text_TryingToMemorizeNotes::
-    .string "Whew! I'm trying to memorize all my\n"
-    .string "notes.$"
+    .string "Whew! I'm trying to memorize all these\n"
+    .string "tax avoidance strategies.$"
 
 ViridianCity_School_Text_ReadBlackboardCarefully::
     .string "Okay!\p"
-    .string "Be sure to read what's on the\n"
-    .string "blackboard carefully!$"
+    .string "Be sure to read the board carefully!\n"
+    .string "Some students here... like STACEY...\l"
+    .string "really struggle with basic logic.$"
+
+ViridianCity_School_Text_StaceyIntro::
+    .string "STACEY: Ugh, {PLAYER}!?\n"
+    .string "Don't look at me!\p"
+    .string "That mean investigator DAISY sent\n"
+    .string "me here to 're-educate' me on\l"
+    .string "proper business practices.\p"
+    .string "As if I don't know how to run a\n"
+    .string "salon! Redundancies are a perfectly\l"
+    .string "valid strategy!$"
 
 ViridianCity_School_Text_NotebookFirstPage::
-    .string "Let's check out the notebook.\p"
+    .string "It's a business ledger.\p"
     .string "First page…\p"
-    .string "POKé BALLS are used to catch\n"
-    .string "POKéMON.\p"
-    .string "Up to six POKéMON can be carried\n"
-    .string "in your party.\p"
-    .string "People who raise and battle\n"
-    .string "with POKéMON are called TRAINERS.$"
+    .string "Revenue - Expenses = Profit.\p"
+    .string "If Profit < 0, fire everyone and\n"
+    .string "call it 'strategic restructuring'.$"
 
 ViridianCity_School_Text_NotebookSecondPage::
     .string "Second page…\p"
-    .string "A healthy POKéMON may be hard to\n"
-    .string "catch, so weaken it first.\p"
-    .string "Poison, burn, or cause another\n"
-    .string "status problem to weaken it.$"
+    .string "A healthy business avoids taxes.\n"
+    .string "Use offshore accounts to weaken\l"
+    .string "the tax man's resolve.$"
 
 ViridianCity_School_Text_NotebookThirdPage::
     .string "Third page…\p"
-    .string "POKéMON TRAINERS seek others to\n"
-    .string "engage in POKéMON battles.\p"
-    .string "To TRAINERS, the taste of victory\n"
-    .string "is sweet, indeed.\p"
-    .string "Battles are constantly waged at\n"
-    .string "POKéMON GYMS everywhere.$"
+    .string "Business owners seek others to\n"
+    .string "engage in hostile takeovers.\p"
+    .string "To CEOs, the taste of a monopoly\n"
+    .string "is sweet, indeed.$"
 
 ViridianCity_School_Text_NotebookFourthPage::
     .string "Fourth page…\p"
-    .string "The ultimate goal for all POKéMON\n"
-    .string "TRAINERS is simple.\p"
+    .string "The ultimate goal for all business\n"
+    .string "owners is simple.\p"
     .string "It is to defeat the top eight\n"
-    .string "POKéMON GYM LEADERS.\p"
+    .string "regulatory bodies.\p"
     .string "Do so to earn the right to face…\p"
-    .string "The ELITE FOUR of the POKéMON\n"
-    .string "LEAGUE!$"
+    .string "The SUPREME COURT of the\n"
+    .string "PokeASDA LEAGUE!$"
 
 ViridianCity_School_Text_TurnThePage::
     .string "Turn the page?$"
