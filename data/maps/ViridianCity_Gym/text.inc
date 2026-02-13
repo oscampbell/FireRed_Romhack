@@ -73,7 +73,7 @@ ViridianCity_Gym_Text_OllieAdvice::
 
 ViridianCity_Gym_Text_OlliePostVictory::
     .string "OLLIE: Blow me away! You beat them!\p"
-    .string "It's time, SHUKTI. Head to IN-DYE-GO PLATEAU.\n"
+    .string "It's time, SHUKTI. Head to LIBERTINE PLATEAU.\n"
     .string "I'll be there, waiting for our\l"
     .string "final date.$"
 
@@ -82,13 +82,13 @@ ViridianCity_Gym_Text_NoRoomForGift::
     .string "I'll hold onto these for you.$"
 
 ViridianCity_Gym_Text_GymStatue::
-    .string "VIRID-LAN CITY POKéMON GYM\n"
+    .string "ADRENALINE CITY POKéMON GYM\n"
     .string "LEADERS: ZAYNAB & ALIYAH\p"
     .string "WINNING TRAINERS:\n"
     .string "{RIVAL}$"
 
 ViridianCity_Gym_Text_GymStatuePlayerWon::
-    .string "VIRID-LAN CITY POKéMON GYM\n"
+    .string "ADRENALINE CITY POKéMON GYM\n"
     .string "LEADERS: ZAYNAB & ALIYAH\p"
     .string "WINNING TRAINERS:\n"
     .string "{RIVAL}, {PLAYER}$"

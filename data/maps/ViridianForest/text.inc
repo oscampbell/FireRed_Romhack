@@ -101,5 +101,5 @@ ViridianForest_Text_WeakenMonsBeforeCapture::
 
 ViridianForest_Text_LeavingViridianForest::
     .string "LEAVING VIRIDIAN FOREST\n"
-    .string "PERM-TER CITY AHEAD$"
+    .string "PAVEMENT CITY AHEAD$"
 

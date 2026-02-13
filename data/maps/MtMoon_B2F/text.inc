@@ -16,7 +16,7 @@ MtMoon_B2F_Text_ThenThisFossilIsMine::
     .string "Then this fossil is mine!$"
 
 MtMoon_B2F_Text_LabOnCinnabarRegeneratesFossils::
-    .string "Far away, on CINNA-BELLA ISLAND,\n"
+    .string "Far away, on DIABLO ISLAND,\n"
     .string "there's a POKéMON LAB.\p"
     .string "They do research on regenerating\n"
     .string "fossils.$"

@@ -36,7 +36,7 @@ PewterCity_Gym_Text_BrockPostBattle::
     .string "you as a TRAINER.\p"
     .string "Keep believing in yourself and\n"
     .string "your POKéMON!\p"
-    .string "Why don't you head to CURL-ULEAN CITY\n"
+    .string "Why don't you head to POOLSIDE CITY\n"
     .string "next? BRYONY will be happy to\l"
     .string "see you!$"
 
@@ -84,13 +84,13 @@ PewterCity_Gym_Text_NoRoomForGift::
     .string "I'll hold onto this for you.$"
 
 PewterCity_Gym_Text_GymStatue::
-    .string "PERM-TER CITY POKéMON GYM\n"
+    .string "PAVEMENT CITY POKéMON GYM\n"
     .string "LEADER: FARIS\p"
     .string "WINNING TRAINERS:\n"
     .string "{RIVAL}$"
 
 PewterCity_Gym_Text_GymStatuePlayerWon::
-    .string "PERM-TER CITY POKéMON GYM\n"
+    .string "PAVEMENT CITY POKéMON GYM\n"
     .string "LEADER: FARIS\p"
     .string "WINNING TRAINERS:\n"
     .string "{RIVAL}, {PLAYER}$"

@@ -32,7 +32,7 @@ Route18_Text_JacobPostBattle::
 
 Route18_Text_RouteSign::
     .string "ROUTE 18\n"
-    .string "SAL-ON CITY - FO-SHEAR-IA$"
+    .string "EMPIRE CITY - HUSTLER CITY$"
 
 Route18_Text_CyclingRoadSign::
     .string "CYCLING ROAD\n"

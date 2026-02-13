@@ -79,5 +79,5 @@ RockTunnel_1F_Text_ArianaPostBattle::
 
 RockTunnel_1F_Text_RouteSign::
     .string "ROCK TUNNEL\n"
-    .string "CURL-ULEAN CITY - LA-VAMPIRE TOWN$"
+    .string "POOLSIDE CITY - MASQUERADE TOWN$"
 

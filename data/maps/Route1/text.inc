@@ -3,7 +3,7 @@ Route1_Text_WorkAtPokeMartTakeSample::
     .string "I work at a PokeASDA.\p"
     .string "It's part of a convenient chain\n"
     .string "selling all sorts of items.\p"
-    .string "Please, visit us in VIRID-LAN CITY.\p"
+    .string "Please, visit us in ADRENALINE CITY.\p"
     .string "I know, I'll give you a sample.\n"
     .string "Here you go!$"
 
@@ -19,10 +19,10 @@ Route1_Text_CanJumpFromLedges::
     .string "See those ledges along the road?\p"
     .string "It's a bit scary, but you can jump\n"
     .string "from them.\p"
-    .string "You can get back to MILL TOWN\n"
+    .string "You can get back to CLEAR TOWN\n"
     .string "quicker that way.$"
 
 Route1_Text_RouteSign::
     .string "ROUTE 1\n"
-    .string "MILL TOWN - VIRID-LAN CITY$"
+    .string "CLEAR TOWN - ADRENALINE CITY$"
 

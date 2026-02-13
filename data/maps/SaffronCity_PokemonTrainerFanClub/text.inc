@@ -68,7 +68,7 @@ SaffronCity_PokemonTrainerFanClub_Text_YouveStillAWaysToGo::
 
 SaffronCity_PokemonTrainerFanClub_Text_YoullBeTalkedAboutIfYouKeepWinning::
     .string "We're the biggest fan club in\n"
-    .string "SAFFRON-SWAN CITY!$"
+    .string "STARRIDER CITY!$"
 
 SaffronCity_PokemonTrainerFanClub_Text_WantToBeLikeYouOneDay::
     .string "I want to be a vampire!$"

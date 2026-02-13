@@ -270,7 +270,7 @@ PalletTown_ProfessorOaksLab_Text_EmailMessage::
     .string "Bring your best POKéMON and see\n"
     .string "how you rate as a TRAINER!\p"
     .string "POKéMON LEAGUE HQ\n"
-    .string "IN-DYE-GO PLATEAU\p"
+    .string "LIBERTINE PLATEAU\p"
     .string "PROF. TREE, please visit us!\n"
     .string "…$"
 

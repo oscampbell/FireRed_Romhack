@@ -9122,7 +9122,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 === TRAINER_CHAMPION_FIRST_SQUIRTLE ===
 Name: OLLIE
 Class: Champion
-Pic: Steven
+Pic: Champion Steven
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore / Full Restore
@@ -9181,7 +9181,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 === TRAINER_CHAMPION_FIRST_BULBASAUR ===
 Name: OLLIE
 Class: Champion
-Pic: Steven
+Pic: Champion Steven
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore / Full Restore
@@ -9240,7 +9240,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 === TRAINER_CHAMPION_FIRST_CHARMANDER ===
 Name: OLLIE
 Class: Champion
-Pic: Steven
+Pic: Champion Steven
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore / Full Restore
@@ -15178,7 +15178,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 === TRAINER_CHAMPION_REMATCH_SQUIRTLE ===
 Name: OLLIE
 Class: Champion
-Pic: Steven
+Pic: Champion Steven
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore / Full Restore
@@ -15237,7 +15237,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 === TRAINER_CHAMPION_REMATCH_BULBASAUR ===
 Name: OLLIE
 Class: Champion
-Pic: Steven
+Pic: Champion Steven
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore / Full Restore
@@ -15296,7 +15296,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 === TRAINER_CHAMPION_REMATCH_CHARMANDER ===
 Name: OLLIE
 Class: Champion
-Pic: Steven
+Pic: Champion Steven
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore / Full Restore

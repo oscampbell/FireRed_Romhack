@@ -40,7 +40,7 @@ CeruleanCity_Gym_Text_DianaPostBattle::
 
 CeruleanCity_Gym_Text_LuisPostBattle::
     .string "BRYONY and BOWIE are a legendary\n"
-    .string "duo here in CURL-ULEAN CITY!$"
+    .string "duo here in POOLSIDE CITY!$"
 
 CeruleanCity_Gym_Text_OllieIntro::
     .string "OLLIE: You look amazing today,\n"
@@ -70,13 +70,13 @@ CeruleanCity_Gym_Text_NoRoomForGift::
     .string "I'll hold onto this for you.$"
 
 CeruleanCity_Gym_Text_GymStatue::
-    .string "CURL-ULEAN CITY POKéMON GYM\n"
+    .string "POOLSIDE CITY POKéMON GYM\n"
     .string "LEADER: BRYONY\p"
     .string "WINNING TRAINERS:\n"
     .string "{RIVAL}$"
 
 CeruleanCity_Gym_Text_GymStatuePlayerWon::
-    .string "CURL-ULEAN CITY POKéMON GYM\n"
+    .string "POOLSIDE CITY POKéMON GYM\n"
     .string "LEADER: BRYONY\p"
     .string "WINNING TRAINERS:\n"
     .string "{RIVAL}, {PLAYER}$"

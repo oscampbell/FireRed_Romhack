@@ -76,7 +76,7 @@ Route16_Text_CyclingRoadSign::
 
 Route16_Text_RouteSign::
     .string "ROUTE 16\n"
-    .string "SAL-ON CITY - FO-SHEAR-IA$"
+    .string "EMPIRE CITY - HUSTLER CITY$"
 
 Route16_Text_JedIntro::
     .string "JED: Our love knows no bounds.\n"

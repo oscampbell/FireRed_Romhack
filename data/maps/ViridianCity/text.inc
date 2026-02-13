@@ -33,7 +33,7 @@ ViridianCity_Text_GrandpaHasntHadCoffeeYet::
     .string "he's had his third espresso.$"
 
 ViridianCity_Text_GoShoppingInPewterOccasionally::
-    .string "I go shopping in PERM-TER CITY\n"
+    .string "I go shopping in PAVEMENT CITY\n"
     .string "occasionally.\p"
     .string "I have to take the winding trail in\n"
     .string "VIRIDIAN FOREST when I go.$"
@@ -98,7 +98,7 @@ ViridianCity_Text_TooBusyForTeachyTV::
     .string "be ill spent…$"
 
 ViridianCity_Text_CitySign::
-    .string "VIRID-LAN CITY \n"
+    .string "ADRENALINE CITY \n"
     .string "The Eternally Green Paradise$"
 
 ViridianCity_Text_SchoolSign::
@@ -112,7 +112,7 @@ ViridianCity_Text_MovesLimitedByPP::
     .string "POKéMON at a POKéMON CENTER.$"
 
 ViridianCity_Text_GymSign::
-    .string "VIRID-LAN CITY POKéMON GYM$"
+    .string "ADRENALINE CITY POKéMON GYM$"
 
 ViridianCity_Text_GymDoorsAreLocked::
     .string "VIRIDIAN GYM's doors are locked…$"

@@ -102,5 +102,5 @@ Route9_Text_ConnerPostBattle::
 
 Route9_Text_RouteSign::
     .string "ROUTE 9\n"
-    .string "CURL-ULEAN CITY - ROCK TUNNEL$"
+    .string "POOLSIDE CITY - ROCK TUNNEL$"
 

@@ -106,7 +106,7 @@ Route8_Text_JuliaPostBattle::
 
 Route8_Text_UndergroundPathSign::
     .string "UNDERGROUND PATH\n"
-    .string "SAL-ON CITY - LA-VAMPIRE TOWN$"
+    .string "EMPIRE CITY - MASQUERADE TOWN$"
 
 Route8_Text_EliIntro::
     .string "ELI: Twin power is fantastic.\n"

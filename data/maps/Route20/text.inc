@@ -84,7 +84,7 @@ Route20_Text_NoraPostBattle::
     .string "CLOYSTER?$"
 
 Route20_Text_MissyIntro::
-    .string "I swam here from CINNA-BELLA ISLAND.\n"
+    .string "I swam here from DIABLO ISLAND.\n"
     .string "It wasn't easy, I tell you.$"
 
 Route20_Text_MissyDefeat::

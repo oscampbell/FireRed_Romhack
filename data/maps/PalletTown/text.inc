@@ -30,7 +30,7 @@ PalletTown_Text_RivalsHouse::
     .string "{RIVAL}'s house$"
 
 PalletTown_Text_TownSign::
-    .string "MILL TOWN\n"
+    .string "CLEAR TOWN\n"
     .string "Shades of your journey await!$"
 
 PalletTown_Text_OakLetMeSeePokedex::
@@ -75,7 +75,7 @@ PalletTown_Text_Zaynab::
 
 PalletTown_Text_Aliyah::
     .string "ALIYAH: I saw those ROCKET thugs\n"
-    .string "running towards VIRID-LAN CITY with a\l"
+    .string "running towards ADRENALINE CITY with a\l"
     .string "shiny dog in a cage!\p"
     .string "They were in such a rush to kidnap\n"
     .string "FIG that they dropped all those\l"

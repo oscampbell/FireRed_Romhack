@@ -21,10 +21,10 @@ LavenderTown_Text_GhostsAppearedInTower::
     .string "I heard TEAM ROCKET is holding a\n"
     .string "dog named FIG up there!\p"
     .string "They're probably planning to take\n"
-    .string "her to their boss in SAFFRON-SWAN CITY.$"
+    .string "her to their boss in STARRIDER CITY.$"
 
 LavenderTown_Text_TownSign::
-    .string "LA-VAMPIRE TOWN\n"
+    .string "MASQUERADE TOWN\n"
     .string "The Noble Purple Town$"
 
 LavenderTown_Text_SilphScopeNotice::
@@ -44,7 +44,7 @@ LavenderTown_Text_EdwardFan::
 LavenderTown_Text_JacobFan::
     .string "Vampires? Pfft.\n"
     .string "Werewolves are way cooler.\p"
-    .string "I'm heading to CINNA-BELLA ISLAND\n"
+    .string "I'm heading to DIABLO ISLAND\n"
     .string "to find more Team Jacob fans!$"
 
 LavenderTown_Text_PokemonTowerSign::

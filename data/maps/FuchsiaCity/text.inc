@@ -20,7 +20,7 @@ FuchsiaCity_Text_ItemBallInThere::
     .string "…Huh? That's a POKéMON?$"
 
 FuchsiaCity_Text_CitySign::
-    .string "FO-SHEAR-IA\n"
+    .string "HUSTLER CITY\n"
     .string "Behold! It's Passion Pink!$"
 
 FuchsiaCity_Text_SafariZoneSign::
@@ -41,7 +41,7 @@ FuchsiaCity_Text_SafariZoneOfficeSign::
     .string "SAFARI ZONE OFFICE$"
 
 FuchsiaCity_Text_GymSign::
-    .string "FO-SHEAR-IA POKéMON GYM\n"
+    .string "HUSTLER CITY POKéMON GYM\n"
     .string "LEADER: KOGA\l"
     .string "The Poisonous Ninja Master$"
 

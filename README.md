@@ -54,18 +54,18 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
     *   **ITEMS:** Bicycle, Fly (HM02), Max Repels, Running Shoes.
     *   **FLAGS:** Unlock Pokedex, Badges 1-8, Fly locations, and post-game flags.
     *   **WARP:** Teleport to any City, Town, or League location.
-*   **Town Renames (Puns & References):**
-    *   Pallet Town -> **Mill Town**
-    *   Viridian City -> **Virid-LAN City** (Networking)
-    *   Pewter City -> **Perm-ter City** (Hair)
-    *   Cerulean City -> **Curl-ulean City** (Hair)
-    *   Lavender Town -> **La-Vampire Town** (Twilight)
-    *   Vermilion City -> **Ver-Mullet-on** (Hair)
-    *   Celadon City -> **Sal-on City** (Hair)
-    *   Fuchsia City -> **Fo-Shear-ia City** (Hair)
-    *   Cinnabar Island -> **Cinna-Bella Island** (Twilight)
-    *   Saffron City -> **Saffron-Swan City** (Twilight)
-    *   Indigo Plateau -> **In-Dye-Go Plateau** (Hair)
+*   **Town Renames (Danger Jones Professional Color Palette):**
+    *   Pallet Town -> **Clear Town** (Diluter/Shine)
+    *   Viridian City -> **Adrenaline City** (Neon Green)
+    *   Pewter City -> **Pavement City** (Grey)
+    *   Cerulean City -> **Poolside City** (Light Blue)
+    *   Lavender Town -> **Masquerade Town** (True Purple)
+    *   Vermilion City -> **Burnout City** (Orange)
+    *   Celadon City -> **Empire City** (Green)
+    *   Fuchsia City -> **Hustler City** (Pink)
+    *   Cinnabar Island -> **Diablo Island** (Red)
+    *   Saffron City -> **Starrider City** (Yellow)
+    *   Indigo Plateau -> **Libertine Plateau** (Violet)
 *   **New NPCs:** Zaynab and Aliyah added to Mill Town with custom dialogue about Fig.
 *   **Gym Leader Overhaul:**
     *   Perm-ter City (Brock): **FARIS** (Bird Team: Pidgey, Hoothoot, Spearow, Pidgeotto). He refers to SHUKTI as "Auntie" and is obsessed with his hair, birds, and creme eggs.
