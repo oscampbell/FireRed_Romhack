@@ -571,9 +571,34 @@ static const struct MenuAction sMultichoiceList_DebugMenu[] = {
 };
 
 static const struct MenuAction sMultichoiceList_DebugWarp[] = {
+    { gText_Debug_Cities1 },
+    { gText_Debug_Cities2 },
+    { gText_Exit }
+};
+
+static const struct MenuAction sMultichoiceList_DebugWarpCities1[] = {
     { gText_Debug_MillTown },
-    { gText_Debug_PermTer },
+    { gText_Debug_Viridian },
+    { gText_Debug_Pewter },
+    { gText_Debug_Cerulean },
+    { gText_Debug_Vermilion },
+    { gText_Debug_Lavender },
+    { gText_Exit }
+};
+
+static const struct MenuAction sMultichoiceList_DebugWarpCities2[] = {
+    { gText_Debug_Celadon },
+    { gText_Debug_Fuchsia },
+    { gText_Debug_Saffron },
+    { gText_Debug_Cinnabar },
     { gText_Debug_Plateau },
+    { gText_Exit }
+};
+
+static const struct MenuAction sMultichoiceList_DebugFlags[] = {
+    { gText_Debug_Pokedex },
+    { gText_Debug_Badges },
+    { gText_Debug_Fly },
     { gText_Exit }
 };
 
@@ -646,6 +671,9 @@ static const struct MultichoiceListStruct sMultichoiceLists[] = {
     [MULTICHOICE_FUCK_OFF]                                   = MULTICHOICE(sMultichoiceList_FuckOff),
     [MULTICHOICE_DEBUG_MENU]                                 = MULTICHOICE(sMultichoiceList_DebugMenu),
     [MULTICHOICE_DEBUG_WARP]                                 = MULTICHOICE(sMultichoiceList_DebugWarp),
+    [MULTICHOICE_DEBUG_WARP_CITIES_1]                        = MULTICHOICE(sMultichoiceList_DebugWarpCities1),
+    [MULTICHOICE_DEBUG_WARP_CITIES_2]                        = MULTICHOICE(sMultichoiceList_DebugWarpCities2),
+    [MULTICHOICE_DEBUG_FLAGS]                                = MULTICHOICE(sMultichoiceList_DebugFlags),
 };
 
 // From Cool to Berries goes unused

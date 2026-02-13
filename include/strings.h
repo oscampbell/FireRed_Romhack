@@ -1148,7 +1148,21 @@ extern const u8 gText_Debug_Warp[];
 extern const u8 gText_Debug_MillTown[];
 extern const u8 gText_Debug_PermTer[];
 extern const u8 gText_Debug_Plateau[];
+extern const u8 gText_Debug_Viridian[];
+extern const u8 gText_Debug_Pewter[];
+extern const u8 gText_Debug_Cerulean[];
+extern const u8 gText_Debug_Vermilion[];
+extern const u8 gText_Debug_Lavender[];
+extern const u8 gText_Debug_Celadon[];
+extern const u8 gText_Debug_Fuchsia[];
+extern const u8 gText_Debug_Saffron[];
+extern const u8 gText_Debug_Cinnabar[];
+extern const u8 gText_Debug_Badges[];
+extern const u8 gText_Debug_Fly[];
+extern const u8 gText_Debug_Pokedex[];
 
+extern const u8 gText_Debug_Cities1[];
+extern const u8 gText_Debug_Cities2[];
 // wireless_communication_status_screen
 extern const u8 gText_Dynamic0Players[];
 extern const u8 gText_Dynamic1Players[];

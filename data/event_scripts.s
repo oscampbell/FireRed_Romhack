@@ -814,7 +814,6 @@ gStdScriptsEnd::
 	.include "data/scripts/trainer_battle.inc"
 
 	.include "data/scripts/config.inc"
-	.include "data/scripts/debug.inc"
 
 @ Unused
 Text_WouldYouLikeToMixRecords::
@@ -1369,3 +1368,5 @@ Text_TestMsg::
 	.include "data/text/pokedude.inc"
 	.include "data/scripts/follower.inc"
 	.include "data/scripts/dexnav.inc"
+        .include "data/scripts/debug.inc"
+        .include "data/scripts/new_debug.inc"

@@ -48,6 +48,11 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 *   **Starting Money:** Starting money has been increased to **¥35,000**.
 *   **Poryscript Support:** Poryscript is installed and integrated into the `Makefile`. `.pory` files in map directories will automatically compile to `.inc` upon building. For example, `data/maps/MillTown/scripts.pory` will compile to `data/maps/MillTown/scripts.inc`.
 *   **Evolution Items:** Added **Fire, Water, Thunder, Leaf, Ice, Sun, Moon, Shiny, Dusk, and Dawn Stones** as pickup items scattered around Mill Town to allow early evolution for Eevee.
+*   **Debug NPC (The Pro's Choice):** A Mew sprite located in the **Player's Bedroom** and **every Pokémon Center**.
+    *   **GIVEMON:** Level 100 Mew.
+    *   **ITEMS:** Bicycle, Fly (HM02), Max Repels, Running Shoes.
+    *   **FLAGS:** Unlock Pokedex, Badges 1-8, Fly locations, and post-game flags.
+    *   **WARP:** Teleport to any City, Town, or League location.
 *   **Town Renames (Puns & References):**
     *   Pallet Town -> **Mill Town**
     *   Viridian City -> **Virid-LAN City** (Networking)

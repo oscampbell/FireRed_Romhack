@@ -1,0 +1,77 @@
+script EventScript_DebugNPC {
+    lock
+    faceplayer
+    msgbox("Debug menu")
+    multichoice(0, 0, MULTICHOICE_DEBUG_MENU, FALSE)
+    switch(var(VAR_RESULT)) {
+        case 0: // GIVEMON
+            givemon(SPECIES_MEW, 100, ITEM_NONE)
+            msgbox("Given a Level 100 MEW.")
+        case 1: // ITEMS
+            giveitem(ITEM_BICYCLE)
+            giveitem(ITEM_MAX_REPEL, 99)
+            giveitem(ITEM_HM02) // Fly
+            setflag(FLAG_SYS_B_DASH)
+            msgbox("Given BICYCLE, HM02, 99 MAX REPEL,
+and RUNNING SHOES.")
+        case 2: // FLAGS
+            multichoice(0, 0, MULTICHOICE_DEBUG_FLAGS, FALSE)
+            switch(var(VAR_RESULT)) {
+                case 0: // POKEDEX
+                    setflag(FLAG_SYS_POKEMON_GET)
+                    setflag(FLAG_SYS_POKEDEX_GET)
+                    setflag(FLAG_WORLD_MAP_PALLET_TOWN)
+                    setvar(VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 6)
+                    msgbox("Pokedex/Menu flags set.")
+                case 1: // BADGES
+                    setflag(FLAG_BADGE01_GET)
+                    setflag(FLAG_BADGE02_GET)
+                    setflag(FLAG_BADGE03_GET)
+                    setflag(FLAG_BADGE04_GET)
+                    setflag(FLAG_BADGE05_GET)
+                    setflag(FLAG_BADGE06_GET)
+                    setflag(FLAG_BADGE07_GET)
+                    setflag(FLAG_BADGE08_GET)
+                    msgbox("All badges obtained.")
+                case 2: // FLY
+                    setflag(FLAG_BADGE03_GET) // Thunder Badge allows Fly
+                    setflag(FLAG_WORLD_MAP_PALLET_TOWN)
+                    setflag(FLAG_WORLD_MAP_VIRIDIAN_CITY)
+                    setflag(FLAG_WORLD_MAP_PEWTER_CITY)
+                    setflag(FLAG_WORLD_MAP_CERULEAN_CITY)
+                    setflag(FLAG_WORLD_MAP_VERMILION_CITY)
+                    setflag(FLAG_WORLD_MAP_LAVENDER_TOWN)
+                    setflag(FLAG_WORLD_MAP_CELADON_CITY)
+                    setflag(FLAG_WORLD_MAP_FUCHSIA_CITY)
+                    setflag(FLAG_WORLD_MAP_SAFFRON_CITY)
+                    setflag(FLAG_WORLD_MAP_CINNABAR_ISLAND)
+                    setflag(FLAG_WORLD_MAP_INDIGO_PLATEAU_EXTERIOR)
+                    giveitem(ITEM_HM02)
+                    msgbox("Fly unlocked and locations visited.")
+            }
+        case 3: // WARP
+            multichoice(0, 0, MULTICHOICE_DEBUG_WARP, FALSE)
+            switch(var(VAR_RESULT)) {
+                case 0: // CITIES 1
+                    multichoice(0, 0, MULTICHOICE_DEBUG_WARP_CITIES_1, FALSE)
+                    switch(var(VAR_RESULT)) {
+                        case 0: warp(MAP_PALLET_TOWN, 255, 6, 8)
+                        case 1: warp(MAP_VIRIDIAN_CITY, 255, 26, 27)
+                        case 2: warp(MAP_PEWTER_CITY, 255, 17, 26)
+                        case 3: warp(MAP_CERULEAN_CITY, 255, 22, 20)
+                        case 4: warp(MAP_VERMILION_CITY, 255, 15, 7)
+                        case 5: warp(MAP_LAVENDER_TOWN, 255, 5, 5)
+                    }
+                case 1: // CITIES 2
+                    multichoice(0, 0, MULTICHOICE_DEBUG_WARP_CITIES_2, FALSE)
+                    switch(var(VAR_RESULT)) {
+                        case 0: warp(MAP_CELADON_CITY, 255, 41, 9)
+                        case 1: warp(MAP_FUCHSIA_CITY, 255, 19, 27)
+                        case 2: warp(MAP_SAFFRON_CITY, 255, 15, 30)
+                        case 3: warp(MAP_CINNABAR_ISLAND, 255, 13, 11)
+                        case 4: warp(MAP_INDIGO_PLATEAU_EXTERIOR, 255, 10, 12)
+                    }
+            }
+    }
+    release
+}

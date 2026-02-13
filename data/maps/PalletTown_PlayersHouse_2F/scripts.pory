@@ -51,35 +51,3 @@ script EventScript_PalletTown_PlayersHouse_2F_ShutDownPC {
     special(SetHelpContextForMap)
     releaseall
 }
-
-script PalletTown_PlayersHouse_2F_EventScript_DebugNPC {
-    lock
-    faceplayer
-    msgbox("I am the PRO'S CHOICE.\nHow can I help you debug?")
-    multichoice(0, 0, MULTICHOICE_DEBUG_MENU, FALSE)
-    switch(var(VAR_RESULT)) {
-        case 0:
-            givemon(SPECIES_MEW, 100, ITEM_NONE)
-            msgbox("Given a Level 100 MEW.")
-        case 1:
-            giveitem(ITEM_BICYCLE)
-            giveitem(ITEM_MAX_REPEL, 99)
-            setflag(FLAG_SYS_B_DASH)
-            msgbox("Given BICYCLE, 99 MAX REPEL,\nand RUNNING SHOES.")
-        case 2:
-            setflag(FLAG_SYS_POKEMON_GET)
-            setflag(FLAG_SYS_POKEDEX_GET)
-            setflag(FLAG_WORLD_MAP_PALLET_TOWN)
-            setvar(VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 6)
-            msgbox("Story flags set.")
-        case 3:
-            msgbox("Where to?")
-            multichoice(0, 0, MULTICHOICE_DEBUG_WARP, FALSE)
-            switch(var(VAR_RESULT)) {
-                case 0: warp(MAP_PALLET_TOWN, 255, 10, 10)
-                case 1: warp(MAP_PEWTER_CITY, 255, 10, 10)
-                case 2: warp(MAP_INDIGO_PLATEAU_EXTERIOR, 255, 10, 10)
-            }
-    }
-    release
-}

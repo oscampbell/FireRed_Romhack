@@ -76,6 +76,9 @@
 #define MULTICHOICE_FUCK_OFF                                   65
 #define MULTICHOICE_DEBUG_MENU                                 66
 #define MULTICHOICE_DEBUG_WARP                                 67
+#define MULTICHOICE_DEBUG_WARP_CITIES_1                        68
+#define MULTICHOICE_DEBUG_WARP_CITIES_2                        69
+#define MULTICHOICE_DEBUG_FLAGS                                70
 
 #define MULTICHOICE_NONE                                      255
 
