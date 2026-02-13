@@ -41,6 +41,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 *   **Following Pokémon:** The first Pokémon in your party follows you!
 *   **Direct Start:** Selecting "New Game" now skips the Professor Oak intro sequence entirely, placing you directly in the bedroom.
 *   **Forced Identity:** Name is forced to **SHUKTI**, Gender is forced to **Female**. Rival name is forced to **STACEY**.
+*   **Agatha Rival Sprite:** Stacey now uses the **Agatha (Elite Four)** sprite for all battle encounters and overworld appearances. Her battle profile is set to **Female** with **Female encounter music**.
 *   **Custom Starters:** Morpeko, Eevee, and Alolan Raichu (all with heavily buffed "Ultra" base stats).
 *   **The "All Starters" Quest:** After choosing your first Pokémon, **Professor Tree** (renamed from Oak) will give you the remaining two starters later in the game:
     *   **Second Starter:** Speak to Professor Tree in the **Curl-ulean City** Pokémon Center.
@@ -135,7 +136,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 - [ ] Tested
 
 **Story & Dialogue Synopsis:**
-*   **The Business School:** The local school has been repurposed. **STACEY** is found here taking mandatory remedial lessons on business logic and tax avoidance, ordered by the investigator. She's annoyed but insists redundancies are "strategic."
+*   **The Business School:** The local school has been repurposed. **STACEY** (appearing as an old lady due to her **Agatha sprite**) is found here taking mandatory remedial lessons on business logic and tax avoidance, ordered by the investigator. She's annoyed but insists redundancies are "strategic."
 *   **The Network Admin:** The "Coffee Old Man" is now the **Lead Network Admin**. He's miserable due to "packet loss" and a lack of espresso. He offers a tutorial, but SHUKTI can tell him to **"FUCK OFF!"**, to which he grumpily agrees.
 *   **The Gym:** Currently closed for "maintenance." Rumors suggest two local women (**ZAYNAB & ALIYAH**) are inside dealing with a "hostile takeover of the network stack" (hinting at their future roles as Leaders).
 ### Route 2
