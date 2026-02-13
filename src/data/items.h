@@ -14476,12 +14476,12 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_PARCEL] =
     {
-        .name = ITEM_NAME("Parcel"),
+        .name = ITEM_NAME("Twilight Set"),
         .price = 0,
         .description = COMPOUND_STRING(
-            "A parcel for Prof. "
-            "Oak from a\nPokémon "
-            "Mart's clerk."),
+            "A special edition\n"
+            "Twilight boxed set\n"
+            "for Prof. Tree."),
         .importance = 2,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_BAG_MENU,

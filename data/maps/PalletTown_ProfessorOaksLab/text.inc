@@ -3,7 +3,7 @@ PalletTown_ProfessorOaksLab_Text_RivalGrampsIsntAround::
     .string "Ugh, I'm already annoyed.\p"
     .string "Where's that mad old professor?\n"
     .string "I have a salon to run! Or I did...\l"
-    .string "before everyone became redundant.$"
+    .string "before I made everyone redundant.$"
 
 PalletTown_ProfessorOaksLab_Text_RivalFedUpWithWaiting::
     .string "{RIVAL}: Professor!\n"
@@ -108,10 +108,10 @@ PalletTown_ProfessorOaksLab_Text_OakHeyDontGoAwayYet::
     .string "Don't go away yet!$"
 
 PalletTown_ProfessorOaksLab_Text_OakChoosingCharmander::
-    .string "Ah! CHARMANDER is your choice.\n"
-    .string "You should raise it patiently.\p"
+    .string "Ah! RAICHU is your choice.\n"
+    .string "An ALOLAN RAICHU, no less!\p"
     .string "So, {PLAYER}, you're claiming the\n"
-    .string "FIRE POKéMON CHARMANDER?$"
+    .string "ELECTRIC POKéMON RAICHU?$"
 
 PalletTown_ProfessorOaksLab_Text_OakChoosingSquirtle::
     .string "Hm! EEVEE is your choice.\n"
@@ -120,10 +120,10 @@ PalletTown_ProfessorOaksLab_Text_OakChoosingSquirtle::
     .string "EVOLUTION POKéMON EEVEE?$"
 
 PalletTown_ProfessorOaksLab_Text_OakChoosingBulbasaur::
-    .string "I see! BULBASAUR is your choice.\n"
-    .string "It's very easy to raise.\p"
+    .string "I see! MORPEKO is your choice.\n"
+    .string "A very hungry POKéMON!\p"
     .string "So, {PLAYER}, you want to go with\n"
-    .string "the GRASS POKéMON BULBASAUR?$"
+    .string "the TWO-SIDED MORPEKO?$"
 
 PalletTown_ProfessorOaksLab_Text_OakThisMonIsEnergetic::
     .string "This POKéMON is really quite\n"
@@ -155,12 +155,14 @@ PalletTown_ProfessorOaksLab_Text_OakHaveSomethingForMe::
     .string "You have something for me?$"
 
 PalletTown_ProfessorOaksLab_Text_DeliveredOaksParcel::
-    .string "{PLAYER} delivered TREE'S PARCEL.$"
+    .string "{PLAYER} delivered the TWILIGHT BOX SET.$"
 
 PalletTown_ProfessorOaksLab_Text_OakCustomBallIOrdered::
     .string "Ah! \n"
-    .string "It's the custom POKé BALL!\p"
-    .string "I had it on order.\n"
+    .string "It's the special edition Twilight\l"
+    .string "boxed set! I've been waiting for\l"
+    .string "this for weeks!\p"
+    .string "Team Edward all the way!\n"
     .string "Thank you!$"
 
 PalletTown_ProfessorOaksLab_Text_OakHaveRequestForYouTwo::
@@ -241,7 +243,8 @@ PalletTown_ProfessorOaksLab_Text_BlankEncyclopedia::
 
 PalletTown_ProfessorOaksLab_Text_ThoseArePokeBalls::
     .string "Those are POKé BALLS.\n"
-    .string "They contain POKéMON!$"
+    .string "They contain PROF. TREE's rare\l"
+    .string "POKéMON!$"
 
 PalletTown_ProfessorOaksLab_Text_OaksLastMon::
     .string "That's PROF. TREE's last POKéMON.$"
@@ -276,16 +279,11 @@ PalletTown_ProfessorOaksLab_Text_StudyAsOaksAide::
     .string "AIDE.$"
 
 PalletTown_ProfessorOaksLab_Text_DaisyWillGroomMons::
-    .string "Hi, {PLAYER}. I bet you've become\n"
-    .string "good friends with your POKéMON.\p"
-    .string "By the way, did you know about\n"
-    .string "DAISY?\p"
-    .string "If you show DAISY your POKéMON,\n"
-    .string "she can tell how much it likes you.\p"
-    .string "Occasionally, she will even groom\n"
-    .string "a POKéMON for you.\p"
-    .string "This is a secret, so please don't\n"
-    .string "tell anyone.$"
+    .string "Hi, {PLAYER}. By the way...\n"
+    .string "PROFESSOR TREE? Really?\p"
+    .string "What an uncreative name.\n"
+    .string "He clearly didn't think that one\l"
+    .string "through at all.$"
 
 PalletTown_ProfessorOaksLab_Text_OakIsGoingToHaveRadioShow::
     .string "PROF. TREE is going to have his own\n"

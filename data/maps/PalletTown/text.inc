@@ -68,12 +68,16 @@ PalletTown_Text_OakYouEnjoyingTraveling::
 PalletTown_Text_Zaynab::
     .string "ZAYNAB: SHUKTI! It's terrible!\n"
     .string "TEAM ROCKET stole FIG!\p"
-    .string "They took our favorite dog...\n"
+    .string "They must have been using those\n"
+    .string "stones for some evil experiment,\l"
+    .string "but they left them in the chaos!\p"
     .string "Please find her!$"
 
 PalletTown_Text_Aliyah::
     .string "ALIYAH: I saw those ROCKET thugs\n"
     .string "running towards VIRID-LAN CITY with a\l"
     .string "shiny dog in a cage!\p"
-    .string "That must have been FIG!$"
+    .string "They were in such a rush to kidnap\n"
+    .string "FIG that they dropped all those\l"
+    .string "evolution stones everywhere!$"
 
