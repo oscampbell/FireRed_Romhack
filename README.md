@@ -107,3 +107,25 @@ The cities have been renamed after professional hair color shades:
 *   [ ] **NPC Personalization:** Modify remaining NPCs to represent real-life friends and family.
 *   [ ] **Dialogue Audit:** Fine-tooth comb all AI placeholder text.
 *   [ ] **Visuals:** Custom Title Screen and custom Player Sprite.
+
+---
+
+## Diversity & Personalization
+Research has been conducted to increase the representation of people of color (POC) within the game's NPC and Trainer population.
+
+### Current Progress
+*   **Sprite Repository:** A collection of **145 trainer sprites** has been gathered in `graphics/diverse_sprites/`. This includes GBA-style ports of modern POC characters such as **Nessa**, **Raihan**, **Olivia**, **Grant**, and **Lenora**.
+*   **Source Identification:** The **Unova (Gen 5)** and **Alola (Gen 7)** regions have been identified as the best official sources for diverse character bases.
+
+### Recommended Tools
+For creating exact representations of real-life friends and family:
+*   **Doll Divine Pokémon Trainer Creator:** [Online Customizer](https://www.dolldivine.com/pokemon-trainer-creator.php) (Best for detailed character design).
+*   **Jordan Bunke’s Top Down Sprite Maker:** [Download](https://jordanbunke.itch.io/top-down-sprite-maker) (Best for authentic Gen 3 overworld pixel art).
+
+### Next Steps
+1.  **Selection:** Review the PNGs in `graphics/diverse_sprites/` and identify candidates for specific NPCs (e.g., Zaynab, Aliyah, and family members).
+2.  **Creation:** Use the recommended tools to design custom characters where pre-existing sprites are insufficient.
+3.  **Technical Implementation:** 
+    *   Resize selected images to 64x64 (Battle) or 16x32 (Overworld).
+    *   Index the color palettes to the 16-color GBA standard.
+    *   Update `src/data/trainers.party` and `map.json` files to point to new custom assets.
