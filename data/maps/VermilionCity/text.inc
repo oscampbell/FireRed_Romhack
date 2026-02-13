@@ -25,9 +25,10 @@ VermilionCity_Text_MachopStompingLandFlat::
     .string "A MACHOP is stomping the land flat.$"
 
 VermilionCity_Text_SSAnneVisitsOnceAYear::
-    .string "The S.S. ANNE is a famous luxury\n"
-    .string "cruise ship.\p"
-    .string "It visits VERMILION once a year.$"
+    .string "I saw a shiny dog being loaded onto\n"
+    .string "a truck headed for EMPIRE CITY.\p"
+    .string "The truck had a big Danger Jones\n"
+    .string "logo on the side!$"
 
 VermilionCity_Text_CitySign::
     .string "BURNOUT CITY\n"

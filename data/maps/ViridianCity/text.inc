@@ -1,8 +1,9 @@
 ViridianCity_Text_CanCarryMonsAnywhere::
-    .string "Those POKé BALLS at your waist!\n"
-    .string "You have POKéMON, don't you?\p"
-    .string "It's great that you can carry and\n"
-    .string "use POKéMON anytime, anywhere.$"
+    .string "I saw a Rocket Grunt earlier...\n"
+    .string "He was struggling with a dog cage\l"
+    .string "that smelled like The Sweet Spot!\p"
+    .string "They must be taking that poor\n"
+    .string "shiny dog to EMPIRE CITY.$"
 
 ViridianCity_Text_GymClosedWonderWhoLeaderIs::
     .string "The GYM is closed for 'maintenance'.\p"
@@ -102,7 +103,7 @@ ViridianCity_Text_CitySign::
     .string "The Eternally Green Paradise$"
 
 ViridianCity_Text_SchoolSign::
-    .string "VIRID-LAN BUSINESS SCHOOL$"
+    .string "ADRENALINE BUSINESS SCHOOL$"
 
 ViridianCity_Text_MovesLimitedByPP::
     .string "TRAINER TIPS\p"

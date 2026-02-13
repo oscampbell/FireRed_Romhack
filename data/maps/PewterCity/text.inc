@@ -35,7 +35,12 @@ PewterCity_Text_BrockOnlySeriousTrainerHere::
     .string "that, not one bit.$"
 
 PewterCity_Text_DidYouCheckOutMuseum::
-    .string "Did you check out the MUSEUM?$"
+    .string "Did you check out the MUSEUM?\p"
+    .string "Some Rocket thugs were here earlier\n"
+    .string "trying to 'fossilize' a shiny dog.\l"
+    .string "But she was too cute to stay still!\p"
+    .string "I think they headed east to\n"
+    .string "POOLSIDE CITY.$"
 
 PewterCity_Text_WerentThoseFossilsAmazing::
     .string "Weren't those fossils from MT. MOON\n"

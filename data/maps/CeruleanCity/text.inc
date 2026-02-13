@@ -50,10 +50,10 @@ CeruleanCity_Text_RivalVictory::
 CeruleanCity_Text_GruntIntro::
     .string "Hey! Stay out!\n"
     .string "It's not your yard!\p"
-    .string "…Huh?\n"
-    .string "Me?\p"
-    .string "I'm an innocent bystander!\n"
-    .string "Don't you believe me?{PLAY_BGM}{MUS_ENCOUNTER_ROCKET}$"
+    .string "I don't have the dog! STACEY told\n"
+    .string "me to leave her at the warehouse\l"
+    .string "in EMPIRE CITY!\p"
+    .string "I'm just a redundant Grunt!{PLAY_BGM}{MUS_ENCOUNTER_ROCKET}$"
 
 CeruleanCity_Text_GruntDefeat::
     .string "GRUNT: Stop! I give up!\n"
