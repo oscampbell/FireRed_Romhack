@@ -34,7 +34,7 @@ CeladonCity_DepartmentStore_Roof_Text_ExplainTM20::
 
 CeladonCity_DepartmentStore_Roof_Text_YayLemonadeHaveThis::
     .string "Yay!\p"
-    .string "LEMONADE!\p"
+    .string "LIQUID DEATH!\p"
     .string "Thank you!\n"
     .string "You can have this from me!$"
 

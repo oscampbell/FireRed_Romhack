@@ -821,11 +821,11 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_LEMONADE] =
     {
-        .name = ITEM_NAME("Lemonade"),
+        .name = ITEM_NAME("Liquid Death"),
         .price = (I_PRICE >= GEN_7) ? 400 : 350,
         .holdEffectParam = 70,
         .description = COMPOUND_STRING(
-            "A very sweet drink "
+            "A tall can of water "
             "that restores\nHP "
         #if I_HEALTH_RECOVERY >= GEN_7
             "by 70 points."),

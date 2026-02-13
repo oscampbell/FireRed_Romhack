@@ -19,6 +19,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 
 ## Completed Features
 *   **PokeASDA:** Every **POKéMON MART** and **POKéMART** has been globally renamed to **PokeASDA**.
+*   **Liquid Death:** **LEMONADE** has been replaced with **LIQUID DEATH** throughout the game. It is now a tall can of water that restores HP.
 *   **Twilight Fan Club:** The Saffron City Trainer Fan Club has been converted into the **Twilight Fan Club HQ**.
     *   Fans of Team Edward, Team Jacob, and Bella Swan can be found debating throughout Saffron-Swan City, La-Vampire Town, and Cinna-Bella Island.
 *   **Heated Rivalry:** Every interactable TV in the game now displays the message: **"Heated rivalry is on!"**

@@ -52,15 +52,15 @@ FiveIsland_MemorialPillar_Text_ThisIsWhereIBuriedMyOnix::
 FiveIsland_MemorialPillar_Text_HereLiesTectonixLemonadeOffering::
     .string "“Here lies TECTONIX” is engraved\n"
     .string "on a boulder.\p"
-    .string "There is a LEMONADE placed as an\n"
+    .string "There is a LIQUID DEATH placed as an\n"
     .string "offering in front of the grave.$"
 
 FiveIsland_MemorialPillar_Text_LeaveAnotherLemonadeOffering::
     .string "Would you like to leave another\n"
-    .string "LEMONADE as an offering?$"
+    .string "LIQUID DEATH as an offering?$"
 
 FiveIsland_MemorialPillar_Text_PlacedCanOfLemonade::
-    .string "{PLAYER} placed a can of LEMONADE\n"
+    .string "{PLAYER} placed a can of LIQUID DEATH\n"
     .string "in front of the grave.$"
 
 FiveIsland_MemorialPillar_Text_ThankYouPleaseTakeThis::
