@@ -76,7 +76,7 @@ The cities have been renamed after professional hair color shades:
 ## Battle Data
 
 ### Modified Gym Leader Teams
-*   **Pavement City (Faris):** Bird Team (Pidgey, Hoothoot, Spearow, Pidgeotto).
+*   **Pavement City (Faris):** Team: Pidgey, Vileplume, Zapdos, Diglett, Blastoise.
 *   **Poolside City (Bryony):** Mixed Team (Jigglypuff, Jynx, Mr. Mime, Poliwhirl, Flareon, Vileplume).
 *   **Empire City (David):** Bodybuilder Team (Arcanine, Magikarp, Dragonair, Mr. Mime, Haunter, Machamp).
 *   **Adrenaline City (Zaynab & Aliyah):** Endgame Team (Venusaur, Arcanine, Lapras, Tyranitar, Metagross, Salamence).

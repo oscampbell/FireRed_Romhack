@@ -1,22 +1,18 @@
 PewterCity_Gym_Text_BrockIntro::
-    .string "Hello Auntie, it's me FARIS.\n"
-    .string "I love my hair.\p"
-    .string "I love creme eggs and I love birds.\n"
-    .string "Do you like my BIRDS?\p"
-    .string "I hope you're ready for some\n"
-    .string "high-flying action!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+    .string "You can either walk the plank or\n"
+    .string "remove your blouse.{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
 
 PewterCity_Gym_Text_BrockDefeat::
     .string "YOU BEAT ME?!\n"
     .string "Take this to remember me by.\p"
     .string "{FONT_NORMAL}{PLAYER} received the BOULDERBADGE\n"
     .string "from FARIS!{PAUSE_MUSIC}{PLAY_BGM}{MUS_OBTAIN_BADGE}{PAUSE 0xFE}{PAUSE 0x56}{RESUME_MUSIC}\p"
-    .string "{FONT_MALE}That badge is proof that your\n"
-    .string "POKéMON are even faster than birds!$"
+    .string "{FONT_MALE}YOU BEAT ME?! Take this to remember\n"
+    .string "me by...$"
 
 PewterCity_Gym_Text_TakeThisWithYou::
     .string "Wait!\n"
-    .string "Take this with you.$"
+    .string "Take this to remember me by...$"
 
 PewterCity_Gym_Text_ReceivedTM39FromBrock::
     .string "{PLAYER} received a POO BAG\n"
@@ -66,9 +62,9 @@ PewterCity_Gym_Text_OllieGiftPewter::
     .string "OLLIE: Here, take this.$"
 
 PewterCity_Gym_Text_OllieAdvice::
-    .string "OLLIE: FARIS is obsessed with BIRDS.\n"
-    .string "He uses Flying-type POKéMON.\p"
-    .string "Just watch the skies and you'll\n"
+    .string "OLLIE: FARIS is a bit... unusual.\n"
+    .string "He uses a strange mix of POKéMON.\p"
+    .string "Just keep your cool and you'll\n"
     .string "be just fine.\p"
     .string "I'm so proud of you, SHUKTI.\n"
     .string "I know you can make it all the way.$"
@@ -94,4 +90,3 @@ PewterCity_Gym_Text_GymStatuePlayerWon::
     .string "LEADER: FARIS\p"
     .string "WINNING TRAINERS:\n"
     .string "{RIVAL}, {PLAYER}$"
-
