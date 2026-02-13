@@ -9,7 +9,18 @@ CinnabarIsland_OnTransition::
 	call_if_eq VAR_MAP_SCENE_CINNABAR_ISLAND, 1, CinnabarIsland_EventScript_ReadyObjectsSailToOneIsland
 	call_if_eq VAR_MAP_SCENE_CINNABAR_ISLAND, 3, CinnabarIsland_EventScript_ReadyObjectsReturnFromSeviiIslands
 	call_if_eq VAR_MAP_SCENE_CINNABAR_ISLAND_2, 1, CinnabarIsland_EventScript_ReadyObjectsSailToOneIslandFromPokeCenter
+	call CinnabarIsland_EventScript_SetStaceyVisibility
 	end
+
+CinnabarIsland_EventScript_SetStaceyVisibility::
+	goto_if_unset FLAG_GOT_LAVENDER_STACEY_GIFT, CinnabarIsland_EventScript_HideStacey
+	goto_if_set FLAG_GOT_CINNABAR_STACEY_GIFT, CinnabarIsland_EventScript_HideStacey
+	clearflag FLAG_HIDE_CINNABAR_STACEY
+	return
+
+CinnabarIsland_EventScript_HideStacey::
+	setflag FLAG_HIDE_CINNABAR_STACEY
+	return
 
 CinnabarIsland_EventScript_ReadyObjectsSailToOneIslandFromPokeCenter::
 	savebgm MUS_FOLLOW_ME
@@ -349,4 +360,16 @@ CinnabarIsland_EventScript_GymSign::
 	famechecker FAMECHECKER_BLAINE, 0
 	msgbox CinnabarIsland_Text_GymSign
 	releaseall
+	end
+
+CinnabarIsland_EventScript_Stacey::
+	lock
+	faceplayer
+	msgbox CinnabarIsland_Text_StaceyIntro
+	checkitemspace ITEM_BURN_HEAL, 1
+	goto_if_eq VAR_RESULT, FALSE, EventScript_BagIsFull
+	giveitem ITEM_BURN_HEAL
+	setflag FLAG_GOT_CINNABAR_STACEY_GIFT
+	msgbox CinnabarIsland_Text_StaceyOutro
+	release
 	end

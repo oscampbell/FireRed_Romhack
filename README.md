@@ -9,6 +9,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
     *   **Stacey's Ventures:** Throughout the game, Stacey attempts to launch new "businesses" in various towns, each more ill-conceived than the last.
         *   **Cerulean City (House 5):** "Stacey's Berry Bakery" (Disrupting the industry with sawdust-enriched muffins).
         *   **Lavender Town (House 1):** "Stacey's Spiritual Consulting" (Cleansing chakras for unhappy Cubones).
+        *   **Cinnabar Island:** "Stacey's Volcano Insurance" (Selling trashed Burn Heals as sunscreen).
 *   **The Professor:** **PROFESSOR TREE** (formerly Oak). Stacey is NOT related to him. She refers to him as "the mad old professor" and is frequently annoyed by his antics.
 *   **Daisy:** A **Business Practices Investigator** investigating Stacey for her shady business ethics at the hair salon. She is currently stationed inside Stacey's house, combing through records and evidence.
 *   **The Main Quest:** Team Rocket has stolen **Fig**, a special Shiny dog (Shiny Rockruff). NPCs in Mill Town and La-Vampire Town provide clues about her whereabouts.
