@@ -7,31 +7,31 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 ## Core Story Changes
 *   **The Rival:** **STACEY** (Shukti's old boss). She's "very stupid" and makes lots of jokes about redundancies and poor business strategy. Her dialogue reflects her bossy persona and the closure of her hair salon.
     *   **Stacey's Ventures:** Throughout the game, Stacey attempts to launch new "businesses" in various towns, each more ill-conceived than the last.
-        *   **Cerulean City (House 5):** "Stacey's Berry Bakery" (Disrupting the industry with sawdust-enriched muffins).
-        *   **Lavender Town (House 1):** "Stacey's Spiritual Consulting" (Cleansing chakras for unhappy Cubones).
-        *   **Cinnabar Island:** Stacey can be found wandering around, regretting her life choices.
+        *   **Poolside City (House 5):** "Stacey's Berry Bakery" (Disrupting the industry with sawdust-enriched muffins).
+        *   **Masquerade Town (House 1):** "Stacey's Spiritual Consulting" (Cleansing chakras for unhappy Cubones).
+        *   **Diablo Island:** Stacey can be found wandering around, regretting her life choices.
 *   **The Professor:** **PROFESSOR TREE** (formerly Oak). Stacey is NOT related to him. She refers to him as "the mad old professor" and is frequently annoyed by his antics.
 *   **Daisy:** A **Business Practices Investigator** investigating Stacey for her shady business ethics at the hair salon. She is currently stationed inside Stacey's house, combing through records and evidence.
-*   **The Main Quest:** Team Rocket has stolen **Fig**, a special Shiny dog (Shiny Rockruff). NPCs in Mill Town and La-Vampire Town provide clues about her whereabouts.
+*   **The Main Quest:** Team Rocket has stolen **Fig**, a special Shiny dog (Shiny Rockruff). NPCs in Clear Town and Masquerade Town provide clues about her whereabouts.
 *   **The Reward:** Upon defeating the Rocket boss in Silph Co., Shukti rescues Fig from the President and gets to keep her!
-*   **Bowie (Pug):** A catchable wild "legendary" encounter in the Curl-ulean Gym. The Gym Leader, Bryony, has special dialogue if you catch or defeat him.
+*   **Bowie (Pug):** A catchable wild "legendary" encounter in the Poolside Gym. The Gym Leader, Bryony, has special dialogue if you catch or defeat him.
 *   **The Final Boss:** The Champion is **OLLIE**. He features a powerhouse team of Gengar, Charizard, Gyarados, Raichu, Dragonite, and Snorlax.
 
 ## Completed Features
 *   **PokeASDA:** Every **POKéMON MART** and **POKéMART** has been globally renamed to **PokeASDA**.
 *   **Liquid Death:** **LEMONADE** has been replaced with **LIQUID DEATH** throughout the game. It is now a tall can of water that restores HP.
-*   **Twilight Fan Club:** The Saffron City Trainer Fan Club has been converted into the **Twilight Fan Club HQ**.
-    *   Fans of Team Edward, Team Jacob, and Bella Swan can be found debating throughout Saffron-Swan City, La-Vampire Town, and Cinna-Bella Island.
+*   **Twilight Fan Club:** The Starrider City Trainer Fan Club has been converted into the **Twilight Fan Club HQ**.
+    *   Fans of Team Edward, Team Jacob, and Bella Swan can be found debating throughout Starrider City, Masquerade Town, and Diablo Island.
 *   **Heated Rivalry:** Every interactable TV in the game now displays the message: **"Heated rivalry is on!"**
 *   **Completable Pokédex:**
     *   **No Trading Required:** All trade-only evolutions (like Alakazam, Gengar, Machamp, Golem, Scizor, etc.) now evolve via **Level-up (Lv. 36)** or by using the relevant **Evolution Item** directly.
     *   **Version Exclusives merged:** All LeafGreen exclusive Pokémon (Sandshrew, Vulpix, Bellsprout, etc.) are now findable in the wild in the FireRed version.
     *   **Wild Starters:** Bulbasaur (Route 1), Charmander (Route 2), and Squirtle (Route 3) are now findable as rare encounters.
-*   **Virid-LAN Business School:** The trainer school has been converted into a business school where **STACEY** is forced to take lessons on basic logic and tax avoidance by the Business Inspector.
+*   **Adrenaline Business School:** The trainer school has been converted into a business school where **STACEY** is forced to take lessons on basic logic and tax avoidance by the Business Inspector.
 *   **Alolan Tourism Board:** All former NPC trade partners have been replaced by the **Alolan Tourism Board**. Instead of trading, they now give away **Alolan variant POKéMON** for various silly reasons.
     *   **Route 2 House:** **Alolan Meowth** (Kept eating expensive imported malasadas)
-    *   **Cerulean City House:** **Alolan Vulpix** (Refused to evolve without a colder climate)
-    *   **Vermilion City House:** **Alolan Sandshrew** (Tried to "ice" the owner's coffee)
+    *   **Poolside City House:** **Alolan Vulpix** (Refused to evolve without a colder climate)
+    *   **Burnout City House:** **Alolan Sandshrew** (Tried to "ice" the owner's coffee)
     *   **Route 11 East Entrance (2F):** **Alolan Diglett** (Hair was "too fabulous")
     *   **Route 18 East Entrance (2F):** **Alolan Grimer** (Smelled like a confusing tropical vacation)
     *   **Cinnabar Lab Lounge:** **Alolan Geodude** (Owner thought it was a magnetic rock, but it was just clingy)
@@ -44,64 +44,64 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 *   **Agatha Rival Sprite:** Stacey now uses the **Agatha (Elite Four)** sprite for all battle encounters and overworld appearances. Her battle profile is set to **Female** with **Female encounter music**.
 *   **Custom Starters:** Morpeko, Eevee, and Alolan Raichu (all with heavily buffed "Ultra" base stats).
 *   **The "All Starters" Quest:** After choosing your first Pokémon, **Professor Tree** (renamed from Oak) will give you the remaining two starters later in the game:
-    *   **Second Starter:** Speak to Professor Tree in the **Curl-ulean City** Pokémon Center.
-    *   **Third Starter:** Speak to Professor Tree in the **Fo-Shear-ia City** Pokémon Center.
+    *   **Second Starter:** Speak to Professor Tree in the **Poolside City** Pokémon Center.
+    *   **Third Starter:** Speak to Professor Tree in the **Hustler City** Pokémon Center.
 *   **Starting Money:** Starting money has been increased to **¥35,000**.
 *   **Poryscript Support:** Poryscript is installed and integrated into the `Makefile`. `.pory` files in map directories will automatically compile to `.inc` upon building. For example, `data/maps/MillTown/scripts.pory` will compile to `data/maps/MillTown/scripts.inc`.
-*   **Evolution Items:** Added **Fire, Water, Thunder, Leaf, Ice, Sun, Moon, Shiny, Dusk, and Dawn Stones** as pickup items scattered around Mill Town to allow early evolution for Eevee.
+*   **Evolution Items:** Added **Fire, Water, Thunder, Leaf, Ice, Sun, Moon, Shiny, Dusk, and Dawn Stones** as pickup items scattered around Clear Town to allow early evolution for Eevee.
 *   **Debug NPC (The Pro's Choice):** A Mew sprite located in the **Player's Bedroom** and **every Pokémon Center**.
     *   **GIVEMON:** Level 100 Mew.
     *   **ITEMS:** Bicycle, Fly (HM02), Max Repels, Running Shoes.
     *   **FLAGS:** Unlock Pokedex, Badges 1-8, Fly locations, and post-game flags.
     *   **WARP:** Teleport to any City, Town, or League location.
 *   **Town Renames (Danger Jones Professional Color Palette):**
-    *   Pallet Town -> **Clear Town** (Diluter/Shine)
-    *   Viridian City -> **Adrenaline City** (Neon Green)
-    *   Pewter City -> **Pavement City** (Grey)
-    *   Cerulean City -> **Poolside City** (Light Blue)
-    *   Lavender Town -> **Masquerade Town** (True Purple)
-    *   Vermilion City -> **Burnout City** (Orange)
-    *   Celadon City -> **Empire City** (Green)
-    *   Fuchsia City -> **Hustler City** (Pink)
-    *   Cinnabar Island -> **Diablo Island** (Red)
-    *   Saffron City -> **Starrider City** (Yellow)
-    *   Indigo Plateau -> **Libertine Plateau** (Violet)
-*   **New NPCs:** Zaynab and Aliyah added to Mill Town with custom dialogue about Fig.
+    *   Clear Town -> **Clear Town** (Diluter/Shine)
+    *   Adrenaline City -> **Adrenaline City** (Neon Green)
+    *   Pavement City -> **Pavement City** (Grey)
+    *   Poolside City -> **Poolside City** (Light Blue)
+    *   Masquerade Town -> **Masquerade Town** (True Purple)
+    *   Burnout City -> **Burnout City** (Orange)
+    *   Empire City -> **Empire City** (Green)
+    *   Hustler City -> **Hustler City** (Pink)
+    *   Diablo Island -> **Diablo Island** (Red)
+    *   Starrider City -> **Starrider City** (Yellow)
+    *   Libertine Plateau -> **Libertine Plateau** (Violet)
+*   **New NPCs:** Zaynab and Aliyah added to Clear Town with custom dialogue about Fig.
 *   **Gym Leader Overhaul:**
-    *   Perm-ter City (Brock): **FARIS** (Bird Team: Pidgey, Hoothoot, Spearow, Pidgeotto). He refers to SHUKTI as "Auntie" and is obsessed with his hair, birds, and creme eggs.
-    *   Curl-ulean City (Misty): **BRYONY** (Mixed Team: Jigglypuff, Jynx, Mr. Mime, Poliwhirl, Flareon, Vileplume). All other trainers removed.
-*   **New Item: Poo Bag:** A bag containing Bowie's poop, given by Faris in the Perm-ter Gym (must speak to him again after the battle). It has an **unknown effect** (it actually reduces a Pokémon's level by 1).
-    *   Ver-Mullet-on (Lt. Surge): **LT. SURGE** (Original Leader).
-    *   Sal-on City (Erika): **DAVID** (Bodybuilder. Team: Arcanine, Magikarp, Dragonair, Mr. Mime, Haunter, Machamp). He thinks he's in a fitness gym. Two cats, **Billie** and **Puddin**, roam the gym and say "Meow!".
-    *   Virid-LAN City (Giovanni): **ZAYNAB & ALIYAH** (Double Battle! Team: Venusaur, Arcanine, Lapras, Tyranitar, Metagross, Salamence). They kicked Giovanni out for being evil and took over their local gym.
-    *   Saffron-Swan City (Sabrina): **SABRINA** (Original Leader).
+    *   Pavement City (Brock): **FARIS** (Bird Team: Pidgey, Hoothoot, Spearow, Pidgeotto). He refers to SHUKTI as "Auntie" and is obsessed with his hair, birds, and creme eggs.
+    *   Poolside City (Misty): **BRYONY** (Mixed Team: Jigglypuff, Jynx, Mr. Mime, Poliwhirl, Flareon, Vileplume). All other trainers removed.
+*   **New Item: Poo Bag:** A bag containing Bowie's poop, given by Faris in the Pavement Gym (must speak to him again after the battle). It has an **unknown effect** (it actually reduces a Pokémon's level by 1).
+    *   Burnout City (Lt. Surge): **LT. SURGE** (Original Leader).
+    *   Empire City (Erika): **DAVID** (Bodybuilder. Team: Arcanine, Magikarp, Dragonair, Mr. Mime, Haunter, Machamp). He thinks he's in a fitness gym. Two cats, **Billie** and **Puddin**, roam the gym and say "Meow!".
+    *   Adrenaline City (Giovanni): **ZAYNAB & ALIYAH** (Double Battle! Team: Venusaur, Arcanine, Lapras, Tyranitar, Metagross, Salamence). They kicked Giovanni out for being evil and took over their local gym.
+    *   Starrider City (Sabrina): **SABRINA** (Original Leader).
 *   **Elite Four Overhaul:**
     *   Member 3 (Agatha): **JACQUIE**. She is a technologically inept old lady who is constantly struggling with her iPad and trying to send emails to Professor Tree. Her team consists of **severely underleveled Ice-type POKéMON** (Lv. 10-16).
 *   **Gym Guide (OLLIE):** The guy in every gym is now **OLLIE**. He acts as a loving, supportive partner giving genuine advice and romantic gifts in every gym:
-    *   Perm-ter City: Love Ball
-    *   Curl-ulean City: Sweet Heart
-    *   Ver-Mullet-on: Heart Scale
-    *   Sal-on City: Destiny Knot
-    *   Fo-Shear-ia City: Rose Incense
-    *   Saffron-Swan City: Friend Ball
-    *   Cinna-Bella Island: Luxury Ball
-    *   Virid-LAN City: 5x Love Balls
+    *   Pavement City: Love Ball
+    *   Poolside City: Sweet Heart
+    *   Burnout City: Heart Scale
+    *   Empire City: Destiny Knot
+    *   Hustler City: Rose Incense
+    *   Starrider City: Friend Ball
+    *   Diablo Island: Luxury Ball
+    *   Adrenaline City: 5x Love Balls
 *   **Secret Message:** A hidden message from Ollie on the NES in Shukti's room.
 
 ## Modified Gym Leader Teams
-*   **Perm-ter City (Faris):** Pidgey (Lv. 10), Hoothoot (Lv. 11), Spearow (Lv. 12), Pidgeotto (Lv. 14).
-*   **Curl-ulean City (Bryony):** Jigglypuff (Lv. 18), Jynx (Lv. 19), Mr. Mime (Lv. 19), Poliwhirl (Lv. 20), Flareon (Lv. 20), Vileplume (Lv. 21).
-*   **Sal-on City (David):** Arcanine, Magikarp, Dragonair, Mr. Mime, Haunter, Machamp.
-*   **Virid-LAN City (Zaynab & Aliyah):** Venusaur (Lv. 50), Arcanine (Lv. 50), Lapras (Lv. 50), Tyranitar (Lv. 52), Metagross (Lv. 52), Salamence (Lv. 54).
+*   **Pavement City (Faris):** Pidgey (Lv. 10), Hoothoot (Lv. 11), Spearow (Lv. 12), Pidgeotto (Lv. 14).
+*   **Poolside City (Bryony):** Jigglypuff (Lv. 18), Jynx (Lv. 19), Mr. Mime (Lv. 19), Poliwhirl (Lv. 20), Flareon (Lv. 20), Vileplume (Lv. 21).
+*   **Empire City (David):** Arcanine, Magikarp, Dragonair, Mr. Mime, Haunter, Machamp.
+*   **Adrenaline City (Zaynab & Aliyah):** Venusaur (Lv. 50), Arcanine (Lv. 50), Lapras (Lv. 50), Tyranitar (Lv. 52), Metagross (Lv. 52), Salamence (Lv. 54).
 *   **Elite Four Member 3 (Jacquie):** Swinub (Lv. 15), Snorunt (Lv. 12), Spheal (Lv. 14), Smoochum (Lv. 10), Delibird (Lv. 16).
 
 ## Natural Progression
-*   **Running Shoes:** Obtained in **Perm-ter City** (formerly Pewter City) when leaving for Route 3. An aide will run up and deliver them to you.
+*   **Running Shoes:** Obtained in **Pavement City** (formerly Pavement City) when leaving for Route 3. An aide will run up and deliver them to you.
 
 ## To-Do List
 *   [ ] **Rename remaining Gym Leaders:**
-    *   Koga (Fo-Shear-ia City) -> ?
-    *   Blaine (Cinna-Bella Island) -> ?
+    *   Koga (Hustler City) -> ?
+    *   Blaine (Diablo Island) -> ?
 *   [ ] **NPC Personalization:** Modify many more NPCs to represent real-life friends and family.
 *   [ ] **Custom Dialogue:** Add significantly more custom dialogue, in-jokes, and personal references throughout the entire game.
 *   [ ] **Visuals:**
@@ -110,7 +110,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
     *   Custom Player Sprite (To look more like Shukti).
 
 ## Zones (Progress Tracker)
-### [x] Mill Town (Pallet Town)
+### [x] Clear Town (Clear Town)
 - [ ] Quality Control
 - [ ] Tested
 
@@ -131,7 +131,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 *   **Wild Life:** Rare **Bulbasaur** can be found hiding in the tall grass.
 
 ---
-### [x] Virid-LAN City
+### [x] Adrenaline City
 - [ ] Quality Control
 - [ ] Tested
 
@@ -160,7 +160,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 - **Sign** (Script: `Route2_EventScript_DiglettsCaveSign`)
   - Text (Route2_Text_DiglettsCave): *"DIGLETT'S CAVE$"*
 - **Sign** (Script: `Route2_EventScript_RouteSign`)
-  - Text (Route2_Text_RouteSign): *"ROUTE 2  VIRID-LAN CITY - PERM-TER CITY$"*
+  - Text (Route2_Text_RouteSign): *"ROUTE 2  ADRENALINE CITY - PAVE-MENT CITY$"*
 #### Route2_EastBuilding
 **NPCs:**
 - **OBJ_EVENT_GFX_SCIENTIST** (Script: `Route2_EastBuilding_EventScript_Aide`)
@@ -187,12 +187,12 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 #### Route2_ViridianForest_SouthEntrance
 **NPCs:**
 - **OBJ_EVENT_GFX_WOMAN_2** (Script: `Route2_ViridianForest_SouthEntrance_EventScript_Woman1`)
-  - Dialogue (Route2_ViridianForest_SouthEntrance_Text_ForestIsMaze): *"Are you going to VIRIDIAN FOREST?  It's a natural maze in there.\l Be careful you don't get lost.$"*
+  - Dialogue (Route2_ViridianForest_SouthEntrance_Text_ForestIsMaze): *"Are you going to ADRENALINE FOREST?  It's a natural maze in there.\l Be careful you don't get lost.$"*
 - **OBJ_EVENT_GFX_WOMAN_1** (Script: `Route2_ViridianForest_SouthEntrance_EventScript_Woman2`)
   - Dialogue (Route2_ViridianForest_SouthEntrance_Text_RattataHasWickedBite): *"RATTATA may be small, but don't  underestimate its wicked bite.  Have you caught one already?$"*
 
 ---
-### Viridian Forest
+### Adrenaline Forest
 #### ViridianForest
 **NPCs:**
 - **OBJ_EVENT_GFX_YOUNGSTER** (Script: `ViridianForest_EventScript_Youngster`)
@@ -225,7 +225,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 - **Sign** (Script: `ViridianForest_EventScript_TrainerTips4`)
   - Text (ViridianForest_Text_CantCatchOwnedMons): *"TRAINER TIPS  You can't catch a POKéMON that  belongs to someone else.  Throw POKé BALLS only at wild  POKéMON to catch them!$"*
 - **Sign** (Script: `ViridianForest_EventScript_ExitSign`)
-  - Text (ViridianForest_Text_LeavingViridianForest): *"LEAVING VIRIDIAN FOREST  PERM-TER CITY AHEAD$"*
+  - Text (ViridianForest_Text_LeavingViridianForest): *"LEAVING ADRENALINE FOREST  PAVE-MENT CITY AHEAD$"*
 - **Sign** (Script: `ViridianForest_EventScript_TrainerTips2`)
   - Text (ViridianForest_Text_UseAntidoteForPoison): *"For poison, use ANTIDOTE!  Get it at POKéMON MARTS!$"*
 - **Sign** (Script: `ViridianForest_EventScript_TrainerTips5`)
@@ -236,7 +236,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
   - Text: *(No local text calls found in script)*
 
 ---
-### [ ] Perm-ter City (Pewter City)
+### [ ] Pavement City (Pavement City)
 - [ ] Quality Control
 - [ ] Tested
 
@@ -246,7 +246,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 *   **The Guide:** **OLLIE** provides a **Love Ball** and advice on how to handle Faris's avian team.
 **NPCs:**
 - **OBJ_EVENT_GFX_LASS** (Script: `PewterCity_EventScript_Lass`)
-  - Dialogue (PewterCity_Text_ClefairyCameFromMoon): *"CLEFAIRY came from the moon.  That's what the rumor is.  They appeared after MOON STONES  fell on MT. MOON.$"*
+  - Dialogue (PewterCity_Text_ClefairyCameFromMoon): *"CLEFAIRY came from the moon.  That's what the rumor is.  They appeared after MOON STONES  fell on MT. DIABLO.$"*
 - **OBJ_EVENT_GFX_MAN** (Script: `PewterCity_EventScript_MuseumGuide`)
   - Dialogue (PewterCity_Text_DidYouCheckOutMuseum): *"Did you check out the MUSEUM?$"*
   - Dialogue (PewterCity_Text_ReallyYouHaveToGo): *"Really?  You absolutely have to go!$"*
@@ -271,28 +271,28 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 - **Sign** (Script: `PewterCity_EventScript_MuseumSign`)
   - Text (PewterCity_Text_MuseumOfScience): *"PEWTER MUSEUM OF SCIENCE$"*
 - **Sign** (Script: `PewterCity_EventScript_PoliceNotice`)
-  - Text (PewterCity_Text_CallPoliceIfInfoOnThieves): *"NOTICE!  Thieves have been stealing POKéMON  fossils from MT. MOON.  Please call the PEWTER POLICE if  you have any information.$"*
+  - Text (PewterCity_Text_CallPoliceIfInfoOnThieves): *"NOTICE!  Thieves have been stealing POKéMON  fossils from MT. DIABLO.  Please call the PEWTER POLICE if  you have any information.$"*
 - **Sign** (Script: `PewterCity_EventScript_GymSign`)
-  - Text (PewterCity_Text_GymSign): *"PERM-TER CITY POKéMON GYM  LEADER: BROCK\l The Rock-Solid POKéMON TRAINER!$"*
+  - Text (PewterCity_Text_GymSign): *"PAVE-MENT CITY POKéMON GYM  LEADER: BROCK\l The Rock-Solid POKéMON TRAINER!$"*
 - **Sign** (Script: `PewterCity_EventScript_TrainerTips`)
   - Text (PewterCity_Text_TrainerTipsEarningEXP): *"TRAINER TIPS  All POKéMON that appear in battle,  however briefly, earn EXP Points.$"*
 - **Sign** (Script: `PewterCity_EventScript_CitySign`)
-  - Text (PewterCity_Text_CitySign): *"PERM-TER CITY  A Stone Gray City$"*
+  - Text (PewterCity_Text_CitySign): *"PAVE-MENT CITY  A Stone Gray City$"*
 - **Hidden_item** (Script: `None`)
   - Text: *(No local text calls found in script)*
 #### PewterCity_Gym
 **NPCs:**
 - **OBJ_EVENT_GFX_BROCK** (Script: `PewterCity_Gym_EventScript_Brock`)
-  - Dialogue (PewterCity_Gym_Text_BrockPostBattle): *"You have a bright future ahead of  you as a TRAINER.  Keep believing in yourself and  your POKéMON!  Why don't you head to CURL-ULEAN CITY  next? BRYONY will be happy to\l see you!$"*
+  - Dialogue (PewterCity_Gym_Text_BrockPostBattle): *"You have a bright future ahead of  you as a TRAINER.  Keep believing in yourself and  your POKéMON!  Why don't you head to POOL-SIDE CITY  next? BRYONY will be happy to\l see you!$"*
 - **OBJ_EVENT_GFX_CAMPER** (Script: `PewterCity_Gym_EventScript_Liam`)
   - Dialogue (PewterCity_Gym_Text_LiamPostBattle): *"You're good, but FARIS is on a  whole other level!$"*
 - **OBJ_EVENT_GFX_BLUE** (Script: `PewterCity_Gym_EventScript_GymGuy`)
   - Dialogue (PewterCity_Gym_Text_OllieIntro): *"OLLIE: Hey baby! I'm so glad you  made it here safely.  I've got a little something for you.  It reminded me of us.$"*
 **Interactables / Signs:**
 - **Sign** (Script: `PewterCity_Gym_EventScript_GymStatue`)
-  - Text (PewterCity_Gym_Text_GymStatue): *"PERM-TER CITY POKéMON GYM  LEADER: FARIS  WINNING TRAINERS:  {RIVAL}$"*
+  - Text (PewterCity_Gym_Text_GymStatue): *"PAVE-MENT CITY POKéMON GYM  LEADER: FARIS  WINNING TRAINERS:  {RIVAL}$"*
 - **Sign** (Script: `PewterCity_Gym_EventScript_GymStatue`)
-  - Text (PewterCity_Gym_Text_GymStatue): *"PERM-TER CITY POKéMON GYM  LEADER: FARIS  WINNING TRAINERS:  {RIVAL}$"*
+  - Text (PewterCity_Gym_Text_GymStatue): *"PAVE-MENT CITY POKéMON GYM  LEADER: FARIS  WINNING TRAINERS:  {RIVAL}$"*
 #### PewterCity_House1
 **NPCs:**
 - **OBJ_EVENT_GFX_BALDING_MAN** (Script: `PewterCity_House1_EventScript_BaldingMan`)
@@ -354,7 +354,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
   - Dialogue (PewterCity_Museum_1F_Text_PikachuSoonIPromise): *"Yeah, a PIKACHU soon, I promise!$"*
 **Interactables / Signs:**
 - **Sign** (Script: `PewterCity_Museum_2F_EventScript_MoonStone`)
-  - Text (PewterCity_Museum_1F_Text_MeteoriteThatFellOnMtMoon): *"A meteorite that fell on MT. MOON.  It is thought to be a MOON STONE.$"*
+  - Text (PewterCity_Museum_1F_Text_MeteoriteThatFellOnMtMoon): *"A meteorite that fell on MT. DIABLO.  It is thought to be a MOON STONE.$"*
 - **Sign** (Script: `PewterCity_Museum_2F_EventScript_SpaceShuttle`)
   - Text (PewterCity_Museum_1F_Text_SpaceShuttle): *"Space Shuttle$"*
 - **Sign** (Script: `PewterCity_Museum_2F_EventScript_SpaceShuttle`)
@@ -368,14 +368,14 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 - **Sign** (Script: `PewterCity_Museum_2F_EventScript_SpaceShuttle`)
   - Text (PewterCity_Museum_1F_Text_SpaceShuttle): *"Space Shuttle$"*
 - **Sign** (Script: `PewterCity_Museum_2F_EventScript_MoonStone`)
-  - Text (PewterCity_Museum_1F_Text_MeteoriteThatFellOnMtMoon): *"A meteorite that fell on MT. MOON.  It is thought to be a MOON STONE.$"*
+  - Text (PewterCity_Museum_1F_Text_MeteoriteThatFellOnMtMoon): *"A meteorite that fell on MT. DIABLO.  It is thought to be a MOON STONE.$"*
 #### PewterCity_PokemonCenter_1F
 **NPCs:**
 - **OBJ_EVENT_GFX_JIGGLYPUFF** (Script: `PewterCity_PokemonCenter_1F_EventScript_Jigglypuff`)
   - Dialogue (PewterCity_PokemonCenter_1F_Text_Jigglypuff): *"JIGGLYPUFF: Puu pupuu!$"*
   - Dialogue (delay): *"(Global/External Text: delay)"*
 - **OBJ_EVENT_GFX_GENTLEMAN** (Script: `PewterCity_PokemonCenter_1F_EventScript_Gentleman`)
-  - Dialogue (PewterCity_PokemonCenter_1F_Text_TeamRocketMtMoonImOnPhone): *"What!?  TEAM ROCKET is at MT. MOON?  Huh?  I'm on the phone!  Scram!$"*
+  - Dialogue (PewterCity_PokemonCenter_1F_Text_TeamRocketMtMoonImOnPhone): *"What!?  TEAM ROCKET is at MT. DIABLO?  Huh?  I'm on the phone!  Scram!$"*
 - **OBJ_EVENT_GFX_NURSE** (Script: `PewterCity_PokemonCenter_1F_EventScript_Nurse`)
   - Dialogue: *(No local text calls found in script)*
 - **OBJ_EVENT_GFX_YOUNGSTER** (Script: `PewterCity_PokemonCenter_1F_EventScript_Youngster`)
@@ -421,7 +421,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
   - Dialogue: *(No local text calls found in script)*
 **Interactables / Signs:**
 - **Sign** (Script: `Route3_EventScript_RouteSign`)
-  - Text (Route3_Text_RouteSign): *"ROUTE 3  MT. MOON AHEAD$"*
+  - Text (Route3_Text_RouteSign): *"ROUTE 3  MT. DIABLO AHEAD$"*
 - **Hidden_item** (Script: `None`)
   - Text: *(No local text calls found in script)*
 
@@ -530,9 +530,9 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
   - Dialogue: *(No local text calls found in script)*
 **Interactables / Signs:**
 - **Sign** (Script: `Route4_EventScript_MtMoonSign`)
-  - Text (Route4_Text_MtMoonEntrance): *"MT. MOON  Tunnel Entrance$"*
+  - Text (Route4_Text_MtMoonEntrance): *"MT. DIABLO  Tunnel Entrance$"*
 - **Sign** (Script: `Route4_EventScript_RouteSign`)
-  - Text (Route4_Text_RouteSign): *"ROUTE 4  MT. MOON - CURL-ULEAN CITY$"*
+  - Text (Route4_Text_RouteSign): *"ROUTE 4  MT. DIABLO - POOL-SIDE CITY$"*
 - **Hidden_item** (Script: `None`)
   - Text: *(No local text calls found in script)*
 - **Hidden_item** (Script: `None`)
@@ -565,7 +565,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
   - Dialogue: *(No local text calls found in script)*
 
 ---
-### Curl-ulean City
+### Poolside City
 #### CeruleanCity
 **NPCs:**
 - **OBJ_EVENT_GFX_POLICEMAN** (Script: `CeruleanCity_EventScript_Policeman`)
@@ -597,9 +597,9 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
   - Dialogue (CeruleanCity_Text_ThisIsCeruleanCave): *"This is CERULEAN CAVE.  Horribly strong POKéMON live inside  there.  It takes a very special TRAINER to  be allowed inside there.  You'd have to be strong enough to  become the POKéMON LEAGUE\l CHAMPION for starters.  And, you would have to have  made a great achievement.$"*
 **Interactables / Signs:**
 - **Sign** (Script: `CeruleanCity_EventScript_CitySign`)
-  - Text (CeruleanCity_Text_CitySign): *"CURL-ULEAN CITY  A Mysterious, Blue Aura Surrounds\l It$"*
+  - Text (CeruleanCity_Text_CitySign): *"POOL-SIDE CITY  A Mysterious, Blue Aura Surrounds\l It$"*
 - **Sign** (Script: `CeruleanCity_EventScript_GymSign`)
-  - Text (CeruleanCity_Text_GymSign): *"CURL-ULEAN CITY POKéMON GYM  LEADER: MISTY\l The Tomboyish Mermaid!$"*
+  - Text (CeruleanCity_Text_GymSign): *"POOL-SIDE CITY POKéMON GYM  LEADER: MISTY\l The Tomboyish Mermaid!$"*
 - **Sign** (Script: `CeruleanCity_EventScript_BikeShopSign`)
   - Text (CeruleanCity_Text_BikeShopSign): *"Grass and caves handled easily!  BIKE SHOP$"*
 - **Sign** (Script: `CeruleanCity_EventScript_TrainerTips`)
@@ -648,9 +648,9 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
   - Dialogue (CeruleanCity_Gym_Text_OllieIntro): *"OLLIE: You look amazing today,  SHUKTI. The journey suits you.  I've got a little something sweet  for you. Just like you.$"*
 **Interactables / Signs:**
 - **Sign** (Script: `CeruleanCity_Gym_EventScript_GymStatue`)
-  - Text (CeruleanCity_Gym_Text_GymStatue): *"CURL-ULEAN CITY POKéMON GYM  LEADER: BRYONY  WINNING TRAINERS:  {RIVAL}$"*
+  - Text (CeruleanCity_Gym_Text_GymStatue): *"POOL-SIDE CITY POKéMON GYM  LEADER: BRYONY  WINNING TRAINERS:  {RIVAL}$"*
 - **Sign** (Script: `CeruleanCity_Gym_EventScript_GymStatue`)
-  - Text (CeruleanCity_Gym_Text_GymStatue): *"CURL-ULEAN CITY POKéMON GYM  LEADER: BRYONY  WINNING TRAINERS:  {RIVAL}$"*
+  - Text (CeruleanCity_Gym_Text_GymStatue): *"POOL-SIDE CITY POKéMON GYM  LEADER: BRYONY  WINNING TRAINERS:  {RIVAL}$"*
 #### CeruleanCity_House1
 **NPCs:**
 - **OBJ_EVENT_GFX_GENTLEMAN** (Script: `CeruleanCity_House1_EventScript_BadgeGuy`)
@@ -804,7 +804,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 #### Route5
 **Interactables / Signs:**
 - **Sign** (Script: `Route5_EventScript_UndergroundPathSign`)
-  - Text (Route5_Text_UndergroundPathSign): *"UNDERGROUND PATH  CURL-ULEAN CITY - VER-MULLET-ON$"*
+  - Text (Route5_Text_UndergroundPathSign): *"UNDERGROUND PATH  POOL-SIDE CITY - BURN-OUT CITY$"*
 #### Route5_PokemonDayCare
 **NPCs:**
 - **OBJ_EVENT_GFX_GENTLEMAN** (Script: `Route5_PokemonDayCare_EventScript_DaycareMan`)
@@ -832,7 +832,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
   - Dialogue: *(No local text calls found in script)*
 **Interactables / Signs:**
 - **Sign** (Script: `Route6_EventScript_UndergroundPathSign`)
-  - Text (Route6_Text_UndergroundPathSign): *"UNDERGROUND PATH  CURL-ULEAN CITY - VER-MULLET-ON$"*
+  - Text (Route6_Text_UndergroundPathSign): *"UNDERGROUND PATH  POOL-SIDE CITY - BURN-OUT CITY$"*
 - **Hidden_item** (Script: `None`)
   - Text: *(No local text calls found in script)*
 - **Hidden_item** (Script: `None`)
@@ -844,37 +844,37 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 #### Route6_UnusedHouse
 
 ---
-### Ver-Mullet-on
+### Burnout City
 #### VermilionCity
 **NPCs:**
 - **OBJ_EVENT_GFX_WOMAN_1** (Script: `VermilionCity_EventScript_Woman`)
   - Dialogue (VermilionCity_Text_GrimerMultipliesInSludge): *"We're careful about pollution here.  We've heard GRIMER multiplies in  toxic sludge.$"*
 - **OBJ_EVENT_GFX_OLD_MAN_1** (Script: `VermilionCity_EventScript_OldMan1`)
-  - Dialogue (VermilionCity_Text_DidYouSeeSSAnneInHarbor): *"Did you see the S.S. ANNE moored  in the harbor?$"*
+  - Dialogue (VermilionCity_Text_DidYouSeeSSAnneInHarbor): *"Did you see the S.S. BURNOUT moored  in the harbor?$"*
 - **OBJ_EVENT_GFX_OLD_MAN_2** (Script: `VermilionCity_EventScript_OldMan2`)
   - Dialogue (VermilionCity_Text_BuildingOnThisLand): *"I'm putting up a building on this  plot of land. I own it all.  My POKéMON is tamping the land  to lay the foundation.$"*
 - **OBJ_EVENT_GFX_MACHOP** (Script: `VermilionCity_EventScript_Machop`)
   - Dialogue (VermilionCity_Text_Machop): *"MACHOP: Guoh! Gogogoh!$"*
   - Dialogue (VermilionCity_Text_MachopStompingLandFlat): *"A MACHOP is stomping the land flat.$"*
 - **OBJ_EVENT_GFX_SAILOR** (Script: `VermilionCity_EventScript_Sailor`)
-  - Dialogue (VermilionCity_Text_SSAnneVisitsOnceAYear): *"The S.S. ANNE is a famous luxury  cruise ship.  It visits VERMILION once a year.$"*
+  - Dialogue (VermilionCity_Text_SSAnneVisitsOnceAYear): *"The S.S. BURNOUT is a famous luxury  cruise ship.  It visits VERMILION once a year.$"*
 - **OBJ_EVENT_GFX_SAILOR** (Script: `VermilionCity_EventScript_FerrySailor`)
-  - Dialogue (VermilionCity_Text_WelcomeToTheSSAnne): *"Welcome to the S.S. ANNE!$"*
+  - Dialogue (VermilionCity_Text_WelcomeToTheSSAnne): *"Welcome to the S.S. BURNOUT!$"*
 - **OBJ_EVENT_GFX_CUT_TREE** (Script: `EventScript_CutTree`)
   - Dialogue: *(No local text calls found in script)*
 - **OBJ_EVENT_GFX_SCIENTIST** (Script: `VermilionCity_EventScript_OaksAide`)
   - Dialogue (VermilionCity_Text_Route2AideHasPackageForYou): *"Oh, hello, {PLAYER}!  How are you doing?  It's me, one of PROF. TREE's AIDES.  Did you meet the other AIDE?  He had a package from PROF. TREE  for you, {PLAYER}.  He said he'd look for you around  ROUTE 2, {PLAYER}.  If you're in the ROUTE 2 area,  please look for him.$"*
 **Interactables / Signs:**
 - **Sign** (Script: `VermilionCity_EventScript_CitySign`)
-  - Text (VermilionCity_Text_CitySign): *"VER-MULLET-ON  The Port of Exquisite Sunsets$"*
+  - Text (VermilionCity_Text_CitySign): *"BURN-OUT CITY  The Port of Exquisite Sunsets$"*
 - **Sign** (Script: `VermilionCity_EventScript_PokemonFanClubSign`)
   - Text (VermilionCity_Text_PokemonFanClubSign): *"POKéMON FAN CLUB  All POKéMON fans welcome!$"*
 - **Sign** (Script: `VermilionCity_EventScript_GymSign`)
-  - Text (VermilionCity_Text_GymSign): *"VER-MULLET-ON POKéMON GYM  LEADER: LT. SURGE\l The Lightning American!$"*
+  - Text (VermilionCity_Text_GymSign): *"BURN-OUT CITY POKéMON GYM  LEADER: LT. SURGE\l The Lightning American!$"*
 - **Sign** (Script: `VermilionCity_EventScript_HarborSign`)
   - Text (VermilionCity_Text_VermilionHarbor): *"VERMILION HARBOR$"*
 - **Sign** (Script: `VermilionCity_EventScript_SnorlaxNotice`)
-  - Text (VermilionCity_Text_SnorlaxBlockingRoute12): *"NOTICE!  ROUTE 12 may be blocked off by a  sleeping POKéMON.  Detour through ROCK TUNNEL to  LA-VAMPIRE TOWN.  VERMILION POLICE$"*
+  - Text (VermilionCity_Text_SnorlaxBlockingRoute12): *"NOTICE!  ROUTE 12 may be blocked off by a  sleeping POKéMON.  Detour through ROCK TUNNEL to  MASQUERADE TOWN.  VERMILION POLICE$"*
 - **Hidden_item** (Script: `None`)
   - Text: *(No local text calls found in script)*
 #### VermilionCity_Gym
@@ -1042,7 +1042,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
   - Dialogue (SSAnne_CaptainsOffice_Text_RubbedCaptainsBack): *"{PLAYER} rubbed the CAPTAIN's  back!  Rub-rub…  Rub-rub…$"*
   - Dialogue (playfanfare): *"(Global/External Text: playfanfare)"*
   - Dialogue (SSAnne_CaptainsOffice_Text_ThankYouHaveHMForCut): *"CAPTAIN: Whew! Thank you!  I'm feeling much better now.  You want to see my hidden CUT  technique?  I could show you my prized CUT  technique if I weren't so ill…  I know! You can have this!  This HIDDEN MACHINE!  Teach CUT to your POKéMON, and  you can see it CUT anytime!$"*
-  - Dialogue (SSAnne_CaptainsOffice_Text_ExplainCut): *"Using CUT, you can chop down  small trees.  Why not try it with the trees  around VER-MULLET-ON?$"*
+  - Dialogue (SSAnne_CaptainsOffice_Text_ExplainCut): *"Using CUT, you can chop down  small trees.  Why not try it with the trees  around BURN-OUT CITY?$"*
 **Interactables / Signs:**
 - **Sign** (Script: `SSAnne_CaptainsOffice_EventScript_Book`)
   - Text (SSAnne_CaptainsOffice_Text_HowToConquerSeasickness): *"How to Conquer Seasickness…  The CAPTAIN's reading this!$"*
@@ -1126,9 +1126,9 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 #### Route11_EastEntrance_1F
 **NPCs:**
 - **OBJ_EVENT_GFX_POLICEMAN** (Script: `Route11_EastEntrance_1F_EventScript_TopGuard`)
-  - Dialogue (Route11_EastEntrance_1F_Text_ManInLavenderRatesNames): *"Don't you think it's hard to think  up good names for POKéMON?  Especially if you've caught a  whole bunch?  In LA-VAMPIRE TOWN, there's a man  who rates POKéMON nicknames.  He can even help you rename your  POKéMON, too.$"*
+  - Dialogue (Route11_EastEntrance_1F_Text_ManInLavenderRatesNames): *"Don't you think it's hard to think  up good names for POKéMON?  Especially if you've caught a  whole bunch?  In MASQUERADE TOWN, there's a man  who rates POKéMON nicknames.  He can even help you rename your  POKéMON, too.$"*
 - **OBJ_EVENT_GFX_POLICEMAN** (Script: `Route11_EastEntrance_1F_EventScript_BottomGuard`)
-  - Dialogue (Route11_EastEntrance_1F_Text_RockTunnelToReachLavender): *"If you're aiming to reach LAVENDER  TOWN, take ROCK TUNNEL.  You can get to ROCK TUNNEL from  CURL-ULEAN CITY.$"*
+  - Dialogue (Route11_EastEntrance_1F_Text_RockTunnelToReachLavender): *"If you're aiming to reach LAVENDER  TOWN, take ROCK TUNNEL.  You can get to ROCK TUNNEL from  POOL-SIDE CITY.$"*
 #### Route11_EastEntrance_2F
 **NPCs:**
 - **OBJ_EVENT_GFX_YOUNGSTER** (Script: `Route11_EastEntrance_2F_EventScript_Turner`)
@@ -1142,7 +1142,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 - **Sign** (Script: `Route11_EastEntrance_2F_EventScript_LeftBinoculars`)
   - Text (Route11_EastEntrance_2F_Text_BigMonAsleepOnRoad): *"Let's see what the binoculars have  to show…  A big POKéMON is asleep on a road!$"*
 - **Sign** (Script: `Route11_EastEntrance_2F_EventScript_RightBinoculars`)
-  - Text (Route11_EastEntrance_2F_Text_RockTunnelGoodRouteToLavender): *"Let's see what the binoculars have  to show…  To get to LA-VAMPIRE TOWN from  CURL-ULEAN CITY…  ROCK TUNNEL appears to be a good  route to take.$"*
+  - Text (Route11_EastEntrance_2F_Text_RockTunnelGoodRouteToLavender): *"Let's see what the binoculars have  to show…  To get to MASQUERADE TOWN from  POOL-SIDE CITY…  ROCK TUNNEL appears to be a good  route to take.$"*
 
 ---
 ### Diglett's Cave
@@ -1154,7 +1154,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 #### DiglettsCave_SouthEntrance
 **NPCs:**
 - **OBJ_EVENT_GFX_OLD_MAN_1** (Script: `DiglettsCave_SouthEntrance_EventScript_OldMan`)
-  - Dialogue (DiglettsCave_SouthEntrance_Text_DiglettDugThisTunnel): *"Well, isn't this a surprise!  DIGLETT dug this long tunnel!  It goes right to VIRID-LAN CITY,  they tell me.$"*
+  - Dialogue (DiglettsCave_SouthEntrance_Text_DiglettDugThisTunnel): *"Well, isn't this a surprise!  DIGLETT dug this long tunnel!  It goes right to ADRENALINE CITY,  they tell me.$"*
 
 ---
 ### Route 9
@@ -1186,7 +1186,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
   - Dialogue: *(No local text calls found in script)*
 **Interactables / Signs:**
 - **Sign** (Script: `Route9_EventScript_RouteSign`)
-  - Text (Route9_Text_RouteSign): *"ROUTE 9  CURL-ULEAN CITY - ROCK TUNNEL$"*
+  - Text (Route9_Text_RouteSign): *"ROUTE 9  POOL-SIDE CITY - ROCK TUNNEL$"*
 - **Hidden_item** (Script: `None`)
   - Text: *(No local text calls found in script)*
 - **Hidden_item** (Script: `None`)
@@ -1224,7 +1224,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 - **Sign** (Script: `Route10_EventScript_PowerPlantSign`)
   - Text (Route10_Text_PowerPlant): *"POWER PLANT$"*
 - **Sign** (Script: `Route10_EventScript_NorthRockTunnelSign`)
-  - Text (Route10_Text_RockTunnelDetourToLavender): *"ROCK TUNNEL  Detour to LA-VAMPIRE TOWN$"*
+  - Text (Route10_Text_RockTunnelDetourToLavender): *"ROCK TUNNEL  Detour to MASQUERADE TOWN$"*
 - **Hidden_item** (Script: `None`)
   - Text: *(No local text calls found in script)*
 - **Hidden_item** (Script: `None`)
@@ -1244,7 +1244,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 - **OBJ_EVENT_GFX_FAT_MAN** (Script: `Route10_PokemonCenter_1F_EventScript_FatMan`)
   - Dialogue (Route10_PokemonCenter_1F_Text_NuggetUselessSoldFor5000): *"A NUGGET is totally useless.  So I sold it for ¥5000.$"*
 - **OBJ_EVENT_GFX_YOUNGSTER** (Script: `Route10_PokemonCenter_1F_EventScript_Youngster`)
-  - Dialogue (Route10_PokemonCenter_1F_Text_HeardGhostsHauntLavender): *"I heard that ghosts haunt  LA-VAMPIRE TOWN.$"*
+  - Dialogue (Route10_PokemonCenter_1F_Text_HeardGhostsHauntLavender): *"I heard that ghosts haunt  MASQUERADE TOWN.$"*
 - **OBJ_EVENT_GFX_SCIENTIST** (Script: `Route10_PokemonCenter_1F_EventScript_Aide`)
   - Dialogue (Route10_PokemonCenter_1F_Text_GiveEverstoneIfCaught20Mons): *"Oh… {PLAYER}!  I've been looking for you!  It's me, one of the ever-present  AIDES to PROF. TREE.  If your POKéDEX has complete data  on twenty species, I'm supposed to\l give you a reward from PROF. TREE.  He entrusted me with this  EVERSTONE.  So, {PLAYER}, let me ask you.  Have you gathered data on at least  twenty kinds of POKéMON?$"*
   - Dialogue (Route10_PokemonCenter_1F_Text_GreatHereYouGo): *"Great! You have caught or owned  {STR_VAR_3} kinds of POKéMON!  Congratulations!  Here you go!$"*
@@ -1286,7 +1286,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
   - Dialogue: *(No local text calls found in script)*
 **Interactables / Signs:**
 - **Sign** (Script: `RockTunnel_1F_EventScript_RouteSign`)
-  - Text (RockTunnel_1F_Text_RouteSign): *"ROCK TUNNEL  CURL-ULEAN CITY - LA-VAMPIRE TOWN$"*
+  - Text (RockTunnel_1F_Text_RouteSign): *"ROCK TUNNEL  POOL-SIDE CITY - MASQUERADE TOWN$"*
 #### RockTunnel_B1F
 **NPCs:**
 - **OBJ_EVENT_GFX_SUPER_NERD** (Script: `RockTunnel_B1F_EventScript_Cooper`)
@@ -1343,7 +1343,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
   - Dialogue: *(No local text calls found in script)*
 
 ---
-### La-Vampire Town
+### Masquerade Town
 #### LavenderTown
 **NPCs:**
 - **OBJ_EVENT_GFX_LITTLE_GIRL** (Script: `LavenderTown_EventScript_LittleGirl`)
@@ -1352,12 +1352,12 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 - **OBJ_EVENT_GFX_WORKER_M** (Script: `LavenderTown_EventScript_WorkerM`)
   - Dialogue (LavenderTown_Text_TownKnownAsMonGraveSite): *"This town is known as the grave  site of POKéMON.  Memorial services are held in  POKéMON TOWER.$"*
 - **OBJ_EVENT_GFX_BOY** (Script: `LavenderTown_EventScript_Boy`)
-  - Dialogue (LavenderTown_Text_GhostsAppearedInTower): *"Ghosts appeared in POKéMON TOWER.  I heard TEAM ROCKET is holding a  dog named FIG up there!  They're probably planning to take  her to their boss in SAFFRON-SWAN CITY.$"*
+  - Dialogue (LavenderTown_Text_GhostsAppearedInTower): *"Ghosts appeared in POKéMON TOWER.  I heard TEAM ROCKET is holding a  dog named FIG up there!  They're probably planning to take  her to their boss in STARRIDER CITY.$"*
 **Interactables / Signs:**
 - **Sign** (Script: `LavenderTown_EventScript_SilphScopeNotice`)
   - Text (LavenderTown_Text_SilphScopeNotice): *"New SILPH SCOPE!  Make the Invisible Plain to See!  SILPH CO.$"*
 - **Sign** (Script: `LavenderTown_EventScript_TownSign`)
-  - Text (LavenderTown_Text_TownSign): *"LA-VAMPIRE TOWN  The Noble Purple Town$"*
+  - Text (LavenderTown_Text_TownSign): *"MASQUERADE TOWN  The Noble Purple Town$"*
 - **Sign** (Script: `LavenderTown_EventScript_PokemonTowerSign`)
   - Text (LavenderTown_Text_PokemonTowerSign): *"POKéMON TOWER  Becalm the Spirits of POKéMON$"*
 - **Sign** (Script: `LavenderTown_EventScript_VolunteerHouseSign`)
@@ -1656,7 +1656,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
   - Dialogue: *(No local text calls found in script)*
 **Interactables / Signs:**
 - **Sign** (Script: `Route14_EventScript_RouteSign`)
-  - Text (Route14_Text_RouteSign): *"ROUTE 14  West to FO-SHEAR-IA$"*
+  - Text (Route14_Text_RouteSign): *"ROUTE 14  West to HUSTLER CITY$"*
 - **Hidden_item** (Script: `None`)
   - Text: *(No local text calls found in script)*
 - **Hidden_item** (Script: `None`)
@@ -1696,7 +1696,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
   - Dialogue: *(No local text calls found in script)*
 **Interactables / Signs:**
 - **Sign** (Script: `Route15_EventScript_RouteSign`)
-  - Text (Route15_Text_RouteSign): *"ROUTE 15  West to FO-SHEAR-IA$"*
+  - Text (Route15_Text_RouteSign): *"ROUTE 15  West to HUSTLER CITY$"*
 #### Route15_WestEntrance_1F
 **NPCs:**
 - **OBJ_EVENT_GFX_POLICEMAN** (Script: `Route15_WestEntrance_1F_EventScript_Guard`)
@@ -1739,7 +1739,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
   - Dialogue (Text_WantToUsePokeFlute): *"(Global/External Text: Text_WantToUsePokeFlute)"*
 **Interactables / Signs:**
 - **Sign** (Script: `Route16_EventScript_RouteSign`)
-  - Text (Route16_Text_RouteSign): *"ROUTE 16  SAL-ON CITY - FO-SHEAR-IA$"*
+  - Text (Route16_Text_RouteSign): *"ROUTE 16  EMPIRE CITY - HUSTLER CITY$"*
 - **Sign** (Script: `Route16_EventScript_CyclingRoadSign`)
   - Text (Route16_Text_CyclingRoadSign): *"Enjoy the slope!  CYCLING ROAD$"*
 - **Hidden_item** (Script: `None`)
@@ -1799,7 +1799,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
   - Dialogue: *(No local text calls found in script)*
 **Interactables / Signs:**
 - **Sign** (Script: `Route17_EventScript_RouteSign`)
-  - Text (Route17_Text_RouteSign): *"ROUTE 17  SAL-ON CITY - FO-SHEAR-IA$"*
+  - Text (Route17_Text_RouteSign): *"ROUTE 17  EMPIRE CITY - HUSTLER CITY$"*
 - **Sign** (Script: `Route17_EventScript_TrainerTips2`)
   - Text (Route17_Text_PressBToStayInPlace): *"TRAINER TIPS  Press the B Button to stay in place  while on a slope.$"*
 - **Sign** (Script: `Route17_EventScript_TrainerTips1`)
@@ -1835,7 +1835,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 - **Sign** (Script: `Route18_EventScript_CyclingRoadSign`)
   - Text (Route18_Text_CyclingRoadSign): *"CYCLING ROAD  No pedestrians permitted!$"*
 - **Sign** (Script: `Route18_EventScript_RouteSign`)
-  - Text (Route18_Text_RouteSign): *"ROUTE 18  SAL-ON CITY - FO-SHEAR-IA$"*
+  - Text (Route18_Text_RouteSign): *"ROUTE 18  EMPIRE CITY - HUSTLER CITY$"*
 #### Route18_EastEntrance_1F
 **NPCs:**
 - **OBJ_EVENT_GFX_POLICEMAN** (Script: `Route18_EastEntrance_1F_EventScript_Guard`)
@@ -1852,7 +1852,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
   - Text (Route18_EastEntrance_2F_Text_PeopleSwimming): *"Let's see what the binoculars have  to show…  There are people swimming.$"*
 
 ---
-### Fo-Shear-ia City
+### Hustler City
 #### FuchsiaCity
 **NPCs:**
 - **OBJ_EVENT_GFX_FAT_MAN** (Script: `FuchsiaCity_EventScript_Erik`)
@@ -1889,11 +1889,11 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
   - Dialogue (FuchsiaCity_Text_MyFatherIsGymLeader): *"My father is the GYM LEADER of  this town.  I'm training to use POISON POKéMON  as well as my father.$"*
 **Interactables / Signs:**
 - **Sign** (Script: `FuchsiaCity_EventScript_CitySign`)
-  - Text (FuchsiaCity_Text_CitySign): *"FO-SHEAR-IA  Behold! It's Passion Pink!$"*
+  - Text (FuchsiaCity_Text_CitySign): *"HUSTLER CITY  Behold! It's Passion Pink!$"*
 - **Sign** (Script: `FuchsiaCity_EventScript_SafariZoneSign`)
   - Text (FuchsiaCity_Text_SafariZoneSign): *"POKéMON PARADISE  SAFARI ZONE$"*
 - **Sign** (Script: `FuchsiaCity_EventScript_GymSign`)
-  - Text (FuchsiaCity_Text_GymSign): *"FO-SHEAR-IA POKéMON GYM  LEADER: KOGA\l The Poisonous Ninja Master$"*
+  - Text (FuchsiaCity_Text_GymSign): *"HUSTLER CITY POKéMON GYM  LEADER: KOGA\l The Poisonous Ninja Master$"*
 - **Sign** (Script: `FuchsiaCity_EventScript_WardensHomeSign`)
   - Text (FuchsiaCity_Text_WardensHomeSign): *"SAFARI ZONE  WARDEN'S HOME$"*
 - **Sign** (Script: `FuchsiaCity_EventScript_VoltorbSign`)
@@ -1967,10 +1967,10 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 - **OBJ_EVENT_GFX_NURSE** (Script: `FuchsiaCity_PokemonCenter_1F_EventScript_Nurse`)
   - Dialogue: *(No local text calls found in script)*
 - **OBJ_EVENT_GFX_OAK** (Script: `FuchsiaCity_PokemonCenter_1F_EventScript_ProfTree`)
-  - Dialogue (FuchsiaCity_PokemonCenter_1F_Text_ProfTree_Intro): *"TREE: Ah, {PLAYER}!  You've made it all the way to\l FO-SHEAR-IA CITY!  I have the final one of my special  starter POKéMON with me.  Since you've come so far, I want  you to have it!$"*
+  - Dialogue (FuchsiaCity_PokemonCenter_1F_Text_ProfTree_Intro): *"TREE: Ah, {PLAYER}!  You've made it all the way to\l HUSTLER CITY CITY!  I have the final one of my special  starter POKéMON with me.  Since you've come so far, I want  you to have it!$"*
   - Dialogue (FuchsiaCity_PokemonCenter_1F_Text_ProfTree_Outro): *"TREE: Now you have all three of  my original starters!  You are truly a remarkable Trainer.  Go forth and conquer the League!$"*
 - **OBJ_EVENT_GFX_COOLTRAINER_F** (Script: `FuchsiaCity_PokemonCenter_1F_EventScript_CooltrainerF`)
-  - Dialogue (FuchsiaCity_PokemonCenter_1F_Text_PokemonLeagueWestOfViridian): *"There's a narrow trail west of  VIRID-LAN CITY.  It goes to the POKéMON LEAGUE HQ.  The HQ governs all TRAINERS.$"*
+  - Dialogue (FuchsiaCity_PokemonCenter_1F_Text_PokemonLeagueWestOfViridian): *"There's a narrow trail west of  ADRENALINE CITY.  It goes to the POKéMON LEAGUE HQ.  The HQ governs all TRAINERS.$"*
 - **OBJ_EVENT_GFX_YOUNGSTER** (Script: `FuchsiaCity_PokemonCenter_1F_EventScript_Youngster`)
   - Dialogue (FuchsiaCity_PokemonCenter_1F_Text_VisitSafariZoneForPokedex): *"If you're working on a POKéDEX,  visit the SAFARI ZONE.  All sorts of rare POKéMON breed  there.$"*
 #### FuchsiaCity_PokemonCenter_2F
@@ -2134,7 +2134,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
   - Dialogue: *(No local text calls found in script)*
 **Interactables / Signs:**
 - **Sign** (Script: `Route8_EventScript_UndergroundPathSign`)
-  - Text (Route8_Text_UndergroundPathSign): *"UNDERGROUND PATH  SAL-ON CITY - LA-VAMPIRE TOWN$"*
+  - Text (Route8_Text_UndergroundPathSign): *"UNDERGROUND PATH  EMPIRE CITY - MASQUERADE TOWN$"*
 - **Hidden_item** (Script: `None`)
   - Text: *(No local text calls found in script)*
 - **Hidden_item** (Script: `None`)
@@ -2154,7 +2154,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
   - Dialogue: *(No local text calls found in script)*
 **Interactables / Signs:**
 - **Sign** (Script: `Route7_EventScript_UndergroundPathSign`)
-  - Text (Route7_Text_UndergroundPathSign): *"UNDERGROUND PATH  SAL-ON CITY - LA-VAMPIRE TOWN$"*
+  - Text (Route7_Text_UndergroundPathSign): *"UNDERGROUND PATH  EMPIRE CITY - MASQUERADE TOWN$"*
 - **Hidden_item** (Script: `None`)
   - Text: *(No local text calls found in script)*
 #### Route7_EastEntrance
@@ -2163,7 +2163,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
   - Dialogue (Route7_EastEntrance_Text_HiHowsItGoing): *"Hi, how's it going?$"*
 
 ---
-### Sal-on City
+### Empire City
 #### CeladonCity
 **NPCs:**
 - **OBJ_EVENT_GFX_ROCKET_M** (Script: `CeladonCity_EventScript_RocketGrunt1`)
@@ -2206,7 +2206,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 - **Sign** (Script: `CeladonCity_EventScript_GameCornerSign`)
   - Text (CeladonCity_Text_GameCornerSign): *"ROCKET GAME CORNER  The playground for grown-ups!$"*
 - **Sign** (Script: `CeladonCity_EventScript_CitySign`)
-  - Text (CeladonCity_Text_CitySign): *"SAL-ON CITY  The City of Rainbow Dreams$"*
+  - Text (CeladonCity_Text_CitySign): *"EMPIRE CITY  The City of Rainbow Dreams$"*
 - **Sign** (Script: `CeladonCity_EventScript_MansionSign`)
   - Text (CeladonCity_Text_MansionSign): *"CELADON MANSION$"*
 - **Sign** (Script: `CeladonCity_EventScript_TrainerTips1`)
@@ -2214,7 +2214,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 - **Sign** (Script: `CeladonCity_EventScript_DeptStoreSign`)
   - Text (CeladonCity_Text_DeptStoreSign): *"Find what you need at the  CELADON DEPT. STORE!$"*
 - **Sign** (Script: `CeladonCity_EventScript_GymSign`)
-  - Text (CeladonCity_Text_GymSign): *"SAL-ON CITY POKéMON GYM  LEADER: ERIKA\l The Nature-Loving Princess!$"*
+  - Text (CeladonCity_Text_GymSign): *"EMPIRE CITY POKéMON GYM  LEADER: ERIKA\l The Nature-Loving Princess!$"*
 - **Hidden_item** (Script: `None`)
   - Text: *(No local text calls found in script)*
 #### CeladonCity_Gym
@@ -2286,7 +2286,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
   - Dialogue (CeladonCity_GameCorner_Text_DoYouWantToPlay): *"Kid, do you want to play?$"*
   - Dialogue (CeladonCity_GameCorner_Text_Received10CoinsFromMan): *"{PLAYER} received 10 COINS  from the man.$"*
 - **OBJ_EVENT_GFX_BLUE** (Script: `CeladonCity_GameCorner_EventScript_GymGuy`)
-  - Dialogue (CeladonCity_GameCorner_Text_OllieIntro): *"OLLIE: Hey SHUKTI! Fancy seeing  you here in SAL-ON CITY!  I've got a little something for you.  It's a knot that ties us together.$"*
+  - Dialogue (CeladonCity_GameCorner_Text_OllieIntro): *"OLLIE: Hey SHUKTI! Fancy seeing  you here in EMPIRE CITY!  I've got a little something for you.  It's a knot that ties us together.$"*
 - **OBJ_EVENT_GFX_WOMAN_1** (Script: `CeladonCity_GameCorner_EventScript_Woman2`)
   - Dialogue (CeladonCity_GameCorner_Text_WinOrLoseItsOnlyLuck): *"These slot games…  Win or lose, it's only by luck.$"*
 - **OBJ_EVENT_GFX_OLD_MAN_2** (Script: `CeladonCity_GameCorner_EventScript_OldMan`)
@@ -2471,7 +2471,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
   - Text: *(No local text calls found in script)*
 
 ---
-### Saffron-Swan City
+### Starrider City
 #### SaffronCity
 **NPCs:**
 - **OBJ_EVENT_GFX_ROCKET_M** (Script: `SaffronCity_EventScript_RocketGrunt1`)
@@ -2506,7 +2506,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
   - Dialogue: *(No local text calls found in script)*
 **Interactables / Signs:**
 - **Sign** (Script: `SaffronCity_EventScript_CitySign`)
-  - Text (SaffronCity_Text_CitySign): *"SAFFRON-SWAN CITY  Shining, Golden Land of Commerce$"*
+  - Text (SaffronCity_Text_CitySign): *"STARRIDER CITY  Shining, Golden Land of Commerce$"*
 - **Sign** (Script: `SaffronCity_EventScript_DojoSign`)
   - Text (SaffronCity_Text_FightingDojo): *"FIGHTING DOJO$"*
 - **Sign** (Script: `SaffronCity_EventScript_SilphProductSign`)
@@ -2518,7 +2518,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 - **Sign** (Script: `SaffronCity_EventScript_TrainerTips1`)
   - Text (SaffronCity_Text_FullHealCuresStatus): *"TRAINER TIPS  FULL HEAL cures all ailments like  burns, paralysis, poisoning,\l freezing, and sleep.  It costs a bit more, but it's more  convenient than buying other items.$"*
 - **Sign** (Script: `SaffronCity_EventScript_GymSign`)
-  - Text (SaffronCity_Text_GymSign): *"SAFFRON-SWAN CITY POKéMON GYM  LEADER: SABRINA\l The Master of PSYCHIC POKéMON!$"*
+  - Text (SaffronCity_Text_GymSign): *"STARRIDER CITY POKéMON GYM  LEADER: SABRINA\l The Master of PSYCHIC POKéMON!$"*
 - **Sign** (Script: `SaffronCity_EventScript_MrPsychicsHouseSign`)
   - Text (SaffronCity_Text_MrPsychicsHouse): *"MR. PSYCHIC'S HOUSE$"*
 - **Sign** (Script: `SaffronCity_EventScript_TrainerFanClubSign`)
@@ -3033,7 +3033,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
   - Dialogue: *(No local text calls found in script)*
 **Interactables / Signs:**
 - **Sign** (Script: `Route19_EventScript_RouteSign`)
-  - Text (Route19_Text_RouteSign): *"SEA ROUTE 19  FO-SHEAR-IA - SEAFOAM ISLANDS$"*
+  - Text (Route19_Text_RouteSign): *"SEA ROUTE 19  HUSTLER CITY - SEAFOAM ISLANDS$"*
 #### Route19_UnusedHouse
 
 ---
@@ -3135,7 +3135,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
   - Text (SeafoamIslands_B4F_Text_BouldersMightChangeWaterFlow): *"Hint: Boulders might change the  flow of water.$"*
 
 ---
-### Cinna-Bella Island
+### Diablo Island
 #### CinnabarIsland
 **NPCs:**
 - **OBJ_EVENT_GFX_WOMAN_2** (Script: `CinnabarIsland_EventScript_Woman`)
@@ -3148,11 +3148,11 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
   - Dialogue: *(No script assigned)*
 **Interactables / Signs:**
 - **Sign** (Script: `CinnabarIsland_EventScript_IslandSign`)
-  - Text (CinnabarIsland_Text_IslandSign): *"CINNA-BELLA ISLAND  The Fiery Town of Burning Desire$"*
+  - Text (CinnabarIsland_Text_IslandSign): *"DIABLO ISLAND  The Fiery Town of Burning Desire$"*
 - **Sign** (Script: `CinnabarIsland_EventScript_PokemonLabSign`)
   - Text (CinnabarIsland_Text_PokemonLab): *"POKéMON LAB$"*
 - **Sign** (Script: `CinnabarIsland_EventScript_GymSign`)
-  - Text (CinnabarIsland_Text_GymSign): *"CINNA-BELLA ISLAND POKéMON GYM  LEADER: BLAINE\l The Hotheaded Quiz Master!$"*
+  - Text (CinnabarIsland_Text_GymSign): *"DIABLO ISLAND POKéMON GYM  LEADER: BLAINE\l The Hotheaded Quiz Master!$"*
 - **Sign** (Script: `CinnabarIsland_EventScript_PokemonLabSign`)
   - Text (CinnabarIsland_Text_PokemonLab): *"POKéMON LAB$"*
 #### CinnabarIsland_Gym
@@ -3513,7 +3513,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 - **OBJ_EVENT_GFX_BEAUTY** (Script: `TwoIsland_EventScript_Beauty`)
   - Dialogue (TwoIsland_Text_BrunoCameToIslandWhileBack): *"Listen, listen.  Did you know?  A famous TRAINER came to the  ISLAND a little while back.  He's one of the ELITE FOUR.  His name is BRUNO.  He went away disappointed when he  found out that they were all sold\l out of Rage Candybars.$"*
 - **OBJ_EVENT_GFX_SAILOR** (Script: `TwoIsland_EventScript_Sailor`)
-  - Dialogue (TwoIsland_Text_FellowMovedFromCeladonCity): *"That fellow there, he moved here  from SAL-ON CITY.  He started up a shop with his  younger brother.  You have to wonder if he knew what  he was getting into.$"*
+  - Dialogue (TwoIsland_Text_FellowMovedFromCeladonCity): *"That fellow there, he moved here  from EMPIRE CITY.  He started up a shop with his  younger brother.  You have to wonder if he knew what  he was getting into.$"*
 - **OBJ_EVENT_GFX_SUPER_NERD** (Script: `TwoIsland_EventScript_SuperNerd`)
   - Dialogue (TwoIsland_Text_BuyRareItemsHere): *"The discerning TRAINER knows to  buy rare items here!$"*
 - **OBJ_EVENT_GFX_CUT_TREE** (Script: `EventScript_CutTree`)
@@ -3836,7 +3836,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
   - Dialogue (VictoryRoad_3F_Text_TyraPostBattle): *"TYRA: You've taught me that power  can be infinite in shape and form.$"*
 
 ---
-### In-Dye-Go Plateau
+### Libertine Plateau
 #### IndigoPlateau_Exterior
 **NPCs:**
 - **OBJ_EVENT_GFX_BLUE** (Script: `0x0`)
