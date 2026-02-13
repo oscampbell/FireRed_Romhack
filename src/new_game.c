@@ -123,6 +123,7 @@ void NewGameInitData(void)
     ZeroEnemyPartyMons();
     ClearEReaderTrainer();
     ClearSav1();
+    ClearSav2();
     ClearSav3();
     ClearMailData();
     gSaveBlock2Ptr->specialSaveWarpFlags = 0;
@@ -133,14 +134,9 @@ void NewGameInitData(void)
     PlayTimeCounter_Reset();
     ClearPokedexFlags();
     InitEventData();
-    gSaveBlock2Ptr->playerGender = FEMALE;
-    StringCopy(gSaveBlock2Ptr->playerName, sShuktiName);
-    StringCopy(gSaveBlock1Ptr->rivalName, sStaceyName);
-    FlagSet(FLAG_HIDE_BULBASAUR_BALL);
-    FlagSet(FLAG_HIDE_CHARMANDER_BALL);
     InitTimeBasedEvents(); // remove if wallclock
     ResetFameChecker();
-    SetMoney(&gSaveBlock1Ptr->money, 35000); // Updated startup money per README
+    SetMoney(&gSaveBlock1Ptr->money, 35000);
     ResetGameStats();
     ClearPlayerLinkBattleRecords();
     InitHeracrossSizeRecord();
@@ -153,7 +149,6 @@ void NewGameInitData(void)
     gSaveBlock1Ptr->registeredItem = 0;
     ClearBag();
     NewGameInitPCItems();
-    // ClearEnigmaBerries();
     InitEasyChatPhrases();
     ResetTrainerFanClub();
     UnionRoomChat_InitializeRegisteredTexts();
@@ -162,6 +157,11 @@ void NewGameInitData(void)
     SetAllRenewableItemFlags();
     WarpToPlayersRoom();
     RunScriptImmediately(EventScript_ResetAllMapFlags);
+    
+    gSaveBlock2Ptr->playerGender = FEMALE;
+    StringCopy(gSaveBlock2Ptr->playerName, sShuktiName);
+    StringCopy(gSaveBlock1Ptr->rivalName, sStaceyName);
+
     ResetTrainerTowerResults();
     ResetItemFlags();
     ResetDexNav();

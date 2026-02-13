@@ -532,7 +532,7 @@ static void Task_ExecuteMainMenuSelection(u8 taskId)
             gExitStairsMovementDisabled = FALSE;
             FreeAllWindowBuffers();
             DestroyTask(taskId);
-            StartNewGameScene();
+            SetMainCallback2(CB2_NewGame);
             break;
         case MAIN_MENU_CONTINUE:
             gPlttBufferUnfaded[0] = RGB_BLACK;

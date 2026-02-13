@@ -39,11 +39,13 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
     *   **Cinnabar Lab Experiment Room:** **Alolan Marowak** (Too busy "fire-dancing" to battle)
     *   **Seven Island House:** **Alolan Rattata** (Thinks it's a gourmet chef, but is just a rat)
 *   **Following Pokémon:** The first Pokémon in your party follows you!
-*   **Forced Identity:** Name is forced to **SHUKTI**, Gender is forced to **Female**. Intro selection screens are skipped.
+*   **Direct Start:** Selecting "New Game" now skips the Professor Oak intro sequence entirely, placing you directly in the bedroom.
+*   **Forced Identity:** Name is forced to **SHUKTI**, Gender is forced to **Female**. Rival name is forced to **STACEY**.
 *   **Custom Starters:** Morpeko, Eevee, and Alolan Raichu (all with heavily buffed "Ultra" base stats).
 *   **The "All Starters" Quest:** After choosing your first Pokémon, **Professor Tree** (renamed from Oak) will give you the remaining two starters later in the game:
     *   **Second Starter:** Speak to Professor Tree in the **Curl-ulean City** Pokémon Center.
     *   **Third Starter:** Speak to Professor Tree in the **Fo-Shear-ia City** Pokémon Center.
+*   **Starting Money:** Starting money has been increased to **¥35,000**.
 *   **Evolution Items:** Added **Fire, Water, Thunder, Leaf, Ice, Sun, Moon, Shiny, Dusk, and Dawn Stones** as pickup items scattered around Mill Town to allow early evolution for Eevee.
 *   **Town Renames (Puns & References):**
     *   Pallet Town -> **Mill Town**

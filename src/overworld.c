@@ -1711,6 +1711,7 @@ static bool8 RunFieldCallback(void)
 
 void CB2_NewGame(void)
 {
+    gMain.state = 0;
     FieldClearVBlankHBlankCallbacks();
     StopMapMusic();
     ResetSafariZoneFlag_();

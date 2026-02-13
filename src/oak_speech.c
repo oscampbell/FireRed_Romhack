@@ -589,78 +589,22 @@ static const u8 *const sControlsGuide_Pages2And3_Strings[CONTROLS_GUIDE_STRINGS_
     gControlsGuide_Text_LRButtons
 };
 
+static const u8 sNameSHUKTI[] = {0xCD, 0xC2, 0xCF, 0xC5, 0xCE, 0xC3, 0xFF};
+static const u8 sNameSTACEY[] = {0xCD, 0xCE, 0xBB, 0xBD, 0xBF, 0xD3, 0xFF};
+
 static const u8 *const sMaleNameChoices[] =
 {
-#if defined(FIRERED)
-    gNameChoice_Red,
-    gNameChoice_Fire,
-    gNameChoice_Ash,
-    gNameChoice_Kene,
-    gNameChoice_Geki,
-#elif defined(LEAFGREEN)
-    gNameChoice_Green,
-    gNameChoice_Leaf,
-    gNameChoice_Gary,
-    gNameChoice_Kaz,
-    gNameChoice_Toru,
-#endif
-    gNameChoice_Jak,
-    gNameChoice_Janne,
-    gNameChoice_Jonn,
-    gNameChoice_Kamon,
-    gNameChoice_Karl,
-    gNameChoice_Taylor,
-    gNameChoice_Oscar,
-    gNameChoice_Hiro,
-    gNameChoice_Max,
-    gNameChoice_Jon,
-    gNameChoice_Ralph,
-    gNameChoice_Kay,
-    gNameChoice_Tosh,
-    gNameChoice_Roak
+    sNameSHUKTI
 };
 
 static const u8 *const sFemaleNameChoices[] =
 {
-#if defined(FIRERED)
-    gNameChoice_Red,
-    gNameChoice_Fire,
-#elif defined(LEAFGREEN)
-    gNameChoice_Green,
-    gNameChoice_Leaf,
-#endif
-    gNameChoice_Omi,
-    gNameChoice_Jodi,
-    gNameChoice_Amanda,
-    gNameChoice_Hillary,
-    gNameChoice_Makey,
-    gNameChoice_Michi,
-    gNameChoice_Paula,
-    gNameChoice_June,
-    gNameChoice_Cassie,
-    gNameChoice_Rey,
-    gNameChoice_Seda,
-    gNameChoice_Kiko,
-    gNameChoice_Mina,
-    gNameChoice_Norie,
-    gNameChoice_Sai,
-    gNameChoice_Momo,
-    gNameChoice_Suzi
+    sNameSHUKTI
 };
 
 static const u8 *const sRivalNameChoices[] =
 {
-#if defined(FIRERED)
-    gNameChoice_Green,
-    gNameChoice_Gary,
-    gNameChoice_Kaz,
-    gNameChoice_Toru
-#elif defined(LEAFGREEN)
-    gNameChoice_Red,
-    gNameChoice_Ash,
-    gNameChoice_Kene,
-    gNameChoice_Geki
-#endif
+    sNameSTACEY
 };
 
 enum
@@ -1297,8 +1241,8 @@ static void Task_OakSpeech_AskPlayerGender(u8 taskId)
         {
             tTrainerPicPosX = -60;
             ClearTrainerPic();
-            // OakSpeechPrintMessage(gOakSpeech_Text_AskPlayerGender, sOakSpeechResources->textSpeed, FALSE);
-            gTasks[taskId].func = Task_OakSpeech_LoadPlayerPic;
+            OakSpeechPrintMessage(gOakSpeech_Text_AskPlayerGender, sOakSpeechResources->textSpeed, FALSE);
+            gTasks[taskId].func = Task_OakSpeech_ShowGenderOptions;
         }
     }
 }
@@ -1392,8 +1336,7 @@ static void Task_OakSpeech_FadeOutForPlayerNamingScreen(u8 taskId)
     {
         BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_BLACK);
         sOakSpeechResources->hasPlayerBeenNamed = FALSE;
-        gTasks[taskId].data[15] = TRUE;
-        gTasks[taskId].func = Task_OakSpeech_ConfirmName;
+        gTasks[taskId].func = Task_OakSpeech_DoNamingScreen;
     }
 }
 
@@ -2144,14 +2087,13 @@ static void PrintNameChoiceOptions(u8 taskId, u8 hasPlayerBeenNamed)
     PutWindowTilemap(tMenuWindowId);
     DrawStdFrameWithCustomTileAndPalette(tMenuWindowId, 1, GetStandardFrameBaseTileNum(), 14);
     FillWindowPixelBuffer(gTasks[taskId].tMenuWindowId, PIXEL_FILL(1));
-    AddTextPrinterParameterized(tMenuWindowId, FONT_NORMAL, gOtherText_NewName, 8, 1, 0, NULL);
     if (hasPlayerBeenNamed == FALSE)
         textPtrs = gSaveBlock2Ptr->playerGender == MALE ? sMaleNameChoices : sFemaleNameChoices;
     else
         textPtrs = sRivalNameChoices;
-    for (i = 0; i < ARRAY_COUNT(sRivalNameChoices); i++)
-        AddTextPrinterParameterized(tMenuWindowId, FONT_NORMAL, textPtrs[i], 8, 16 * (i + 1) + 1, 0, NULL);
-    InitMenuNormal(tMenuWindowId, FONT_NORMAL, 0, 1, 16, 5, 0);
+    for (i = 0; i < 1; i++)
+        AddTextPrinterParameterized(tMenuWindowId, FONT_NORMAL, textPtrs[i], 8, 16 * i + 1, 0, NULL);
+    InitMenuNormal(tMenuWindowId, FONT_NORMAL, 0, 1, 16, 1, 0);
     CopyWindowToVram(tMenuWindowId, COPYWIN_FULL);
 }
 
@@ -2163,14 +2105,14 @@ static void GetDefaultName(u8 hasPlayerBeenNamed, u8 nameChoice)
     if (hasPlayerBeenNamed == FALSE)
     {
         if (gSaveBlock2Ptr->playerGender == MALE)
-            src = sMaleNameChoices[Random() % ARRAY_COUNT(sMaleNameChoices)];
+            src = sMaleNameChoices[0];
         else
-            src = sFemaleNameChoices[Random() % ARRAY_COUNT(sFemaleNameChoices)];
+            src = sFemaleNameChoices[0];
         dest = gSaveBlock2Ptr->playerName;
     }
     else
     {
-        src = sRivalNameChoices[nameChoice];
+        src = sRivalNameChoices[0];
         dest = gSaveBlock1Ptr->rivalName;
     }
     for (i = 0; i < PLAYER_NAME_LENGTH && src[i] != EOS; i++)
