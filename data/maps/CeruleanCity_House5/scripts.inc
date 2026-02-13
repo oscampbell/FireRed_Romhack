@@ -1,5 +1,15 @@
 CeruleanCity_House5_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, CeruleanCity_House5_OnTransition
 	.byte 0
+
+CeruleanCity_House5_OnTransition::
+	goto_if_set FLAG_GOT_CERULEAN_STACEY_GIFT, CeruleanCity_House5_EventScript_HideStacey
+	clearflag FLAG_HIDE_CERULEAN_STACEY
+	end
+
+CeruleanCity_House5_EventScript_HideStacey::
+	setflag FLAG_HIDE_CERULEAN_STACEY
+	end
 
 CeruleanCity_House5_EventScript_BerryPowderMan::
 	lock
@@ -172,4 +182,22 @@ CeruleanCity_House5_EventScript_BerryCrushRankings::
 	special ShowBerryCrushRankings
 	waitstate
 	releaseall
+	end
+
+CeruleanCity_House5_EventScript_Stacey::
+	lock
+	faceplayer
+	goto_if_set FLAG_GOT_CERULEAN_STACEY_GIFT, CeruleanCity_House5_EventScript_Stacey_Done
+	msgbox CeruleanCity_House5_Text_StaceyIntro
+	checkitemspace ITEM_CHARCOAL, 1
+	goto_if_eq VAR_RESULT, FALSE, EventScript_BagIsFull
+	giveitem ITEM_CHARCOAL
+	setflag FLAG_GOT_CERULEAN_STACEY_GIFT
+	msgbox CeruleanCity_House5_Text_StaceyGivenMuffin
+	release
+	end
+
+CeruleanCity_House5_EventScript_Stacey_Done::
+	msgbox CeruleanCity_House5_Text_StaceyPostMuffin
+	release
 	end

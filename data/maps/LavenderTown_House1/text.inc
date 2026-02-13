@@ -14,3 +14,22 @@ LavenderTown_House1_Text_GhostOfPokemonTowerIsGone::
     .string "Someone must have soothed its\n"
     .string "restless spirit!$"
 
+LavenderTown_House1_Text_StaceyIntro::
+    .string "STACEY: You again?!\p"
+    .string "The bakery? Oh, that was a tax\n"
+    .string "write-off. It's gone.\p"
+    .string "Now I'm running a premium spiritual\n"
+    .string "consultancy.\p"
+    .string "This CUBONE is clearly suffering\n"
+    .string "from blocked chakras.\p"
+    .string "I'm selling 'Karma Cleanse' tags.\n"
+    .string "Here, take one. First one's free.$"
+
+LavenderTown_House1_Text_StaceyGivenTag::
+    .string "STACEY: That will keep the bad\n"
+    .string "vibes away. Probably.$"
+
+LavenderTown_House1_Text_StaceyPostTag::
+    .string "STACEY: If this doesn't work out,\n"
+    .string "I hear there's money in zoos...$"
+

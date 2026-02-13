@@ -68,3 +68,25 @@ CeruleanCity_House1_Text_SeeMeIfYoudLikeToTradePowder::
     .string "Come see me if you'd like to trade\n"
     .string "your BERRY POWDER.$"
 
+CeruleanCity_House5_Text_StaceyIntro::
+    .string "STACEY: Ugh, {PLAYER}!?\n"
+    .string "What are you doing here?\p"
+    .string "I'm disrupting the berry powder\n"
+    .string "industry. Margins are too low.\p"
+    .string "So I'm adding a proprietary filler\n"
+    .string "agent. It's 50% sawdust.\p"
+    .string "It's high fiber! The customers\n"
+    .string "love it. Or they will.\p"
+    .string "Here, have a sample. It's a\n"
+    .string "sawdust-enriched muffin.$"
+
+CeruleanCity_House5_Text_StaceyGivenMuffin::
+    .string "STACEY: Don't choke on it.\n"
+    .string "That's a liability I can't afford.$"
+
+CeruleanCity_House5_Text_StaceyPostMuffin::
+    .string "STACEY: If this bakery fails, I'm\n"
+    .string "blaming the market conditions.\p"
+    .string "Maybe I should go into spiritual\n"
+    .string "consulting... ghosts don't sue.$"
+
