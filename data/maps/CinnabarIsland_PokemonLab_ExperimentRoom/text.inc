@@ -75,3 +75,14 @@ CinnabarIsland_PokemonLab_ExperimentRoom_Text_YouComeAgain::
     .string "Aiyah!\n"
     .string "You come again!$"
 
+CinnabarIsland_PokemonLab_ExperimentRoom_EventScript_Garett_Intro::
+    .string "Aloha! I'm from the ALOLAN TOURISM\nBOARD. We're rehoming some POKéMON.\pHe's too busy fire-dancing to actually battle. It's a distraction.\pWould you like to take this\nAlolan variant?"
+
+CinnabarIsland_PokemonLab_ExperimentRoom_EventScript_Garett_Outro::
+    .string "Thanks for helping! Hope you visit\nAlola soon!"
+
+CinnabarIsland_PokemonLab_ExperimentRoom_EventScript_Garett_DeclinedText::
+    .string "Oh, okay. Maybe next time!"
+
+CinnabarIsland_PokemonLab_ExperimentRoom_EventScript_Garett_NoRoomText::
+    .string "You've got no room in your party!"

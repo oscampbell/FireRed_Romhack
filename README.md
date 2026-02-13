@@ -22,6 +22,15 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
     *   **Wild Starters:** Bulbasaur (Route 1), Charmander (Route 2), and Squirtle (Route 3) are now findable as rare encounters.
 *   **Virid-LAN Business School:** The trainer school has been converted into a business school where **STACEY** is forced to take lessons on basic logic and tax avoidance by the Business Inspector.
 *   **Alolan Tourism Board:** All former NPC trade partners have been replaced by the **Alolan Tourism Board**. Instead of trading, they now give away **Alolan variant POKéMON** for various silly reasons.
+    *   **Route 2 House:** **Alolan Meowth** (Kept eating expensive imported malasadas)
+    *   **Cerulean City House:** **Alolan Vulpix** (Refused to evolve without a colder climate)
+    *   **Vermilion City House:** **Alolan Sandshrew** (Tried to "ice" the owner's coffee)
+    *   **Route 11 East Entrance (2F):** **Alolan Diglett** (Hair was "too fabulous")
+    *   **Route 18 East Entrance (2F):** **Alolan Grimer** (Smelled like a confusing tropical vacation)
+    *   **Cinnabar Lab Lounge:** **Alolan Geodude** (Owner thought it was a magnetic rock, but it was just clingy)
+    *   **Cinnabar Lab Lounge:** **Alolan Exeggutor** (Neck kept getting stuck in ceiling fans)
+    *   **Cinnabar Lab Experiment Room:** **Alolan Marowak** (Too busy "fire-dancing" to battle)
+    *   **Seven Island House:** **Alolan Rattata** (Thinks it's a gourmet chef, but is just a rat)
 *   **Following Pokémon:** The first Pokémon in your party follows you!
 *   **Forced Identity:** Name is forced to **SHUKTI**, Gender is forced to **Female**. Intro selection screens are skipped.
 *   **Custom Starters:** Morpeko, Eevee, and Alolan Raichu (all with heavily buffed "Ultra" base stats).

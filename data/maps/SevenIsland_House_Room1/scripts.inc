@@ -169,3 +169,32 @@ SevenIsland_House_Room1_Movement_OldWomanMoveAsideRight::
 SevenIsland_House_Room1_EventScript_Box::
 	msgbox SevenIsland_House_Room1_Text_SlightBreezeAroundBox, MSGBOX_SIGN
 	end
+
+SevenIsland_House_Room1_EventScript_TradeScientist::
+	lock
+	faceplayer
+	goto_if_set FLAG_ALOLAN_GIFT_9, SevenIsland_House_Room1_EventScript_TradeScientist_Done
+	msgbox SevenIsland_House_Room1_EventScript_TradeScientist_Intro, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, SevenIsland_House_Room1_EventScript_TradeScientist_Declined
+	checkitemspace ITEM_POKE_BALL, 1
+	goto_if_eq VAR_RESULT, FALSE, SevenIsland_House_Room1_EventScript_TradeScientist_NoRoom
+	givemon SPECIES_RATTATA_ALOLA, 12
+	setflag FLAG_ALOLAN_GIFT_9
+	msgbox SevenIsland_House_Room1_EventScript_TradeScientist_Outro
+	release
+	end
+
+SevenIsland_House_Room1_EventScript_TradeScientist_Done::
+	msgbox SevenIsland_House_Room1_EventScript_TradeScientist_Outro
+	release
+	end
+
+SevenIsland_House_Room1_EventScript_TradeScientist_Declined::
+	msgbox SevenIsland_House_Room1_EventScript_TradeScientist_DeclinedText
+	release
+	end
+
+SevenIsland_House_Room1_EventScript_TradeScientist_NoRoom::
+	msgbox SevenIsland_House_Room1_EventScript_TradeScientist_NoRoomText
+	release
+	end
