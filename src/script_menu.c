@@ -562,6 +562,21 @@ static const struct MenuAction sMultichoiceList_Exit[] = {
     { gOtherText_Exit }
 };
 
+static const struct MenuAction sMultichoiceList_DebugMenu[] = {
+    { gText_Debug_GiveMon },
+    { gText_Debug_Items },
+    { gText_Debug_Flags },
+    { gText_Debug_Warp },
+    { gText_Exit }
+};
+
+static const struct MenuAction sMultichoiceList_DebugWarp[] = {
+    { gText_Debug_MillTown },
+    { gText_Debug_PermTer },
+    { gText_Debug_Plateau },
+    { gText_Exit }
+};
+
 static const struct MultichoiceListStruct sMultichoiceLists[] = {
     [MULTICHOICE_YES_NO]                                     = MULTICHOICE(sMultichoiceList_YesNo),
     [MULTICHOICE_EEVEELUTIONS]                               = MULTICHOICE(sMultichoiceList_Eeveelutions),
@@ -629,6 +644,8 @@ static const struct MultichoiceListStruct sMultichoiceLists[] = {
     [MULTICHOICE_JOIN_OR_LEAD]                               = MULTICHOICE(sMultichoiceList_JoinOrLead),
     [MULTICHOICE_TRAINER_TOWER_MODE]                         = MULTICHOICE(sMultichoiceList_TrainerTowerMode),
     [MULTICHOICE_FUCK_OFF]                                   = MULTICHOICE(sMultichoiceList_FuckOff),
+    [MULTICHOICE_DEBUG_MENU]                                 = MULTICHOICE(sMultichoiceList_DebugMenu),
+    [MULTICHOICE_DEBUG_WARP]                                 = MULTICHOICE(sMultichoiceList_DebugWarp),
 };
 
 // From Cool to Berries goes unused

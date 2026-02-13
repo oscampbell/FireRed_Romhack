@@ -74,6 +74,8 @@
 #define MULTICHOICE_JOIN_OR_LEAD                               63
 #define MULTICHOICE_TRAINER_TOWER_MODE                         64
 #define MULTICHOICE_FUCK_OFF                                   65
+#define MULTICHOICE_DEBUG_MENU                                 66
+#define MULTICHOICE_DEBUG_WARP                                 67
 
 #define MULTICHOICE_NONE                                      255
 

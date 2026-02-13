@@ -1141,6 +1141,13 @@ extern const u8 gText_Lower[];
 extern const u8 gText_Symbols[];
 extern const u8 gText_Register2[];
 extern const u8 gText_Exit[];
+extern const u8 gText_Debug_GiveMon[];
+extern const u8 gText_Debug_Items[];
+extern const u8 gText_Debug_Flags[];
+extern const u8 gText_Debug_Warp[];
+extern const u8 gText_Debug_MillTown[];
+extern const u8 gText_Debug_PermTer[];
+extern const u8 gText_Debug_Plateau[];
 
 // wireless_communication_status_screen
 extern const u8 gText_Dynamic0Players[];
