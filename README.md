@@ -90,8 +90,12 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 ## Modified Gym Leader Teams
 *   **Perm-ter City (Faris):** Pidgey (Lv. 10), Hoothoot (Lv. 11), Spearow (Lv. 12), Pidgeotto (Lv. 14).
 *   **Curl-ulean City (Bryony):** Jigglypuff (Lv. 18), Jynx (Lv. 19), Mr. Mime (Lv. 19), Poliwhirl (Lv. 20), Flareon (Lv. 20), Vileplume (Lv. 21).
+*   **Sal-on City (David):** Arcanine, Magikarp, Dragonair, Mr. Mime, Haunter, Machamp.
 *   **Virid-LAN City (Zaynab & Aliyah):** Venusaur (Lv. 50), Arcanine (Lv. 50), Lapras (Lv. 50), Tyranitar (Lv. 52), Metagross (Lv. 52), Salamence (Lv. 54).
 *   **Elite Four Member 3 (Jacquie):** Swinub (Lv. 15), Snorunt (Lv. 12), Spheal (Lv. 14), Smoochum (Lv. 10), Delibird (Lv. 16).
+
+## Natural Progression
+*   **Running Shoes:** Obtained in **Perm-ter City** (formerly Pewter City) when leaving for Route 3. An aide will run up and deliver them to you.
 
 ## To-Do List
 *   [ ] **Rename remaining Gym Leaders:**
