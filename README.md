@@ -1,3 +1,5 @@
+> **IMPORTANT:** Much of the custom dialogue currently in the game contains **AI-generated placeholder content**. A "fine-tooth comb" review of all dialogue is required to ensure it perfectly matches the intended tone and personal references.
+
 > **Note:** Some features implemented were to test feasibility; nothing is final. Paticularly the town names....
 
 # Pokémon FireRed and LeafGreen Ultra (Customized for Shukti)
