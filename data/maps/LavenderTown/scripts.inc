@@ -45,3 +45,11 @@ LavenderTown_EventScript_VolunteerHouseSign::
 LavenderTown_EventScript_PokemonTowerSign::
 	msgbox LavenderTown_Text_PokemonTowerSign, MSGBOX_SIGN
 	end
+
+LavenderTown_EventScript_EdwardFan::
+	msgbox LavenderTown_Text_EdwardFan, MSGBOX_NPC
+	end
+
+LavenderTown_EventScript_JacobFan::
+	msgbox LavenderTown_Text_JacobFan, MSGBOX_NPC
+	end

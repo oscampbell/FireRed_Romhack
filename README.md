@@ -19,6 +19,8 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 
 ## Completed Features
 *   **PokeASDA:** Every **POKéMON MART** and **POKéMART** has been globally renamed to **PokeASDA**.
+*   **Twilight Fan Club:** The Saffron City Trainer Fan Club has been converted into the **Twilight Fan Club HQ**.
+    *   Fans of Team Edward, Team Jacob, and Bella Swan can be found debating throughout Saffron-Swan City, La-Vampire Town, and Cinna-Bella Island.
 *   **Heated Rivalry:** Every interactable TV in the game now displays the message: **"Heated rivalry is on!"**
 *   **Completable Pokédex:**
     *   **No Trading Required:** All trade-only evolutions (like Alakazam, Gengar, Machamp, Golem, Scizor, etc.) now evolve via **Level-up (Lv. 36)** or by using the relevant **Evolution Item** directly.

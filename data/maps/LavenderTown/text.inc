@@ -33,8 +33,19 @@ LavenderTown_Text_SilphScopeNotice::
     .string "SILPH CO.$"
 
 LavenderTown_Text_VolunteerPokemonHouse::
-    .string "LAVENDER VOLUNTEER\n"
+    .string "LA-VAMPIRE VOLUNTEER\n"
     .string "POKéMON HOUSE$"
+
+LavenderTown_Text_EdwardFan::
+    .string "Edward is so mysterious... just\n"
+    .string "like the ghosts in the TOWER.\p"
+    .string "I wish he would sparkle here!$"
+
+LavenderTown_Text_JacobFan::
+    .string "Vampires? Pfft.\n"
+    .string "Werewolves are way cooler.\p"
+    .string "I'm heading to CINNA-BELLA ISLAND\n"
+    .string "to find more Team Jacob fans!$"
 
 LavenderTown_Text_PokemonTowerSign::
     .string "POKéMON TOWER\n"
