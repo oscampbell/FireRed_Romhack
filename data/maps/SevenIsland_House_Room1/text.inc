@@ -93,3 +93,16 @@ SevenIsland_House_Room1_Text_FeelYourDisappointment::
     .string "Forget not this disappointment\n"
     .string "and redouble your training!$"
 
+
+SevenIsland_House_Room1_EventScript_TradeScientist_Intro::
+    .string "Aloha! I'm from the ALOLAN TOURISM\nBOARD. We're rehoming some POKéMON.\pHe thinks he's a gourmet chef. He's actually just a rat.\pWould you like to take this\nAlolan variant?"
+
+SevenIsland_House_Room1_EventScript_TradeScientist_Outro::
+    .string "Thanks for helping! Hope you visit\nAlola soon!"
+
+SevenIsland_House_Room1_EventScript_TradeScientist_DeclinedText::
+    .string "Oh, okay. Maybe next time!"
+
+SevenIsland_House_Room1_EventScript_TradeScientist_NoRoomText::
+    .string "You've got no room in your party!"
+

@@ -12,18 +12,29 @@ Route18_EastEntrance_2F_EventScript_RightBinoculars::
 Route18_EastEntrance_2F_EventScript_Haden::
 	lock
 	faceplayer
-	setvar VAR_0x8008, INGAME_TRADE_LICKITUNG
-	call EventScript_GetInGameTradeSpeciesInfo
-	goto_if_set FLAG_DID_MARC_TRADE, Route18_EastEntrance_2F_EventScript_AlreadyTraded
-	msgbox Trade_Text_LookingForMonWannaTradeForMon, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, Route18_EastEntrance_2F_EventScript_DeclineTrade
-	call EventScript_ChooseMonForInGameTrade
-	goto_if_ge VAR_0x8004, PARTY_SIZE, Route18_EastEntrance_2F_EventScript_DeclineTrade
-	call EventScript_GetInGameTradeSpecies
-	goto_if_ne VAR_RESULT, VAR_0x8009, Route18_EastEntrance_2F_EventScript_NotRequestedMon
-	call EventScript_DoInGameTrade
-	msgbox Trade_Text_HeyThanks
-	setflag FLAG_DID_MARC_TRADE
+	goto_if_set FLAG_ALOLAN_GIFT_5, Route18_EastEntrance_2F_EventScript_Haden_Done
+	msgbox Route18_EastEntrance_2F_EventScript_Haden_Intro, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, Route18_EastEntrance_2F_EventScript_Haden_Declined
+	checkitemspace ITEM_POKE_BALL, 1
+	goto_if_eq VAR_RESULT, FALSE, Route18_EastEntrance_2F_EventScript_Haden_NoRoom
+	givemon SPECIES_GRIMER_ALOLA, 30
+	setflag FLAG_ALOLAN_GIFT_5
+	msgbox Route18_EastEntrance_2F_EventScript_Haden_Outro
+	release
+	end
+
+Route18_EastEntrance_2F_EventScript_Haden_Done::
+	msgbox Route18_EastEntrance_2F_EventScript_Haden_Outro
+	release
+	end
+
+Route18_EastEntrance_2F_EventScript_Haden_Declined::
+	msgbox Route18_EastEntrance_2F_EventScript_Haden_DeclinedText
+	release
+	end
+
+Route18_EastEntrance_2F_EventScript_Haden_NoRoom::
+	msgbox Route18_EastEntrance_2F_EventScript_Haden_NoRoomText
 	release
 	end
 

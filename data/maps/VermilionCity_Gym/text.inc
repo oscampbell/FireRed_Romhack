@@ -92,8 +92,8 @@ VermilionCity_Gym_Text_OllieGiftVermilion::
     .string "OLLIE: Here, take this.$"
 
 VermilionCity_Gym_Text_OllieAdvice::
-    .string "OLLIE: DAVID is a solid trainer—\n"
-    .string "literally! His ROCK types are tough.\p"
+    .string "OLLIE: LT. SURGE is a war veteran.\n"
+    .string "His Electric types are fast!\p"
     .string "But I've seen you battle, SHUKTI.\n"
     .string "You're special. Keep that strength\l"
     .string "up for the big challenges later!$"

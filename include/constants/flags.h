@@ -139,6 +139,15 @@
 #define FLAG_HIDE_THREE_ISLAND_BIKERS                      0x079
 #define FLAG_HIDE_LOSTELLE_IN_BERRY_FOREST                 0x07A
 #define FLAG_HIDE_VIRIDIAN_CITY_STACEY                     0x07B
+#define FLAG_ALOLAN_GIFT_1                                 0x07C
+#define FLAG_ALOLAN_GIFT_2                                 0x07D
+#define FLAG_ALOLAN_GIFT_3                                 0x07E
+#define FLAG_ALOLAN_GIFT_4                                 0x07F
+#define FLAG_ALOLAN_GIFT_5                                 0x080
+#define FLAG_ALOLAN_GIFT_6                                 0x081
+#define FLAG_ALOLAN_GIFT_7                                 0x082
+#define FLAG_ALOLAN_GIFT_8                                 0x083
+#define FLAG_ALOLAN_GIFT_9                                 0x084
 #define FLAG_HIDE_TWO_ISLAND_WOMAN                         0x07B
 #define FLAG_HIDE_TWO_ISLAND_BEAUTY                        0x07C
 #define FLAG_HIDE_TWO_ISLAND_SUPER_NERD                    0x07D

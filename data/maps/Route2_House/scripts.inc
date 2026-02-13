@@ -8,18 +8,29 @@ Route2_House_EventScript_Scientist::
 Route2_House_EventScript_Reyley::
 	lock
 	faceplayer
-	setvar VAR_0x8008, INGAME_TRADE_MR_MIME
-	call EventScript_GetInGameTradeSpeciesInfo
-	goto_if_set FLAG_DID_MIMIEN_TRADE, Route2_House_EventScript_AlreadyTraded
-	msgbox Trade_Text_LookingForMonWannaTradeForMon, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, Route2_House_EventScript_DeclineTrade
-	call EventScript_ChooseMonForInGameTrade
-	goto_if_ge VAR_0x8004, PARTY_SIZE, Route2_House_EventScript_DeclineTrade
-	call EventScript_GetInGameTradeSpecies
-	goto_if_ne VAR_RESULT, VAR_0x8009, Route2_House_EventScript_NotRequestedMon
-	call EventScript_DoInGameTrade
-	msgbox Trade_Text_HeyThanks
-	setflag FLAG_DID_MIMIEN_TRADE
+	goto_if_set FLAG_ALOLAN_GIFT_1, Route2_House_EventScript_Reyley_Done
+	msgbox Route2_House_EventScript_Reyley_Intro, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, Route2_House_EventScript_Reyley_Declined
+	checkitemspace ITEM_POKE_BALL, 1
+	goto_if_eq VAR_RESULT, FALSE, Route2_House_EventScript_Reyley_NoRoom
+	givemon SPECIES_MEOWTH_ALOLA, 10
+	setflag FLAG_ALOLAN_GIFT_1
+	msgbox Route2_House_EventScript_Reyley_Outro
+	release
+	end
+
+Route2_House_EventScript_Reyley_Done::
+	msgbox Route2_House_EventScript_Reyley_Outro
+	release
+	end
+
+Route2_House_EventScript_Reyley_Declined::
+	msgbox Route2_House_EventScript_Reyley_DeclinedText
+	release
+	end
+
+Route2_House_EventScript_Reyley_NoRoom::
+	msgbox Route2_House_EventScript_Reyley_NoRoomText
 	release
 	end
 

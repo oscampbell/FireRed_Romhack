@@ -1,19 +1,17 @@
 SaffronCity_Gym_Text_SabrinaIntro::
-    .string "BRYONY: Welcome to Saffron-Swan City!\n"
-    .string "We've been waiting for you.\p"
-    .string "FARIS: We heard you were doing\n"
-    .string "big things, SHUKTI!\p"
-    .string "BRYONY: But don't think we'll go\n"
-    .string "easy on you just because we're\l"
-    .string "friends!\p"
-    .string "FARIS: Ready? Let's show her our\n"
-    .string "double-team power!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+    .string "I had a vision of your arrival.\p"
+    .string "I have had psychic powers since I\n"
+    .string "was a child.\p"
+    .string "I first learned to bend spoons with\n"
+    .string "my mind.\p"
+    .string "I dislike fighting, but if you wish,\n"
+    .string "I will show you my powers!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
 
 SaffronCity_Gym_Text_SabrinaDefeat::
-    .string "BRYONY: Wow! You really have\n"
-    .string "become strong!\p"
-    .string "FARIS: That was an amazing battle!\n"
-    .string "You definitely earned this!$"
+    .string "I'm shocked!\n"
+    .string "But, though I lost, I still have my\l"
+    .string "psychic powers!\p"
+    .string "You won the MARSHBADGE!$"
 
 SaffronCity_Gym_Text_SabrinaNotEnoughMons::
     .string "BRYONY: Oh! You only have one\n"
@@ -22,10 +20,8 @@ SaffronCity_Gym_Text_SabrinaNotEnoughMons::
     .string "Come back when you have more!$"
 
 SaffronCity_Gym_Text_SabrinaPostBattle::
-    .string "FARIS: You and your POKéMON have\n"
-    .string "an incredible bond.\p"
-    .string "BRYONY: Keep going, SHUKTI!\n"
-    .string "We're all rooting for you!$"
+    .string "Everyone has psychic power.\n"
+    .string "People just don't realize it.$"
 
 SaffronCity_Gym_Text_ExplainMarshBadgeTakeThis::
     .string "The MARSHBADGE makes POKéMON up\n"
@@ -138,8 +134,8 @@ SaffronCity_Gym_Text_PrestonPostBattle::
     .string "read your mind!$"
 
 CeruleanCity_Gym_Text_OllieIntro::
-    .string "OLLIE: Hey SHUKTI! A double battle!\n"
-    .string "Reminds me of us—the perfect team.\p"
+    .string "OLLIE: Hey SHUKTI! You're almost\n"
+    .string "there. Just a few more badges!\p"
     .string "I've got a little something for you.\n"
     .string "A ball for a true friend.$"
 
@@ -154,8 +150,8 @@ SaffronCity_Gym_Text_OllieAdvice::
     .string "reunited at the finish line.$"
 
 SaffronCity_Gym_Text_OlliePostVictory::
-    .string "OLLIE: You did it! They were no\n"
-    .string "match for your bond.\p"
+    .string "OLLIE: You did it! SABRINA was\n"
+    .string "no match for your bond.\p"
     .string "I'm heading to my final stop now.\n"
     .string "I'll be waiting for you!$"
 

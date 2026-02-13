@@ -50,3 +50,16 @@ Route11_EastEntrance_2F_Text_RockTunnelGoodRouteToLavender::
     .string "ROCK TUNNEL appears to be a good\n"
     .string "route to take.$"
 
+
+Route11_EastEntrance_2F_EventScript_Turner_Intro::
+    .string "Aloha! I'm from the ALOLAN TOURISM\nBOARD. We're rehoming some POKéMON.\pThat hair... it's just too fabulous. I can't handle the competition.\pWould you like to take this\nAlolan variant?"
+
+Route11_EastEntrance_2F_EventScript_Turner_Outro::
+    .string "Thanks for helping! Hope you visit\nAlola soon!"
+
+Route11_EastEntrance_2F_EventScript_Turner_DeclinedText::
+    .string "Oh, okay. Maybe next time!"
+
+Route11_EastEntrance_2F_EventScript_Turner_NoRoomText::
+    .string "You've got no room in your party!"
+

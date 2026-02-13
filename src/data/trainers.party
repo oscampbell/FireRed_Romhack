@@ -8455,7 +8455,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Water Pulse
 
 === TRAINER_LEADER_LT_SURGE ===
-Name: DAVID
+Name: LT. SURGE
 Class: Leader
 Pic: Leader Lt Surge
 Gender: Male
@@ -8464,33 +8464,17 @@ Items: Super Potion / Full Heal
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Graveler
+Voltorb
 Level: 21
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Rollout
-- Magnitude
-- Defense Curl
-- Rock Tomb
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Sudowoodo
-Level: 23
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Rock Tomb
-- Low Kick
-- Flail
-- Block
+Pikachu
+Level: 18
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Golem @ Sitrus Berry
+Raichu
 Level: 24
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Earthquake
-- Rock Slide
-- Explosion
-- Rollout
-- Quick Attack
-- Thunder Wave
-- Double Team
-- Shock Wave
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LEADER_ERIKA ===
 Name: DAVID
@@ -8614,54 +8598,30 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Fire Blast
 
 === TRAINER_LEADER_SABRINA ===
-Name: BRYONY & FARIS
+Name: SABRINA
 Class: Leader
 Pic: Leader Sabrina
-Gender: Male
+Gender: Female
 Music: Female
-Items: Hyper Potion / Hyper Potion / Full Heal
-Double Battle: Yes
+Items: Hyper Potion / Full Heal
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Espeon
-Level: 43
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Psychic
-- Shadow Ball
-- Morning Sun
-- Calm Mind
+Kadabra
+Level: 38
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Sylveon
-Level: 43
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Moonblast
-- Shadow Ball
-- Hyper Voice
-- Quick Attack
+Mr. Mime
+Level: 37
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Gardevoir
-Level: 44
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Psychic
-- Moonblast
-- Thunderbolt
-- Hypnosis
-
-Gallade
-Level: 44
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Zen Headbutt
-- Close Combat
-- Leaf Blade
-- Night Slash
+Venomoth
+Level: 38
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Alakazam
 Level: 43
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Psychic
-- Shadow Ball
-- Focus Blast
-- Recover
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GENTLEMAN_THOMAS ===
 Name: THOMAS

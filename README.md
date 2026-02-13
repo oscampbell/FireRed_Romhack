@@ -21,6 +21,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
     *   **Version Exclusives merged:** All LeafGreen exclusive Pokémon (Sandshrew, Vulpix, Bellsprout, etc.) are now findable in the wild in the FireRed version.
     *   **Wild Starters:** Bulbasaur (Route 1), Charmander (Route 2), and Squirtle (Route 3) are now findable as rare encounters.
 *   **Virid-LAN Business School:** The trainer school has been converted into a business school where **STACEY** is forced to take lessons on basic logic and tax avoidance by the Business Inspector.
+*   **Alolan Tourism Board:** All former NPC trade partners have been replaced by the **Alolan Tourism Board**. Instead of trading, they now give away **Alolan variant POKéMON** for various silly reasons.
 *   **Following Pokémon:** The first Pokémon in your party follows you!
 *   **Forced Identity:** Name is forced to **SHUKTI**, Gender is forced to **Female**. Intro selection screens are skipped.
 *   **Custom Starters:** Morpeko, Eevee, and Alolan Raichu (all with heavily buffed "Ultra" base stats).
@@ -45,10 +46,10 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
     *   Perm-ter City (Brock): **FARIS** (Bird Team: Pidgey, Hoothoot, Spearow, Pidgeotto). He refers to SHUKTI as "Auntie" and is obsessed with his hair, birds, and creme eggs.
     *   Curl-ulean City (Misty): **BRYONY** (Mixed Team: Jigglypuff, Jynx, Mr. Mime, Poliwhirl, Flareon, Vileplume). All other trainers removed.
 *   **New Item: Poo Bag:** A bag containing Bowie's poop, given by Faris in the Perm-ter Gym (must speak to him again after the battle). It has an **unknown effect** (it actually reduces a Pokémon's level by 1).
-    *   Ver-Mullet-on (Lt. Surge): **DAVID** (Rock Team: Graveler, Sudowoodo, Golem).
+    *   Ver-Mullet-on (Lt. Surge): **LT. SURGE** (Original Leader).
     *   Sal-on City (Erika): **DAVID** (Bodybuilder. Team: Arcanine, Magikarp, Dragonair, Mr. Mime, Haunter, Machamp). He thinks he's in a fitness gym. Two cats, **Billie** and **Puddin**, roam the gym and say "Meow!".
     *   Virid-LAN City (Giovanni): **ZAYNAB & ALIYAH** (Double Battle! Team: Venusaur, Arcanine, Lapras, Tyranitar, Metagross, Salamence). They kicked Giovanni out for being evil and took over their local gym.
-    *   Saffron-Swan City (Sabrina): **BRYONY & FARIS** (Double Battle!)
+    *   Saffron-Swan City (Sabrina): **SABRINA** (Original Leader).
 *   **Elite Four Overhaul:**
     *   Member 3 (Agatha): **JACQUIE**. She is a technologically inept old lady who is constantly struggling with her iPad and trying to send emails to Professor Tree. Her team consists of **severely underleveled Ice-type POKéMON** (Lv. 10-16).
 *   **Gym Guide (OLLIE):** The guy in every gym is now **OLLIE**. He acts as a loving, supportive partner giving genuine advice and romantic gifts in every gym:
@@ -65,8 +66,6 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 ## Modified Gym Leader Teams
 *   **Perm-ter City (Faris):** Pidgey (Lv. 10), Hoothoot (Lv. 11), Spearow (Lv. 12), Pidgeotto (Lv. 14).
 *   **Curl-ulean City (Bryony):** Jigglypuff (Lv. 18), Jynx (Lv. 19), Mr. Mime (Lv. 19), Poliwhirl (Lv. 20), Flareon (Lv. 20), Vileplume (Lv. 21).
-*   **Ver-Mullet-on (David):** Graveler (Lv. 21), Sudowoodo (Lv. 23), Golem (Lv. 24).
-*   **Saffron-Swan City (Bryony & Faris):** Espeon (Lv. 43), Sylveon (Lv. 43), Gardevoir (Lv. 44), Gallade (Lv. 44), Alakazam (Lv. 43).
 *   **Virid-LAN City (Zaynab & Aliyah):** Venusaur (Lv. 50), Arcanine (Lv. 50), Lapras (Lv. 50), Tyranitar (Lv. 52), Metagross (Lv. 52), Salamence (Lv. 54).
 *   **Elite Four Member 3 (Jacquie):** Swinub (Lv. 15), Snorunt (Lv. 12), Spheal (Lv. 14), Smoochum (Lv. 10), Delibird (Lv. 16).
 
