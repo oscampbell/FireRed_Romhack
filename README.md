@@ -54,7 +54,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
     *   **ITEMS:** Bicycle, Fly (HM02), Max Repels, Running Shoes.
     *   **FLAGS:** Unlock Pokedex, Badges 1-8, Fly locations, and post-game flags.
     *   **WARP:** Teleport to any City, Town, or League location.
-*   **Town Renames (Danger Jones Professional Color Palette):**
+*   **Town Renames (Professional Colorist Palette):**
     *   Clear Town -> **Clear Town** (Diluter/Shine)
     *   Adrenaline City -> **Adrenaline City** (Neon Green)
     *   Pavement City -> **Pavement City** (Grey)

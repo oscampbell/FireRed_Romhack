@@ -27,8 +27,8 @@ VermilionCity_Text_MachopStompingLandFlat::
 VermilionCity_Text_SSAnneVisitsOnceAYear::
     .string "I saw a shiny dog being loaded onto\n"
     .string "a truck headed for EMPIRE CITY.\p"
-    .string "The truck had a big Danger Jones\n"
-    .string "logo on the side!$"
+    .string "The truck had a big, colorful\n"
+    .string "salon logo on the side!$"
 
 VermilionCity_Text_CitySign::
     .string "BURNOUT CITY\n"

@@ -1,5 +1,5 @@
 LavenderTown_House2_Text_WantMeToRateNicknames::
-    .string "Hello! I am the Danger Jones\n"
+    .string "Hello! I am the professional\n"
     .string "BRAND MANAGER!\p"
     .string "Want me to see if your POKéMON's\n"
     .string "name fits our professional vibe?$"
@@ -22,7 +22,7 @@ LavenderTown_House2_Text_WhatShallNewNicknameBe::
 LavenderTown_House2_Text_FromNowOnShallBeKnownAsName::
     .string "Perfect! From now on, this POKéMON\n"
     .string "shall be known as {STR_VAR_1}!\p"
-    .string "It fits the Danger Jones palette\n"
+    .string "It fits the professional palette\n"
     .string "so much better!$"
 
 LavenderTown_House2_Text_ISeeComeVisitAgain::
@@ -37,7 +37,7 @@ LavenderTown_House2_Text_FromNowOnShallBeKnownAsSameName::
 LavenderTown_House2_Text_TrulyImpeccableName::
     .string "{STR_VAR_1}, is it?\n"
     .string "That is a truly impeccable brand!\p"
-    .string "It's pure Danger Jones. Perfect!$"
+    .string "It's pure quality. Perfect!$"
 
 
 LavenderTown_House2_Text_ThatIsMerelyAnEgg::
