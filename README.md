@@ -114,10 +114,11 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 - [ ] Tested
 
 **Story & Dialogue Synopsis:**
-*   **The Home:** SHUKTI starts her journey here. Ollie has left a secret romantic message on her NES.
-*   **The Crisis:** Local NPCs **ZAYNAB** and **ALIYAH** inform SHUKTI that **TEAM ROCKET** has stolen **FIG** (a special shiny dog).
+*   **The Home:** SHUKTI starts her journey here. Ollie has left a secret romantic message on her NES. Mom spends her time yearning at the TV because she **loves hockey** so much.
+*   **The Crisis:** Local NPCs **ZAYNAB** and **ALIYAH** inform SHUKTI that **TEAM ROCKET** has stolen **FIG** (a special shiny dog). They explain that the evolution stones scattered around town were left behind by the ROCKETS during the kidnapping.
 *   **The Investigation:** Investigator **DAISY** is currently stationed in **STACEY'S** house, combing through records of her "redundancies" and fraud. Daisy gives SHUKTI the **TOWN MAP** to help track Stacey's movements.
-*   **The Lab:** **PROFESSOR TREE** (the "mad old professor") gives SHUKTI her first "Ultra" starter.
+*   **The Lab:** **PROFESSOR TREE** (the "mad old professor") gives SHUKTI her choice of **Morpeko, Eevee, or Alolan Raichu**. One of his Aides comments on how uncreative his name is.
+*   **The Quest:** The classic parcel quest has been replaced. You must now deliver a **Special Edition Twilight Boxed Set** to Professor Tree (who is a massive Team Edward fan).
 
 ---
 ### [x] Route 1
