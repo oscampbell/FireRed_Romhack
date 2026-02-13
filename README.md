@@ -42,12 +42,14 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
 *   **Direct Start:** Selecting "New Game" now skips the Professor Oak intro sequence entirely, placing you directly in the bedroom.
 *   **Forced Identity:** Name is forced to **SHUKTI**, Gender is forced to **Female**. Rival name is forced to **STACEY**.
 *   **Agatha Rival Sprite:** Stacey now uses the **Agatha (Elite Four)** sprite for all battle encounters and overworld appearances. Her battle profile is set to **Female** with **Female encounter music**.
+*   **OLLIE Development Suite:** The Game Freak development team in Empire City (Mansion 3F) has been replaced by a team of **OLLIEs** (Designer, Programmer, Stylist, and Writer) with custom dialogue and sprites (Steven, Cooltrainer, Rocker, and Gentleman).
+*   **Danger Jones Palette:** The world is themed after professional hair colorist shades. All consultancy NPCs (Style Consultant, Brand Manager) have been re-flavored to match.
 *   **Custom Starters:** Morpeko, Eevee, and Alolan Raichu (all with heavily buffed "Ultra" base stats).
 *   **The "All Starters" Quest:** After choosing your first Pokémon, **Professor Tree** (renamed from Oak) will give you the remaining two starters later in the game:
     *   **Second Starter:** Speak to Professor Tree in the **Poolside City** Pokémon Center.
     *   **Third Starter:** Speak to Professor Tree in the **Hustler City** Pokémon Center.
 *   **Starting Money:** Starting money has been increased to **¥35,000**.
-*   **Poryscript Support:** Poryscript is installed and integrated into the `Makefile`. `.pory` files in map directories will automatically compile to `.inc` upon building. For example, `data/maps/MillTown/scripts.pory` will compile to `data/maps/MillTown/scripts.inc`.
+*   **Poryscript Support:** Poryscript is installed and integrated into the `Makefile`. `.pory` files in map directories will automatically compile to `.inc` upon building.
 *   **Evolution Items:** Added **Fire, Water, Thunder, Leaf, Ice, Sun, Moon, Shiny, Dusk, and Dawn Stones** as pickup items scattered around Clear Town to allow early evolution for Eevee.
 *   **Debug NPC (The Pro's Choice):** A Mew sprite located in the **Player's Bedroom** and **every Pokémon Center**.
     *   **GIVEMON:** Level 100 Mew.
@@ -55,17 +57,17 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
     *   **FLAGS:** Unlock Pokedex, Badges 1-8, Fly locations, and post-game flags.
     *   **WARP:** Teleport to any City, Town, or League location.
 *   **Town Renames (Professional Colorist Palette):**
-    *   Clear Town -> **Clear Town** (Diluter/Shine)
-    *   Adrenaline City -> **Adrenaline City** (Neon Green)
-    *   Pavement City -> **Pavement City** (Grey)
-    *   Poolside City -> **Poolside City** (Light Blue)
-    *   Masquerade Town -> **Masquerade Town** (True Purple)
-    *   Burnout City -> **Burnout City** (Orange)
-    *   Empire City -> **Empire City** (Green)
-    *   Hustler City -> **Hustler City** (Pink)
-    *   Diablo Island -> **Diablo Island** (Red)
-    *   Starrider City -> **Starrider City** (Yellow)
-    *   Libertine Plateau -> **Libertine Plateau** (Violet)
+    *   Pallet Town -> **Clear Town** (Clear/Diluter)
+    *   Viridian City -> **Adrenaline City** (Neon Green)
+    *   Pewter City -> **Pavement City** (Grey)
+    *   Cerulean City -> **Poolside City** (Light Blue)
+    *   Lavender Town -> **Masquerade Town** (True Purple)
+    *   Vermilion City -> **Burnout City** (Orange)
+    *   Celadon City -> **Empire City** (Green)
+    *   Fuchsia City -> **Hustler City** (Pink)
+    *   Cinnabar Island -> **Diablo Island** (Red)
+    *   Saffron City -> **Starrider City** (Yellow)
+    *   Indigo Plateau -> **Libertine Plateau** (Violet)
 *   **New NPCs:** Zaynab and Aliyah added to Clear Town with custom dialogue about Fig.
 *   **Gym Leader Overhaul:**
     *   Pavement City (Brock): **FARIS** (Bird Team: Pidgey, Hoothoot, Spearow, Pidgeotto). He refers to SHUKTI as "Auntie" and is obsessed with his hair, birds, and creme eggs.
@@ -75,6 +77,9 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
     *   Empire City (Erika): **DAVID** (Bodybuilder. Team: Arcanine, Magikarp, Dragonair, Mr. Mime, Haunter, Machamp). He thinks he's in a fitness gym. Two cats, **Billie** and **Puddin**, roam the gym and say "Meow!".
     *   Adrenaline City (Giovanni): **ZAYNAB & ALIYAH** (Double Battle! Team: Venusaur, Arcanine, Lapras, Tyranitar, Metagross, Salamence). They kicked Giovanni out for being evil and took over their local gym.
     *   Starrider City (Sabrina): **SABRINA** (Original Leader).
+*   **Consultant Overhaul:**
+    *   **Brand Manager:** The Name Rater in **Masquerade Town** now audits Pokémon nicknames to ensure they fit the professional brand.
+    *   **Style Consultant:** The Move Deleter in **Hustler City** now "trims" and "cuts" out-of-fashion moves.
 *   **Elite Four Overhaul:**
     *   Member 3 (Agatha): **JACQUIE**. She is a technologically inept old lady who is constantly struggling with her iPad and trying to send emails to Professor Tree. Her team consists of **severely underleveled Ice-type POKéMON** (Lv. 10-16).
 *   **Gym Guide (OLLIE):** The guy in every gym is now **OLLIE**. He acts as a loving, supportive partner giving genuine advice and romantic gifts in every gym:
