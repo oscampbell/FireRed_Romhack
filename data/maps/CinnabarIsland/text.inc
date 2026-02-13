@@ -74,18 +74,5 @@ CinnabarIsland_Text_IfYouHaveTriPassYouCanGoAgain::
     .string "All right, thanks for your company!$"
 
 CinnabarIsland_Text_StaceyIntro::
-    .string "STACEY: Why did I think moving to\nan island was a good idea.....\p"
-    .string "The humidity is ruining my hair,\n"
-    .string "and there's a volcano about to blow!\p"
-    .string "I'm trying to start a 'Volcano\n"
-    .string "Insurance' business, but nobody's\l"
-    .string "buying. They say 'Blaine takes care\l"
-    .string "of us'. Ugh.\p"
-    .string "Here, have some 'Island Sunscreen'.\n"
-    .string "It's actually just BURN HEAL I\l"
-    .string "found in the trash.$"
-
-CinnabarIsland_Text_StaceyOutro::
-    .string "STACEY: If this island explodes,\n"
-    .string "at least I'll have a tan.$"
+    .string "STACEY: Why did I think moving to\nan island was a good idea.....$"
 

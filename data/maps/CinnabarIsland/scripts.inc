@@ -363,13 +363,5 @@ CinnabarIsland_EventScript_GymSign::
 	end
 
 CinnabarIsland_EventScript_Stacey::
-	lock
-	faceplayer
-	msgbox CinnabarIsland_Text_StaceyIntro
-	checkitemspace ITEM_BURN_HEAL, 1
-	goto_if_eq VAR_RESULT, FALSE, EventScript_BagIsFull
-	giveitem ITEM_BURN_HEAL
-	setflag FLAG_GOT_CINNABAR_STACEY_GIFT
-	msgbox CinnabarIsland_Text_StaceyOutro
-	release
+	msgbox CinnabarIsland_Text_StaceyIntro, MSGBOX_NPC
 	end
