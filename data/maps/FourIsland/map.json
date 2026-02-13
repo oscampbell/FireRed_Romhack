@@ -145,7 +145,7 @@
     {
       "local_id": "LOCALID_FOUR_ISLAND_RIVAL",
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_BLUE",
+      "graphics_id": "OBJ_EVENT_GFX_AGATHA",
       "x": 8,
       "y": 25,
       "elevation": 3,
