@@ -117,3 +117,10 @@ ViridianCity_Text_GymSign::
 ViridianCity_Text_GymDoorsAreLocked::
     .string "VIRIDIAN GYM's doors are locked…$"
 
+ViridianCity_Text_CatchMonsForEasierBattles::
+    .string "TRAINER TIPS\p"
+    .string "Catch POKéMON and expand your\n"
+    .string "collection.\p"
+    .string "The more POKéMON you have, the\n"
+    .string "easier it is to fight!$"
+

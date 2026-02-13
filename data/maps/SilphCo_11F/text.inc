@@ -92,3 +92,7 @@ SilphCo_11F_Text_FloorSign::
     .string "SILPH CO. HEAD OFFICE\n"
     .string "11F$"
 
+SilphCo_11F_Text_ObtainedMasterBallFromPresident::
+    .string "{PLAYER} obtained the MASTER BALL\n"
+    .string "from the PRESIDENT!$"
+

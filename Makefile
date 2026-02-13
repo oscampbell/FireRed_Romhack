@@ -218,6 +218,8 @@ FIX          := $(TOOLS_DIR)/gbafix/gbafix$(EXE)
 MAPJSON      := $(TOOLS_DIR)/mapjson/mapjson$(EXE)
 JSONPROC     := $(TOOLS_DIR)/jsonproc/jsonproc$(EXE)
 TRAINERPROC  := $(TOOLS_DIR)/trainerproc/trainerproc$(EXE)
+PORYSCRIPT   := $(TOOLS_DIR)/poryscript/poryscript$(EXE)
+PORYSCRIPT_FLAGS := -cc $(TOOLS_DIR)/poryscript/command_config.json -fc $(TOOLS_DIR)/poryscript/font_config.json
 PATCHELF     := $(TOOLS_DIR)/patchelf/patchelf$(EXE)
 ifeq ($(shell uname),Darwin)
     ROMTEST ?= $(shell command -v mgba-rom-test-mac 2>/dev/null || echo $(TOOLS_DIR)/mgba/mgba-rom-test-mac)
@@ -526,6 +528,9 @@ $(DATA_ASM_BUILDDIR)/%.o: $(DATA_ASM_SUBDIR)/%.s
 
 $(DATA_ASM_BUILDDIR)/%.d: $(DATA_ASM_SUBDIR)/%.s
 	$(SCANINC) -M $@ $(INCLUDE_SCANINC_ARGS) -I "" $<
+
+%.inc: %.pory
+	$(PORYSCRIPT) -i $< -o $@ -f firered $(PORYSCRIPT_FLAGS)
 
 ifneq ($(NODEP),1)
 -include $(addprefix $(OBJ_DIR)/,$(REGULAR_DATA_ASM_SRCS:.s=.d))

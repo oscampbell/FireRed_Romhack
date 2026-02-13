@@ -155,7 +155,7 @@ PalletTown_ProfessorOaksLab_Text_OakHaveSomethingForMe::
     .string "You have something for me?$"
 
 PalletTown_ProfessorOaksLab_Text_DeliveredOaksParcel::
-    .string "{PLAYER} delivered OAK'S PARCEL.$"
+    .string "{PLAYER} delivered TREE'S PARCEL.$"
 
 PalletTown_ProfessorOaksLab_Text_OakCustomBallIOrdered::
     .string "Ah! \n"
@@ -291,7 +291,7 @@ PalletTown_ProfessorOaksLab_Text_OakIsGoingToHaveRadioShow::
     .string "PROF. TREE is going to have his own\n"
     .string "radio show soon.\p"
     .string "The program will be called PROF.\n"
-    .string "OAK's POKéMON SEMINAR.$"
+    .string "TREE's POKéMON SEMINAR.$"
 
 PalletTown_ProfessorOaksLab_Text_OakIsAuthorityOnMons::
     .string "PROF. TREE may not look like much,\n"

@@ -81,3 +81,17 @@ CeruleanCity_Gym_Text_GymStatuePlayerWon::
     .string "WINNING TRAINERS:\n"
     .string "{RIVAL}, {PLAYER}$"
 
+CeruleanCity_Gym_Text_ExplainCascadeBadge::
+    .string "The CASCADEBADGE makes all POKéMON\n"
+    .string "up to Lv. 30 obey you.\p"
+    .string "That includes even those you got\n"
+    .string "through trades.\p"
+    .string "It also lets you use CUT outside\n"
+    .string "of battle.$"
+
+CeruleanCity_Gym_Text_ReceivedTM03FromMisty::
+    .string "{PLAYER} received TM03 from BRYONY.$"
+
+CeruleanCity_Gym_Text_BetterMakeRoomForThis::
+    .string "You'd better make room for this!$"
+

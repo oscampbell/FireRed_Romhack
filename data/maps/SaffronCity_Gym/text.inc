@@ -133,7 +133,7 @@ SaffronCity_Gym_Text_PrestonPostBattle::
     .string "That's right! I used telepathy to\n"
     .string "read your mind!$"
 
-CeruleanCity_Gym_Text_OllieIntro::
+SaffronCity_Gym_Text_OllieIntro::
     .string "OLLIE: Hey SHUKTI! You're almost\n"
     .string "there. Just a few more badges!\p"
     .string "I've got a little something for you.\n"
