@@ -46,6 +46,7 @@ This is a personalized version of **FireRed Ultra**, for Shukti's birthday.
     *   **Second Starter:** Speak to Professor Tree in the **Curl-ulean City** Pokémon Center.
     *   **Third Starter:** Speak to Professor Tree in the **Fo-Shear-ia City** Pokémon Center.
 *   **Starting Money:** Starting money has been increased to **¥35,000**.
+*   **Poryscript Support:** Poryscript is installed and integrated into the `Makefile`. `.pory` files in map directories will automatically compile to `.inc` upon building. For example, `data/maps/MillTown/scripts.pory` will compile to `data/maps/MillTown/scripts.inc`.
 *   **Evolution Items:** Added **Fire, Water, Thunder, Leaf, Ice, Sun, Moon, Shiny, Dusk, and Dawn Stones** as pickup items scattered around Mill Town to allow early evolution for Eevee.
 *   **Town Renames (Puns & References):**
     *   Pallet Town -> **Mill Town**
