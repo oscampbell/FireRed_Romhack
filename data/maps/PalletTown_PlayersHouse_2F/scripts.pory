@@ -32,6 +32,14 @@ script PalletTown_PlayersHouse_2F_EventScript_Sign {
 script PalletTown_PlayersHouse_2F_EventScript_PC {
     goto_if_questlog(EventScript_ReleaseEnd)
     lockall
+    if (var(VAR_QUEST_BIRTHDAY) == 2) {
+        msgbox("SYSTEM ERROR: GLITCH IN THE MATRIX\nREBOOTING TO SECURE LOCATION...")
+        closemessage
+        warp(MAP_PALLET_TOWN_BIRTHDAY_PARTY_ROOM, 4, 7)
+        waitstate
+        releaseall
+        end
+    }
     setvar(VAR_0x8004, HELPCONTEXT_BEDROOM_PC)
     special(Script_SetHelpContext)
     setvar(VAR_0x8004, 1)

@@ -310,7 +310,8 @@
     "PalletTown_PlayersHouse_1F",
     "PalletTown_PlayersHouse_2F",
     "PalletTown_RivalsHouse",
-    "PalletTown_ProfessorOaksLab"
+    "PalletTown_ProfessorOaksLab",
+    "PalletTown_BirthdayPartyRoom"
   ],
   "gMapGroup_IndoorViridian": [
     "ViridianCity_House",
@@ -435,8 +436,7 @@
     "Route5_SouthEntrance"
   ],
   "gMapGroup_IndoorRoute6": [
-    "Route6_NorthEntrance",
-    "Route6_UnusedHouse"
+    "Route6_NorthEntrance"
   ],
   "gMapGroup_IndoorRoute7": [
     "Route7_EastEntrance"
