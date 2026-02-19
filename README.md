@@ -118,6 +118,7 @@ The cities and badges have been renamed after professional hair color shades:
 *   **Twilight Trivia Hunt:** Find 4 missing book chapters for PROF. TREE hidden across KANTO. Rewards: Rare Candies.
 *   **PokeASDA Mystery Shopper:** Audit various Marts to earn a permanent **20% Staff Discount** globally.
 *   **The Professional Palette:** Show the Colorist in Clear Town Pokémon that match the Danger Jones hair color palette.
+*   **Eevee Adoption Program:** Adopt 10 scattered Eevees across the region to earn an **Everstone**.
 *   **Birthday Party Invite:** A post-game quest to find and invite 8 hidden friends to a grand finale in Clear Town.
 
 ---
@@ -158,7 +159,9 @@ Stacey is a blundering idiot trying to run failing businesses.
 ### 3. The Rescue of FIG
 Team Rocket has kidnapped FIG (a Shiny Rockruff species).
 *   Follow clues from Zaynab and Aliyah in Clear Town.
-*   Confront Stacey in Poolside and Masquerade Town for breadcrumbs.
+*   **Breadcrumbs:** Find **FIG'S TREATS** on Route 2 and a **SHINY FUR CLUMP** on Route 9.
+*   **Sightings:** Talk to NPCs in Pavement City, Route 3, and Burnout City for info.
+*   Confront Stacey in Poolside and Masquerade Town for more clues.
 *   Final Rescue: Defeat the Team Rocket boss at Silph Co. 11F in Starrider City. FIG will be returned to you by the President.
 
 ### 4. Twilight Trivia Hunt
@@ -183,7 +186,12 @@ Show the Colorist in Clear Town Pokémon that match the Danger Jones palette:
 *   **Masquerade Purple:** Show a **GENGAR**.
 *   **Reward:** A **Shiny Stone**.
 
-### 7. Birthday Party Invite (Post-Game)
+### 7. Eevee Adoption Program
+Find loving homes for all 10 scattered Eevees across the region.
+*   **Locations:** Check the PokeASDA Marts in Adrenaline, Pavement, Poolside, Masquerade, Burnout, Hustler, Starrider, and Diablo. One is also in the One Island Pokémon Center.
+*   **Reward:** Adopt all 10 to earn an **EVERSTONE** (handed over by the final Eevee giver).
+
+### 8. Birthday Party Invite (Post-Game)
 Once you are the Champion, 8 of your friends are hidden in cities across Kanto. Find and invite them:
 1.  **CLAIRE:** Adrenaline City
 2.  **STEVE:** Pavement City

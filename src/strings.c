@@ -925,6 +925,7 @@ const u8 gText_QuestLog_TwilightQuest[] = _("Twilight Trivia Hunt");
 const u8 gText_QuestLog_PokeASDAQuest[] = _("PokeASDA Mystery Shopper");
 const u8 gText_QuestLog_PaletteQuest[] = _("The Professional Palette");
 const u8 gText_QuestLog_BirthdayQuest[] = _("Birthday Party Invite");
+const u8 gText_QuestLog_EeveeQuest[] = _("Eevee Adoption Program");
 
 const u8 gText_QuestLog_MainStory_Step0[] = _("Go downstairs and talk to your Mom.\nShe's probably worried about you.");
 const u8 gText_QuestLog_MainStory_Step1[] = _("Go find Professor Tree. He's usually\nwandering near Clear Town's exit.");
@@ -985,6 +986,10 @@ const u8 gText_QuestLog_BirthdayQuest_Step0[] = _("It's almost the big day! Find
 const u8 gText_QuestLog_BirthdayQuest_Step1[] = _("Friends are hiding in cities you've\nvisited. Search everywhere!");
 const u8 gText_QuestLog_BirthdayQuest_Step2[] = _("All friends invited! Head to the\nsecret room in Clear Town!");
 
+const u8 gText_QuestLog_EeveeQuest_Step0[] = _("Adoptable Eevees are scattered across\nKANTO. Find and give them a home!");
+const u8 gText_QuestLog_EeveeQuest_Step1[] = _("You've started adopting Eevees! Keep\nlooking in Marts across the region.");
+const u8 gText_QuestLog_EeveeQuest_Step2[] = _("All 10 Eevees adopted! You've provided\na home for every single one.");
+
 const u8 Text_BirthdayInvite[] = _("{STR_VAR_1}: Happy Birthday SHUKTI!\nI'll definitely be at the party!{PAUSE_UNTIL_PRESS}");
 
 const u8 Text_FriendName_Claire[] = _("CLAIRE");
@@ -1002,6 +1007,13 @@ const u8 Text_EeveeAdoption_GotParty[] = _("{PLAYER} adopted the EEVEE!{PAUSE_UN
 const u8 Text_EeveeAdoption_GotPC[] = _("{PLAYER} adopted the EEVEE!\pIt was sent to the PC.{PAUSE_UNTIL_PRESS}");
 const u8 Text_EeveeAdoption_Decline[] = _("Oh, I see. Let me know if you change\nyour mind.{PAUSE_UNTIL_PRESS}");
 const u8 Text_EeveeAdoption_NoRoom[] = _("It looks like you don't have any room\nfor this EEVEE right now.{PAUSE_UNTIL_PRESS}");
+const u8 Text_EeveeQuest_AllCollected[] = _("Incredible! You've adopted all 10\nEEVEES. You've given them all a\lwonderful home!\pPlease take this as a special\nthank you!{PAUSE_UNTIL_PRESS}");
+
+const u8 Text_Clue_Treats[] = _("These are FIG's favorite treats!\nShe must have been here...{PAUSE_UNTIL_PRESS}");
+const u8 Text_Clue_Fur[] = _("A clump of shiny fur! It's definitely\nfrom FIG. You're getting closer!{PAUSE_UNTIL_PRESS}");
+const u8 Text_Sighting_Pavement[] = _("I saw some thugs in black suits\ndragging a barking crate towards\lMt. Moon. It was very suspicious!{PAUSE_UNTIL_PRESS}");
+const u8 Text_Sighting_Route3[] = _("A shiny dog bit one of those ROCKET\nguys right here! Serves them right\lfor kidnapping a pet!{PAUSE_UNTIL_PRESS}");
+const u8 Text_Sighting_Burnout[] = _("They didn't take the boat. I saw them\nheading towards the Underground\lPath with a large, heavy bag.{PAUSE_UNTIL_PRESS}");
 const u8 gStartMenuDesc_Option[] = _("Adjust various game settings such as text\nspeed, game rules, etc.");
 const u8 gStartMenuDesc_Exit[] = _("Close this MENU window.");
 const u8 gStartMenuDesc_Retire[] = _("Retire from the SAFARI GAME and return to\nthe registration counter.");

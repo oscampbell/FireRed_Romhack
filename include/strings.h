@@ -653,6 +653,7 @@ extern const u8 gText_QuestLog_TwilightQuest[];
 extern const u8 gText_QuestLog_PokeASDAQuest[];
 extern const u8 gText_QuestLog_PaletteQuest[];
 extern const u8 gText_QuestLog_BirthdayQuest[];
+extern const u8 gText_QuestLog_EeveeQuest[];
 
 extern const u8 gText_QuestLog_MainStory_Step0[];
 extern const u8 gText_QuestLog_MainStory_Step1[];
@@ -713,6 +714,10 @@ extern const u8 gText_QuestLog_BirthdayQuest_Step0[];
 extern const u8 gText_QuestLog_BirthdayQuest_Step1[];
 extern const u8 gText_QuestLog_BirthdayQuest_Step2[];
 
+extern const u8 gText_QuestLog_EeveeQuest_Step0[];
+extern const u8 gText_QuestLog_EeveeQuest_Step1[];
+extern const u8 gText_QuestLog_EeveeQuest_Step2[];
+
 extern const u8 Text_BirthdayInvite[];
 extern const u8 Text_FriendName_Claire[];
 extern const u8 Text_FriendName_Steve[];
@@ -729,6 +734,13 @@ extern const u8 Text_EeveeAdoption_GotParty[];
 extern const u8 Text_EeveeAdoption_GotPC[];
 extern const u8 Text_EeveeAdoption_Decline[];
 extern const u8 Text_EeveeAdoption_NoRoom[];
+extern const u8 Text_EeveeQuest_AllCollected[];
+
+extern const u8 Text_Clue_Treats[];
+extern const u8 Text_Clue_Fur[];
+extern const u8 Text_Sighting_Pavement[];
+extern const u8 Text_Sighting_Route3[];
+extern const u8 Text_Sighting_Burnout[];
 extern const u8 gText_SaveError_PleaseExchangeBackupMemory[];
 extern const u8 gText_SavingDontTurnOffThePower2[];
 extern const u8 gSaveStatName_Player[];

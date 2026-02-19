@@ -2728,3 +2728,15 @@ void Script_CheckAllFriendsInvited(void)
     }
     gSpecialVar_Result = TRUE;
 }
+
+void Script_CountAdoptedEevees(void)
+{
+    u32 i;
+    u32 count = 0;
+    for (i = 0; i < 10; i++)
+    {
+        if (FlagGet(FLAG_GOT_EEVEE_PEWTER + i))
+            count++;
+    }
+    gSpecialVar_Result = count;
+}

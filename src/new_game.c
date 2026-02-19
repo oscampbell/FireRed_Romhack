@@ -170,6 +170,7 @@ void NewGameInitData(void)
     SetQuestStep(VAR_QUEST_POKEASDA, 0);
     SetQuestStep(VAR_QUEST_PALETTE, 0);
     SetQuestStep(VAR_QUEST_BIRTHDAY, 0);
+    SetQuestStep(VAR_QUEST_EEVEE, 0);
 
     ResetTrainerTowerResults();
     ResetItemFlags();

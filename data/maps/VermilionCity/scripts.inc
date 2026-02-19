@@ -246,6 +246,10 @@ VermilionCity_EventScript_CitySign::
 	msgbox VermilionCity_Text_CitySign, MSGBOX_SIGN
 	end
 
+VermilionCity_EventScript_FigSighting::
+	msgbox Text_Sighting_Burnout, MSGBOX_NPC
+	end
+
 VermilionCity_EventScript_Friend5::
 	lock
 	faceplayer

@@ -1152,6 +1152,16 @@ EventScript_EeveeAdoption_GotPC::
 EventScript_EeveeAdoption_Nickname::
 	setvar VAR_0x8004, 0
 	call EventScript_ChangePokemonNickname
+	setvar VAR_QUEST_EEVEE, 1
+	special CountAdoptedEevees
+	goto_if_eq VAR_RESULT, 10, EventScript_EeveeQuest_Complete
+	release
+	end
+
+EventScript_EeveeQuest_Complete::
+	msgbox Text_EeveeQuest_AllCollected, MSGBOX_DEFAULT
+	setvar VAR_QUEST_EEVEE, 2
+	giveitem ITEM_EVERSTONE
 	release
 	end
 

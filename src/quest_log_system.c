@@ -21,6 +21,7 @@
 #define VAR_QUEST_POKEASDA 0x4090
 #define VAR_QUEST_PALETTE  0x4091
 #define VAR_QUEST_BIRTHDAY 0x4092
+#define VAR_QUEST_EEVEE    0x4093
 
 static const struct QuestStep sMainStorySteps[] = {
     {gText_QuestLog_MainStory_Step0},
@@ -95,6 +96,12 @@ static const struct QuestStep sBirthdayQuestSteps[] = {
     {gText_QuestLog_BirthdayQuest_Step2},
 };
 
+static const struct QuestStep sEeveeQuestSteps[] = {
+    {gText_QuestLog_EeveeQuest_Step0},
+    {gText_QuestLog_EeveeQuest_Step1},
+    {gText_QuestLog_EeveeQuest_Step2},
+};
+
 const struct Quest gQuests[MAX_QUESTS] = {
     {
         .name = gText_QuestLog_MainStory,
@@ -137,6 +144,12 @@ const struct Quest gQuests[MAX_QUESTS] = {
         .steps = sBirthdayQuestSteps,
         .varId = VAR_QUEST_BIRTHDAY,
         .numSteps = NELEMS(sBirthdayQuestSteps),
+    },
+    {
+        .name = gText_QuestLog_EeveeQuest,
+        .steps = sEeveeQuestSteps,
+        .varId = VAR_QUEST_EEVEE,
+        .numSteps = NELEMS(sEeveeQuestSteps),
     },
 };
 

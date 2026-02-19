@@ -659,6 +659,10 @@ PewterCity_EventScript_Friend2::
 	goto EventScript_InviteFriend
 	end
 
+PewterCity_EventScript_FigSighting::
+	msgbox Text_Sighting_Pavement, MSGBOX_NPC
+	end
+
 PewterCity_EventScript_RunningShoesAide::
 	lock
 	faceplayer

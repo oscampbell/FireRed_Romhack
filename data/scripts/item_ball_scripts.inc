@@ -690,3 +690,13 @@ PokemonMansion_B1F_EventScript_ItemChapter4::
 	giveitem ITEM_TWILIGHT_CHAPTER_4
 	setvar VAR_QUEST_TWILIGHT, 4
 	end
+
+Route2_EventScript_ItemFigsTreats::
+	giveitem ITEM_FIGS_TREATS
+	msgbox Text_Clue_Treats
+	end
+
+Route9_EventScript_ItemShinyFur::
+	giveitem ITEM_SHINY_FUR_CLUMP
+	msgbox Text_Clue_Fur
+	end

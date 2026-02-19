@@ -1285,8 +1285,8 @@
 #define FLAG_GOT_EEVEE_STARRIDER      0x4CC
 #define FLAG_GOT_EEVEE_DIABLO         0x4CD
 #define FLAG_GOT_EEVEE_ONE_ISLAND     0x4CE
-#define FLAG_0x4CF               0x4CF
-#define FLAG_0x4D0               0x4D0
+#define FLAG_HIDE_ROUTE2_FIGS_TREATS  0x4CF
+#define FLAG_HIDE_ROUTE9_SHINY_FUR    0x4D0
 #define FLAG_0x4D1               0x4D1
 #define FLAG_0x4D2               0x4D2
 #define FLAG_0x4D3               0x4D3

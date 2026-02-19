@@ -454,6 +454,7 @@ gSpecials::
 		def_special Script_PlayerHasMoveWithType
 			def_special Script_PlayerHasMonWithType
 				def_special Script_PlayerHasSpecies
-				def_special Script_CheckAllFriendsInvited
-			gSpecialsEnd::
-			
+					def_special Script_CheckAllFriendsInvited
+					def_special Script_CountAdoptedEevees
+				gSpecialsEnd::
+				

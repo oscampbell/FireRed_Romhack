@@ -34,5 +34,6 @@ void Script_PlayerHasMoveWithType(void);
 void Script_PlayerHasMonWithType(void);
 void Script_PlayerHasSpecies(void);
 void Script_CheckAllFriendsInvited(void);
+void Script_CountAdoptedEevees(void);
 
 #endif // GUARD_FIELD_SPECIALS_H

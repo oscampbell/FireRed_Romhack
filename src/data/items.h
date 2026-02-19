@@ -7309,6 +7309,32 @@ const struct ItemInfo gItemsInfo[] =
         .iconPalette = gItemIconPalette_RareCandy,
     },
 
+    [ITEM_FIGS_TREATS] =
+    {
+        .name = ITEM_NAME("Fig's Treats"),
+        .price = 0,
+        .holdEffect = HOLD_EFFECT_NONE,
+        .description = COMPOUND_STRING("A bag of dog\ntreats. They\nsmell like FIG."),
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .iconPic = gItemIcon_RareCandy,
+        .iconPalette = gItemIconPalette_RareCandy,
+    },
+
+    [ITEM_SHINY_FUR_CLUMP] =
+    {
+        .name = ITEM_NAME("Shiny Fur"),
+        .price = 0,
+        .holdEffect = HOLD_EFFECT_NONE,
+        .description = COMPOUND_STRING("A clump of fur\nthat shimmers\nin the light."),
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .iconPic = gItemIcon_RareCandy,
+        .iconPalette = gItemIconPalette_RareCandy,
+    },
+
 // Gems
     #if I_PRICE >= GEN_9
         #define GEM_PRICE 15000
