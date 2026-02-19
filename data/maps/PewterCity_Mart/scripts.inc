@@ -9,6 +9,11 @@ PewterCity_Mart_EventScript_Boy::
 	msgbox PewterCity_Mart_Text_GoodThingsIfRaiseMonsDiligently, MSGBOX_NPC
 	end
 
+PewterCity_Mart_EventScript_EeveeAdoption::
+	setvar VAR_0x8004, FLAG_GOT_EEVEE_PEWTER
+	goto EventScript_EeveeAdoption
+	end
+
 PewterCity_Mart_EventScript_Clerk::
 	goto_if_questlog EventScript_ReleaseEnd
 	lock

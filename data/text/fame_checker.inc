@@ -255,7 +255,7 @@ gFameCheckerFlavorText_Koga4:: @ 0x81AE48D
 
 gFameCheckerFlavorText_Koga5:: @ 0x81AE51B
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}The SAFARI ZONE's huge, wouldn't\n"
+	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}The WOBURN SAFARI PARK's huge, wouldn't\n"
 	.string "you say?\p"
 	.string "FUCHSIA's GYM LEADER, KOGA, \n"
 	.string "patrols the grounds every so often.\p"
@@ -921,7 +921,7 @@ gFameCheckerFlavorTextOriginLocation_Koga4::
 	.string "FO-SHEAR-IA$"
 
 gFameCheckerFlavorTextOriginLocation_Koga5::
-	.string "SAFARI ZONE$"
+	.string "WOBURN SAFARI PARK$"
 
 gFameCheckerFlavorTextOriginLocation_Sabrina0::
 	.string "SAFFRON-SWAN CITY$"

@@ -1117,6 +1117,54 @@ EventScript_ChangePokemonNickname::
 	waitstate
 	return
 
+EventScript_EeveeAdoption::
+	lock
+	faceplayer
+	msgbox Text_EeveeAdoption_Intro, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, EventScript_EeveeAdoption_Decline
+	setvar VAR_TEMP_1, SPECIES_EEVEE
+	givemon SPECIES_EEVEE, 5
+	goto_if_eq VAR_RESULT, 0, EventScript_EeveeAdoption_GotParty
+	goto_if_eq VAR_RESULT, 1, EventScript_EeveeAdoption_GotPC
+	goto_if_eq VAR_RESULT, 2, EventScript_EeveeAdoption_NoRoom
+	end
+
+EventScript_EeveeAdoption_GotParty::
+	setflag VAR_0x8004
+	playfanfare MUS_OBTAIN_ITEM
+	msgbox Text_EeveeAdoption_GotParty
+	waitfanfare
+	msgbox Text_GiveNicknameToThisMon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, EventScript_EeveeAdoption_Nickname
+	release
+	end
+
+EventScript_EeveeAdoption_GotPC::
+	setflag VAR_0x8004
+	playfanfare MUS_OBTAIN_ITEM
+	msgbox Text_EeveeAdoption_GotPC
+	waitfanfare
+	msgbox Text_GiveNicknameToThisMon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, EventScript_EeveeAdoption_Nickname
+	release
+	end
+
+EventScript_EeveeAdoption_Nickname::
+	setvar VAR_0x8004, 0
+	call EventScript_ChangePokemonNickname
+	release
+	end
+
+EventScript_EeveeAdoption_Decline::
+	msgbox Text_EeveeAdoption_Decline
+	release
+	end
+
+EventScript_EeveeAdoption_NoRoom::
+	msgbox Text_EeveeAdoption_NoRoom
+	release
+	end
+
 EventScript_InviteFriend::
 	lock
 	faceplayer

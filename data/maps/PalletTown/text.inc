@@ -93,8 +93,8 @@ PalletTown_Text_Colorist_Intro::
 PalletTown_Text_Colorist_AskNeonGreen::
 	.string "First, I need to see a POKéMON\n"
 	.string "in 'Neon Green'.\p"
-	.string "I hear MORPEKO has a very vibrant\n"
-	.string "green phase. Show me one!$"
+	.string "A VICTREEBEL would be the perfect\n"
+	.string "shade. Show me one!$"
 
 PalletTown_Text_Colorist_FoundNeonGreen::
 	.string "Magnificent! That green is\n"
@@ -111,14 +111,13 @@ PalletTown_Text_Colorist_FoundFieryRed::
 	.string "as a Diablo Island sunset.\p"
 	.string "Finally, I must see\n"
 	.string "'Masquerade Purple'.\p"
-	.string "The 'Hangry' phase of a MORPEKO\n"
-	.string "is exactly that deep violet!$"
+	.string "A GENGAR is exactly that deep\n"
+	.string "violet!$"
 
 PalletTown_Text_Colorist_AskMasqueradePurple::
 	.string "I'm waiting for that deep\n"
 	.string "'Masquerade Purple'.\p"
-	.string "A MORPEKO in its 'Hangry' form\n"
-	.string "should do the trick!$"
+	.string "A GENGAR should do the trick!$"
 
 PalletTown_Text_Colorist_FoundMasqueradePurple::
 	.string "Incredible! You've captured the\n"

@@ -80,20 +80,21 @@ CeruleanCity_House5_Text_StaceyIntro::
     .string "Here, have a sample. It's a\n"
     .string "sawdust-enriched muffin.$"
 
-CeruleanCity_House5_Text_StaceyOvenBroken::
-    .string "STACEY: Look, the oven is broken.\n"
-    .string "The pilot light went out.\p"
-    .string "I need something with a FIRE move\n"
-    .string "to jumpstart this disruptive\l"
-    .string "baking technology.\p"
-    .string "Come back when you've got some\n"
-    .string "heat in your party.$"
+CeruleanCity_House5_Text_StaceyOvenSafe::
+    .string "STACEY: My new electric oven is\n"
+    .string "the peak of baking optimization.\p"
+    .string "I sure hope no one tampers with it.\n"
+    .string "It's extremely sensitive to WATER.\p"
+    .string "One drop and the whole synergy\n"
+    .string "could collapse!$"
 
-CeruleanCity_House5_Text_StaceyOvenFixed::
-    .string "STACEY: Perfect. That flame just\n"
-    .string "optimized my throughput by 200%.\p"
-    .string "Here, take this. It's a prototype\n"
-    .string "flavor enhancer.$"
+CeruleanCity_House5_Text_StaceyOvenExploded::
+    .string "STACEY: NO! My disruptive heating\n"
+    .string "elements! They're shorting out!\p"
+    .string "Wait... was that a WATER move?\n"
+    .string "You just sabotaged my margins!\p"
+    .string "Ugh, fine. Take this and get out.\n"
+    .string "I'll put it down as a 'Force Majeure'.$"
 
 CeruleanCity_House5_Text_StaceyGivenMuffin::
     .string "STACEY: Don't choke on it.\n"

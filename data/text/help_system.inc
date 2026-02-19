@@ -1031,13 +1031,13 @@ Help_Text_HowToRegisterKeyItem::
 
 Help_Text_HowToUseBall::
 	.string "{CIRCLE_1} Select to throw the special POKé\n"
-	.string "   BALL used only in the SAFARI ZONE.\n"
+	.string "   BALL used only in the WOBURN SAFARI PARK.\n"
 	.string "When wild POKéMON appear, throw lots\n"
 	.string "of SAFARI BALLS to catch them!$"
 
 Help_Text_HowToUseBait::
 	.string "{CIRCLE_1} Select to throw the special food\n"
-	.string "   used only in the SAFARI ZONE.\n"
+	.string "   used only in the WOBURN SAFARI PARK.\n"
 	.string "It is POKéMON food rolled up into\n"
 	.string "a ball for easy eating. When BAIT is\n"
 	.string "thrown, the wild POKéMON may get\n"
@@ -1045,7 +1045,7 @@ Help_Text_HowToUseBait::
 
 Help_Text_HowToUseRock::
 	.string "{CIRCLE_1} Select to throw a rock lying on\n"
-	.string "   the ground in the SAFARI ZONE.\n"
+	.string "   the ground in the WOBURN SAFARI PARK.\n"
 	.string "Throwing a rock at a POKéMON may \n"
 	.string "make it run away, but it becomes easier\n"
 	.string "to catch!$"

@@ -19,19 +19,21 @@ The Kanto region has been transformed into a world that reflects Shukti's life, 
 *   **The Fig Quest:** Team Rocket has stolen **Fig** (a special Shiny dog). The species has been globally renamed to **FIG**. Clues about her whereabouts are breadcrumbed through every city, leading to a final rescue at Silph Co.
 *   **The Champion: OLLIE.** The final twist! Your supportive gym guide is actually the ultimate challenge, featuring a powerhouse team.
 
-### Danger Jones Professional Palette (Town Renames)
-The cities have been renamed after professional hair color shades:
+### Danger Jones Professional Palette (Town & Badge Renames)
+The cities and badges have been renamed after professional hair color shades:
 *   Pallet Town -> **Clear Town** (Diluter/Shine)
-*   Viridian City -> **Adrenaline City** (Neon Green)
-*   Pewter City -> **Pavement City** (Grey)
-*   Cerulean City -> **Poolside City** (Light Blue)
-*   Lavender Town -> **Masquerade Town** (True Purple)
-*   Vermilion City -> **Burnout City** (Orange)
-*   Celadon City -> **Empire City** (Green)
-*   Fuchsia City -> **Hustler City** (Pink)
-*   Cinnabar Island -> **Diablo Island** (Red)
-*   Saffron City -> **Starrider City** (Yellow)
+*   Viridian City -> **Adrenaline City** (Neon Green) -> **ADRENALINEBADGE**
+*   Pewter City -> **Pavement City** (Grey) -> **PAVEMENTBADGE**
+*   Cerulean City -> **Poolside City** (Light Blue) -> **POOLSIDEBADGE**
+*   Lavender Town -> **Masquerade Town** (True Purple) -> **STARRIDERBADGE** (Note: Saffron/Lavender badge swap reflects Saffron's color Yellow -> Starrider)
+*   Vermilion City -> **Burnout City** (Orange) -> **BURNOUTBADGE**
+*   Celadon City -> **Empire City** (Green) -> **EMPIREBADGE**
+*   Fuchsia City -> **Hustler City** (Pink) -> **HUSTLERBADGE**
+*   Cinnabar Island -> **Diablo Island** (Red) -> **DIABLOBADGE**
+*   Saffron City -> **Starrider City** (Yellow) -> **STARRIDERBADGE**
 *   Indigo Plateau -> **Libertine Plateau** (Violet)
+
+*Note: Saffron is Starrider (Yellow) and Lavender is Masquerade (Purple). Saffron Gym gives the STARRIDERBADGE.*
 
 ---
 
@@ -47,9 +49,11 @@ The cities have been renamed after professional hair color shades:
 *   **The All-Starters Quest:** Professor Tree gives you the remaining two starters at the Poolside and Hustler City Pokémon Centers.
 *   **Twilight Boxed Set:** The classic parcel quest is now a delivery of a Special Edition Twilight Set.
 *   **PokeASDA:** All Marts have been globally rebranded.
+*   **Woburn Safari Park:** The Safari Zone has been globally renamed to Woburn Safari Park.
 *   **Liquid Death:** Lemonade has been replaced with Liquid Death water cans.
 *   **Following Pokémon:** The first Pokémon in your party follows you in the overworld.
 *   **Quest Log:** A new feature in the Start Menu that tracks your progress through a 29-step Main Story path (from Clear Town to the Elite Four and post-game Mewtwo) and side quests like "Stacey's Redundancy" and "The Rescue of Fig".
+*   **Eevee Adoption Program:** To ensure a full Eevee-evolution team is possible, adoptable Eevees are offered by NPCs in the Pavement City Mart, Burnout City Mart, and the Celadon Condominiums Roof Room.
 *   **Starting Resources:** Starting money increased to **¥35,000**. Evolution stones are scattered around Clear Town for early Eevee forms.
 
 ### Professional Consultants (Reflavored NPCs)
@@ -137,3 +141,56 @@ For creating exact representations of real-life friends and family:
     *   Resize selected images to 64x64 (Battle) or 16x32 (Overworld).
     *   Index the color palettes to the 16-color GBA standard.
     *   Update `src/data/trainers.party` and `map.json` files to point to new custom assets.
+
+---
+
+## Complete Quest Guide
+
+### 1. Main Story (29 Steps)
+Follow the Quest Log in the Start Menu. It will guide you from Clear Town through all 8 Gyms, the Elite Four, and the final post-game confrontation with Mewtwo in Cerulean Cave.
+
+### 2. Stacey's Redundancy
+Stacey is a blundering idiot trying to run failing businesses.
+*   **Step 1: Poolside City (Berry Bakery):** Stacey brags about her electric oven. **Sabotage it** by showing her a Pokémon with a **WATER-type move**. Reward: Charcoal.
+*   **Step 2: Masquerade Town (Spiritual Consulting):** Stacey is terrified of ghosts. Show her a **GHOST-type Pokémon** to prove they aren't bad for business. Reward: Spell Tag.
+*   **Step 3: Diablo Island (Volcano Insurance):** Survive a **Risk Assessment battle** against Hiker Dudley to validate your low-risk profile. Reward: Lava Cookie.
+
+### 3. The Rescue of FIG
+Team Rocket has kidnapped FIG (a Shiny Rockruff species).
+*   Follow clues from Zaynab and Aliyah in Clear Town.
+*   Confront Stacey in Poolside and Masquerade Town for breadcrumbs.
+*   Final Rescue: Defeat the Team Rocket boss at Silph Co. 11F in Starrider City. FIG will be returned to you by the President.
+
+### 4. Twilight Trivia Hunt
+Find 4 missing chapters of Professor Tree's favorite book series. They are now visible **item balls**:
+*   **CH. 1:** Pokémon Tower 2F (Masquerade Town).
+*   **CH. 2:** Game Corner (Empire City).
+*   **CH. 3:** Silph Co. 11F (Starrider City).
+*   **CH. 4:** Pokémon Mansion B1F (Diablo Island).
+*   **Reward:** Return each chapter to Professor Tree in his lab for a **Rare Candy**.
+
+### 5. PokeASDA Mystery Shopper
+Audit the PokeASDA branches to earn a permanent **20% Staff Discount** globally.
+*   Start at the Adrenaline City Mart.
+*   Audit Pavement City Mart (Talk to clerk).
+*   Audit Poolside City Mart (Talk to clerk).
+*   **Final Report:** Talk to the Receptionist at the PokeASDA HQ (Celadon Dept Store 1F) to activate your discount.
+
+### 6. The Professional Palette
+Show the Colorist in Clear Town Pokémon that match the Danger Jones palette:
+*   **Neon Green:** Show a **VICTREEBEL**.
+*   **Fiery Red:** Show a **FLAREON**.
+*   **Masquerade Purple:** Show a **GENGAR**.
+*   **Reward:** A **Shiny Stone**.
+
+### 7. Birthday Party Invite (Post-Game)
+Once you are the Champion, 8 of your friends are hidden in cities across Kanto. Find and invite them:
+1.  **CLAIRE:** Adrenaline City
+2.  **STEVE:** Pavement City
+3.  **FERNANDA:** Poolside City
+4.  **SAM:** Masquerade Town
+5.  **JOE:** Burnout City
+6.  **ZAYNAB:** Empire City
+7.  **ALIYAH:** Hustler City
+8.  **MARKY:** Diablo Island
+*   **Finale:** Once all 8 are invited, the Quest Log will direct you to a secret Grand Finale in Clear Town!

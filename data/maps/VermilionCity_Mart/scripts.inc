@@ -9,6 +9,11 @@ VermilionCity_Mart_EventScript_BaldingMan::
 	msgbox VermilionCity_Mart_Text_TeamRocketAreWickedPeople, MSGBOX_NPC
 	end
 
+VermilionCity_Mart_EventScript_EeveeAdoption::
+	setvar VAR_0x8004, FLAG_GOT_EEVEE_VERMILION
+	goto EventScript_EeveeAdoption
+	end
+
 VermilionCity_Mart_EventScript_Clerk::
 	goto_if_questlog EventScript_ReleaseEnd
 	lock

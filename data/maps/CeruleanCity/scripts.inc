@@ -343,6 +343,9 @@ CeruleanCity_EventScript_CitySign::
 	end
 
 CeruleanCity_EventScript_Friend3::
+	lock
+	faceplayer
+	bufferstring STR_VAR_1, Text_FriendName_Fernanda
 	setvar VAR_0x8004, FLAG_INVITED_FRIEND_3
 	goto EventScript_InviteFriend
 	end

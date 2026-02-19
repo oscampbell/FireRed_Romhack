@@ -1,5 +1,5 @@
 FuchsiaCity_SafariZone_Entrance_Text_WelcomeToSafariZone::
-    .string "Welcome to the SAFARI ZONE!$"
+    .string "Welcome to the WOBURN SAFARI PARK!$"
 
 FuchsiaCity_SafariZone_Entrance_Text_PlaySafariGameFor500::
     .string "For just ¥500, you can play the\n"
@@ -33,7 +33,7 @@ FuchsiaCity_SafariZone_Entrance_Text_OopsNotEnoughMoney::
 
 FuchsiaCity_SafariZone_Entrance_Text_GoingToLeaveSafariZoneEarly::
     .string "Are you going to leave the\n"
-    .string "SAFARI ZONE early?$"
+    .string "WOBURN SAFARI PARK early?$"
 
 FuchsiaCity_SafariZone_Entrance_Text_PleaseReturnSafariBalls::
     .string "Please return any SAFARI BALLS\n"
@@ -48,10 +48,10 @@ FuchsiaCity_SafariZone_Entrance_Text_CatchFairShareComeAgain::
 
 FuchsiaCity_SafariZone_Entrance_Text_FirstTimeAtSafariZone::
     .string "Hi! Is it your first time here at\n"
-    .string "the SAFARI ZONE?$"
+    .string "the WOBURN SAFARI PARK?$"
 
 FuchsiaCity_SafariZone_Entrance_Text_ExplainSafariZone::
-    .string "The SAFARI ZONE actually has\n"
+    .string "The WOBURN SAFARI PARK actually has\n"
     .string "four zones in it.\p"
     .string "Each zone has different kinds of\n"
     .string "POKéMON, even some rare ones.\p"

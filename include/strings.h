@@ -714,7 +714,21 @@ extern const u8 gText_QuestLog_BirthdayQuest_Step1[];
 extern const u8 gText_QuestLog_BirthdayQuest_Step2[];
 
 extern const u8 Text_BirthdayInvite[];
+extern const u8 Text_FriendName_Claire[];
+extern const u8 Text_FriendName_Steve[];
+extern const u8 Text_FriendName_Fernanda[];
+extern const u8 Text_FriendName_Sam[];
+extern const u8 Text_FriendName_Joe[];
+extern const u8 Text_FriendName_Zaynab[];
+extern const u8 Text_FriendName_Aliyah[];
+extern const u8 Text_FriendName_Marky[];
 extern const u8 Text_AllFriendsInvited[];
+
+extern const u8 Text_EeveeAdoption_Intro[];
+extern const u8 Text_EeveeAdoption_GotParty[];
+extern const u8 Text_EeveeAdoption_GotPC[];
+extern const u8 Text_EeveeAdoption_Decline[];
+extern const u8 Text_EeveeAdoption_NoRoom[];
 extern const u8 gText_SaveError_PleaseExchangeBackupMemory[];
 extern const u8 gText_SavingDontTurnOffThePower2[];
 extern const u8 gSaveStatName_Player[];

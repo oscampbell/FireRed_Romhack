@@ -1275,9 +1275,9 @@
 #define FLAG_INVITED_FRIEND_6         0x4C2
 #define FLAG_INVITED_FRIEND_7         0x4C3
 #define FLAG_INVITED_FRIEND_8         0x4C4
-#define FLAG_0x4C5               0x4C5
-#define FLAG_0x4C6               0x4C6
-#define FLAG_0x4C7               0x4C7
+#define FLAG_GOT_EEVEE_PEWTER         0x4C5
+#define FLAG_GOT_EEVEE_VERMILION      0x4C6
+#define FLAG_GOT_EEVEE_CELADON        0x4C7
 #define FLAG_0x4C8               0x4C8
 #define FLAG_0x4C9               0x4C9
 #define FLAG_0x4CA               0x4CA

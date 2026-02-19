@@ -35,6 +35,9 @@ LavenderTown_EventScript_TownSign::
 	end
 
 LavenderTown_EventScript_Friend4::
+	lock
+	faceplayer
+	bufferstring STR_VAR_1, Text_FriendName_Sam
 	setvar VAR_0x8004, FLAG_INVITED_FRIEND_4
 	goto EventScript_InviteFriend
 	end

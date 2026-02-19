@@ -4,7 +4,7 @@ FuchsiaCity_Text_DidYouTrySafariGame::
     .string "can only be caught there.$"
 
 FuchsiaCity_Text_SafariZoneZooInFront::
-    .string "The SAFARI ZONE has a zoo in front\n"
+    .string "The WOBURN SAFARI PARK has a zoo in front\n"
     .string "of the entrance.\p"
     .string "Out back is the SAFARI GAME for\n"
     .string "catching POKéMON.$"
@@ -25,20 +25,20 @@ FuchsiaCity_Text_CitySign::
 
 FuchsiaCity_Text_SafariZoneSign::
     .string "POKéMON PARADISE\n"
-    .string "SAFARI ZONE$"
+    .string "WOBURN SAFARI PARK$"
 
 FuchsiaCity_Text_SafariGameSign::
     .string "SAFARI GAME\n"
     .string "POKéMON-U-CATCH!$"
 
 FuchsiaCity_Text_WardensHomeSign::
-    .string "SAFARI ZONE\n"
+    .string "WOBURN SAFARI PARK\n"
     .string "WARDEN'S HOME$"
 
 FuchsiaCity_Text_SafariZoneOfficeSign::
     .string "POKéMON PARADISE!\n"
-    .string "Welcome to the SAFARI ZONE!\l"
-    .string "SAFARI ZONE OFFICE$"
+    .string "Welcome to the WOBURN SAFARI PARK!\l"
+    .string "WOBURN SAFARI PARK OFFICE$"
 
 FuchsiaCity_Text_GymSign::
     .string "HUSTLER CITY POKéMON GYM\n"

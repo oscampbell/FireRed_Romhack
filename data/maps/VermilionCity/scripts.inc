@@ -247,6 +247,9 @@ VermilionCity_EventScript_CitySign::
 	end
 
 VermilionCity_EventScript_Friend5::
+	lock
+	faceplayer
+	bufferstring STR_VAR_1, Text_FriendName_Joe
 	setvar VAR_0x8004, FLAG_INVITED_FRIEND_5
 	goto EventScript_InviteFriend
 	end

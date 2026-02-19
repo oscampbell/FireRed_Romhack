@@ -5,6 +5,11 @@ CeladonCity_Condominiums_RoofRoom_EventScript_BlackBelt::
 	msgbox CeladonCity_Condominiums_RoofRoom_Text_TheresNothingIDontKnow, MSGBOX_NPC
 	end
 
+CeladonCity_Condominiums_RoofRoom_EventScript_EeveeAdoption::
+	setvar VAR_0x8004, FLAG_GOT_EEVEE_CELADON
+	goto EventScript_EeveeAdoption
+	end
+
 CeladonCity_Condominiums_RoofRoom_EventScript_EeveeBall::
 	lock
 	faceplayer

@@ -511,7 +511,7 @@ PalletTown_EventScript_Colorist::
 
 PalletTown_EventScript_Colorist_Step1::
 	msgbox PalletTown_Text_Colorist_AskNeonGreen
-	setvar VAR_0x8004, SPECIES_MORPEKO
+	setvar VAR_0x8004, SPECIES_VICTREEBEL
 	special PlayerHasSpecies
 	goto_if_eq VAR_RESULT, FALSE, PalletTown_EventScript_Colorist_NoMon
 	msgbox PalletTown_Text_Colorist_FoundNeonGreen
@@ -531,7 +531,7 @@ PalletTown_EventScript_Colorist_Step2::
 
 PalletTown_EventScript_Colorist_Step3::
 	msgbox PalletTown_Text_Colorist_AskMasqueradePurple
-	setvar VAR_0x8004, SPECIES_MORPEKO_HANGRY
+	setvar VAR_0x8004, SPECIES_GENGAR
 	special PlayerHasSpecies
 	goto_if_eq VAR_RESULT, FALSE, PalletTown_EventScript_Colorist_NoMon
 	msgbox PalletTown_Text_Colorist_FoundMasqueradePurple

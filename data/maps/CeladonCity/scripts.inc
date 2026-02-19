@@ -76,6 +76,9 @@ CeladonCity_EventScript_CitySign::
 	end
 
 CeladonCity_EventScript_Friend6::
+	lock
+	faceplayer
+	bufferstring STR_VAR_1, Text_FriendName_Zaynab
 	setvar VAR_0x8004, FLAG_INVITED_FRIEND_6
 	goto EventScript_InviteFriend
 	end

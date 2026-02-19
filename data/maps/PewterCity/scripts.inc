@@ -652,6 +652,9 @@ PewterCity_EventScript_CitySign::
 	end
 
 PewterCity_EventScript_Friend2::
+	lock
+	faceplayer
+	bufferstring STR_VAR_1, Text_FriendName_Steve
 	setvar VAR_0x8004, FLAG_INVITED_FRIEND_2
 	goto EventScript_InviteFriend
 	end

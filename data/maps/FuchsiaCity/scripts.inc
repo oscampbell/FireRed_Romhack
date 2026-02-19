@@ -45,6 +45,9 @@ FuchsiaCity_EventScript_CitySign::
 	end
 
 FuchsiaCity_EventScript_Friend7::
+	lock
+	faceplayer
+	bufferstring STR_VAR_1, Text_FriendName_Aliyah
 	setvar VAR_0x8004, FLAG_INVITED_FRIEND_7
 	goto EventScript_InviteFriend
 	end
