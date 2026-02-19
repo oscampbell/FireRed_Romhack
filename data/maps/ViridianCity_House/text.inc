@@ -5,10 +5,8 @@ ViridianCity_House_Text_NicknamingIsFun::
     .string "view of the city!$"
 
 ViridianCity_House_Text_MyDaddyLovesMonsToo::
-    .string "ELLIE: Welcome to our home!\n"
-    .string "CHRIS is always tinkering with his\l"
-    .string "gear, but I'm just waiting for the\l"
-    .string "next big celebration.$"
+    .string "ELLIE: Shhh! I'm busy yearning at\n"
+    .string "the TV. I just love hockey so much!$"
 
 ViridianCity_House_Text_Speary::
     .string "SPEARY: Tetweet!$"
@@ -21,9 +19,3 @@ ViridianCity_House_Text_HockeyTV::
     .string "It's a hockey game!\p"
     .string "The commentary is so loud you can\n"
     .string "barely hear yourself think.$"
-
-ViridianCity_House_Text_HockeyTV::
-    .string "It's a hockey game!\p"
-    .string "The commentary is so loud you can\n"
-    .string "barely hear yourself think.$"
-

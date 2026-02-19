@@ -1,7 +1,8 @@
 FuchsiaCity_House1_Text_WardenIsOldHasFalseTeeth::
-    .string "The SAFARI ZONE's WARDEN is old, \n"
-    .string "but he's still very much active.\p"
-    .string "All his teeth are false, though.$"
+    .string "MILAN: I'm usually at the GYM,\n"
+    .string "teaching the ways of the ninja.\p"
+    .string "Welcome to my sanctuary in\n"
+    .string "HUSTLER CITY!$"
 
 FuchsiaCity_House1_Text_BillIsMyGrandson::
     .string "Hmm?\n"

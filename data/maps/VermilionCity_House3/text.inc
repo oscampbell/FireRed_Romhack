@@ -1,6 +1,7 @@
 VermilionCity_House3_Text_PidgeyFlyLetterToSaffron::
-    .string "I'm getting my PIDGEY to fly a\n"
-    .string "letter to SAFFRON in the north.$"
+    .string "HRISHI: I'm usually at the GYM,\n"
+    .string "but I love coming back to this\l"
+    .string "safe haven in BURNOUT CITY.$"
 
 VermilionCity_House3_Text_Pidgey::
     .string "PIDGEY: Kurukkoo!$"

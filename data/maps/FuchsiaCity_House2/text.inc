@@ -35,3 +35,8 @@ FuchsiaCity_House2_Text_YouHaveNoRoomForGift::
     .string "I had a gift for you, but you have\n"
     .string "no room for it!$"
 
+FuchsiaCity_House2_Text_Aliyah::
+    .string "ALIYAH: SHUKTI! I'm taking a break\n"
+    .string "from the GYM. This house has the\l"
+    .string "best vibe for relaxing!$"
+

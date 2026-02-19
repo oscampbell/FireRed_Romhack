@@ -4,7 +4,7 @@ SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyMale::
     .string "{PLAYER}: Uh, no, I just asked you.\p"
     .string "{PLAYER}: Huh?\n"
     .string "You're strange!\p"
-    .string "COPYCAT: Hmm? Quit mimicking?\n"
+    .string "DIVA (COPYCAT): Hmm? Quit mimicking?\n"
     .string "But, that's my favorite hobby!$"
 
 SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyFemale::
@@ -15,7 +15,7 @@ SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyFemale::
     .string "{PLAYER}: Pardon?\n"
     .string "You're weird!\l"
     .string " \l"
-    .string "COPYCAT: Hmm? Quit mimicking?\l"
+    .string "DIVA (COPYCAT): Hmm? Quit mimicking?\l"
     .string "But that's my favorite hobby!$"
 
 Text_MimicTeach::

@@ -1,7 +1,7 @@
 VermilionCity_House3_MapScripts::
 	.byte 0
 
-VermilionCity_House3_EventScript_Boy::
+VermilionCity_House3_EventScript_Hrishi::
 	msgbox VermilionCity_House3_Text_PidgeyFlyLetterToSaffron, MSGBOX_NPC
 	end
 

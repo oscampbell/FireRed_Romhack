@@ -30,3 +30,7 @@ FuchsiaCity_House2_EventScript_NoRoomForGoodRod::
 	msgbox FuchsiaCity_House2_Text_YouHaveNoRoomForGift
 	release
 	end
+
+FuchsiaCity_House2_EventScript_Aliyah::
+	msgbox FuchsiaCity_House2_Text_Aliyah, MSGBOX_NPC
+	end

@@ -6,11 +6,7 @@ FuchsiaCity_House1_EventScript_Woman::
 	end
 
 FuchsiaCity_House1_EventScript_OldMan::
-	lock
-	faceplayer
-	famechecker FAMECHECKER_BILL, 2
-	msgbox FuchsiaCity_House1_Text_BillIsMyGrandson
-	release
+	msgbox FuchsiaCity_House1_Text_WardenIsOldHasFalseTeeth, MSGBOX_NPC
 	end
 
 FuchsiaCity_House1_EventScript_LittleBoy::
