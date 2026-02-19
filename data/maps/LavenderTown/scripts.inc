@@ -34,6 +34,11 @@ LavenderTown_EventScript_TownSign::
 	msgbox LavenderTown_Text_TownSign, MSGBOX_SIGN
 	end
 
+LavenderTown_EventScript_Friend4::
+	setvar VAR_0x8004, FLAG_INVITED_FRIEND_4
+	goto EventScript_InviteFriend
+	end
+
 LavenderTown_EventScript_SilphScopeNotice::
 	msgbox LavenderTown_Text_SilphScopeNotice, MSGBOX_SIGN
 	end

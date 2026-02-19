@@ -921,6 +921,10 @@ const u8 gStartMenuDesc_Save[] = _("Save your game with a complete record\nof yo
 const u8 gText_QuestLog_MainStory[] = _("Main Story");
 const u8 gText_QuestLog_StaceyQuest[] = _("Stacey's Redundancy");
 const u8 gText_QuestLog_FigQuest[] = _("The Rescue of Fig");
+const u8 gText_QuestLog_TwilightQuest[] = _("Twilight Trivia Hunt");
+const u8 gText_QuestLog_PokeASDAQuest[] = _("PokeASDA Mystery Shopper");
+const u8 gText_QuestLog_PaletteQuest[] = _("The Professional Palette");
+const u8 gText_QuestLog_BirthdayQuest[] = _("Birthday Party Invite");
 
 const u8 gText_QuestLog_MainStory_Step0[] = _("Go downstairs and talk to your Mom.\nShe's probably worried about you.");
 const u8 gText_QuestLog_MainStory_Step1[] = _("Go find Professor Tree. He's usually\nwandering near Clear Town's exit.");
@@ -960,6 +964,29 @@ const u8 gText_QuestLog_StaceyQuest_Step2[] = _("Stacey is at Diablo Island sell
 const u8 gText_QuestLog_FigQuest_Step0[] = _("Team Rocket has stolen Fig!\nLook for clues in Poolside City.");
 const u8 gText_QuestLog_FigQuest_Step1[] = _("A Rocket Grunt was seen heading towards\nEmpire City with a Shiny FIG.");
 const u8 gText_QuestLog_FigQuest_Step2[] = _("Fig is being held at Silph Co. in\nStarrider City. Go rescue her!");
+
+const u8 gText_QuestLog_TwilightQuest_Step0[] = _("PROF. TREE is missing his Special\nEdition Twilight Chapters. Help him!");
+const u8 gText_QuestLog_TwilightQuest_Step1[] = _("Find CH. 1 in the Pokémon Tower at\nMasquerade Town.");
+const u8 gText_QuestLog_TwilightQuest_Step2[] = _("Find CH. 2 in the Game Corner at\nEmpire City.");
+const u8 gText_QuestLog_TwilightQuest_Step3[] = _("Find CH. 3 in the Silph Co. building\nat Starrider City.");
+const u8 gText_QuestLog_TwilightQuest_Step4[] = _("Find CH. 4 in the Pokémon Mansion at\nDiablo Island.");
+
+const u8 gText_QuestLog_PokeASDAQuest_Step0[] = _("PokeASDA needs a Mystery Shopper to\naudit Marts. Start at Adrenaline City.");
+const u8 gText_QuestLog_PokeASDAQuest_Step1[] = _("Audit the PokeASDA Mart in Pavement\nCity. Talk to the clerk.");
+const u8 gText_QuestLog_PokeASDAQuest_Step2[] = _("Audit the PokeASDA Mart in Poolside\nCity. Check their stock.");
+const u8 gText_QuestLog_PokeASDAQuest_Step3[] = _("Report back to the PokeASDA HQ at\nEmpire City for your discount!");
+
+const u8 gText_QuestLog_PaletteQuest_Step0[] = _("A Colorist in Clear Town wants to see\nPokémon that match the palette.");
+const u8 gText_QuestLog_PaletteQuest_Step1[] = _("Show the Colorist a 'Neon Green' mon\n(like Morpeko).");
+const u8 gText_QuestLog_PaletteQuest_Step2[] = _("Show the Colorist a 'Fiery Red' mon\n(like Flareon).");
+const u8 gText_QuestLog_PaletteQuest_Step3[] = _("Show the Colorist a 'Masquerade Purple'\nmon (like Morpeko-Hangry).");
+
+const u8 gText_QuestLog_BirthdayQuest_Step0[] = _("It's almost the big day! Find 8 friends\nhidden across KANTO to invite them.");
+const u8 gText_QuestLog_BirthdayQuest_Step1[] = _("Friends are hiding in cities you've\nvisited. Search everywhere!");
+const u8 gText_QuestLog_BirthdayQuest_Step2[] = _("All friends invited! Head to the\nsecret room in Clear Town!");
+
+const u8 Text_BirthdayInvite[] = _("Happy Birthday SHUKTI! I'll\ndefinitely be at the party!{PAUSE_UNTIL_PRESS}");
+const u8 Text_AllFriendsInvited[] = _("That's everyone! You've invited all\nyour friends to the party!\pGo back to Clear Town for the\nGrand Finale!{PAUSE_UNTIL_PRESS}");
 const u8 gStartMenuDesc_Option[] = _("Adjust various game settings such as text\nspeed, game rules, etc.");
 const u8 gStartMenuDesc_Exit[] = _("Close this MENU window.");
 const u8 gStartMenuDesc_Retire[] = _("Retire from the SAFARI GAME and return to\nthe registration counter.");

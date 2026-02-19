@@ -670,3 +670,23 @@ SevenIsland_SevaultCanyon_House_EventScript_ItemLuckyPunch::
 SilphCo_4F_EventScript_ItemTM41::
 	finditem ITEM_TM41
 	end
+
+PokemonTower_2F_EventScript_ItemChapter1::
+	giveitem ITEM_TWILIGHT_CHAPTER_1
+	setvar VAR_QUEST_TWILIGHT, 1
+	end
+
+CeladonCity_GameCorner_EventScript_ItemChapter2::
+	giveitem ITEM_TWILIGHT_CHAPTER_2
+	setvar VAR_QUEST_TWILIGHT, 2
+	end
+
+SilphCo_11F_EventScript_ItemChapter3::
+	giveitem ITEM_TWILIGHT_CHAPTER_3
+	setvar VAR_QUEST_TWILIGHT, 3
+	end
+
+PokemonMansion_B1F_EventScript_ItemChapter4::
+	giveitem ITEM_TWILIGHT_CHAPTER_4
+	setvar VAR_QUEST_TWILIGHT, 4
+	end

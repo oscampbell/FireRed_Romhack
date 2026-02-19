@@ -375,6 +375,29 @@ PalletTown_ProfessorOaksLab_Text_OakTakeFinalStarter::
     .string "I have ever known.\p"
     .string "I have one last POKéMON left from\n"
     .string "my adventuring days.\p"
-    .string "It's been waiting for a Trainer\n"
-    .string "like you. Please, take good care\l"
-    .string "of it!$"
+        .string "It's been waiting for a Trainer\n"
+        .string "like you. Please, take good care\l"
+        .string "of it!$"
+    
+    PalletTown_ProfessorOaksLab_Text_TwilightQuestIntro::
+    	.string "TREE: Oh, {PLAYER}!\n"
+    	.string "I'm in a bit of a crisis.\p"
+    	.string "I've lost the four missing chapters\n"
+    	.string "of my Special Edition Twilight set!\p"
+    	.string "I think I left them in some of the\n"
+    	.string "spookier and busier places in KANTO.\p"
+    	.string "If you find any, please bring them\n"
+    	.string "back to me. I'll make it worth\l"
+    	.string "your while!$"
+    
+    PalletTown_ProfessorOaksLab_Text_FoundAChapter::
+    	.string "TREE: Is that... a missing chapter?\n"
+    	.string "Yes! You found it!\p"
+    	.string "Thank you so much! Here, take this\n"
+    	.string "as a token of my gratitude.$"
+    
+    PalletTown_ProfessorOaksLab_Text_TwilightQuestNextStep::
+    	.string "TREE: Please keep looking for the\n"
+    	.string "other chapters. My collection\l"
+    	.string "isn't complete without them!$"
+    

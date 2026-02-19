@@ -1117,6 +1117,23 @@ EventScript_ChangePokemonNickname::
 	waitstate
 	return
 
+EventScript_InviteFriend::
+	lock
+	faceplayer
+	msgbox Text_BirthdayInvite, MSGBOX_DEFAULT
+	setflag VAR_0x8004
+	setvar VAR_QUEST_BIRTHDAY, 1
+	special CheckAllFriendsInvited
+	goto_if_eq VAR_RESULT, TRUE, EventScript_AllFriendsInvited
+	release
+	end
+
+EventScript_AllFriendsInvited::
+	msgbox Text_AllFriendsInvited, MSGBOX_DEFAULT
+	setvar VAR_QUEST_BIRTHDAY, 2
+	release
+	end
+
 @ Unused
 EventScript_HandOverItem::
 	bufferitemname STR_VAR_1, VAR_0x8004

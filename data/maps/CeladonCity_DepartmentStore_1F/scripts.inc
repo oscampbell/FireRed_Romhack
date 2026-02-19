@@ -2,7 +2,24 @@ CeladonCity_DepartmentStore_1F_MapScripts::
 	.byte 0
 
 CeladonCity_DepartmentStore_1F_EventScript_Receptionist::
-	msgbox CeladonCity_DepartmentStore_1F_Text_WelcomeToDeptStore, MSGBOX_NPC
+	lock
+	faceplayer
+	goto_if_eq VAR_QUEST_POKEASDA, 4, CeladonCity_DepartmentStore_1F_EventScript_DiscountActive
+	goto_if_eq VAR_QUEST_POKEASDA, 3, CeladonCity_DepartmentStore_1F_EventScript_CompleteAudit
+	msgbox CeladonCity_DepartmentStore_1F_Text_WelcomeToDeptStore
+	release
+	end
+
+CeladonCity_DepartmentStore_1F_EventScript_CompleteAudit::
+	msgbox CeladonCity_DepartmentStore_1F_Text_PokeASDA_AuditComplete
+	setflag FLAG_POKEASDA_DISCOUNT
+	setvar VAR_QUEST_POKEASDA, 4
+	release
+	end
+
+CeladonCity_DepartmentStore_1F_EventScript_DiscountActive::
+	msgbox CeladonCity_DepartmentStore_1F_Text_PokeASDA_DiscountActive
+	release
 	end
 
 CeladonCity_DepartmentStore_1F_EventScript_LayoutSign::

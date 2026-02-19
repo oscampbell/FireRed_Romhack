@@ -17,6 +17,10 @@
 #define VAR_QUEST_MAIN   0x408C
 #define VAR_QUEST_STACEY 0x408D
 #define VAR_QUEST_FIG    0x408E
+#define VAR_QUEST_TWILIGHT 0x408F
+#define VAR_QUEST_POKEASDA 0x4090
+#define VAR_QUEST_PALETTE  0x4091
+#define VAR_QUEST_BIRTHDAY 0x4092
 
 static const struct QuestStep sMainStorySteps[] = {
     {gText_QuestLog_MainStory_Step0},
@@ -63,6 +67,34 @@ static const struct QuestStep sFigQuestSteps[] = {
     {gText_QuestLog_FigQuest_Step2},
 };
 
+static const struct QuestStep sTwilightQuestSteps[] = {
+    {gText_QuestLog_TwilightQuest_Step0},
+    {gText_QuestLog_TwilightQuest_Step1},
+    {gText_QuestLog_TwilightQuest_Step2},
+    {gText_QuestLog_TwilightQuest_Step3},
+    {gText_QuestLog_TwilightQuest_Step4},
+};
+
+static const struct QuestStep sPokeASDAQuestSteps[] = {
+    {gText_QuestLog_PokeASDAQuest_Step0},
+    {gText_QuestLog_PokeASDAQuest_Step1},
+    {gText_QuestLog_PokeASDAQuest_Step2},
+    {gText_QuestLog_PokeASDAQuest_Step3},
+};
+
+static const struct QuestStep sPaletteQuestSteps[] = {
+    {gText_QuestLog_PaletteQuest_Step0},
+    {gText_QuestLog_PaletteQuest_Step1},
+    {gText_QuestLog_PaletteQuest_Step2},
+    {gText_QuestLog_PaletteQuest_Step3},
+};
+
+static const struct QuestStep sBirthdayQuestSteps[] = {
+    {gText_QuestLog_BirthdayQuest_Step0},
+    {gText_QuestLog_BirthdayQuest_Step1},
+    {gText_QuestLog_BirthdayQuest_Step2},
+};
+
 const struct Quest gQuests[MAX_QUESTS] = {
     {
         .name = gText_QuestLog_MainStory,
@@ -81,6 +113,30 @@ const struct Quest gQuests[MAX_QUESTS] = {
         .steps = sFigQuestSteps,
         .varId = VAR_QUEST_FIG,
         .numSteps = NELEMS(sFigQuestSteps),
+    },
+    {
+        .name = gText_QuestLog_TwilightQuest,
+        .steps = sTwilightQuestSteps,
+        .varId = VAR_QUEST_TWILIGHT,
+        .numSteps = NELEMS(sTwilightQuestSteps),
+    },
+    {
+        .name = gText_QuestLog_PokeASDAQuest,
+        .steps = sPokeASDAQuestSteps,
+        .varId = VAR_QUEST_POKEASDA,
+        .numSteps = NELEMS(sPokeASDAQuestSteps),
+    },
+    {
+        .name = gText_QuestLog_PaletteQuest,
+        .steps = sPaletteQuestSteps,
+        .varId = VAR_QUEST_PALETTE,
+        .numSteps = NELEMS(sPaletteQuestSteps),
+    },
+    {
+        .name = gText_QuestLog_BirthdayQuest,
+        .steps = sBirthdayQuestSteps,
+        .varId = VAR_QUEST_BIRTHDAY,
+        .numSteps = NELEMS(sBirthdayQuestSteps),
     },
 };
 
@@ -286,4 +342,42 @@ void SetQuestStep(u16 questVarId, u16 step)
 u16 GetQuestStep(u16 questVarId)
 {
     return VarGet(questVarId);
+}
+
+bool8 PlayerHasMoveWithType(u8 type)
+{
+    u32 i, j;
+    for (i = 0; i < gPlayerPartyCount; i++)
+    {
+        for (j = 0; j < MAX_MON_MOVES; j++)
+        {
+            u16 move = GetMonData(&gPlayerParty[i], MON_DATA_MOVE1 + j);
+            if (move != MOVE_NONE && gMovesInfo[move].type == type)
+                return TRUE;
+        }
+    }
+    return FALSE;
+}
+
+bool8 PlayerHasMonWithType(u8 type)
+{
+    u32 i;
+    for (i = 0; i < gPlayerPartyCount; i++)
+    {
+        u16 species = GetMonData(&gPlayerParty[i], MON_DATA_SPECIES);
+        if (species != SPECIES_NONE && (gSpeciesInfo[species].types[0] == type || gSpeciesInfo[species].types[1] == type))
+            return TRUE;
+    }
+    return FALSE;
+}
+
+bool8 PlayerHasSpecies(u16 species)
+{
+    u32 i;
+    for (i = 0; i < gPlayerPartyCount; i++)
+    {
+        if (GetMonData(&gPlayerParty[i], MON_DATA_SPECIES) == species)
+            return TRUE;
+    }
+    return FALSE;
 }

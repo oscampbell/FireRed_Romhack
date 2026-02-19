@@ -450,5 +450,10 @@ gSpecials::
 	def_special TrySkyBattle
 	def_special TryPrepareSecondApproachingTrainer
 	def_special SetHiddenNature
-	def_special SetAbility
-gSpecialsEnd::
+	        def_special SetAbility
+		def_special Script_PlayerHasMoveWithType
+			def_special Script_PlayerHasMonWithType
+				def_special Script_PlayerHasSpecies
+				def_special Script_CheckAllFriendsInvited
+			gSpecialsEnd::
+			

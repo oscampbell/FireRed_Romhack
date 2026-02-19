@@ -12,3 +12,11 @@ CeruleanCity_Mart_Text_DoYouKnowAboutRareCandy::
     .string "I think it makes POKéMON grow\n"
     .string "very quickly all of a sudden.$"
 
+CeruleanCity_Mart_Text_PokeASDA_AuditStep2::
+    .string "The Mystery Shopper! Excellent.\p"
+    .string "I trust you've found our stock of\n"
+    .string "SUPER POTIONS to be satisfactory.\p"
+    .string "Please report your findings to the\n"
+    .string "PokeASDA HQ in EMPIRE CITY to\l"
+    .string "finalize your staff discount!$"
+

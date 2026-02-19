@@ -13,6 +13,10 @@ CeruleanCity_Mart_EventScript_Clerk::
 	goto_if_questlog EventScript_ReleaseEnd
 	lock
 	faceplayer
+	goto_if_ne VAR_QUEST_POKEASDA, 2, CeruleanCity_Mart_EventScript_RegularMart
+	msgbox CeruleanCity_Mart_Text_PokeASDA_AuditStep2
+	setvar VAR_QUEST_POKEASDA, 3
+CeruleanCity_Mart_EventScript_RegularMart::
 	message Text_MayIHelpYou
 	waitmessage
 	pokemart CeruleanCity_Mart_Items

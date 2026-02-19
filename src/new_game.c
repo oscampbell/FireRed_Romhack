@@ -166,6 +166,10 @@ void NewGameInitData(void)
     SetQuestStep(VAR_QUEST_MAIN, 0);
     SetQuestStep(VAR_QUEST_STACEY, 0);
     SetQuestStep(VAR_QUEST_FIG, 0);
+    SetQuestStep(VAR_QUEST_TWILIGHT, 0);
+    SetQuestStep(VAR_QUEST_POKEASDA, 0);
+    SetQuestStep(VAR_QUEST_PALETTE, 0);
+    SetQuestStep(VAR_QUEST_BIRTHDAY, 0);
 
     ResetTrainerTowerResults();
     ResetItemFlags();

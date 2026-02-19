@@ -75,6 +75,11 @@ CeladonCity_EventScript_CitySign::
 	msgbox CeladonCity_Text_CitySign, MSGBOX_SIGN
 	end
 
+CeladonCity_EventScript_Friend6::
+	setvar VAR_0x8004, FLAG_INVITED_FRIEND_6
+	goto EventScript_InviteFriend
+	end
+
 CeladonCity_EventScript_GymSign::
 	lockall
 	famechecker FAMECHECKER_ERIKA, 0

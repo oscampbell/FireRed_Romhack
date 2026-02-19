@@ -98,6 +98,7 @@ static void MapPostLoadHook_ReturnToShopMenu(void);
 static void Task_ReturnToShopMenu(u8 taskId);
 static void ShowShopMenuAfterExitingBuyOrSellMenu(u8 taskId);
 static void CB2_BuyMenu(void);
+static u32 GetShopItemPrice(u16 itemId);
 static void VBlankCB_BuyMenu(void);
 static void CB2_InitBuyMenu(void);
 static bool8 InitShopData(void);
@@ -480,6 +481,14 @@ static void ShowShopMenuAfterExitingBuyOrSellMenu(u8 taskId)
 {
     CreateShopMenu(sShopData.martType);
     DestroyTask(taskId);
+}
+
+static u32 GetShopItemPrice(u16 itemId)
+{
+    u32 price = GetItemPrice(itemId);
+    if (FlagGet(FLAG_POKEASDA_DISCOUNT))
+        price = (price * 80) / 100;
+    return price;
 }
 
 static void CB2_BuyMenu(void)
@@ -1109,7 +1118,7 @@ static void Task_BuyMenu(u8 taskId)
             BuyMenuRemoveScrollIndicatorArrows();
             BuyMenuPrintCursor(tListTaskId, 2);
             RecolorItemDescriptionBox(1);
-            sShopData.itemPrice = GetItemPrice(itemId);
+            sShopData.itemPrice = GetShopItemPrice(itemId);
             if (!IsEnoughMoney(&gSaveBlock1Ptr->money, sShopData.itemPrice))
             {
                 BuyMenuDisplayMessage(taskId, gText_YouDontHaveMoney, BuyMenuReturnToItemList);
@@ -1161,7 +1170,7 @@ static void Task_BuyHowManyDialogueHandleInput(u8 taskId)
 
     if (AdjustQuantityAccordingToDPadInput(&tItemCount, sShopData.maxQuantity) == TRUE)
     {
-        sShopData.itemPrice = GetItemPrice(tItemId) * tItemCount;
+        sShopData.itemPrice = GetShopItemPrice(tItemId) * tItemCount;
         BuyMenuPrintItemQuantityAndPrice(taskId);
     }
     else

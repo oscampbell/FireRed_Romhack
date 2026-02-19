@@ -79,6 +79,22 @@ CinnabarIsland_Text_StaceyIntro::
     .string "I cover 'spontaneous combustion'.\p"
     .string "Here, take this. It's a promotional\nsample. Don't sue me.$"
 
+CinnabarIsland_Text_StaceyBattleIntro::
+    .string "STACEY: Wait, before I can issue\nyour policy, we need a physical\l"
+    .string "Risk Assessment.\p"
+    .string "I hired this Hiker to perform a\n"
+    .string "stress test on your party.\p"
+    .string "DUDLEY! Optimize the client!$"
+
+CinnabarIsland_Text_StaceyHikerDefeat::
+    .string "My assessment is... you're over-\n"
+    .string "budget for my skills!$"
+
+CinnabarIsland_Text_StaceyBattleOutro::
+    .string "STACEY: Fine, fine. You're a low-\n"
+    .string "risk asset. Very efficient.\p"
+    .string "Here is your 'Dividend'.$"
+
 CinnabarIsland_Text_StaceyGivenCookie::
     .string "STACEY: It's a LAVA COOKIE.\n"
     .string "Try not to break a tooth.\p"

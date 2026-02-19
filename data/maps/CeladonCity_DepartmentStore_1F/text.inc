@@ -15,3 +15,18 @@ CeladonCity_DepartmentStore_1F_Text_FloorDescriptions::
 CeladonCity_DepartmentStore_1F_Text_ServiceCounter::
     .string "1F: SERVICE COUNTER$"
 
+CeladonCity_DepartmentStore_1F_Text_PokeASDA_AuditComplete::
+    .string "Welcome to the PokeASDA HQ!\p"
+    .string "We've received your audit reports\n"
+    .string "from all our regional branches.\p"
+    .string "Your attention to detail is truly\n"
+    .string "optimized for excellence!\p"
+    .string "As a reward, we've activated your\n"
+    .string "20% Staff Discount at all\l"
+    .string "PokeASDA branches!$"
+
+CeladonCity_DepartmentStore_1F_Text_PokeASDA_DiscountActive::
+    .string "Hello! Your PokeASDA Staff\n"
+    .string "Discount is currently active.\p"
+    .string "Keep optimizing those purchases!$"
+

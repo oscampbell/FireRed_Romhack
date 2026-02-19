@@ -37,6 +37,7 @@
 #include "rtc.h"
 #include "tilesets.h"
 #include "wallclock.h"
+#include "quest_log_system.h"
 #include "dynamic_placeholder_text_util.h"
 #include "constants/songs.h"
 #include "constants/items.h"
@@ -2697,4 +2698,33 @@ void TrySkyBattle(void)
         }
     }
     gSpecialVar_Result = FALSE;
+}
+
+void Script_PlayerHasMoveWithType(void)
+{
+    gSpecialVar_Result = PlayerHasMoveWithType(gSpecialVar_0x8004);
+}
+
+void Script_PlayerHasMonWithType(void)
+{
+    gSpecialVar_Result = PlayerHasMonWithType(gSpecialVar_0x8004);
+}
+
+void Script_PlayerHasSpecies(void)
+{
+    gSpecialVar_Result = PlayerHasSpecies(gSpecialVar_0x8004);
+}
+
+void Script_CheckAllFriendsInvited(void)
+{
+    u32 i;
+    for (i = 0; i < 8; i++)
+    {
+        if (!FlagGet(FLAG_INVITED_FRIEND_1 + i))
+        {
+            gSpecialVar_Result = FALSE;
+            return;
+        }
+    }
+    gSpecialVar_Result = TRUE;
 }

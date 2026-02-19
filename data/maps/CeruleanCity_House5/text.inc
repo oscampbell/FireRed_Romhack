@@ -80,6 +80,21 @@ CeruleanCity_House5_Text_StaceyIntro::
     .string "Here, have a sample. It's a\n"
     .string "sawdust-enriched muffin.$"
 
+CeruleanCity_House5_Text_StaceyOvenBroken::
+    .string "STACEY: Look, the oven is broken.\n"
+    .string "The pilot light went out.\p"
+    .string "I need something with a FIRE move\n"
+    .string "to jumpstart this disruptive\l"
+    .string "baking technology.\p"
+    .string "Come back when you've got some\n"
+    .string "heat in your party.$"
+
+CeruleanCity_House5_Text_StaceyOvenFixed::
+    .string "STACEY: Perfect. That flame just\n"
+    .string "optimized my throughput by 200%.\p"
+    .string "Here, take this. It's a prototype\n"
+    .string "flavor enhancer.$"
+
 CeruleanCity_House5_Text_StaceyGivenMuffin::
     .string "STACEY: Don't choke on it.\n"
     .string "That's a liability I can't afford.$"

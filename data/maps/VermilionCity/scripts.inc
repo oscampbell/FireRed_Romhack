@@ -246,6 +246,11 @@ VermilionCity_EventScript_CitySign::
 	msgbox VermilionCity_Text_CitySign, MSGBOX_SIGN
 	end
 
+VermilionCity_EventScript_Friend5::
+	setvar VAR_0x8004, FLAG_INVITED_FRIEND_5
+	goto EventScript_InviteFriend
+	end
+
 VermilionCity_EventScript_SnorlaxNotice::
 	msgbox VermilionCity_Text_SnorlaxBlockingRoute12, MSGBOX_SIGN
 	end

@@ -24,3 +24,13 @@ ViridianCity_Mart_Text_GotToBuySomePotions::
     .string "You never know when your POKéMON\n"
     .string "will need quick healing.$"
 
+ViridianCity_Mart_Text_PokeASDA_AuditStart::
+    .string "Welcome to PokeASDA!\p"
+    .string "We're running a Mystery Shopper\n"
+    .string "program to optimize our service.\p"
+    .string "If you audit our branches in\n"
+    .string "PAVEMENT and POOLSIDE City, you\l"
+    .string "might earn a staff discount!\p"
+    .string "Please start by checking our\n"
+    .string "PAVEMENT CITY branch.$"
+

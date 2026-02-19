@@ -39,6 +39,10 @@ LavenderTown_House1_EventScript_Stacey::
 	faceplayer
 	goto_if_set FLAG_GOT_LAVENDER_STACEY_GIFT, LavenderTown_House1_EventScript_Stacey_Done
 	msgbox LavenderTown_House1_Text_StaceyIntro
+	setvar VAR_0x8004, TYPE_GHOST
+	special PlayerHasMonWithType
+	goto_if_eq VAR_RESULT, FALSE, LavenderTown_House1_EventScript_Stacey_Scared
+	msgbox LavenderTown_House1_Text_StaceyNotScared
 	checkitemspace ITEM_SPELL_TAG, 1
 	goto_if_eq VAR_RESULT, FALSE, EventScript_BagIsFull
 	giveitem ITEM_SPELL_TAG
@@ -46,6 +50,11 @@ LavenderTown_House1_EventScript_Stacey::
 	setvar VAR_QUEST_STACEY, 2
 	setvar VAR_QUEST_FIG, 2
 	msgbox LavenderTown_House1_Text_StaceyGivenTag
+	release
+	end
+
+LavenderTown_House1_EventScript_Stacey_Scared::
+	msgbox LavenderTown_House1_Text_StaceyScared
 	release
 	end
 

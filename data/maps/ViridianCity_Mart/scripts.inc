@@ -53,6 +53,11 @@ ViridianCity_Mart_EventScript_Clerk::
 	lock
 	faceplayer
 	goto_if_eq VAR_MAP_SCENE_VIRIDIAN_CITY_MART, 1, ViridianCity_Mart_EventScript_SayHiToOak
+	goto_if_unset FLAG_SYS_POKEDEX_GET, ViridianCity_Mart_EventScript_RegularMart
+	goto_if_ne VAR_QUEST_POKEASDA, 0, ViridianCity_Mart_EventScript_RegularMart
+	msgbox ViridianCity_Mart_Text_PokeASDA_AuditStart
+	setvar VAR_QUEST_POKEASDA, 1
+ViridianCity_Mart_EventScript_RegularMart::
 	goto_if_questlog EventScript_ReleaseEnd
 	message Text_MayIHelpYou
 	waitmessage

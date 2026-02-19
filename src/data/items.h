@@ -7257,6 +7257,58 @@ const struct ItemInfo gItemsInfo[] =
         .iconPalette = gItemIconPalette_RareCandy,
     },
 
+    [ITEM_TWILIGHT_CHAPTER_1] =
+    {
+        .name = ITEM_NAME("CH. 1"),
+        .price = 0,
+        .holdEffect = HOLD_EFFECT_NONE,
+        .description = COMPOUND_STRING("A chapter from\nPROF. TREE's\nfavorite book."),
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .iconPic = gItemIcon_RareCandy,
+        .iconPalette = gItemIconPalette_RareCandy,
+    },
+
+    [ITEM_TWILIGHT_CHAPTER_2] =
+    {
+        .name = ITEM_NAME("CH. 2"),
+        .price = 0,
+        .holdEffect = HOLD_EFFECT_NONE,
+        .description = COMPOUND_STRING("A chapter from\nPROF. TREE's\nfavorite book."),
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .iconPic = gItemIcon_RareCandy,
+        .iconPalette = gItemIconPalette_RareCandy,
+    },
+
+    [ITEM_TWILIGHT_CHAPTER_3] =
+    {
+        .name = ITEM_NAME("CH. 3"),
+        .price = 0,
+        .holdEffect = HOLD_EFFECT_NONE,
+        .description = COMPOUND_STRING("A chapter from\nPROF. TREE's\nfavorite book."),
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .iconPic = gItemIcon_RareCandy,
+        .iconPalette = gItemIconPalette_RareCandy,
+    },
+
+    [ITEM_TWILIGHT_CHAPTER_4] =
+    {
+        .name = ITEM_NAME("CH. 4"),
+        .price = 0,
+        .holdEffect = HOLD_EFFECT_NONE,
+        .description = COMPOUND_STRING("A chapter from\nPROF. TREE's\nfavorite book."),
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .iconPic = gItemIcon_RareCandy,
+        .iconPalette = gItemIconPalette_RareCandy,
+    },
+
 // Gems
     #if I_PRICE >= GEN_9
         #define GEM_PRICE 15000

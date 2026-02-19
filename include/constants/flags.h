@@ -1239,12 +1239,13 @@
 #define FLAG_HIDDEN_ITEM_VIRIDIAN_CITY_GYM_MACHO_BRACE                     (FLAG_HIDDEN_ITEMS_START + 189)
 #define FLAG_HIDDEN_ITEM_SSANNE_EXTERIOR_LAVA_COOKIE                       (FLAG_HIDDEN_ITEMS_START + 190)
 
-// Unused hidden item flags
-#define FLAG_UNUSED_0x4A7               0x4A7 // Unused Flag
-#define FLAG_UNUSED_0x4A8               0x4A8 // Unused Flag
-#define FLAG_UNUSED_0x4A9               0x4A9 // Unused Flag
-#define FLAG_UNUSED_0x4AA               0x4AA // Unused Flag
-#define FLAG_UNUSED_0x4AB               0x4AB // Unused Flag
+// Twilight Quest hidden item flags
+#define FLAG_HIDDEN_ITEM_TWILIGHT_CHAPTER_1                                0x4A7
+#define FLAG_HIDDEN_ITEM_TWILIGHT_CHAPTER_2                                0x4A8
+#define FLAG_HIDDEN_ITEM_TWILIGHT_CHAPTER_3                                0x4A9
+#define FLAG_HIDDEN_ITEM_TWILIGHT_CHAPTER_4                                0x4AA
+#define FLAG_POKEASDA_DISCOUNT                                             0x4AB
+#define FLAG_UNUSED_0x4AC               0x4AC // Unused Flag
 #define FLAG_UNUSED_0x4AC               0x4AC // Unused Flag
 #define FLAG_UNUSED_0x4AD               0x4AD // Unused Flag
 #define FLAG_UNUSED_0x4AE               0x4AE // Unused Flag
@@ -1265,15 +1266,15 @@
 #define FLAG_DEFEATED_LANCE           0x4BB
 #define FLAG_DEFEATED_CHAMP           0x4BC
 
-// Unused?
-#define FLAG_0x4BD               0x4BD
-#define FLAG_0x4BE               0x4BE
-#define FLAG_0x4BF               0x4BF
-#define FLAG_0x4C0               0x4C0
-#define FLAG_0x4C1               0x4C1
-#define FLAG_0x4C2               0x4C2
-#define FLAG_0x4C3               0x4C3
-#define FLAG_0x4C4               0x4C4
+// Birthday Party Invite flags
+#define FLAG_INVITED_FRIEND_1         0x4BD
+#define FLAG_INVITED_FRIEND_2         0x4BE
+#define FLAG_INVITED_FRIEND_3         0x4BF
+#define FLAG_INVITED_FRIEND_4         0x4C0
+#define FLAG_INVITED_FRIEND_5         0x4C1
+#define FLAG_INVITED_FRIEND_6         0x4C2
+#define FLAG_INVITED_FRIEND_7         0x4C3
+#define FLAG_INVITED_FRIEND_8         0x4C4
 #define FLAG_0x4C5               0x4C5
 #define FLAG_0x4C6               0x4C6
 #define FLAG_0x4C7               0x4C7

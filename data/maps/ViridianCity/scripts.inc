@@ -57,6 +57,11 @@ ViridianCity_EventScript_CitySign::
 	msgbox ViridianCity_Text_CitySign, MSGBOX_SIGN
 	end
 
+ViridianCity_EventScript_Friend1::
+	setvar VAR_0x8004, FLAG_INVITED_FRIEND_1
+	goto EventScript_InviteFriend
+	end
+
 ViridianCity_EventScript_TrainerTips1::
 	msgbox ViridianCity_Text_CatchMonsForEasierBattles, MSGBOX_SIGN
 	end

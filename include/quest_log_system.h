@@ -20,6 +20,9 @@ struct Quest
 void CB2_InitQuestLog(void);
 void SetQuestStep(u16 questVarId, u16 step);
 u16 GetQuestStep(u16 questVarId);
+bool8 PlayerHasMoveWithType(u8 type);
+bool8 PlayerHasMonWithType(u8 type);
+bool8 PlayerHasSpecies(u16 species);
 
 extern const struct Quest gQuests[MAX_QUESTS];
 

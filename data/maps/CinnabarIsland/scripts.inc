@@ -351,6 +351,11 @@ CinnabarIsland_EventScript_IslandSign::
 	msgbox CinnabarIsland_Text_IslandSign, MSGBOX_SIGN
 	end
 
+CinnabarIsland_EventScript_Friend8::
+	setvar VAR_0x8004, FLAG_INVITED_FRIEND_8
+	goto EventScript_InviteFriend
+	end
+
 CinnabarIsland_EventScript_PokemonLabSign::
 	msgbox CinnabarIsland_Text_PokemonLab, MSGBOX_SIGN
 	end
@@ -367,6 +372,9 @@ CinnabarIsland_EventScript_Stacey::
 	faceplayer
 	goto_if_set FLAG_GOT_CINNABAR_STACEY_GIFT, CinnabarIsland_EventScript_Stacey_Done
 	msgbox CinnabarIsland_Text_StaceyIntro
+	msgbox CinnabarIsland_Text_StaceyBattleIntro
+	trainerbattle_no_intro TRAINER_HIKER_DUDLEY, CinnabarIsland_Text_StaceyHikerDefeat
+	msgbox CinnabarIsland_Text_StaceyBattleOutro
 	checkitemspace ITEM_LAVA_COOKIE, 1
 	goto_if_eq VAR_RESULT, FALSE, EventScript_BagIsFull
 	giveitem ITEM_LAVA_COOKIE

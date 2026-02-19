@@ -81,3 +81,56 @@ PalletTown_Text_Aliyah::
     .string "FIG that they dropped all those\l"
     .string "evolution stones everywhere!$"
 
+PalletTown_Text_Colorist_Intro::
+	.string "Hello there! I'm the local\n"
+	.string "professional Colorist.\p"
+	.string "I'm looking for POKéMON that\n"
+	.string "perfectly match our Danger Jones\l"
+	.string "Professional Palette.\p"
+	.string "If you show me the right shades,\n"
+	.string "I'll give you something special!$"
+
+PalletTown_Text_Colorist_AskNeonGreen::
+	.string "First, I need to see a POKéMON\n"
+	.string "in 'Neon Green'.\p"
+	.string "I hear MORPEKO has a very vibrant\n"
+	.string "green phase. Show me one!$"
+
+PalletTown_Text_Colorist_FoundNeonGreen::
+	.string "Magnificent! That green is\n"
+	.string "perfectly Adrenaline-fueled.\p"
+	.string "Next, show me 'Fiery Red'.\n"
+	.string "A FLAREON would be ideal.$"
+
+PalletTown_Text_Colorist_AskFieryRed::
+	.string "I'm still looking for that\n"
+	.string "'Fiery Red'. A FLAREON, perhaps?$"
+
+PalletTown_Text_Colorist_FoundFieryRed::
+	.string "Stunning! That red is as bold\n"
+	.string "as a Diablo Island sunset.\p"
+	.string "Finally, I must see\n"
+	.string "'Masquerade Purple'.\p"
+	.string "The 'Hangry' phase of a MORPEKO\n"
+	.string "is exactly that deep violet!$"
+
+PalletTown_Text_Colorist_AskMasqueradePurple::
+	.string "I'm waiting for that deep\n"
+	.string "'Masquerade Purple'.\p"
+	.string "A MORPEKO in its 'Hangry' form\n"
+	.string "should do the trick!$"
+
+PalletTown_Text_Colorist_FoundMasqueradePurple::
+	.string "Incredible! You've captured the\n"
+	.string "entire palette perfectly.\p"
+	.string "You truly have an eye for color.\n"
+	.string "Here, take this EVOLUTION item!$"
+
+PalletTown_Text_Colorist_NoMon::
+	.string "Hmm, that's not quite the right\n"
+	.string "shade. Come back when you have it!$"
+
+PalletTown_Text_Colorist_Done::
+	.string "Your collection is a masterpiece of\n"
+	.string "professional hair color!$"
+

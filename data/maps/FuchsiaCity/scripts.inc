@@ -44,6 +44,11 @@ FuchsiaCity_EventScript_CitySign::
 	msgbox FuchsiaCity_Text_CitySign, MSGBOX_SIGN
 	end
 
+FuchsiaCity_EventScript_Friend7::
+	setvar VAR_0x8004, FLAG_INVITED_FRIEND_7
+	goto EventScript_InviteFriend
+	end
+
 FuchsiaCity_EventScript_SafariZoneSign::
 	msgbox FuchsiaCity_Text_SafariZoneSign, MSGBOX_SIGN
 	end

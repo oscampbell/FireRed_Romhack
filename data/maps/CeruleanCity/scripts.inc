@@ -342,6 +342,11 @@ CeruleanCity_EventScript_CitySign::
 	msgbox CeruleanCity_Text_CitySign, MSGBOX_SIGN
 	end
 
+CeruleanCity_EventScript_Friend3::
+	setvar VAR_0x8004, FLAG_INVITED_FRIEND_3
+	goto EventScript_InviteFriend
+	end
+
 CeruleanCity_EventScript_TrainerTips::
 	msgbox CeruleanCity_Text_TrainerTipsHeldItems, MSGBOX_SIGN
 	end

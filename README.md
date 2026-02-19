@@ -108,12 +108,13 @@ The cities have been renamed after professional hair color shades:
 *   [ ] **NPC Personalization:** Modify remaining NPCs to represent real-life friends and family.
 *   [ ] **Dialogue Audit:** Fine-tooth comb all AI placeholder text.
 *   [ ] **Visuals:** Custom Title Screen and custom Player Sprite.
-*   [ ] **Quest Enhancements:**
-    *   Implement "Active Tasks" for Stacey (e.g., Oven Repair, Proof of Ghosts).
-    *   Implement "Twilight Trivia Hunt" for Professor Tree.
-    *   Implement "Professional Palette Quest" (Pokémon color matching).
-    *   Implement "PokeASDA Mystery Shopper" auditing quest.
-    *   Implement "Birthday Party Invite" post-game event.
+
+## Custom Quests (Completed)
+*   **Stacey's Active Tasks:** Stacey's ventures now require player interaction! Fix her oven with a Fire Pokémon, prove ghosts aren't scary with a Ghost Pokémon, and survive a Risk Assessment battle.
+*   **Twilight Trivia Hunt:** Find 4 missing book chapters for PROF. TREE hidden across KANTO. Rewards: Rare Candies.
+*   **PokeASDA Mystery Shopper:** Audit various Marts to earn a permanent **20% Staff Discount** globally.
+*   **The Professional Palette:** Show the Colorist in Clear Town Pokémon that match the Danger Jones hair color palette.
+*   **Birthday Party Invite:** A post-game quest to find and invite 8 hidden friends to a grand finale in Clear Town.
 
 ---
 

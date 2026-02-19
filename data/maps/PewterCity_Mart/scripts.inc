@@ -13,6 +13,10 @@ PewterCity_Mart_EventScript_Clerk::
 	goto_if_questlog EventScript_ReleaseEnd
 	lock
 	faceplayer
+	goto_if_ne VAR_QUEST_POKEASDA, 1, PewterCity_Mart_EventScript_RegularMart
+	msgbox PewterCity_Mart_Text_PokeASDA_AuditStep1
+	setvar VAR_QUEST_POKEASDA, 2
+PewterCity_Mart_EventScript_RegularMart::
 	message Text_MayIHelpYou
 	waitmessage
 	pokemart PewterCity_Mart_Items

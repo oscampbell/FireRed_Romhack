@@ -649,6 +649,10 @@ extern const u8 gStartMenuDesc_Debug[];
 extern const u8 gText_QuestLog_MainStory[];
 extern const u8 gText_QuestLog_StaceyQuest[];
 extern const u8 gText_QuestLog_FigQuest[];
+extern const u8 gText_QuestLog_TwilightQuest[];
+extern const u8 gText_QuestLog_PokeASDAQuest[];
+extern const u8 gText_QuestLog_PaletteQuest[];
+extern const u8 gText_QuestLog_BirthdayQuest[];
 
 extern const u8 gText_QuestLog_MainStory_Step0[];
 extern const u8 gText_QuestLog_MainStory_Step1[];
@@ -688,6 +692,29 @@ extern const u8 gText_QuestLog_StaceyQuest_Step2[];
 extern const u8 gText_QuestLog_FigQuest_Step0[];
 extern const u8 gText_QuestLog_FigQuest_Step1[];
 extern const u8 gText_QuestLog_FigQuest_Step2[];
+
+extern const u8 gText_QuestLog_TwilightQuest_Step0[];
+extern const u8 gText_QuestLog_TwilightQuest_Step1[];
+extern const u8 gText_QuestLog_TwilightQuest_Step2[];
+extern const u8 gText_QuestLog_TwilightQuest_Step3[];
+extern const u8 gText_QuestLog_TwilightQuest_Step4[];
+
+extern const u8 gText_QuestLog_PokeASDAQuest_Step0[];
+extern const u8 gText_QuestLog_PokeASDAQuest_Step1[];
+extern const u8 gText_QuestLog_PokeASDAQuest_Step2[];
+extern const u8 gText_QuestLog_PokeASDAQuest_Step3[];
+
+extern const u8 gText_QuestLog_PaletteQuest_Step0[];
+extern const u8 gText_QuestLog_PaletteQuest_Step1[];
+extern const u8 gText_QuestLog_PaletteQuest_Step2[];
+extern const u8 gText_QuestLog_PaletteQuest_Step3[];
+
+extern const u8 gText_QuestLog_BirthdayQuest_Step0[];
+extern const u8 gText_QuestLog_BirthdayQuest_Step1[];
+extern const u8 gText_QuestLog_BirthdayQuest_Step2[];
+
+extern const u8 Text_BirthdayInvite[];
+extern const u8 Text_AllFriendsInvited[];
 extern const u8 gText_SaveError_PleaseExchangeBackupMemory[];
 extern const u8 gText_SavingDontTurnOffThePower2[];
 extern const u8 gSaveStatName_Player[];

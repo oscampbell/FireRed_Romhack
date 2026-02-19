@@ -81,5 +81,16 @@
       "script": "PokemonTower_2F_EventScript_RivalTriggerDown"
     }
   ],
-  "bg_events": []
+  "bg_events": [
+    {
+      "type": "hidden_item",
+      "x": 14,
+      "y": 7,
+      "elevation": 3,
+      "item": "ITEM_TWILIGHT_CHAPTER_1",
+      "flag": "FLAG_HIDDEN_ITEM_TWILIGHT_CHAPTER_1",
+      "quantity": 1,
+      "underfoot": false
+    }
+  ]
 }

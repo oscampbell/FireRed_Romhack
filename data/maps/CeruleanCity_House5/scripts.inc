@@ -189,6 +189,10 @@ CeruleanCity_House5_EventScript_Stacey::
 	faceplayer
 	goto_if_set FLAG_GOT_CERULEAN_STACEY_GIFT, CeruleanCity_House5_EventScript_Stacey_Done
 	msgbox CeruleanCity_House5_Text_StaceyIntro
+	setvar VAR_0x8004, TYPE_FIRE
+	special PlayerHasMoveWithType
+	goto_if_eq VAR_RESULT, FALSE, CeruleanCity_House5_EventScript_Stacey_OvenBroken
+	msgbox CeruleanCity_House5_Text_StaceyOvenFixed
 	checkitemspace ITEM_CHARCOAL, 1
 	goto_if_eq VAR_RESULT, FALSE, EventScript_BagIsFull
 	giveitem ITEM_CHARCOAL
@@ -196,6 +200,11 @@ CeruleanCity_House5_EventScript_Stacey::
 	setvar VAR_QUEST_STACEY, 1
 	setvar VAR_QUEST_FIG, 1
 	msgbox CeruleanCity_House5_Text_StaceyGivenMuffin
+	release
+	end
+
+CeruleanCity_House5_EventScript_Stacey_OvenBroken::
+	msgbox CeruleanCity_House5_Text_StaceyOvenBroken
 	release
 	end
 

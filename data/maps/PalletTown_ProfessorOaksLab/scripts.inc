@@ -572,6 +572,7 @@ PalletTown_ProfessorOaksLab_EventScript_ProfOak::
 	goto_if_set FLAG_SYS_NATIONAL_DEX, PalletTown_ProfessorOaksLab_EventScript_GiveSecondStarter
 	goto_if_set SHOWED_OAK_COMPLETE_DEX, PalletTown_ProfessorOaksLab_EventScript_OakJustShownCompleteDex
 	goto_if_eq VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 9, PalletTown_ProfessorOaksLab_EventScript_RatePokedex
+	call PalletTown_ProfessorOaksLab_EventScript_TwilightQuest
 	goto_if_eq VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 8, PalletTown_ProfessorOaksLab_EventScript_MonsAroundWorldWait
 	goto_if_set FLAG_SYS_GAME_CLEAR, PalletTown_ProfessorOaksLab_EventScript_TryStartNationalDexScene
 	goto_if_eq VAR_MAP_SCENE_CERULEAN_CITY_RIVAL, 1, PalletTown_ProfessorOaksLab_EventScript_RatePokedex
@@ -1362,3 +1363,50 @@ PalletTown_ProfessorOaksLab_EventScript_RightSignAlt::
 	msgbox PalletTown_ProfessorOaksLab_Text_AllMonTypesHaveStrongAndWeakPoints
 	releaseall
 	end
+
+PalletTown_ProfessorOaksLab_EventScript_TwilightQuest::
+	checkitem ITEM_TWILIGHT_CHAPTER_1
+	goto_if_eq VAR_RESULT, TRUE, PalletTown_ProfessorOaksLab_EventScript_GiveChapter1
+	checkitem ITEM_TWILIGHT_CHAPTER_2
+	goto_if_eq VAR_RESULT, TRUE, PalletTown_ProfessorOaksLab_EventScript_GiveChapter2
+	checkitem ITEM_TWILIGHT_CHAPTER_3
+	goto_if_eq VAR_RESULT, TRUE, PalletTown_ProfessorOaksLab_EventScript_GiveChapter3
+	checkitem ITEM_TWILIGHT_CHAPTER_4
+	goto_if_eq VAR_RESULT, TRUE, PalletTown_ProfessorOaksLab_EventScript_GiveChapter4
+	goto_if_eq VAR_QUEST_TWILIGHT, 0, PalletTown_ProfessorOaksLab_EventScript_StartTwilightQuest
+	return
+
+PalletTown_ProfessorOaksLab_EventScript_StartTwilightQuest::
+	msgbox PalletTown_ProfessorOaksLab_Text_TwilightQuestIntro
+	setvar VAR_QUEST_TWILIGHT, 1
+	return
+
+PalletTown_ProfessorOaksLab_EventScript_GiveChapter1::
+	removeitem ITEM_TWILIGHT_CHAPTER_1
+	setvar VAR_QUEST_TWILIGHT, 2
+	goto PalletTown_ProfessorOaksLab_EventScript_GiveTwilightReward
+	end
+
+PalletTown_ProfessorOaksLab_EventScript_GiveChapter2::
+	removeitem ITEM_TWILIGHT_CHAPTER_2
+	setvar VAR_QUEST_TWILIGHT, 3
+	goto PalletTown_ProfessorOaksLab_EventScript_GiveTwilightReward
+	end
+
+PalletTown_ProfessorOaksLab_EventScript_GiveChapter3::
+	removeitem ITEM_TWILIGHT_CHAPTER_3
+	setvar VAR_QUEST_TWILIGHT, 4
+	goto PalletTown_ProfessorOaksLab_EventScript_GiveTwilightReward
+	end
+
+PalletTown_ProfessorOaksLab_EventScript_GiveChapter4::
+	removeitem ITEM_TWILIGHT_CHAPTER_4
+	setvar VAR_QUEST_TWILIGHT, 5 @ Completed
+	goto PalletTown_ProfessorOaksLab_EventScript_GiveTwilightReward
+	end
+
+PalletTown_ProfessorOaksLab_EventScript_GiveTwilightReward::
+	msgbox PalletTown_ProfessorOaksLab_Text_FoundAChapter
+	giveitem ITEM_RARE_CANDY
+	msgbox PalletTown_ProfessorOaksLab_Text_TwilightQuestNextStep
+	return

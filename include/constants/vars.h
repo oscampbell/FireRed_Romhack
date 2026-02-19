@@ -194,10 +194,10 @@
 #define VAR_QUEST_MAIN             0x408C
 #define VAR_QUEST_STACEY           0x408D
 #define VAR_QUEST_FIG              0x408E
-#define VAR_0x408F                 0x408F
-#define VAR_0x4090                 0x4090
-#define VAR_0x4091                 0x4091
-#define VAR_0x4092                 0x4092
+#define VAR_QUEST_TWILIGHT         0x408F
+#define VAR_QUEST_POKEASDA         0x4090
+#define VAR_QUEST_PALETTE          0x4091
+#define VAR_QUEST_BIRTHDAY         0x4092
 #define VAR_0x4093                 0x4093
 #define VAR_0x4094                 0x4094
 #define VAR_0x4095                 0x4095

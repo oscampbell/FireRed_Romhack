@@ -30,5 +30,9 @@ bool8 UsedPokemonCenterWarp(void);
 void QuestLog_CheckDepartingIndoorsMap(void);
 void QuestLog_TryRecordDepartedLocation(void);
 bool8 InPokemonCenter(void);
+void Script_PlayerHasMoveWithType(void);
+void Script_PlayerHasMonWithType(void);
+void Script_PlayerHasSpecies(void);
+void Script_CheckAllFriendsInvited(void);
 
 #endif // GUARD_FIELD_SPECIALS_H

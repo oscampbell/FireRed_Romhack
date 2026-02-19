@@ -651,6 +651,11 @@ PewterCity_EventScript_CitySign::
 	msgbox PewterCity_Text_CitySign, MSGBOX_SIGN
 	end
 
+PewterCity_EventScript_Friend2::
+	setvar VAR_0x8004, FLAG_INVITED_FRIEND_2
+	goto EventScript_InviteFriend
+	end
+
 PewterCity_EventScript_RunningShoesAide::
 	lock
 	faceplayer
