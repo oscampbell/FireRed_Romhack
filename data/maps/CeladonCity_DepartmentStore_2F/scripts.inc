@@ -35,6 +35,14 @@ CeladonCity_DepartmentStore_2F_Items::
 	.2byte ITEM_BURN_HEAL
 	.2byte ITEM_ICE_HEAL
 	.2byte ITEM_SUPER_REPEL
+	.2byte ITEM_ADAMANT_MINT
+	.2byte ITEM_MODEST_MINT
+	.2byte ITEM_JOLLY_MINT
+	.2byte ITEM_TIMID_MINT
+	.2byte ITEM_BOLD_MINT
+	.2byte ITEM_CALM_MINT
+	.2byte ITEM_IMPISH_MINT
+	.2byte ITEM_CAREFUL_MINT
 	.2byte ITEM_NONE
 	release
 	end

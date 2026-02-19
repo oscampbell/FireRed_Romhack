@@ -45,6 +45,10 @@ script PalletTown_PlayersHouse_2F_EventScript_PC {
     setvar(VAR_0x8004, 1)
     special(AnimatePcTurnOn)
     playse(SE_PC_ON)
+    if (var(VAR_MAP_SCENE_PALLET_TOWN_PLAYERS_HOUSE_2F) == 1) {
+        msgbox("There is an unread email!\p“Happy Birthday, baby!\nI'm so proud of everything you've\larchieved this year.\pGo show KANTO what a professional\nhairdresser can really do!\pI'll be seeing you very soon.\nLove, Ollie”")
+        setvar(VAR_MAP_SCENE_PALLET_TOWN_PLAYERS_HOUSE_2F, 2)
+    }
     msgbox(Text_PlayerBootedUpPC)
     special(BedroomPC)
     waitstate

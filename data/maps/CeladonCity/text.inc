@@ -22,12 +22,12 @@ CeladonCity_Text_BlewItAllAtSlots::
     .string "on some new hair color!$"
 
 CeladonCity_Text_MyTrustedPalPoliwrath::
-    .string "This is my trusted pal, POLIWRATH.\p"
-    .string "It evolved from a POLIWHIRL when\n"
-    .string "I used a WATER STONE.$"
+    .string "HRISHI: This is my trusted pal,\n"
+    .string "POLIWRATH. Its battle performance\l"
+    .string "is perfectly optimized.$"
 
 CeladonCity_Text_Poliwrath::
-    .string "POLIWRATH: Ribi ribit!$"
+    .string "POLIWRATH: Ribi ribit! (Ping: 1ms)$"
 
 CeladonCity_Text_GetLostOrIllPunchYou::
     .string "What are you staring at?\n"
@@ -38,7 +38,7 @@ CeladonCity_Text_KeepOutOfTeamRocketsWay::
     .string "Keep out of TEAM ROCKET's way!$"
 
 CeladonCity_Text_ExplainXAccuracyDireHit::
-    .string "TRAINER TIPS\p"
+    .string "ALISHA: TRAINER TIPS\p"
     .string "X ACCURACY boosts focus.\n"
     .string "DIRE HIT jacks up the power.\p"
     .string "Get your supplies at the EMPIRE\n"
@@ -61,7 +61,7 @@ CeladonCity_Text_DeptStoreSign::
     .string "EMPIRE DEPT. STORE!$"
 
 CeladonCity_Text_GuardSpecProtectsFromStatus::
-    .string "TRAINER TIPS\p"
+    .string "MILAN: TRAINER TIPS\p"
     .string "GUARD SPEC. keeps your POKéMON\n"
     .string "fresh and status-free.\p"
     .string "Shop at the EMPIRE DEPT. STORE!$"

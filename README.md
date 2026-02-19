@@ -53,6 +53,7 @@ The cities and badges have been renamed after professional hair color shades (Da
 
 ### Visual & Species Overhaul
 *   **Ollie (Champion/Guide):** Now uses the **Steven Stone** sprite globally for a "cool" professional look.
+*   **Shukti Version:** The title screen has been updated to **SHUKTI VERSION - 2026**.
 *   **Bowie (Pug):** Houndoom has been globally renamed to **Bowie**. He can be found as a legendary encounter in the Poolside Gym.
 *   **David (Gym Leader):** Now uses the **Bruno (Elite Four)** sprite to reflect his bodybuilder persona.
 *   **FIG:** Rockruff has been globally renamed to **FIG**.
@@ -66,6 +67,8 @@ The cities and badges have been renamed after professional hair color shades (Da
 *   **Global EXP Share:** Experience is automatically shared with your entire party from the start of the game—no item or toggle required!
 *   **Starting Resources:** Starting money increased to **¥35,000**. Evolution stones are scattered around Clear Town for early Eevee forms.
 *   **Quest Log:** A new Start Menu feature tracking 7 quests and a 29-step main path.
+*   **Modern QoL:** Infinite use TMs, indoor running enabled, and Nature Mints available for purchase at the Empire City Dept. Store.
+*   **Narrative Hook:** A special birthday greeting from Ollie can be found on your PC at the start of the game!
 
 ### Reflavored Consultants & Dialogue
 *   **Niky (Mum):** The player's mother has been renamed and updated with hockey-obsessed dialogue.
