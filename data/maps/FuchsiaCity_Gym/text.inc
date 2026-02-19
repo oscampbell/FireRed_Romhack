@@ -1,5 +1,5 @@
 FuchsiaCity_Gym_Text_KogaIntro::
-    .string "KOGA: Fwahahaha!\p"
+    .string "MILAN: Heh!\p"
     .string "A mere child like you dares to\n"
     .string "challenge me?\p"
     .string "The very idea makes me shiver\n"
@@ -34,7 +34,7 @@ FuchsiaCity_Gym_Text_KogaExplainSoulBadge::
 
 FuchsiaCity_Gym_Text_ReceivedTM06FromKoga::
     .string "{PLAYER} received TM06\n"
-    .string "from KOGA.$"
+    .string "from MILAN.$"
 
 FuchsiaCity_Gym_Text_KogaExplainTM06::
     .string "Sealed within that TM06 lies\n"
@@ -73,7 +73,7 @@ FuchsiaCity_Gym_Text_KirkDefeat::
 FuchsiaCity_Gym_Text_KirkPostBattle::
     .string "Even though I've lost, I will keep\n"
     .string "training according to the teachings\l"
-    .string "of KOGA, my ninja master.$"
+    .string "of MILAN, my ninja master.$"
 
 FuchsiaCity_Gym_Text_NateIntro::
     .string "Let's see you beat my special\n"
@@ -89,7 +89,7 @@ FuchsiaCity_Gym_Text_NatePostBattle::
 FuchsiaCity_Gym_Text_PhilIntro::
     .string "Stop right there!\p"
     .string "The famed invisible walls of\n"
-    .string "FUCHSIA GYM have you frustrated?$"
+    .string "HUSTLER GYM have you frustrated?$"
 
 FuchsiaCity_Gym_Text_PhilDefeat::
     .string "Whoa!\n"
@@ -103,7 +103,7 @@ FuchsiaCity_Gym_Text_PhilPostBattle::
 
 FuchsiaCity_Gym_Text_EdgarIntro::
     .string "I also study the way of the ninja\n"
-    .string "with Master KOGA!\p"
+    .string "with Master MILAN!\p"
     .string "Ninja have a long history of using\n"
     .string "animals!$"
 
@@ -114,7 +114,7 @@ FuchsiaCity_Gym_Text_EdgarPostBattle::
     .string "I still have much to learn.$"
 
 FuchsiaCity_Gym_Text_ShawnIntro::
-    .string "Master KOGA comes from a long line\n"
+    .string "Master MILAN comes from a long line\n"
     .string "of ninjas.\p"
     .string "What did you descend from?$"
 
@@ -139,7 +139,7 @@ FuchsiaCity_Gym_Text_OllieGiftFuchsia::
     .string "OLLIE: Here, take this.$"
 
 FuchsiaCity_Gym_Text_OllieAdvice::
-    .string "OLLIE: KOGA loves his status moves.\n"
+    .string "OLLIE: MILAN loves his status moves.\n"
     .string "Don't let him slow you down!\p"
     .string "You're moving so fast, I can barely\n"
     .string "keep up... or maybe I'm just\l"
@@ -154,14 +154,14 @@ FuchsiaCity_Gym_Text_NoRoomForGift::
     .string "I'll hold onto this for you.$"
 
 FuchsiaCity_Gym_Text_GymStatue::
-    .string "FUCHSIA POKéMON GYM\n"
-    .string "LEADER: KOGA\p"
+    .string "HUSTLER POKéMON GYM\n"
+    .string "LEADER: MILAN\p"
     .string "WINNING TRAINERS:\n"
     .string "{RIVAL}$"
 
 FuchsiaCity_Gym_Text_GymStatuePlayerWon::
-    .string "FUCHSIA POKéMON GYM\n"
-    .string "LEADER: KOGA\p"
+    .string "HUSTLER POKéMON GYM\n"
+    .string "LEADER: MILAN\p"
     .string "WINNING TRAINERS:\n"
     .string "{RIVAL}, {PLAYER}$"
 

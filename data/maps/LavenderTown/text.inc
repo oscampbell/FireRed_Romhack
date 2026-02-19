@@ -1,23 +1,24 @@
 LavenderTown_Text_DoYouBelieveInGhosts::
-    .string "Do you believe in ghosts?$"
+    .string "DIVA: Do you believe in ghosts?\n"
+    .string "Or are they just misunderstood fans?$"
 
 LavenderTown_Text_SoThereAreBelievers::
-    .string "Really?\n"
-    .string "So there are believers…$"
+    .string "DIVA: Really?\n"
+    .string "So there are believers… how cute.$"
 
 LavenderTown_Text_JustImaginingWhiteHand::
-    .string "Hahaha, I guess not.\p"
-    .string "That white hand on your shoulder…\n"
-    .string "I'm just imagining it.$"
+    .string "DIVA: Hahaha, I guess not.\p"
+    .string "That pale hand on your shoulder…\n"
+    .string "It's probably just Edward.$"
 
 LavenderTown_Text_TownKnownAsMonGraveSite::
-    .string "This town is known as the grave\n"
-    .string "site of POKéMON.\p"
-    .string "Memorial services are held in\n"
-    .string "POKéMON TOWER.$"
+    .string "JORDI: This town is famous for its\n"
+    .string "spooky vibes and ghost stories.\p"
+    .string "It's the perfect place for a\n"
+    .string "Masquerade, don't you think?$"
 
 LavenderTown_Text_GhostsAppearedInTower::
-    .string "Ghosts appeared in POKéMON TOWER.\p"
+    .string "AMBER: Ghosts appeared in the TOWER.\p"
     .string "I heard TEAM ROCKET is holding a\n"
     .string "dog named FIG up there!\p"
     .string "They're probably planning to take\n"
@@ -37,12 +38,12 @@ LavenderTown_Text_VolunteerPokemonHouse::
     .string "POKéMON HOUSE$"
 
 LavenderTown_Text_EdwardFan::
-    .string "Edward is so mysterious... just\n"
-    .string "like the ghosts in the TOWER.\p"
+    .string "DIVA: Edward is so mysterious...\n"
+    .string "just like the ghosts in the TOWER.\p"
     .string "I wish he would sparkle here!$"
 
 LavenderTown_Text_JacobFan::
-    .string "Vampires? Pfft.\n"
+    .string "AMBER: Vampires? Pfft.\n"
     .string "Werewolves are way cooler.\p"
     .string "I'm heading to DIABLO ISLAND\n"
     .string "to find more Team Jacob fans!$"

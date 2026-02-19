@@ -2,27 +2,27 @@ CinnabarIsland_Text_DoorIsLocked::
     .string "The door is locked…$"
 
 CinnabarIsland_Text_BlaineLivedHereSinceBeforeLab::
-    .string "CINNABAR GYM's BLAINE is quite the\n"
-    .string "odd fellow.\p"
-    .string "He's lived on the island since way\n"
-    .string "before the LAB was built.$"
+    .string "RUTH: DIABLO GYM's DEVANG is quite\n"
+    .string "the intense fellow.\p"
+    .string "He's been here since before the\n"
+    .string "LAB was even a blueprint!$"
 
 CinnabarIsland_Text_ScientistsExperimentInMansion::
-    .string "Scientists conduct experiments \n"
-    .string "in the burned-out building.\p"
-    .string "You know, the one they call the\n"
-    .string "POKéMON MANSION.$"
+    .string "TOM: We're doing some wild experiments\n"
+    .string "in that burned-out building.\p"
+    .string "Mostly trying to find a hair color\n"
+    .string "that won't melt in the volcano.$"
 
 CinnabarIsland_Text_IslandSign::
     .string "DIABLO ISLAND\n"
     .string "The Fiery Town of Burning Desire$"
 
 CinnabarIsland_Text_PokemonLab::
-    .string "POKéMON LAB$"
+    .string "DIABLO POKéMON LAB$"
 
 CinnabarIsland_Text_GymSign::
     .string "DIABLO ISLAND POKéMON GYM\n"
-    .string "LEADER: BLAINE\l"
+    .string "LEADER: DEVANG\l"
     .string "The Hotheaded Quiz Master!$"
 
 CinnabarIsland_Text_HeyIfItIsntPlayer::

@@ -7,7 +7,7 @@ This is a personalized version of **FireRed Ultra**, built as a special gift for
 ---
 
 ## 🌍 The World of FireRed Ultra
-The Kanto region has been transformed into a world that reflects Shukti's life, career as a professional colorist, and her favorite media.
+The Kanto region has been transformed into a world that reflects Shukti's life, career as a professional hairdresser, and her favorite media.
 
 ### Core Story Changes
 *   **The Rival: STACEY** (Shukti's old boss). She's portrayed as a "blundering idiot" and a "stupid" old boss, making constant jokes about redundancies and poor business strategy.
@@ -22,7 +22,6 @@ The Kanto region has been transformed into a world that reflects Shukti's life, 
 The cities and badges have been renamed after professional hair color shades (Danger Jones palette):
 *   Pallet Town -> **Clear Town** (Diluter/Shine)
 *   Viridian City -> **Adrenaline City** (Neon Green) -> **ADRENALINEBADGE**
-    *   *Lore:* Also known as **Virid-LAN City**, featuring a Grumpy Network Admin and skippable tutorials with a polite "FUCK OFF!" option.
 *   Pewter City -> **Pavement City** (Grey) -> **PAVEMENTBADGE**
 *   Cerulean City -> **Poolside City** (Light Blue) -> **POOLSIDEBADGE**
 *   Lavender Town -> **Masquerade Town** (True Purple) -> **STARRIDERBADGE** (Note: Saffron/Lavender badge swap reflects Saffron's color Yellow -> Starrider)
@@ -134,7 +133,7 @@ Audit Marts to earn a permanent **20% Staff Discount** globally.
 *   **Final Report:** Talk to the Receptionist at the PokeASDA HQ (Celadon Dept Store 1F) to activate your discount.
 
 ### 6. The Professional Palette
-Show the Colorist in Clear Town specific Pokémon matching the Danger Jones palette:
+Show the Hairdresser in Clear Town specific Pokémon matching the Danger Jones palette:
 *   **Neon Green:** Victreebel
 *   **Fiery Red:** Flareon
 *   **Masquerade Purple:** Gengar

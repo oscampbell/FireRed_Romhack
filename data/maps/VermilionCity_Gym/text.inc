@@ -1,57 +1,57 @@
 VermilionCity_Gym_Text_LtSurgeIntro::
-    .string "Hey, kid! What do you think you're\n"
-    .string "doing here?\p"
-    .string "You won't live long in combat!\n"
-    .string "Not with your puny power!\p"
-    .string "I tell you, kid, electric POKéMON\n"
-    .string "saved me during the war!\p"
-    .string "They zapped my enemies into\n"
-    .string "paralysis!\p"
-    .string "The same as I'll do to you!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+    .string "HRISHI: Stop right there!\n"
+    .string "You think you can just walk in here\l"
+    .string "without a solid strategy?\p"
+    .string "I've optimized this gym for maximum\n"
+    .string "efficiency and voltage!\p"
+    .string "My electric POKéMON will short-\n"
+    .string "circuit your entire team!\p"
+    .string "Prepare for a total system reboot!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
 
 VermilionCity_Gym_Text_LtSurgePostBattle::
-    .string "A little word of advice, kid!\p"
-    .string "Electricity is sure powerful!\p"
-    .string "But, it's useless against GROUND-\n"
-    .string "type POKéMON!$"
+    .string "System error... I didn't account\n"
+    .string "for your performance metrics.\p"
+    .string "But remember: even the best\n"
+    .string "circuits need grounding. Watch\l"
+    .string "out for GROUND-types!$"
 
 VermilionCity_Gym_Text_ExplainThunderBadgeTakeThis::
-    .string "The THUNDERBADGE cranks up your\n"
+    .string "The BURNOUTBADGE overclock's your\n"
     .string "POKéMON's SPEED!\p"
     .string "It also lets your POKéMON FLY\n"
-    .string "lightning-quick anytime, kid!\p"
-    .string "You're special, kid!\n"
-    .string "Take this!$"
+    .string "anywhere in the blink of an eye!\p"
+    .string "You've got potential. Take this\n"
+    .string "utility script, too!$"
 
 VermilionCity_Gym_Text_ReceivedTM34FromLtSurge::
     .string "{PLAYER} received TM34\n"
-    .string "from LT. SURGE.$"
+    .string "from HRISHI.$"
 
 VermilionCity_Gym_Text_ExplainTM34::
     .string "TM34 contains SHOCK WAVE!\p"
-    .string "Teach it to an ELECTRIC POKéMON!$"
+    .string "It's an unavoidable attack.\n"
+    .string "Direct and efficient!$"
 
 VermilionCity_Gym_Text_MakeRoomInYourBag::
-    .string "Yo, kid, make room in your BAG!$"
+    .string "Yo, clear some cache in your BAG!$"
 
 VermilionCity_Gym_Text_LtSurgeDefeat::
-    .string "Now that's a shocker!\p"
-    .string "You're the real deal, kid!\p"
-    .string "Fine, then, take the THUNDERBADGE!$"
+    .string "Critical failure!\p"
+    .string "You've bypassed all my security!\p"
+    .string "Fine, then, take the BURNOUTBADGE!$"
 
 VermilionCity_Gym_Text_TuckerIntro::
-    .string "When I was in the Army, LT. SURGE\n"
-    .string "was my strict CO.\p"
-    .string "He was a hard taskmaster.$"
+    .string "HRISHI is a hard taskmaster.\n"
+    .string "Everything has to be perfect.$"
 
 VermilionCity_Gym_Text_TuckerDefeat::
     .string "Stop!\n"
-    .string "You're very good!$"
+    .string "Your logic is sound!$"
 
 VermilionCity_Gym_Text_TuckerPostBattle::
     .string "It's not easy opening that door.\p"
-    .string "LT. SURGE was always famous for\n"
-    .string "his cautious nature in the Army.$"
+    .string "HRISHI installed the security\n"
+    .string "protocols himself.$"
 
 VermilionCity_Gym_Text_BailyIntro::
     .string "I'm a lightweight, but I'm good\n"
@@ -63,7 +63,7 @@ VermilionCity_Gym_Text_BailyDefeat::
 
 VermilionCity_Gym_Text_BailyPostBattle::
     .string "Okay, I'll talk!\p"
-    .string "LT. SURGE said he hid door\n"
+    .string "HRISHI said he hid door\n"
     .string "switches inside something.$"
 
 VermilionCity_Gym_Text_DwayneIntro::
@@ -75,7 +75,7 @@ VermilionCity_Gym_Text_DwayneDefeat::
     .string "Surprised me!$"
 
 VermilionCity_Gym_Text_DwaynePostBattle::
-    .string "LT. SURGE installed the traps in\n"
+    .string "HRISHI installed the traps in\n"
     .string "the GYM himself.\p"
     .string "He set up double locks everywhere.\n"
     .string "Let me give you a hint.\p"
@@ -92,7 +92,7 @@ VermilionCity_Gym_Text_OllieGiftVermilion::
     .string "OLLIE: Here, take this.$"
 
 VermilionCity_Gym_Text_OllieAdvice::
-    .string "OLLIE: LT. SURGE is a war veteran.\n"
+    .string "OLLIE: HRISHI is a real pro.\n"
     .string "His Electric types are fast!\p"
     .string "But I've seen you battle, SHUKTI.\n"
     .string "You're special. Keep that strength\l"
@@ -109,14 +109,14 @@ VermilionCity_Gym_Text_NoRoomForGift::
     .string "I'll hold onto this for you.$"
 
 VermilionCity_Gym_Text_GymStatue::
-    .string "VERMILION POKéMON GYM\n"
-    .string "LEADER: LT. SURGE\p"
+    .string "BURNOUT CITY POKéMON GYM\n"
+    .string "LEADER: HRISHI\p"
     .string "WINNING TRAINERS:\n"
     .string "{RIVAL}$"
 
 VermilionCity_Gym_Text_GymStatuePlayerWon::
-    .string "VERMILION POKéMON GYM\n"
-    .string "LEADER: LT. SURGE\p"
+    .string "BURNOUT CITY POKéMON GYM\n"
+    .string "LEADER: HRISHI\p"
     .string "WINNING TRAINERS:\n"
     .string "{RIVAL}, {PLAYER}$"
 

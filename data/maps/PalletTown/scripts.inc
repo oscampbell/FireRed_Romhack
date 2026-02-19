@@ -497,55 +497,55 @@ PalletTown_EventScript_Aliyah::
     msgbox PalletTown_Text_Aliyah, MSGBOX_NPC
     end
 
-PalletTown_EventScript_Colorist::
+PalletTown_EventScript_Hairdresser::
 	lock
 	faceplayer
-	goto_if_eq VAR_QUEST_PALETTE, 4, PalletTown_EventScript_Colorist_Done
-	goto_if_eq VAR_QUEST_PALETTE, 3, PalletTown_EventScript_Colorist_Step3
-	goto_if_eq VAR_QUEST_PALETTE, 2, PalletTown_EventScript_Colorist_Step2
-	goto_if_eq VAR_QUEST_PALETTE, 1, PalletTown_EventScript_Colorist_Step1
-	msgbox PalletTown_Text_Colorist_Intro
+	goto_if_eq VAR_QUEST_PALETTE, 4, PalletTown_EventScript_Hairdresser_Done
+	goto_if_eq VAR_QUEST_PALETTE, 3, PalletTown_EventScript_Hairdresser_Step3
+	goto_if_eq VAR_QUEST_PALETTE, 2, PalletTown_EventScript_Hairdresser_Step2
+	goto_if_eq VAR_QUEST_PALETTE, 1, PalletTown_EventScript_Hairdresser_Step1
+	msgbox PalletTown_Text_Hairdresser_Intro
 	setvar VAR_QUEST_PALETTE, 1
 	release
 	end
 
-PalletTown_EventScript_Colorist_Step1::
-	msgbox PalletTown_Text_Colorist_AskNeonGreen
+PalletTown_EventScript_Hairdresser_Step1::
+	msgbox PalletTown_Text_Hairdresser_AskNeonGreen
 	setvar VAR_0x8004, SPECIES_VICTREEBEL
 	special PlayerHasSpecies
-	goto_if_eq VAR_RESULT, FALSE, PalletTown_EventScript_Colorist_NoMon
-	msgbox PalletTown_Text_Colorist_FoundNeonGreen
+	goto_if_eq VAR_RESULT, FALSE, PalletTown_EventScript_Hairdresser_NoMon
+	msgbox PalletTown_Text_Hairdresser_FoundNeonGreen
 	setvar VAR_QUEST_PALETTE, 2
 	release
 	end
 
-PalletTown_EventScript_Colorist_Step2::
-	msgbox PalletTown_Text_Colorist_AskFieryRed
+PalletTown_EventScript_Hairdresser_Step2::
+	msgbox PalletTown_Text_Hairdresser_AskFieryRed
 	setvar VAR_0x8004, SPECIES_FLAREON
 	special PlayerHasSpecies
-	goto_if_eq VAR_RESULT, FALSE, PalletTown_EventScript_Colorist_NoMon
-	msgbox PalletTown_Text_Colorist_FoundFieryRed
+	goto_if_eq VAR_RESULT, FALSE, PalletTown_EventScript_Hairdresser_NoMon
+	msgbox PalletTown_Text_Hairdresser_FoundFieryRed
 	setvar VAR_QUEST_PALETTE, 3
 	release
 	end
 
-PalletTown_EventScript_Colorist_Step3::
-	msgbox PalletTown_Text_Colorist_AskMasqueradePurple
+PalletTown_EventScript_Hairdresser_Step3::
+	msgbox PalletTown_Text_Hairdresser_AskMasqueradePurple
 	setvar VAR_0x8004, SPECIES_GENGAR
 	special PlayerHasSpecies
-	goto_if_eq VAR_RESULT, FALSE, PalletTown_EventScript_Colorist_NoMon
-	msgbox PalletTown_Text_Colorist_FoundMasqueradePurple
+	goto_if_eq VAR_RESULT, FALSE, PalletTown_EventScript_Hairdresser_NoMon
+	msgbox PalletTown_Text_Hairdresser_FoundMasqueradePurple
 	setvar VAR_QUEST_PALETTE, 4
 	giveitem ITEM_SHINY_STONE
 	release
 	end
 
-PalletTown_EventScript_Colorist_NoMon::
-	msgbox PalletTown_Text_Colorist_NoMon
+PalletTown_EventScript_Hairdresser_NoMon::
+	msgbox PalletTown_Text_Hairdresser_NoMon
 	release
 	end
 
-PalletTown_EventScript_Colorist_Done::
-	msgbox PalletTown_Text_Colorist_Done
+PalletTown_EventScript_Hairdresser_Done::
+	msgbox PalletTown_Text_Hairdresser_Done
 	release
 	end

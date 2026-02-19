@@ -1,23 +1,25 @@
 CeladonCity_Text_GotMyKoffingInCinnabar::
-    .string "I got my KOFFING in CINNABAR.\p"
-    .string "It's usually nice, but it breathes\n"
-    .string "poison when it's angry.$"
+    .string "ALISHA: I got my KOFFING in DIABLO\n"
+    .string "ISLAND. It's usually nice, but it\l"
+    .string "breathes poison when it's angry.\l"
+    .string "Kind of like me before coffee!$"
 
 CeladonCity_Text_GymIsGreatFullOfWomen::
-    .string "Heheh! This GYM is great!\n"
-    .string "It's full of women!$"
+    .string "ASHLEY: Heheh! This GYM is great!\n"
+    .string "It's full of muscle! DAVID really\l"
+    .string "knows how to recruit.$"
 
 CeladonCity_Text_GameCornerIsBadForCitysImage::
-    .string "CELADON takes pride in its efforts\n"
-    .string "to keep the city beautiful.\p"
+    .string "EMPIRE CITY takes pride in its\n"
+    .string "efforts to keep the city beautiful.\p"
     .string "That's why the new GAME CORNER is\n"
-    .string "bad for our city's image.$"
+    .string "so out of fashion!$"
 
 CeladonCity_Text_BlewItAllAtSlots::
-    .string "Moan…\n"
+    .string "CONNOR: Moan…\n"
     .string "I blew it all at the slots!\p"
-    .string "I knew I should have cashed in my\n"
-    .string "COINS for prizes!$"
+    .string "I should have just spent my COINS\n"
+    .string "on some new hair color!$"
 
 CeladonCity_Text_MyTrustedPalPoliwrath::
     .string "This is my trusted pal, POLIWRATH.\p"
@@ -29,18 +31,17 @@ CeladonCity_Text_Poliwrath::
 
 CeladonCity_Text_GetLostOrIllPunchYou::
     .string "What are you staring at?\n"
-    .string "Get lost, or I'll punch you.$"
+    .string "Get lost, or I'll show you some\l"
+    .string "real EMPIRE power!$"
 
 CeladonCity_Text_KeepOutOfTeamRocketsWay::
     .string "Keep out of TEAM ROCKET's way!$"
 
 CeladonCity_Text_ExplainXAccuracyDireHit::
     .string "TRAINER TIPS\p"
-    .string "X ACCURACY boosts the accuracy of\n"
-    .string "techniques.\p"
-    .string "DIRE HIT jacks up the likelihood\n"
-    .string "of critical hits.\p"
-    .string "Get your items at the CELADON\n"
+    .string "X ACCURACY boosts focus.\n"
+    .string "DIRE HIT jacks up the power.\p"
+    .string "Get your supplies at the EMPIRE\n"
     .string "DEPT. STORE!$"
 
 CeladonCity_Text_CitySign::
@@ -49,23 +50,21 @@ CeladonCity_Text_CitySign::
 
 CeladonCity_Text_GymSign::
     .string "EMPIRE CITY POKéMON GYM\n"
-    .string "LEADER: ERIKA\l"
-    .string "The Nature-Loving Princess!$"
+    .string "LEADER: DAVID\l"
+    .string "The Bodybuilder Pro!$"
 
 CeladonCity_Text_MansionSign::
-    .string "CELADON MANSION$"
+    .string "EMPIRE MANSION$"
 
 CeladonCity_Text_DeptStoreSign::
     .string "Find what you need at the\n"
-    .string "CELADON DEPT. STORE!$"
+    .string "EMPIRE DEPT. STORE!$"
 
 CeladonCity_Text_GuardSpecProtectsFromStatus::
     .string "TRAINER TIPS\p"
-    .string "GUARD SPEC. protects POKéMON\n"
-    .string "from status-reduction moves during\l"
-    .string "battle.\p"
-    .string "Get your items at the\n"
-    .string "CELADON DEPT. STORE!$"
+    .string "GUARD SPEC. keeps your POKéMON\n"
+    .string "fresh and status-free.\p"
+    .string "Shop at the EMPIRE DEPT. STORE!$"
 
 CeladonCity_Text_PrizeExchangeSign::
     .string "COINS exchanged for prizes!\n"
@@ -78,10 +77,10 @@ CeladonCity_Text_GameCornerSign::
 CeladonCity_Text_ScaldedTongueOnTea::
     .string "Aaaagh, ow…\n"
     .string "I scalded my tongue!\p"
-    .string "This nice old lady in the MANSION\n"
-    .string "gave me some TEA.\p"
-    .string "But it was boiling hot!\n"
-    .string "Gotta cool it to drink it.$"
+    .string "This nice lady in the MANSION\n"
+    .string "gave me some boiling TEA.\p"
+    .string "Need some Liquid Death to cool\n"
+    .string "down!$"
 
 Text_SoftboiledTeach::
     .string "Hello, there!\p"
@@ -105,11 +104,11 @@ Text_SoftboiledTaught::
     .string "I wish you the best of luck!$"
 
 CeladonCity_Text_SomeoneStoleSilphScope::
-    .string "Oh, what am I to do…\p"
+    .string "MATT: Oh, what am I to do…\p"
     .string "Someone stole poor FIG!\p"
     .string "The thief came running this way\n"
     .string "with a tricolour collie, I'm sure\l"
     .string "of it!\p"
-    .string "But I lost sight of them!\n"
-    .string "Where'd they go?$"
+    .string "They headed into the GAME CORNER!\n"
+    .string "I'm too scared to follow!$"
 

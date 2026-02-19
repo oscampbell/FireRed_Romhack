@@ -1,34 +1,37 @@
 VermilionCity_Text_GrimerMultipliesInSludge::
-    .string "We're careful about pollution here.\p"
-    .string "We've heard GRIMER multiplies in\n"
-    .string "toxic sludge.$"
+    .string "ELLA: We're careful about pollution\n"
+    .string "here. Sludge is NOT part of the\l"
+    .string "professional color palette!$"
 
 VermilionCity_Text_DidYouSeeSSAnneInHarbor::
-    .string "Did you see the S.S. ANNE moored\n"
-    .string "in the harbor?$"
+    .string "JACK: Did you see the S.S. ANNE\n"
+    .string "moored in the harbor? It's almost\l"
+    .string "as cool as my collection!$"
 
 VermilionCity_Text_SSAnneHasDepartedForYear::
-    .string "So, the S.S. ANNE has departed?\p"
-    .string "She'll be back in VERMILION about\n"
-    .string "this time next year.$"
+    .string "JACK: So, the S.S. ANNE has departed?\p"
+    .string "Well, there's always next year.\n"
+    .string "I'll just keep training here!$"
 
 VermilionCity_Text_BuildingOnThisLand::
-    .string "I'm putting up a building on this\n"
-    .string "plot of land. I own it all.\p"
-    .string "My POKéMON is tamping the land\n"
-    .string "to lay the foundation.$"
+    .string "DAN: I'm putting up a building on\n"
+    .string "this plot of land. It's gonna be\l"
+    .string "the best spot in BURNOUT CITY!\p"
+    .string "My MACHOP is working overtime to\n"
+    .string "get the foundation ready.$"
 
 VermilionCity_Text_Machop::
     .string "MACHOP: Guoh! Gogogoh!$"
 
 VermilionCity_Text_MachopStompingLandFlat::
-    .string "A MACHOP is stomping the land flat.$"
+    .string "DAN's MACHOP is stomping the land flat.$"
 
 VermilionCity_Text_SSAnneVisitsOnceAYear::
-    .string "I saw a shiny dog being loaded onto\n"
-    .string "a truck headed for EMPIRE CITY.\p"
+    .string "LIV: I saw a shiny dog being loaded\n"
+    .string "onto a truck headed for EMPIRE CITY.\p"
     .string "The truck had a big, colorful\n"
-    .string "salon logo on the side!$"
+    .string "salon logo on the side! FIG looked\l"
+    .string "so scared!$"
 
 VermilionCity_Text_CitySign::
     .string "BURNOUT CITY\n"
@@ -40,7 +43,7 @@ VermilionCity_Text_SnorlaxBlockingRoute12::
     .string "sleeping POKéMON.\p"
     .string "Detour through ROCK TUNNEL to\n"
     .string "MASQUERADE TOWN.\p"
-    .string "VERMILION POLICE$"
+    .string "BURNOUT POLICE$"
 
 VermilionCity_Text_PokemonFanClubSign::
     .string "POKéMON FAN CLUB\n"
@@ -48,11 +51,11 @@ VermilionCity_Text_PokemonFanClubSign::
 
 VermilionCity_Text_GymSign::
     .string "BURNOUT CITY POKéMON GYM\n"
-    .string "LEADER: LT. SURGE\l"
-    .string "The Lightning American!$"
+    .string "LEADER: HRISHI\l"
+    .string "The Strategic Electric Master!$"
 
 VermilionCity_Text_VermilionHarbor::
-    .string "VERMILION HARBOR$"
+    .string "BURNOUT HARBOR$"
 
 VermilionCity_Text_WelcomeToTheSSAnne::
     .string "Welcome to the S.S. ANNE!$"

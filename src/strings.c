@@ -977,10 +977,10 @@ const u8 gText_QuestLog_PokeASDAQuest_Step1[] = _("Audit the PokeASDA Mart in Pa
 const u8 gText_QuestLog_PokeASDAQuest_Step2[] = _("Audit the PokeASDA Mart in Poolside\nCity. Check their stock.");
 const u8 gText_QuestLog_PokeASDAQuest_Step3[] = _("Report back to the PokeASDA HQ at\nEmpire City for your discount!");
 
-const u8 gText_QuestLog_PaletteQuest_Step0[] = _("A Colorist in Clear Town wants to see\nPokémon that match the palette.");
-const u8 gText_QuestLog_PaletteQuest_Step1[] = _("Show the Colorist a 'Neon Green' mon\n(like Morpeko).");
-const u8 gText_QuestLog_PaletteQuest_Step2[] = _("Show the Colorist a 'Fiery Red' mon\n(like Flareon).");
-const u8 gText_QuestLog_PaletteQuest_Step3[] = _("Show the Colorist a 'Masquerade Purple'\nmon (like Morpeko-Hangry).");
+const u8 gText_QuestLog_PaletteQuest_Step0[] = _("A Hairdresser in Clear Town wants to see\nPokémon that match the palette.");
+const u8 gText_QuestLog_PaletteQuest_Step1[] = _("Show the Hairdresser a 'Neon Green' mon\n(like Morpeko).");
+const u8 gText_QuestLog_PaletteQuest_Step2[] = _("Show the Hairdresser a 'Fiery Red' mon\n(like Flareon).");
+const u8 gText_QuestLog_PaletteQuest_Step3[] = _("Show the Hairdresser a 'Masquerade Purple'\nmon (like Morpeko-Hangry).");
 
 const u8 gText_QuestLog_BirthdayQuest_Step0[] = _("It's almost the big day! Find 8 friends\nhidden across KANTO to invite them.");
 const u8 gText_QuestLog_BirthdayQuest_Step1[] = _("Friends are hiding in cities you've\nvisited. Search everywhere!");

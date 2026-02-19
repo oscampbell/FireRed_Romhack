@@ -1,13 +1,14 @@
 FuchsiaCity_Text_DidYouTrySafariGame::
-    .string "Did you try the SAFARI GAME?\p"
-    .string "There are some rare POKéMON that\n"
-    .string "can only be caught there.$"
+    .string "ELLIE: Did you try the SAFARI GAME?\p"
+    .string "It's way more exciting than just\n"
+    .string "watching hockey with NIKY!$"
 
 FuchsiaCity_Text_SafariZoneZooInFront::
-    .string "The WOBURN SAFARI PARK has a zoo in front\n"
-    .string "of the entrance.\p"
-    .string "Out back is the SAFARI GAME for\n"
-    .string "catching POKéMON.$"
+    .string "CHRIS: The WOBURN SAFARI PARK has\n"
+    .string "a zoo in front of the entrance.\p"
+    .string "Out back is the SAFARI GAME. I\n"
+    .string "hope you brought plenty of Poké\l"
+    .string "Balls!$"
 
 FuchsiaCity_Text_WheresSara::
     .string "ERIK: Where's SARA?\n"
@@ -42,7 +43,7 @@ FuchsiaCity_Text_SafariZoneOfficeSign::
 
 FuchsiaCity_Text_GymSign::
     .string "HUSTLER CITY POKéMON GYM\n"
-    .string "LEADER: KOGA\l"
+    .string "LEADER: MILAN\l"
     .string "The Poisonous Ninja Master$"
 
 FuchsiaCity_Text_ChanseySign::
@@ -105,8 +106,8 @@ Text_SubstituteTaught::
     .string "a KANGASKHAN belly pouch…$"
 
 FuchsiaCity_Text_MyFatherIsGymLeader::
-    .string "My father is the GYM LEADER of\n"
-    .string "this town.\p"
+    .string "JANHVI: MILAN is the LEADER of\n"
+    .string "this town. He's my ninja mentor!\p"
     .string "I'm training to use POISON POKéMON\n"
-    .string "as well as my father.$"
+    .string "just like him.$"
 

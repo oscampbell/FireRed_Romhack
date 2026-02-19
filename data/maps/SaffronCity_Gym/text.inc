@@ -1,5 +1,6 @@
 SaffronCity_Gym_Text_SabrinaIntro::
-    .string "I had a vision of your arrival.\p"
+    .string "DIVA: I knew you were coming.\n"
+    .string "I'm a DIVA, I know everything.\p"
     .string "I have had psychic powers since I\n"
     .string "was a child.\p"
     .string "I first learned to bend spoons with\n"
@@ -8,7 +9,7 @@ SaffronCity_Gym_Text_SabrinaIntro::
     .string "I will show you my powers!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
 
 SaffronCity_Gym_Text_SabrinaDefeat::
-    .string "I'm shocked!\n"
+    .string "My spotlight... stolen!\n"
     .string "But, though I lost, I still have my\l"
     .string "psychic powers!\p"
     .string "You won the MARSHBADGE!$"
@@ -20,7 +21,7 @@ SaffronCity_Gym_Text_SabrinaNotEnoughMons::
     .string "Come back when you have more!$"
 
 SaffronCity_Gym_Text_SabrinaPostBattle::
-    .string "Everyone has psychic power.\n"
+    .string "Fine, you can share the stage.\n"
     .string "People just don't realize it.$"
 
 SaffronCity_Gym_Text_ExplainMarshBadgeTakeThis::
@@ -34,7 +35,7 @@ SaffronCity_Gym_Text_ExplainMarshBadgeTakeThis::
 
 SaffronCity_Gym_Text_ReceivedTM04FromSabrina::
     .string "{PLAYER} received TM04 from\n"
-    .string "SABRINA.$"
+    .string "DIVA.$"
 
 SaffronCity_Gym_Text_ExplainTM04::
     .string "TM04 is CALM MIND.\p"
@@ -45,7 +46,7 @@ SaffronCity_Gym_Text_BagFullOfOtherItems::
     .string "Your BAG is full of other items.$"
 
 SaffronCity_Gym_Text_AmandaIntro::
-    .string "SABRINA is far younger than I,\n"
+    .string "DIVA is far younger than I,\n"
     .string "but she has earned my respect.$"
 
 SaffronCity_Gym_Text_AmandaDefeat::
@@ -54,7 +55,7 @@ SaffronCity_Gym_Text_AmandaDefeat::
 SaffronCity_Gym_Text_AmandaPostBattle::
     .string "In a battle of equals, the one\n"
     .string "with the stronger will wins.\p"
-    .string "If you wish to beat SABRINA, focus\n"
+    .string "If you wish to beat DIVA, focus\n"
     .string "and will yourself to victory.$"
 
 SaffronCity_Gym_Text_JohanIntro::
@@ -89,7 +90,7 @@ SaffronCity_Gym_Text_TyronDefeat::
     .string "I don't believe this!$"
 
 SaffronCity_Gym_Text_TyronPostBattle::
-    .string "SABRINA just wiped out the KARATE\n"
+    .string "DIVA just wiped out the KARATE\n"
     .string "MASTER next door.$"
 
 SaffronCity_Gym_Text_TashaIntro::
@@ -104,7 +105,7 @@ SaffronCity_Gym_Text_TashaPostBattle::
     .string "place.$"
 
 SaffronCity_Gym_Text_CameronIntro::
-    .string "SABRINA is young, but she's also\n"
+    .string "DIVA is young, but she's also\n"
     .string "our highly skilled LEADER.\p"
     .string "You won't reach her easily!$"
 
@@ -114,16 +115,16 @@ SaffronCity_Gym_Text_CameronDefeat::
 
 SaffronCity_Gym_Text_CameronPostBattle::
     .string "There used to be two POKéMON GYMS\n"
-    .string "in SAFFRON.\p"
+    .string "in STARRIDER CITY.\p"
     .string "The FIGHTING DOJO next door lost\n"
     .string "its GYM status, though.\p"
     .string "We simply creamed them when we\n"
     .string "decided to have just one GYM.$"
 
 SaffronCity_Gym_Text_PrestonIntro::
-    .string "SAFFRON POKéMON GYM is famous for\n"
+    .string "STARRIDER POKéMON GYM is famous for\n"
     .string "training psychics.\p"
-    .string "You want to see SABRINA, don't\n"
+    .string "You want to see DIVA, don't\n"
     .string "you? I can tell!$"
 
 SaffronCity_Gym_Text_PrestonDefeat::
@@ -150,7 +151,7 @@ SaffronCity_Gym_Text_OllieAdvice::
     .string "reunited at the finish line.$"
 
 SaffronCity_Gym_Text_OlliePostVictory::
-    .string "OLLIE: You did it! SABRINA was\n"
+    .string "OLLIE: You did it! DIVA was\n"
     .string "no match for your bond.\p"
     .string "I'm heading to my final stop now.\n"
     .string "I'll be waiting for you!$"
@@ -160,14 +161,14 @@ SaffronCity_Gym_Text_NoRoomForGift::
     .string "I'll hold onto this for you.$"
 
 SaffronCity_Gym_Text_GymStatue::
-    .string "SAFFRON POKéMON GYM\n"
-    .string "LEADER: SABRINA\p"
+    .string "STARRIDER POKéMON GYM\n"
+    .string "LEADER: DIVA\p"
     .string "WINNING TRAINERS:\n"
     .string "{RIVAL}$"
 
 SaffronCity_Gym_Text_GymStatuePlayerWon::
-    .string "SAFFRON POKéMON GYM\n"
-    .string "LEADER: SABRINA\p"
+    .string "STARRIDER POKéMON GYM\n"
+    .string "LEADER: DIVA\p"
     .string "WINNING TRAINERS:\n"
     .string "{RIVAL}, {PLAYER}$"
 

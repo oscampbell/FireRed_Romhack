@@ -11,14 +11,15 @@ PalletTown_Text_OakGrassUnsafeNeedMon::
     .string "Here, come with me!$"
 
 PalletTown_Text_RaisingMonsToo::
-    .string "I'm raising POKéMON, too.\p"
-    .string "When they get strong, they can\n"
-    .string "protect me.$"
+    .string "CHRIS: I'm raising POKéMON, too.\p"
+    .string "Mostly so they can help me carry\n"
+    .string "all my gear when we go out!$"
 
 PalletTown_Text_CanStoreItemsAndMonsInPC::
-    .string "Technology is incredible!\p"
-    .string "You can now store and recall items\n"
-    .string "and POKéMON as data via PC.$"
+    .string "ELLIE: Technology is incredible!\p"
+    .string "I heard you can even use your PC\n"
+    .string "to find secret birthday parties!\l"
+    .string "Wait... I've said too much.$"
 
 PalletTown_Text_OakPokemonResearchLab::
     .string "TREE POKéMON RESEARCH LAB$"
@@ -83,7 +84,7 @@ PalletTown_Text_Aliyah::
 
 PalletTown_Text_Colorist_Intro::
 	.string "Hello there! I'm the local\n"
-	.string "professional Colorist.\p"
+	.string "professional Hairdresser.\p"
 	.string "I'm looking for POKéMON that\n"
 	.string "perfectly match our Danger Jones\l"
 	.string "Professional Palette.\p"

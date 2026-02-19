@@ -1,7 +1,7 @@
 CinnabarIsland_Gym_Text_BlaineIntro::
     .string "Hah!\p"
-    .string "I am BLAINE, the red-hot LEADER\n"
-    .string "of CINNABAR GYM!\p"
+    .string "I am DEVANG, the red-hot LEADER\n"
+    .string "of DIABLO GYM!\p"
     .string "My fiery POKéMON are all rough\n"
     .string "and ready with intense heat!\p"
     .string "They incinerate all challengers!\p"
@@ -26,7 +26,7 @@ CinnabarIsland_Gym_Text_ExplainVolcanoBadge::
 
 CinnabarIsland_Gym_Text_ReceivedTM38FromBlaine::
     .string "{PLAYER} received TM38\n"
-    .string "from BLAINE.$"
+    .string "from DEVANG.$"
 
 CinnabarIsland_Gym_Text_BlainePostBattle::
     .string "TM38 contains FIRE BLAST.\n"
@@ -86,18 +86,18 @@ CinnabarIsland_Gym_Text_RamonPostBattle::
     .string "I'd use that!$"
 
 CinnabarIsland_Gym_Text_DerekIntro::
-    .string "I know why BLAINE became a\n"
+    .string "I know why DEVANG became a\n"
     .string "TRAINER.$"
 
 CinnabarIsland_Gym_Text_DerekDefeat::
     .string "Ow!$"
 
 CinnabarIsland_Gym_Text_DerekPostBattle::
-    .string "Our LEADER, BLAINE, became lost\n"
+    .string "Our LEADER, DEVANG, became lost\n"
     .string "in the mountains but good.\p"
     .string "Night fell when a fiery bird\n"
     .string "POKéMON appeared.\p"
-    .string "Its light allowed BLAINE to find\n"
+    .string "Its light allowed DEVANG to find\n"
     .string "his way down safely.$"
 
 CinnabarIsland_Gym_Text_DustyIntro::
@@ -134,7 +134,7 @@ CinnabarIsland_Gym_Text_OllieGiftCinnabar::
     .string "OLLIE: Here, take this.$"
 
 CinnabarIsland_Gym_Text_OllieAdvice::
-    .string "OLLIE: BLAINE's FIRE types are no\n"
+    .string "OLLIE: DEVANG's FIRE types are no\n"
     .string "joke. Douse those flames!\p"
     .string "I've actually just reached the\n"
     .string "final stop of my own errand. It's\l"
@@ -152,14 +152,14 @@ CinnabarIsland_Gym_Text_NoRoomForGift::
     .string "I'll hold onto this for you.$"
 
 CinnabarIsland_Gym_Text_GymStatue::
-    .string "CINNABAR POKéMON GYM\n"
-    .string "LEADER: BLAINE\p"
+    .string "DIABLO POKéMON GYM\n"
+    .string "LEADER: DEVANG\p"
     .string "WINNING TRAINERS:\n"
     .string "{RIVAL}$"
 
 CinnabarIsland_Gym_Text_GymStatuePlayerWon::
-    .string "CINNABAR POKéMON GYM\n"
-    .string "LEADER: BLAINE\p"
+    .string "DIABLO POKéMON GYM\n"
+    .string "LEADER: DEVANG\p"
     .string "WINNING TRAINERS:\n"
     .string "{RIVAL}, {PLAYER}$"
 
