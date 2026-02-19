@@ -4,8 +4,6 @@ This is a personalized version of **FireRed Ultra**, built as a special gift for
 
 > **IMPORTANT:** Much of the custom dialogue currently in the game contains **AI-generated placeholder content**. A "fine-tooth comb" review of all dialogue is required to ensure it perfectly matches the intended tone and personal references.
 
-> **Note:** Some features implemented were to test feasibility; nothing is final.
-
 ---
 
 ## 🌍 The World of FireRed Ultra
@@ -19,8 +17,8 @@ The Kanto region has been transformed into a world that reflects Shukti's life, 
 *   **The Fig Quest:** Team Rocket has stolen **Fig** (a special Shiny dog). The species has been globally renamed to **FIG**. Clues about her whereabouts are breadcrumbed through every city, leading to a final rescue at Silph Co.
 *   **The Champion: OLLIE.** The final twist! Your supportive gym guide is actually the ultimate challenge, featuring a powerhouse team.
 
-### Danger Jones Professional Palette (Town & Badge Renames)
-The cities and badges have been renamed after professional hair color shades:
+### Location & Organization Renames
+The cities and badges have been renamed after professional hair color shades (Danger Jones palette):
 *   Pallet Town -> **Clear Town** (Diluter/Shine)
 *   Viridian City -> **Adrenaline City** (Neon Green) -> **ADRENALINEBADGE**
 *   Pewter City -> **Pavement City** (Grey) -> **PAVEMENTBADGE**
@@ -33,7 +31,10 @@ The cities and badges have been renamed after professional hair color shades:
 *   Saffron City -> **Starrider City** (Yellow) -> **STARRIDERBADGE**
 *   Indigo Plateau -> **Libertine Plateau** (Violet)
 
-*Note: Saffron is Starrider (Yellow) and Lavender is Masquerade (Purple). Saffron Gym gives the STARRIDERBADGE.*
+**Special Landmarks:**
+*   **La-Vampire Volunteer House:** Located in Masquerade Town.
+*   **Woburn Safari Park:** The Safari Zone has been globally rebranded.
+*   **Twilight Fan Club HQ:** The official headquarters in Starrider City, where fans debate the philosophy of Team Edward vs Team Jacob.
 
 ---
 
@@ -50,41 +51,22 @@ The cities and badges have been renamed after professional hair color shades:
 *   **The All-Starters Quest:** Professor Tree gives you the remaining two starters at the Poolside and Hustler City Pokémon Centers.
 *   **Twilight Boxed Set:** The classic parcel quest is now a delivery of a Special Edition Twilight Set.
 *   **PokeASDA:** All Marts have been globally rebranded.
-*   **Woburn Safari Park:** The Safari Zone has been globally renamed to Woburn Safari Park.
 *   **Liquid Death:** Lemonade has been replaced with Liquid Death water cans.
+*   **Poo Bag:** A unique item received from **Faris**. It contains Bowie's special poop and is so gross it causes a Pokémon to drop by 1 Level (Anti-Rare Candy).
 *   **Following Pokémon:** The first Pokémon in your party follows you in the overworld.
-*   **Quest Log:** A new feature in the Start Menu that tracks your progress through a 29-step Main Story path (from Clear Town to the Elite Four and post-game Mewtwo) and all side quests.
-*   **Eevee Adoption Program:** To ensure a full Eevee-evolution team is possible, adoptable Eevees are offered by NPCs in almost every city Mart and the One Island Pokémon Center.
+*   **Quest Log:** A new feature in the Start Menu that tracks your progress through a 29-step Main Story path and all side quests.
+*   **Eevee Adoption Program:** Adoptable Eevees are offered by NPCs in Marts across Kanto and the One Island Pokémon Center.
 *   **Starting Resources:** Starting money increased to **¥35,000**. Evolution stones are scattered around Clear Town for early Eevee forms.
 
-### Reflavored Consultants
-*   **Brand Manager:** The Name Rater (Masquerade Town) now performs "brand audits" to ensure names fit the professional palette.
-*   **Style Consultant:** The Move Deleter (Hustler City) now "trims" and "cuts" out-of-fashion moves.
-*   **Adrenaline Business School:** The trainer school now teaches Stacey mandatory lessons on business logic.
+### Reflavored Consultants & Dialogue
+*   **Faris (Gym Leader):** Replaces Brock in Pavement City. Features unique dialogue reflecting his... personality.
+*   **Brand Manager:** The Name Rater (Masquerade Town) now performs "brand audits".
+*   **Style Consultant:** The Move Deleter (Hustler City) now "trims" out-of-fashion moves.
+*   **Humorous Choices:** Some dialogue options have been updated for a more adult/humorous tone (e.g., the **YES / FUCK OFF!** menu).
 
 ### Completable Pokédex
 *   **No Trading Required:** Trade evolutions now trigger via **Level-up (Lv. 36)** or using the relevant **Evolution Item**.
-*   **Version Merged:** All LeafGreen exclusives and starters are findable in the wild in this version.
-
----
-
-## 🛠️ Technical Details
-
-### Technical Integration
-*   **Poryscript:** Installed and integrated into the `Makefile`. `.pory` files in map directories automatically compile to `.inc`.
-*   **Debug NPC (The Pro's Choice):** A Mew sprite located in the **Player's Bedroom** and **every Pokémon Center**.
-    *   **GIVEMON:** Level 100 Mew.
-    *   **ITEMS:** Bicycle, Fly (HM02), Max Repels, Running Shoes.
-    *   **FLAGS:** Unlock Pokedex, All Badges, and Fly locations.
-    *   **WARP:** Teleport to any City or major landmark.
-*   **Automated Intro:** Selecting "New Game" bypasses the Oak speech and places you directly in the bedroom with your identity (SHUKTI/Female) already set.
-
-### Modified Gym Leader Teams
-*   **Pavement City (Faris):** Team: Pidgey, Vileplume, Zapdos, Diglett, Blastoise.
-*   **Poolside City (Bryony):** Mixed Team (Jigglypuff, Jynx, Mr. Mime, Poliwhirl, Flareon, Vileplume).
-*   **Empire City (David):** Bodybuilder Team (Arcanine, Magikarp, Dragonair, Mr. Mime, Haunter, Machamp).
-*   **Adrenaline City (Zaynab & Aliyah):** Endgame Team (Venusaur, Arcanine, Lapras, Tyranitar, Metagross, Salamence).
-*   **Elite Four Member 3 (Jacquie):** Tech-inept Team (Underleveled Ice-types).
+*   **Version Merged:** All LeafGreen exclusives and starters are findable in the wild.
 
 ---
 
@@ -148,6 +130,26 @@ Once you are the Champion, 8 of your friends are hidden in cities across Kanto. 
 
 ---
 
+## 🛠️ Technical Details
+
+### Technical Integration
+*   **Poryscript:** Installed and integrated into the `Makefile`. `.pory` files in map directories automatically compile to `.inc`.
+*   **Debug NPC (The Pro's Choice):** A Mew sprite located in the **Player's Bedroom** and **every Pokémon Center**.
+    *   **GIVEMON:** Level 100 Mew.
+    *   **ITEMS:** Bicycle, Fly (HM02), Max Repels, Running Shoes.
+    *   **FLAGS:** Pokedex, All Badges, Fly locations.
+    *   **WARP:** Teleport to any City or major landmark.
+*   **Automated Intro:** Selecting "New Game" bypasses the Oak speech and places you directly in the bedroom.
+
+### Modified Gym Leader Teams
+*   **Pavement City (Faris):** Team: Pidgey, Vileplume, Zapdos, Diglett, Blastoise.
+*   **Poolside City (Bryony):** Mixed Team (Jigglypuff, Jynx, Mr. Mime, Poliwhirl, Flareon, Vileplume).
+*   **Empire City (David):** Bodybuilder Team (Arcanine, Magikarp, Dragonair, Mr. Mime, Haunter, Machamp).
+*   **Adrenaline City (Zaynab & Aliyah):** Endgame Team (Venusaur, Arcanine, Lapras, Tyranitar, Metagross, Salamence).
+*   **Elite Four Member 3 (Jacquie):** Tech-inept Team (Underleveled Ice-types).
+
+---
+
 ## 📈 Development Progress
 
 ### Zone Checklist
@@ -185,11 +187,3 @@ Research has been conducted to increase the representation of people of color (P
 For creating exact representations of real-life friends and family:
 *   **Doll Divine Pokémon Trainer Creator:** [Online Customizer](https://www.dolldivine.com/pokemon-trainer-creator.php) (Best for detailed character design).
 *   **Jordan Bunke’s Top Down Sprite Maker:** [Download](https://jordanbunke.itch.io/top-down-sprite-maker) (Best for authentic Gen 3 overworld pixel art).
-
-### Next Steps
-1.  **Selection:** Review the PNGs in `graphics/diverse_sprites/` and identify candidates for specific NPCs (e.g., Zaynab, Aliyah, and family members).
-2.  **Creation:** Use the recommended tools to design custom characters where pre-existing sprites are insufficient.
-3.  **Technical Implementation:** 
-    *   Resize selected images to 64x64 (Battle) or 16x32 (Overworld).
-    *   Index the color palettes to the 16-color GBA standard.
-    *   Update `src/data/trainers.party` and `map.json` files to point to new custom assets.
