@@ -53,7 +53,7 @@ The cities and badges have been renamed after professional hair color shades:
 *   **Liquid Death:** Lemonade has been replaced with Liquid Death water cans.
 *   **Following Pokémon:** The first Pokémon in your party follows you in the overworld.
 *   **Quest Log:** A new feature in the Start Menu that tracks your progress through a 29-step Main Story path (from Clear Town to the Elite Four and post-game Mewtwo) and side quests like "Stacey's Redundancy" and "The Rescue of Fig".
-*   **Eevee Adoption Program:** To ensure a full Eevee-evolution team is possible, adoptable Eevees are offered by NPCs in the Pavement City Mart, Burnout City Mart, and the Celadon Condominiums Roof Room.
+*   **Eevee Adoption Program:** To ensure a full Eevee-evolution team is possible, adoptable Eevees are offered by NPCs in almost every city Mart (Adrenaline, Pavement, Poolside, Masquerade, Burnout, Hustler, Starrider, Diablo) and the One Island Pokémon Center, in addition to the original Celadon City gift.
 *   **Starting Resources:** Starting money increased to **¥35,000**. Evolution stones are scattered around Clear Town for early Eevee forms.
 
 ### Professional Consultants (Reflavored NPCs)

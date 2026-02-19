@@ -9,6 +9,11 @@ CinnabarIsland_Mart_EventScript_Scientist::
 	msgbox CinnabarIsland_Mart_Text_ExtraItemsNeverHurt, MSGBOX_NPC
 	end
 
+CinnabarIsland_Mart_EventScript_EeveeAdoption::
+	setvar VAR_0x8004, FLAG_GOT_EEVEE_DIABLO
+	goto EventScript_EeveeAdoption
+	end
+
 CinnabarIsland_Mart_EventScript_Clerk::
 	goto_if_questlog EventScript_ReleaseEnd
 	lock

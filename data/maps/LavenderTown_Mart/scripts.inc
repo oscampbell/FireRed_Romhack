@@ -13,6 +13,11 @@ LavenderTown_Mart_EventScript_Youngster::
 	msgbox LavenderTown_Mart_Text_TrainerDuosCanChallengeYou, MSGBOX_NPC
 	end
 
+LavenderTown_Mart_EventScript_EeveeAdoption::
+	setvar VAR_0x8004, FLAG_GOT_EEVEE_MASQUERADE
+	goto EventScript_EeveeAdoption
+	end
+
 LavenderTown_Mart_EventScript_Clerk::
 	goto_if_questlog EventScript_ReleaseEnd
 	lock

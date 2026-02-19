@@ -9,6 +9,11 @@ CeruleanCity_Mart_EventScript_Woman::
 	msgbox CeruleanCity_Mart_Text_DoYouKnowAboutRareCandy, MSGBOX_NPC
 	end
 
+CeruleanCity_Mart_EventScript_EeveeAdoption::
+	setvar VAR_0x8004, FLAG_GOT_EEVEE_POOLSIDE
+	goto EventScript_EeveeAdoption
+	end
+
 CeruleanCity_Mart_EventScript_Clerk::
 	goto_if_questlog EventScript_ReleaseEnd
 	lock

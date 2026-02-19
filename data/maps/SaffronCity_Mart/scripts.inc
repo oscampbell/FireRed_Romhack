@@ -5,6 +5,11 @@ SaffronCity_Mart_EventScript_Lass::
 	msgbox SaffronCity_Mart_Text_ReviveIsCostly, MSGBOX_NPC
 	end
 
+SaffronCity_Mart_EventScript_EeveeAdoption::
+	setvar VAR_0x8004, FLAG_GOT_EEVEE_STARRIDER
+	goto EventScript_EeveeAdoption
+	end
+
 SaffronCity_Mart_EventScript_Youngster::
 	msgbox SaffronCity_Mart_Text_MaxRepelMoreEffectiveThanSuper, MSGBOX_NPC
 	end

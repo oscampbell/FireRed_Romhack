@@ -85,6 +85,11 @@ ViridianCity_Mart_EventScript_Woman::
 	msgbox ViridianCity_Mart_Text_ShopDoesGoodBusinessInAntidotes, MSGBOX_NPC
 	end
 
+ViridianCity_Mart_EventScript_EeveeAdoption::
+	setvar VAR_0x8004, FLAG_GOT_EEVEE_ADRENALINE
+	goto EventScript_EeveeAdoption
+	end
+
 ViridianCity_Mart_EventScript_Youngster::
 	msgbox ViridianCity_Mart_Text_GotToBuySomePotions, MSGBOX_NPC
 	end

@@ -389,6 +389,11 @@ OneIsland_PokemonCenter_1F_EventScript_BattleGirl::
 	release
 	end
 
+OneIsland_PokemonCenter_1F_EventScript_EeveeAdoption::
+	setvar VAR_0x8004, FLAG_GOT_EEVEE_ONE_ISLAND
+	goto EventScript_EeveeAdoption
+	end
+
 OneIsland_PokemonCenter_1F_EventScript_BattleGirlHoennLinked::
 	msgbox OneIsland_PokemonCenter_1F_Text_TradedWithFarAwayBoyfriend
 	release

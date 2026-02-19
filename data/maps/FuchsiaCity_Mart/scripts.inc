@@ -9,6 +9,11 @@ FuchsiaCity_Mart_EventScript_Gentleman::
 	msgbox FuchsiaCity_Mart_Text_DontTheyHaveSafariZonePennants, MSGBOX_NPC
 	end
 
+FuchsiaCity_Mart_EventScript_EeveeAdoption::
+	setvar VAR_0x8004, FLAG_GOT_EEVEE_HUSTLER
+	goto EventScript_EeveeAdoption
+	end
+
 FuchsiaCity_Mart_EventScript_Clerk::
 	goto_if_questlog EventScript_ReleaseEnd
 	lock
