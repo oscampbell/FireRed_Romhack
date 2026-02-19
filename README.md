@@ -45,6 +45,7 @@ The cities and badges have been renamed after professional hair color shades (Da
 *   **Ollie (Champion/Guide):** Now uses the **Steven Stone** sprite globally for a "cool" professional look.
 *   **Bowie (Pug):** Houndoom has been globally renamed to **Bowie**. He can be found as a legendary encounter in the Poolside Gym.
 *   **FIG:** Rockruff has been globally renamed to **FIG**.
+*   **David (Gym Leader):** Now uses the **Bruno (Elite Four)** sprite for both overworld and battle to reflect his bodybuilder persona.
 
 ### Customization & Items
 *   **Custom Starters:** Morpeko, Eevee, and Alolan Raichu (all with buffed "Ultra" base stats).
