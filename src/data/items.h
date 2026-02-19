@@ -7335,6 +7335,19 @@ const struct ItemInfo gItemsInfo[] =
         .iconPalette = gItemIconPalette_RareCandy,
     },
 
+    [ITEM_PROTEIN_BAR] =
+    {
+        .name = ITEM_NAME("Protein Bar"),
+        .price = 0,
+        .holdEffect = HOLD_EFFECT_NONE,
+        .description = COMPOUND_STRING("A high-protein\nsnack from\nDAVID's stash."),
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_RareCandy,
+        .iconPic = gItemIcon_RareCandy,
+        .iconPalette = gItemIconPalette_RareCandy,
+    },
+
 // Gems
     #if I_PRICE >= GEN_9
         #define GEM_PRICE 15000

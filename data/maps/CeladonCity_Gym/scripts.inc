@@ -17,20 +17,20 @@ CeladonCity_Gym_EventScript_DefeatedErika::
 	setflag FLAG_BADGE04_GET
 	setvar VAR_QUEST_MAIN, 13
 	set_gym_trainers 4
-	goto CeladonCity_Gym_EventScript_GiveTM19
+	goto CeladonCity_Gym_EventScript_GiveProteinBar
 	end
 
-CeladonCity_Gym_EventScript_GiveTM19::
+CeladonCity_Gym_EventScript_GiveProteinBar::
 	msgbox CeladonCity_Gym_Text_ExplainRainbowBadgeTakeThis
-	checkitemspace ITEM_TM19
-	goto_if_eq VAR_RESULT, FALSE, CeladonCity_Gym_EventScript_NoRoomForTM19
-	giveitem_msg CeladonCity_Gym_Text_ReceivedTM19FromErika, ITEM_TM19
+	checkitemspace ITEM_PROTEIN_BAR
+	goto_if_eq VAR_RESULT, FALSE, CeladonCity_Gym_EventScript_NoRoomForProteinBar
+	giveitem_msg CeladonCity_Gym_Text_ReceivedProteinBarFromDavid, ITEM_PROTEIN_BAR
 	setflag FLAG_GOT_TM19_FROM_ERIKA
-	msgbox CeladonCity_Gym_Text_ExplainTM19
+	msgbox CeladonCity_Gym_Text_ExplainProteinBar
 	release
 	end
 
-CeladonCity_Gym_EventScript_NoRoomForTM19::
+CeladonCity_Gym_EventScript_NoRoomForProteinBar::
 	msgbox CeladonCity_Gym_Text_ShouldMakeRoomForThis
 	release
 	end

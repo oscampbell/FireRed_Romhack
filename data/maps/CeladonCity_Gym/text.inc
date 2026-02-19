@@ -1,49 +1,41 @@
 CeladonCity_Gym_Text_ErikaIntro::
-    .string "Hello…\n"
-    .string "Lovely weather, isn't it?\l"
-    .string "It's so pleasant…\p"
-    .string "…Oh, dear…\n"
-    .string "I must have dozed off. Welcome.\p"
-    .string "My name is ERIKA.\n"
-    .string "I am the LEADER of CELADON GYM.\p"
-    .string "I am a student of the art of\n"
-    .string "flower arranging.\p"
-    .string "My POKéMON are solely of the\n"
-    .string "GRASS type.\p"
-    .string "…Oh, I'm sorry, I had no idea that\n"
-    .string "you wished to challenge me.\p"
-    .string "Very well, but I shall not lose.{PLAY_BGM MUS_ENCOUNTER_GYM_LEADER}$"
+    .string "BOOM! Look at those gains!\n"
+    .string "Welcome to the EMPIRE GYM!\p"
+    .string "I'm DAVID, and I don't just train\n"
+    .string "POKéMON—I train for LIFE.\p"
+    .string "You want this BADGE? You're gonna\n"
+    .string "have to show me some real muscle!\p"
+    .string "Let's hit it!{PLAY_BGM MUS_ENCOUNTER_GYM_LEADER}$"
 
 CeladonCity_Gym_Text_ErikaDefeat::
-    .string "Oh!\n"
-    .string "I concede defeat.\l"
-    .string "You are remarkably strong.\p"
-    .string "I must confer on you the\n"
-    .string "RAINBOWBADGE.$"
+    .string "WHOA! That was intense!\n"
+    .string "You've got some serious power.\p"
+    .string "Alright, you earned this.\n"
+    .string "The EMPIREBADGE is yours!$"
 
 CeladonCity_Gym_Text_ErikaPostBattle::
-    .string "You are cataloging POKéMON?\n"
-    .string "I must say I'm impressed.\p"
-    .string "I would never collect POKéMON if\n"
-    .string "they were unattractive.$"
+    .string "Keep up that training regimen.\n"
+    .string "Strength is the only thing that\l"
+    .string "doesn't lie!$"
 
 CeladonCity_Gym_Text_ExplainRainbowBadgeTakeThis::
-    .string "The RAINBOWBADGE will make\n"
-    .string "POKéMON up to Lv. 50 obey.\p"
-    .string "It also allows POKéMON to use\n"
-    .string "STRENGTH in and out of battle.\p"
-    .string "Please also take this with you.$"
+    .string "The EMPIREBADGE makes POKéMON\n"
+    .string "up to Lv. 50 obey you.\p"
+    .string "It also lets you use STRENGTH\n"
+    .string "to move heavy boulders.\p"
+    .string "And here—you need this for\n"
+    .string "proper recovery.$"
 
-CeladonCity_Gym_Text_ReceivedTM19FromErika::
-    .string "{PLAYER} received TM19\n"
-    .string "from ERIKA.$"
+CeladonCity_Gym_Text_ReceivedProteinBarFromDavid::
+    .string "{PLAYER} received a PROTEIN BAR\n"
+    .string "from DAVID.$"
 
-CeladonCity_Gym_Text_ExplainTM19::
-    .string "TM19 contains GIGA DRAIN.\p"
-    .string "Half the damage it inflicts is\n"
-    .string "drained to heal your POKéMON.\p"
-    .string "Wouldn't you agree that it's a\n"
-    .string "wonderful move?$"
+CeladonCity_Gym_Text_ExplainProteinBar::
+    .string "That's a custom PROTEIN BAR from\n"
+    .string "my personal stash.\p"
+    .string "Eat that, and your POKéMON will\n"
+    .string "be hitting new personal bests\l"
+    .string "in no time!$"
 
 CeladonCity_Gym_Text_ShouldMakeRoomForThis::
     .string "You should make room for this.$"

@@ -53,6 +53,7 @@ The cities and badges have been renamed after professional hair color shades (Da
 *   **PokeASDA:** All Marts have been globally rebranded.
 *   **Liquid Death:** Lemonade has been replaced with Liquid Death water cans.
 *   **Poo Bag:** A unique item received from **Faris**. It contains Bowie's special poop and is so gross it causes a Pokémon to drop by 1 Level (Anti-Rare Candy).
+*   **Protein Bar:** A muscle-building snack received from **David** in Empire City. It functions as an Ultra Rare Candy for serious gains!
 *   **Following Pokémon:** The first Pokémon in your party follows you in the overworld.
 *   **Quest Log:** A new feature in the Start Menu that tracks your progress through a 29-step Main Story path and all side quests.
 *   **Eevee Adoption Program:** Adoptable Eevees are offered by NPCs in Marts across Kanto and the One Island Pokémon Center.
@@ -74,6 +75,10 @@ The cities and badges have been renamed after professional hair color shades (Da
 
 ### 1. Main Story (29 Steps)
 Follow the Quest Log in the Start Menu. It will guide you from Clear Town through all 8 Gyms, the Elite Four, and the final post-game confrontation with Mewtwo in Cerulean Cave.
+
+**Special Gym Rewards:**
+*   **PAVEMENT CITY (Faris):** Receive the **POO BAG** (Anti-Rare Candy).
+*   **EMPIRE CITY (David):** Receive the **PROTEIN BAR** (Ultra Rare Candy).
 
 ### 2. Stacey's Redundancy
 Stacey is a blundering idiot trying to run failing businesses.
