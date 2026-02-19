@@ -87,6 +87,7 @@ PokemonLeague_LoreleisRoom_EventScript_PostBattle::
 
 PokemonLeague_LoreleisRoom_EventScript_DefeatedLorelei::
 	setflag FLAG_DEFEATED_LORELEI
+	setvar VAR_QUEST_MAIN, 23
 	call PokemonLeague_EventScript_OpenDoor
 	msgbox PokemonLeague_LoreleisRoom_Text_PostBattle
 	release

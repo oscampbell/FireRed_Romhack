@@ -74,5 +74,19 @@ CinnabarIsland_Text_IfYouHaveTriPassYouCanGoAgain::
     .string "All right, thanks for your company!$"
 
 CinnabarIsland_Text_StaceyIntro::
-    .string "STACEY: Why did I think moving to\nan island was a good idea.....$"
+    .string "STACEY: Why did I think moving to\nan island was a good idea.....\p"
+    .string "My Volcano Insurance business is a\ndisaster. Everyone keeps asking if\l"
+    .string "I cover 'spontaneous combustion'.\p"
+    .string "Here, take this. It's a promotional\nsample. Don't sue me.$"
 
+CinnabarIsland_Text_StaceyGivenCookie::
+    .string "STACEY: It's a LAVA COOKIE.\n"
+    .string "Try not to break a tooth.\p"
+    .string "Maybe I should go back to being a\n"
+    .string "Receptionist. Or a Ghost.\p"
+    .string "Whatever. I'm done.$"
+
+CinnabarIsland_Text_StaceyPostCookie::
+    .string "STACEY: I'm just going to sit here\n"
+    .string "and watch the volcano for a while.\p"
+    .string "Maybe it'll do something interesting.$"

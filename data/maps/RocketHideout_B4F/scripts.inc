@@ -42,6 +42,7 @@ RocketHideout_B4F_EventScript_SilphScope::
 	removeobject LOCALID_SILPH_SCOPE
 	giveitem ITEM_SILPH_SCOPE
 	goto_if_eq VAR_RESULT, FALSE, EventScript_BagIsFull
+	setvar VAR_QUEST_MAIN, 12
 	release
 	end
 

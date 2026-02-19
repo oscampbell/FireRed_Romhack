@@ -193,6 +193,8 @@ CeruleanCity_House5_EventScript_Stacey::
 	goto_if_eq VAR_RESULT, FALSE, EventScript_BagIsFull
 	giveitem ITEM_CHARCOAL
 	setflag FLAG_GOT_CERULEAN_STACEY_GIFT
+	setvar VAR_QUEST_STACEY, 1
+	setvar VAR_QUEST_FIG, 1
 	msgbox CeruleanCity_House5_Text_StaceyGivenMuffin
 	release
 	end

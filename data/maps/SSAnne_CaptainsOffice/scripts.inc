@@ -18,6 +18,7 @@ SSAnne_CaptainsOffice_EventScript_Captain::
 	giveitem_msg SSAnne_CaptainsOffice_Text_ObtainedHM01FromCaptain, ITEM_HM01, 1, MUS_OBTAIN_KEY_ITEM
 	msgbox SSAnne_CaptainsOffice_Text_ExplainCut
 	setflag FLAG_GOT_HM01
+	setvar VAR_QUEST_MAIN, 11
 	setvar VAR_MAP_SCENE_VERMILION_CITY, 1
 	release
 	end

@@ -22,6 +22,7 @@
 #include "pokemon_size_record.h"
 #include "pokemon_storage_system.h"
 #include "quest_log.h"
+#include "quest_log_system.h"
 #include "random.h"
 #include "renewable_hidden_items.h"
 #include "roamer.h"
@@ -161,6 +162,10 @@ void NewGameInitData(void)
     gSaveBlock2Ptr->playerGender = FEMALE;
     StringCopy(gSaveBlock2Ptr->playerName, sShuktiName);
     StringCopy(gSaveBlock1Ptr->rivalName, sStaceyName);
+
+    SetQuestStep(VAR_QUEST_MAIN, 0);
+    SetQuestStep(VAR_QUEST_STACEY, 0);
+    SetQuestStep(VAR_QUEST_FIG, 0);
 
     ResetTrainerTowerResults();
     ResetItemFlags();

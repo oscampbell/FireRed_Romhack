@@ -16,7 +16,7 @@ The Kanto region has been transformed into a world that reflects Shukti's life, 
     *   **Ventures:** Stacey attempts to launch failing businesses across the region, including a "Berry Bakery" in Poolside City and "Spiritual Consulting" in Masquerade Town.
 *   **The Professor: PROFESSOR TREE.** A "mad old professor" who is also a massive **Twilight** fan (Team Edward).
 *   **Investigator Daisy:** A Business Practices Investigator stationed in Stacey's house, looking into her fraud allegations and shady business ethics.
-*   **The Fig Quest:** Team Rocket has stolen **Fig** (a special Shiny dog/Rockruff). Clues about her whereabouts are breadcrumbed through every city, leading to a final rescue at Silph Co.
+*   **The Fig Quest:** Team Rocket has stolen **Fig** (a special Shiny dog). The species has been globally renamed to **FIG**. Clues about her whereabouts are breadcrumbed through every city, leading to a final rescue at Silph Co.
 *   **The Champion: OLLIE.** The final twist! Your supportive gym guide is actually the ultimate challenge, featuring a powerhouse team.
 
 ### Danger Jones Professional Palette (Town Renames)
@@ -49,6 +49,7 @@ The cities have been renamed after professional hair color shades:
 *   **PokeASDA:** All Marts have been globally rebranded.
 *   **Liquid Death:** Lemonade has been replaced with Liquid Death water cans.
 *   **Following Pokémon:** The first Pokémon in your party follows you in the overworld.
+*   **Quest Log:** A new feature in the Start Menu that tracks your progress through a 29-step Main Story path (from Clear Town to the Elite Four and post-game Mewtwo) and side quests like "Stacey's Redundancy" and "The Rescue of Fig".
 *   **Starting Resources:** Starting money increased to **¥35,000**. Evolution stones are scattered around Clear Town for early Eevee forms.
 
 ### Professional Consultants (Reflavored NPCs)
@@ -107,6 +108,12 @@ The cities have been renamed after professional hair color shades:
 *   [ ] **NPC Personalization:** Modify remaining NPCs to represent real-life friends and family.
 *   [ ] **Dialogue Audit:** Fine-tooth comb all AI placeholder text.
 *   [ ] **Visuals:** Custom Title Screen and custom Player Sprite.
+*   [ ] **Quest Enhancements:**
+    *   Implement "Active Tasks" for Stacey (e.g., Oven Repair, Proof of Ghosts).
+    *   Implement "Twilight Trivia Hunt" for Professor Tree.
+    *   Implement "Professional Palette Quest" (Pokémon color matching).
+    *   Implement "PokeASDA Mystery Shopper" auditing quest.
+    *   Implement "Birthday Party Invite" post-game event.
 
 ---
 

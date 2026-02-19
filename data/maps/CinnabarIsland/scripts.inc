@@ -363,5 +363,20 @@ CinnabarIsland_EventScript_GymSign::
 	end
 
 CinnabarIsland_EventScript_Stacey::
-	msgbox CinnabarIsland_Text_StaceyIntro, MSGBOX_NPC
+	lock
+	faceplayer
+	goto_if_set FLAG_GOT_CINNABAR_STACEY_GIFT, CinnabarIsland_EventScript_Stacey_Done
+	msgbox CinnabarIsland_Text_StaceyIntro
+	checkitemspace ITEM_LAVA_COOKIE, 1
+	goto_if_eq VAR_RESULT, FALSE, EventScript_BagIsFull
+	giveitem ITEM_LAVA_COOKIE
+	setflag FLAG_GOT_CINNABAR_STACEY_GIFT
+	setvar VAR_QUEST_STACEY, 3
+	msgbox CinnabarIsland_Text_StaceyGivenCookie
+	release
+	end
+
+CinnabarIsland_EventScript_Stacey_Done::
+	msgbox CinnabarIsland_Text_StaceyPostCookie
+	release
 	end

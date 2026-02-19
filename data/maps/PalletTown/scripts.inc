@@ -185,6 +185,7 @@ PalletTown_EventScript_OakTrigger::
 	playbgm MUS_OAK, 0
 	message PalletTown_Text_OakDontGoOut
 	waitmessage
+	setvar VAR_QUEST_MAIN, 2
 	delay 85
 	closemessage
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterDown

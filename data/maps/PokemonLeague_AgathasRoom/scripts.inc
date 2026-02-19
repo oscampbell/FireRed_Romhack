@@ -83,6 +83,7 @@ PokemonLeague_AgathasRoom_EventScript_PostBattle::
 
 PokemonLeague_AgathasRoom_EventScript_DefeatedAgatha::
 	setflag FLAG_DEFEATED_AGATHA
+	setvar VAR_QUEST_MAIN, 25
 	call PokemonLeague_EventScript_OpenDoor
 	msgbox PokemonLeague_AgathasRoom_Text_PostBattle
 	release

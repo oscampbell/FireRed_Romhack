@@ -19,6 +19,8 @@ SilphCo_11F_EventScript_President::
 	message SilphCo_11F_Text_ObtainedFig
 	waitmessage
 	waitfanfare
+	setvar VAR_QUEST_FIG, 3
+	setvar VAR_QUEST_MAIN, 14
 	call EventScript_RestorePrevTextColor
 	checkitemspace ITEM_MASTER_BALL
 	goto_if_eq VAR_RESULT, FALSE, SilphCo_11F_EventScript_NoRoomForMasterBall

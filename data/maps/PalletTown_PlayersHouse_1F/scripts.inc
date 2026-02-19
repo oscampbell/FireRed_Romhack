@@ -8,6 +8,7 @@ PalletTown_PlayersHouse_1F_EventScript_Mom::
 	checkplayergender
 	call_if_eq VAR_RESULT, MALE, PalletTown_PlayersHouse_1F_EventScript_MomOakLookingForYouMale
 	call_if_eq VAR_RESULT, FEMALE, PalletTown_PlayersHouse_1F_EventScript_MomOakLookingForYouFemale
+	setvar VAR_QUEST_MAIN, 1
 	closemessage
 	applymovement LOCALID_MOM, Common_Movement_FaceOriginalDirection
 	waitmovement 0

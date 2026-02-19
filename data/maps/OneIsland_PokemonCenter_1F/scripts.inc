@@ -115,6 +115,7 @@ OneIsland_PokemonCenter_1F_EventScript_MeetCelioScene::
 	waitmovement 0
 	setflag FLAG_SYS_PC_STORAGE_DISABLED
 	setvar VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 1
+	setvar VAR_QUEST_MAIN, 28
 	releaseall
 	end
 
@@ -277,6 +278,7 @@ OneIsland_PokemonCenter_1F_EventScript_GiveCelioSapphire::
 	setflag FLAG_HIDE_CERULEAN_CAVE_GUARD
 	setflag FLAG_HIDE_LORELEI_IN_HER_HOUSE
 	setvar VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 6
+	setvar VAR_QUEST_MAIN, 29
 	special InitRoamer
 	release
 	end

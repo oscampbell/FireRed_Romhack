@@ -37,6 +37,7 @@
 #include "save_menu_util.h"
 #include "help_system.h"
 #include "wild_encounter.h"
+#include "quest_log_system.h"
 #include "constants/songs.h"
 #include "constants/field_weather.h"
 
@@ -45,6 +46,7 @@ enum StartMenuOption
     STARTMENU_POKEDEX = 0,
     STARTMENU_POKEMON,
     STARTMENU_BAG,
+    STARTMENU_QUEST_LOG,
     STARTMENU_PLAYER,
     STARTMENU_SAVE,
     STARTMENU_OPTION,
@@ -88,6 +90,7 @@ static bool8 StartMenuPokedexSanityCheck(void);
 static bool8 StartMenuPokedexCallback(void);
 static bool8 StartMenuPokemonCallback(void);
 static bool8 StartMenuBagCallback(void);
+static bool8 StartMenuQuestLogCallback(void);
 static bool8 StartMenuPlayerCallback(void);
 static bool8 StartMenuSaveCallback(void);
 static bool8 StartMenuOptionCallback(void);
@@ -127,6 +130,7 @@ static const struct MenuAction sStartMenuActionTable[] = {
     [STARTMENU_POKEDEX] = {gText_MenuPokedex, {.u8_void = StartMenuPokedexCallback}},
     [STARTMENU_POKEMON] = {gText_MenuPokemon, {.u8_void = StartMenuPokemonCallback}},
     [STARTMENU_BAG]     = {gText_MenuBag,     {.u8_void = StartMenuBagCallback}},
+    [STARTMENU_QUEST_LOG] = {gText_MenuQuestLog, {.u8_void = StartMenuQuestLogCallback}},
     [STARTMENU_PLAYER]  = {gText_MenuPlayer,  {.u8_void = StartMenuPlayerCallback}},
     [STARTMENU_SAVE]    = {gText_MenuSave,    {.u8_void = StartMenuSaveCallback}},
     [STARTMENU_OPTION]  = {gText_MenuOption,  {.u8_void = StartMenuOptionCallback}},
@@ -171,6 +175,7 @@ static const u8 *const sStartMenuDescPointers[] = {
     gStartMenuDesc_Pokedex,
     gStartMenuDesc_Pokemon,
     gStartMenuDesc_Bag,
+    gStartMenuDesc_QuestLog,
     gStartMenuDesc_Player,
     gStartMenuDesc_Save,
     gStartMenuDesc_Option,
@@ -246,6 +251,7 @@ static void SetUpStartMenu_Debug(void)
     if (FlagGet(FLAG_SYS_POKEMON_GET) == TRUE)
         AppendToStartMenuItems(STARTMENU_POKEMON);
     AppendToStartMenuItems(STARTMENU_BAG);
+    AppendToStartMenuItems(STARTMENU_QUEST_LOG);
     AppendToStartMenuItems(STARTMENU_PLAYER);
     AppendToStartMenuItems(STARTMENU_SAVE);
     AppendToStartMenuItems(STARTMENU_OPTION);
@@ -261,6 +267,7 @@ static void SetUpStartMenu_NormalField(void)
     if (FlagGet(FLAG_SYS_POKEMON_GET) == TRUE)
         AppendToStartMenuItems(STARTMENU_POKEMON);
     AppendToStartMenuItems(STARTMENU_BAG);
+    AppendToStartMenuItems(STARTMENU_QUEST_LOG);
     AppendToStartMenuItems(STARTMENU_PLAYER);
     AppendToStartMenuItems(STARTMENU_SAVE);
     AppendToStartMenuItems(STARTMENU_OPTION);
@@ -620,6 +627,20 @@ static bool8 StartMenuBagCallback(void)
         DestroyTimeWindow();
         CleanupOverworldWindowsAndTilemaps();
         SetMainCallback2(CB2_BagMenuFromStartMenu);
+        return TRUE;
+    }
+    return FALSE;
+}
+
+static bool8 StartMenuQuestLogCallback(void)
+{
+    if (!gPaletteFade.active)
+    {
+        PlayRainStoppingSoundEffect();
+        DestroySafariZoneStatsWindow();
+        DestroyTimeWindow();
+        CleanupOverworldWindowsAndTilemaps();
+        SetMainCallback2(CB2_InitQuestLog);
         return TRUE;
     }
     return FALSE;

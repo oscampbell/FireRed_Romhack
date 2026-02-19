@@ -23,6 +23,7 @@ ViridianCity_Gym_EventScript_DefeatedZaynab::
 	setflag FLAG_DEFEATED_LEADER_GIOVANNI
 	setflag FLAG_BADGE08_GET
 	setvar VAR_MAP_SCENE_ROUTE22, 3
+	setvar VAR_QUEST_MAIN, 21
 	set_gym_trainers 8
 	msgbox ViridianCity_Gym_Text_ExplainEarthBadgeTakeThis
 	checkitemspace ITEM_TM26
@@ -57,6 +58,7 @@ ViridianCity_Gym_EventScript_DefeatedGiovanni::
 	setflag FLAG_DEFEATED_LEADER_GIOVANNI
 	setflag FLAG_BADGE08_GET
 	setvar VAR_MAP_SCENE_ROUTE22, 3
+	setvar VAR_QUEST_MAIN, 21
 	set_gym_trainers 8
 	goto ViridianCity_Gym_EventScript_GiveTM26
 	end

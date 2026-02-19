@@ -43,6 +43,8 @@ LavenderTown_House1_EventScript_Stacey::
 	goto_if_eq VAR_RESULT, FALSE, EventScript_BagIsFull
 	giveitem ITEM_SPELL_TAG
 	setflag FLAG_GOT_LAVENDER_STACEY_GIFT
+	setvar VAR_QUEST_STACEY, 2
+	setvar VAR_QUEST_FIG, 2
 	msgbox LavenderTown_House1_Text_StaceyGivenTag
 	release
 	end
