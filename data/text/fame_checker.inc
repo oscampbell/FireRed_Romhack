@@ -568,7 +568,7 @@ gFameCheckerFlavorText_MrFuji5:: @ 0x81AFDC4
 	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Editor: The shy MR. FUJI turned\n"
 	.string "down our interview requests.\p"
 	.string "He is a kindly man who is adored\n"
-	.string "and respected in LA-VAMPIRE TOWN.$"
+	.string "and respected in MASQUERADE TOWN.$"
 
 gFameCheckerFlavorText_Giovanni0:: @ 0x81AFE68
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\p"
@@ -1050,16 +1050,16 @@ gFameCheckerFlavorTextOriginLocation_Bill5::
 	.string "ONE ISLAND$"
 
 gFameCheckerFlavorTextOriginLocation_MrFuji0::
-	.string "LA-VAMPIRE TOWN$"
+	.string "MASQUERADE TOWN$"
 
 gFameCheckerFlavorTextOriginLocation_MrFuji1::
 	.string "POKéMON TOWER$"
 
 gFameCheckerFlavorTextOriginLocation_MrFuji2::
-	.string "LA-VAMPIRE TOWN$"
+	.string "MASQUERADE TOWN$"
 
 gFameCheckerFlavorTextOriginLocation_MrFuji3::
-	.string "LA-VAMPIRE TOWN$"
+	.string "MASQUERADE TOWN$"
 
 gFameCheckerFlavorTextOriginLocation_MrFuji4::
 	.string "CINNABAR GYM$"
@@ -1484,4 +1484,4 @@ PokemonJournal_Text_SpecialFeatureMrFuji::
 	.string "Editor: The shy MR. FUJI turned\n"
 	.string "down our interview requests.\p"
 	.string "He is a kindly man who is adored\n"
-	.string "and respected in LA-VAMPIRE TOWN.$"
+	.string "and respected in MASQUERADE TOWN.$"

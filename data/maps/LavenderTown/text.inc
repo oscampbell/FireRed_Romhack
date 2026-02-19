@@ -34,7 +34,7 @@ LavenderTown_Text_SilphScopeNotice::
     .string "SILPH CO.$"
 
 LavenderTown_Text_VolunteerPokemonHouse::
-    .string "LA-VAMPIRE VOLUNTEER\n"
+    .string "MASQUERADE VOLUNTEER\n"
     .string "POKéMON HOUSE$"
 
 LavenderTown_Text_EdwardFan::

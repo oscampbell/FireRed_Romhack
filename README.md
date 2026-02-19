@@ -15,7 +15,7 @@ The Kanto region has been transformed into a world that reflects Shukti's life, 
 *   **The Professor: PROFESSOR TREE.** A "mad old professor" who is also a massive **Twilight** fan (Team Edward).
 *   **Investigator Daisy:** A Business Practices Investigator stationed in Stacey's house (Clear Town), looking into her fraud allegations and confiscated assets.
 *   **The Fig Quest:** Team Rocket has kidnapped **Fig** (a special Shiny dog). The species has been globally renamed to **FIG**.
-*   **The Champion: OLLIE.** Your supportive gym guide is actually the ultimate challenge! He uses the **Steven Stone** sprite.
+*   **The Champion: OLLIE.** Your supportive gym guide is actually the ultimate challenge! He uses the **Steven Stone** sprite and features a powerhouse team: Gengar (Lv. 63), Gyarados (Lv. 62), Snorlax (Lv. 63), Raichu (Lv. 62), Dragonite (Lv. 64), and Charizard (Lv. 65).
 *   **Heated Rivalry:** Every TV in the Kanto region is permanently tuned to the only show that matters: **"Heated rivalry is on!"**
 
 ### Location & Organization Renames
@@ -33,18 +33,19 @@ The cities and badges have been renamed after professional hair color shades (Da
 *   Indigo Plateau -> **Libertine Plateau** (Violet)
 
 **Special Landmarks:**
-*   **La-Vampire Volunteer House:** Located in Masquerade Town.
+*   **Masquerade Volunteer House:** Located in Masquerade Town.
 *   **Woburn Safari Park:** The Safari Zone has been globally rebranded.
 *   **Twilight Fan Club HQ:** The official headquarters in Starrider City, where fans debate Team Edward vs Team Jacob.
 *   **Ollie's Development Suite:** A hidden developer room located in the Empire City Condominiums (3F).
 *   **Alolan Tourism Board:** Representatives rehoming Alolan variants are found in:
-    *   Route 2 (House)
-    *   Poolside City (House 3)
-    *   Burnout City (House 2)
-    *   Route 11 (East Entrance 2F)
-    *   Route 18 (East Entrance 2F)
-    *   Diablo Island (Lab Lounge & Experiment Room)
-    *   Seven Island (House Room 1)
+    *   Route 2 (House): **Alolan Meowth** (Lv. 10)
+    *   Poolside City (House 3): **Alolan Vulpix** (Lv. 15)
+    *   Burnout City (House 2): **Alolan Sandshrew** (Lv. 20)
+    *   Route 11 (East Entrance 2F): **Alolan Diglett** (Lv. 25)
+    *   Route 18 (East Entrance 2F): **Alolan Grimer** (Lv. 30)
+    *   Diablo Island (Lab Lounge): **Alolan Geodude** (Lv. 35) & **Alolan Exeggutor** (Lv. 40)
+    *   Diablo Island (Lab Experiment Room): **Alolan Marowak** (Lv. 44)
+    *   Seven Island (House Room 1): **Alolan Rattata** (Lv. 12)
 
 ---
 
@@ -88,7 +89,7 @@ The cities and badges have been renamed after professional hair color shades (Da
 *   **ELITE FOUR MEMBER 2 (Bruno):** Onix (51), Hitmonchan (53), Hitmonlee (53), Onix (54), Machamp (56).
 *   **ELITE FOUR MEMBER 3 (Jacquie):** Tech-inept theme with Swinub (15), Snorunt (12), Spheal (14), Smoochum (10), Delibird (16).
 *   **ELITE FOUR MEMBER 4 (Lance):** Gyarados (56), Dragonair (54), Dragonair (54), Aerodactyl (58), Dragonite (60).
-*   **CHAMPION OLLIE:** Gengar (63), Gyarados (62), Snorlax (63), and more.
+*   **CHAMPION OLLIE:** Gengar (63), Gyarados (62), Snorlax (63), Raichu (62), Dragonite (64), Charizard (65).
 
 ---
 
@@ -160,7 +161,7 @@ Once you are the Champion, 8 friends are hidden in cities across Kanto. Find and
 ## 🛠️ Technical Details
 *   **Automated Intro:** Bypasses the Oak speech and places you directly in the bedroom with your identity (SHUKTI/Female) already set.
 *   **Poryscript:** Fully integrated into the build system for advanced quest scripting.
-*   **Debug NPC (The Pro's Choice):** A Mew sprite in every Pokémon Center and the player's bedroom.
+*   **Debug NPC:** A Mew sprite in every Pokémon Center and the player's bedroom.
     *   **GIVEMON:** Level 100 Mew.
     *   **ITEMS:** Bicycle, Fly (HM02), Max Repels, Running Shoes.
     *   **FLAGS:** Unlock Pokedex, All Badges, and Fly locations.
