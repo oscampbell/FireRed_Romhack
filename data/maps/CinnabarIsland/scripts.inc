@@ -354,7 +354,7 @@ CinnabarIsland_EventScript_IslandSign::
 CinnabarIsland_EventScript_Friend8::
 	lock
 	faceplayer
-	bufferstring STR_VAR_1, Text_FriendName_Marky
+	bufferstring STR_VAR_1, Text_FriendName_Aditi
 	setvar VAR_0x8004, FLAG_INVITED_FRIEND_8
 	goto EventScript_InviteFriend
 	end

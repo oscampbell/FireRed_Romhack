@@ -721,7 +721,7 @@ extern const u8 Text_FriendName_Sam[];
 extern const u8 Text_FriendName_Joe[];
 extern const u8 Text_FriendName_Zaynab[];
 extern const u8 Text_FriendName_Aliyah[];
-extern const u8 Text_FriendName_Marky[];
+extern const u8 Text_FriendName_Aditi[];
 extern const u8 Text_AllFriendsInvited[];
 
 extern const u8 Text_EeveeAdoption_Intro[];

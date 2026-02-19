@@ -994,7 +994,7 @@ const u8 Text_FriendName_Sam[] = _("SAM");
 const u8 Text_FriendName_Joe[] = _("JOE");
 const u8 Text_FriendName_Zaynab[] = _("ZAYNAB");
 const u8 Text_FriendName_Aliyah[] = _("ALIYAH");
-const u8 Text_FriendName_Marky[] = _("MARKY");
+const u8 Text_FriendName_Aditi[] = _("ADITI");
 const u8 Text_AllFriendsInvited[] = _("That's everyone! You've invited all\nyour friends to the party!\pGo back to Clear Town for the\nGrand Finale!{PAUSE_UNTIL_PRESS}");
 
 const u8 Text_EeveeAdoption_Intro[] = _("Hello! I'm looking for a loving home\nfor this EEVEE.\pWould you like to adopt it?{PAUSE_UNTIL_PRESS}");

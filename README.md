@@ -192,5 +192,5 @@ Once you are the Champion, 8 of your friends are hidden in cities across Kanto. 
 5.  **JOE:** Burnout City
 6.  **ZAYNAB:** Empire City
 7.  **ALIYAH:** Hustler City
-8.  **MARKY:** Diablo Island
+8.  **ADITI:** Diablo Island
 *   **Finale:** Once all 8 are invited, the Quest Log will direct you to a secret Grand Finale in Clear Town!
