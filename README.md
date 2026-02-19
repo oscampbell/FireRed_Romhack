@@ -69,6 +69,13 @@ The cities and badges have been renamed after professional hair color shades (Da
 *   **No Trading Required:** Trade evolutions now trigger via **Level-up (Lv. 36)** or using the relevant **Evolution Item**.
 *   **Version Merged:** All LeafGreen exclusives and starters are findable in the wild.
 
+### Modified Gym Leader Teams
+*   **Pavement City (Faris):** Team: Pidgey, Vileplume, Zapdos, Diglett, Blastoise.
+*   **Poolside City (Bryony):** Mixed Team (Jigglypuff, Jynx, Mr. Mime, Poliwhirl, Flareon, Vileplume).
+*   **Empire City (David):** Bodybuilder Team (Arcanine, Magikarp, Dragonair, Mr. Mime, Haunter, Machamp).
+*   **Adrenaline City (Zaynab & Aliyah):** Endgame Team (Venusaur, Arcanine, Lapras, Tyranitar, Metagross, Salamence).
+*   **Elite Four Member 3 (Jacquie):** Tech-inept Team (Underleveled Ice-types).
+
 ---
 
 ## 📜 Complete Quest Guide
@@ -145,13 +152,6 @@ Once you are the Champion, 8 of your friends are hidden in cities across Kanto. 
     *   **FLAGS:** Pokedex, All Badges, Fly locations.
     *   **WARP:** Teleport to any City or major landmark.
 *   **Automated Intro:** Selecting "New Game" bypasses the Oak speech and places you directly in the bedroom.
-
-### Modified Gym Leader Teams
-*   **Pavement City (Faris):** Team: Pidgey, Vileplume, Zapdos, Diglett, Blastoise.
-*   **Poolside City (Bryony):** Mixed Team (Jigglypuff, Jynx, Mr. Mime, Poliwhirl, Flareon, Vileplume).
-*   **Empire City (David):** Bodybuilder Team (Arcanine, Magikarp, Dragonair, Mr. Mime, Haunter, Machamp).
-*   **Adrenaline City (Zaynab & Aliyah):** Endgame Team (Venusaur, Arcanine, Lapras, Tyranitar, Metagross, Salamence).
-*   **Elite Four Member 3 (Jacquie):** Tech-inept Team (Underleveled Ice-types).
 
 ---
 
