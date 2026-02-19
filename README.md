@@ -8,11 +8,11 @@ This is a personalized version of **FireRed Ultra**, built as a special gift for
 
 ---
 
-## World & Story
+## 🌍 The World of FireRed Ultra
 The Kanto region has been transformed into a world that reflects Shukti's life, career as a professional colorist, and her favorite media.
 
 ### Core Story Changes
-*   **The Rival: STACEY** (Shukti's old boss). She's portrayed as "very stupid," making constant jokes about redundancies and poor business strategy.
+*   **The Rival: STACEY** (Shukti's old boss). She's portrayed as a "blundering idiot" and a "stupid" old boss, making constant jokes about redundancies and poor business strategy.
     *   **Ventures:** Stacey attempts to launch failing businesses across the region, including a "Berry Bakery" in Poolside City and "Spiritual Consulting" in Masquerade Town.
 *   **The Professor: PROFESSOR TREE.** A "mad old professor" who is also a massive **Twilight** fan (Team Edward).
 *   **Investigator Daisy:** A Business Practices Investigator stationed in Stacey's house, looking into her fraud allegations and shady business ethics.
@@ -37,12 +37,13 @@ The cities and badges have been renamed after professional hair color shades:
 
 ---
 
-## Gameplay Features
+## 🎮 Gameplay Features & Mechanics
 
-### Visual Overhaul
+### Visual & Species Overhaul
 *   **Stacey (Rival):** Now uses the **Agatha (Elite Four)** sprite for both overworld and battle, making her look like a grumpy old lady. She has a female battle profile and music.
 *   **Ollie (Champion/Guide):** Now uses the **Steven Stone** sprite globally for a "cool" professional look.
 *   **Bowie (Pug):** Houndoom has been globally renamed to **Bowie**. He can be found as a legendary encounter in the Poolside Gym.
+*   **FIG:** Rockruff has been globally renamed to **FIG**.
 
 ### Customization & Items
 *   **Custom Starters:** Morpeko, Eevee, and Alolan Raichu (all with buffed "Ultra" base stats).
@@ -52,11 +53,11 @@ The cities and badges have been renamed after professional hair color shades:
 *   **Woburn Safari Park:** The Safari Zone has been globally renamed to Woburn Safari Park.
 *   **Liquid Death:** Lemonade has been replaced with Liquid Death water cans.
 *   **Following Pokémon:** The first Pokémon in your party follows you in the overworld.
-*   **Quest Log:** A new feature in the Start Menu that tracks your progress through a 29-step Main Story path (from Clear Town to the Elite Four and post-game Mewtwo) and side quests like "Stacey's Redundancy" and "The Rescue of Fig".
-*   **Eevee Adoption Program:** To ensure a full Eevee-evolution team is possible, adoptable Eevees are offered by NPCs in almost every city Mart (Adrenaline, Pavement, Poolside, Masquerade, Burnout, Hustler, Starrider, Diablo) and the One Island Pokémon Center, in addition to the original Celadon City gift.
+*   **Quest Log:** A new feature in the Start Menu that tracks your progress through a 29-step Main Story path (from Clear Town to the Elite Four and post-game Mewtwo) and all side quests.
+*   **Eevee Adoption Program:** To ensure a full Eevee-evolution team is possible, adoptable Eevees are offered by NPCs in almost every city Mart and the One Island Pokémon Center.
 *   **Starting Resources:** Starting money increased to **¥35,000**. Evolution stones are scattered around Clear Town for early Eevee forms.
 
-### Professional Consultants (Reflavored NPCs)
+### Reflavored Consultants
 *   **Brand Manager:** The Name Rater (Masquerade Town) now performs "brand audits" to ensure names fit the professional palette.
 *   **Style Consultant:** The Move Deleter (Hustler City) now "trims" and "cuts" out-of-fashion moves.
 *   **Adrenaline Business School:** The trainer school now teaches Stacey mandatory lessons on business logic.
@@ -67,7 +68,9 @@ The cities and badges have been renamed after professional hair color shades:
 
 ---
 
-## Technical Integration
+## 🛠️ Technical Details
+
+### Technical Integration
 *   **Poryscript:** Installed and integrated into the `Makefile`. `.pory` files in map directories automatically compile to `.inc`.
 *   **Debug NPC (The Pro's Choice):** A Mew sprite located in the **Player's Bedroom** and **every Pokémon Center**.
     *   **GIVEMON:** Level 100 Mew.
@@ -75,10 +78,6 @@ The cities and badges have been renamed after professional hair color shades:
     *   **FLAGS:** Unlock Pokedex, All Badges, and Fly locations.
     *   **WARP:** Teleport to any City or major landmark.
 *   **Automated Intro:** Selecting "New Game" bypasses the Oak speech and places you directly in the bedroom with your identity (SHUKTI/Female) already set.
-
----
-
-## Battle Data
 
 ### Modified Gym Leader Teams
 *   **Pavement City (Faris):** Team: Pidgey, Vileplume, Zapdos, Diglett, Blastoise.
@@ -89,63 +88,7 @@ The cities and badges have been renamed after professional hair color shades:
 
 ---
 
-## Development Progress
-
-### Zone Checklist
-| Zone | Completed | QC | Tested |
-| :--- | :---: | :---: | :---: |
-| Clear Town | [x] | [ ] | [ ] |
-| Adrenaline City | [ ] | [ ] | [ ] |
-| Pavement City | [ ] | [ ] | [ ] |
-| Poolside City | [ ] | [ ] | [ ] |
-| Masquerade Town | [ ] | [ ] | [ ] |
-| Burnout City | [ ] | [ ] | [ ] |
-| Empire City | [ ] | [ ] | [ ] |
-| Hustler City | [ ] | [ ] | [ ] |
-| Starrider City | [ ] | [ ] | [ ] |
-| Diablo Island | [ ] | [ ] | [ ] |
-| Libertine Plateau | [ ] | [ ] | [ ] |
-| Sevii Islands | [ ] | [ ] | [ ] |
-
-### To-Do List
-*   [ ] **Rename remaining Gym Leaders:** Koga (Hustler City) and Blaine (Diablo Island).
-*   [ ] **NPC Personalization:** Modify remaining NPCs to represent real-life friends and family.
-*   [ ] **Dialogue Audit:** Fine-tooth comb all AI placeholder text.
-*   [ ] **Visuals:** Custom Title Screen and custom Player Sprite.
-
-## Custom Quests (Completed)
-*   **Stacey's Active Tasks:** Stacey's ventures now require player interaction! Fix her oven with a Fire Pokémon, prove ghosts aren't scary with a Ghost Pokémon, and survive a Risk Assessment battle.
-*   **Twilight Trivia Hunt:** Find 4 missing book chapters for PROF. TREE hidden across KANTO. Rewards: Rare Candies.
-*   **PokeASDA Mystery Shopper:** Audit various Marts to earn a permanent **20% Staff Discount** globally.
-*   **The Professional Palette:** Show the Colorist in Clear Town Pokémon that match the Danger Jones hair color palette.
-*   **Eevee Adoption Program:** Adopt 10 scattered Eevees across the region to earn an **Everstone**.
-*   **Birthday Party Invite:** A post-game quest to find and invite 8 hidden friends to a grand finale in Clear Town.
-
----
-
-## Diversity & Personalization
-Research has been conducted to increase the representation of people of color (POC) within the game's NPC and Trainer population.
-
-### Current Progress
-*   **Sprite Repository:** A collection of **145 trainer sprites** has been gathered in `graphics/diverse_sprites/`. This includes GBA-style ports of modern POC characters such as **Nessa**, **Raihan**, **Olivia**, **Grant**, and **Lenora**.
-*   **Source Identification:** The **Unova (Gen 5)** and **Alola (Gen 7)** regions have been identified as the best official sources for diverse character bases.
-
-### Recommended Tools
-For creating exact representations of real-life friends and family:
-*   **Doll Divine Pokémon Trainer Creator:** [Online Customizer](https://www.dolldivine.com/pokemon-trainer-creator.php) (Best for detailed character design).
-*   **Jordan Bunke’s Top Down Sprite Maker:** [Download](https://jordanbunke.itch.io/top-down-sprite-maker) (Best for authentic Gen 3 overworld pixel art).
-
-### Next Steps
-1.  **Selection:** Review the PNGs in `graphics/diverse_sprites/` and identify candidates for specific NPCs (e.g., Zaynab, Aliyah, and family members).
-2.  **Creation:** Use the recommended tools to design custom characters where pre-existing sprites are insufficient.
-3.  **Technical Implementation:** 
-    *   Resize selected images to 64x64 (Battle) or 16x32 (Overworld).
-    *   Index the color palettes to the 16-color GBA standard.
-    *   Update `src/data/trainers.party` and `map.json` files to point to new custom assets.
-
----
-
-## Complete Quest Guide
+## 📜 Complete Quest Guide
 
 ### 1. Main Story (29 Steps)
 Follow the Quest Log in the Start Menu. It will guide you from Clear Town through all 8 Gyms, the Elite Four, and the final post-game confrontation with Mewtwo in Cerulean Cave.
@@ -202,3 +145,51 @@ Once you are the Champion, 8 of your friends are hidden in cities across Kanto. 
 7.  **ALIYAH:** Hustler City
 8.  **ADITI:** Diablo Island
 *   **Finale:** Once all 8 are invited, the Quest Log will direct you back to Clear Town. Interacting with the **computer in your bedroom** will trigger a "glitch" that warps you to the secret **Grand Finale party room!**
+
+---
+
+## 📈 Development Progress
+
+### Zone Checklist
+| Zone | Completed | QC | Tested |
+| :--- | :---: | :---: | :---: |
+| Clear Town | [x] | [ ] | [ ] |
+| Adrenaline City | [ ] | [ ] | [ ] |
+| Pavement City | [ ] | [ ] | [ ] |
+| Poolside City | [ ] | [ ] | [ ] |
+| Masquerade Town | [ ] | [ ] | [ ] |
+| Burnout City | [ ] | [ ] | [ ] |
+| Empire City | [ ] | [ ] | [ ] |
+| Hustler City | [ ] | [ ] | [ ] |
+| Starrider City | [ ] | [ ] | [ ] |
+| Diablo Island | [ ] | [ ] | [ ] |
+| Libertine Plateau | [ ] | [ ] | [ ] |
+| Sevii Islands | [ ] | [ ] | [ ] |
+
+### To-Do List
+*   [ ] **Rename remaining Gym Leaders:** Koga (Hustler City) and Blaine (Diablo Island).
+*   [ ] **NPC Personalization:** Modify remaining NPCs to represent real-life friends and family.
+*   [ ] **Dialogue Audit:** Fine-tooth comb all AI placeholder text.
+*   [ ] **Visuals:** Custom Title Screen and custom Player Sprite.
+
+---
+
+## 🎨 Diversity & Personalization
+Research has been conducted to increase the representation of people of color (POC) within the game's NPC and Trainer population.
+
+### Current Progress
+*   **Sprite Repository:** A collection of **145 trainer sprites** has been gathered in `graphics/diverse_sprites/`. This includes GBA-style ports of modern POC characters such as **Nessa**, **Raihan**, **Olivia**, **Grant**, and **Lenora**.
+*   **Source Identification:** The **Unova (Gen 5)** and **Alola (Gen 7)** regions have been identified as the best official sources for diverse character bases.
+
+### Recommended Tools
+For creating exact representations of real-life friends and family:
+*   **Doll Divine Pokémon Trainer Creator:** [Online Customizer](https://www.dolldivine.com/pokemon-trainer-creator.php) (Best for detailed character design).
+*   **Jordan Bunke’s Top Down Sprite Maker:** [Download](https://jordanbunke.itch.io/top-down-sprite-maker) (Best for authentic Gen 3 overworld pixel art).
+
+### Next Steps
+1.  **Selection:** Review the PNGs in `graphics/diverse_sprites/` and identify candidates for specific NPCs (e.g., Zaynab, Aliyah, and family members).
+2.  **Creation:** Use the recommended tools to design custom characters where pre-existing sprites are insufficient.
+3.  **Technical Implementation:** 
+    *   Resize selected images to 64x64 (Battle) or 16x32 (Overworld).
+    *   Index the color palettes to the 16-color GBA standard.
+    *   Update `src/data/trainers.party` and `map.json` files to point to new custom assets.
