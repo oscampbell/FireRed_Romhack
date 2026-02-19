@@ -17,7 +17,7 @@
   "object_events": [
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_BALDING_MAN",
+      "graphics_id": "OBJ_EVENT_GFX_BOY",
       "x": 7,
       "y": 4,
       "elevation": 3,
@@ -26,12 +26,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "ViridianCity_House_EventScript_BaldingMan",
+      "script": "ViridianCity_House_EventScript_Chris",
       "flag": "0"
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_LITTLE_GIRL",
+      "graphics_id": "OBJ_EVENT_GFX_LASS",
       "x": 2,
       "y": 5,
       "elevation": 3,
@@ -40,7 +40,7 @@
       "movement_range_y": 2,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "ViridianCity_House_EventScript_LittleGirl",
+      "script": "ViridianCity_House_EventScript_Ellie",
       "flag": "0"
     },
     {
@@ -90,6 +90,14 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "ViridianCity_House_EventScript_NicknameSign"
+    },
+    {
+      "type": "sign",
+      "x": 4,
+      "y": 1,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "ViridianCity_House_EventScript_HockeyTV"
     }
   ]
 }

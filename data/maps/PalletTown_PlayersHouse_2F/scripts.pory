@@ -17,8 +17,12 @@ script PalletTown_PlayersHouse_2F_OnWarp {
 }
 
 script PalletTown_PlayersHouse_2F_FirstWarpIn {
+    lockall
+    msgbox("Welcome to the SHUKTI VERSION!\pThis is a PLAYTEST BUILD. Nothing is\nfinal. Most dialogue is for testing\lpurposes and might not make sense\lyet for certain characters.\pThe MEW in the corner is a DEBUG NPC.\nIt is for development and testing.\lPlease avoid using it unless you\lhave a specific reason or are stuck!\pPlease report all bugs, comments,\nand feedback to OLLIE.\pEnjoy the journey!")
+    closemessage
     turnobject(OBJ_EVENT_ID_PLAYER, DIR_NORTH)
     setvar(VAR_MAP_SCENE_PALLET_TOWN_PLAYERS_HOUSE_2F, 1)
+    releaseall
 }
 
 script PalletTown_PlayersHouse_2F_EventScript_NES {

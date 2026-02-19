@@ -49,6 +49,45 @@ The cities and badges have been renamed after professional hair color shades (Da
 
 ---
 
+## 👥 Custom Character & Housing Directory
+Detailed directory of personalized characters, their roles, partners, and homes.
+
+| Name | Role / Lore | Shared Home | Partner |
+| :--- | :--- | :--- | :--- |
+| **FARIS** | Pavement Gym Leader | Pavement House 2 | **BRYONY** |
+| **BRYONY** | Poolside Gym Leader | Pavement House 2 | **FARIS** |
+| **HRISHI** | Burnout Gym Leader | Burnout City | - |
+| **DAVID** | Empire Gym Leader | Celadon Condo 1F | **CLAIRE** |
+| **MILAN** | Hustler Gym Leader | Hustler City | - |
+| **DIVA** | Starrider Gym Leader | Starrider City | - |
+| **DEVANG** | Diablo Gym Leader | Diablo Lab Lounge | **PAT** |
+| **ZAYNAB** | Adrenaline Gym Leader | Adrenaline City | **CONNOR** |
+| **ALIYAH** | Adrenaline Gym Leader | Hustler City | - |
+| **NIKY** | Player's Mother | Player's House 1F | **GARY** |
+| **GARY** | Player's Stepdad | Player's House 1F | **NIKY** |
+| **CHRIS** | Outdoors Expert | Adrenaline City House | **ELLIE** |
+| **ELLIE** | Hockey Match Host | Adrenaline City House | **CHRIS** |
+| **JOHN** | Gym Scout | Pavement House 1 | **CAROLYN** |
+| **CAROLYN** | Researcher | Pavement House 1 | **JOHN** |
+| **STEVE** | Party Guest | Cerulean House 1 | **FERNANDA** |
+| **FERNANDA** | Party Guest | Cerulean House 1 | **STEVE** |
+| **BRANDON** | Gym Enthusiast | Cerulean House 2 | **HANNAH** |
+| **HANNAH** | FIG Sighting Witness | Cerulean House 2 | **BRANDON** |
+| **DAN** | Builder / Developer | Vermilion House 1 | **LIV** |
+| **LIV** | Kidnapping Witness | Vermilion House 1 | **DAN** |
+| **CLAIRE** | Party Guest | Celadon Condo 1F | **DAVID** |
+| **ASHLEY** | Strength Enthusiast | Celadon House 1 | **MATT** |
+| **MATT** | Scared FIG Witness | Celadon House 1 | **ASHLEY** |
+| **JANHVI** | Ninja Apprentice | Saffron House | **JUSTIN** |
+| **JUSTIN** | Media Action Junkie | Saffron House | **JANHVI** |
+| **PAT** | Island Retreatist | Diablo Lab Lounge | **DEVANG** |
+| **ADITI** | Party Guest | Diablo Lab Research | **KETHAN** |
+| **KETHAN** | Bird Researcher | Diablo Lab Research | **ADITI** |
+| **DAISY** | Investigator | Stacey's House | - |
+| **BILLIE & PUDDIN** | David's Gym Cats | Empire City Gym | - |
+
+---
+
 ## 🎮 Gameplay Features & Mechanics
 
 ### Visual & Species Overhaul
@@ -71,7 +110,7 @@ The cities and badges have been renamed after professional hair color shades (Da
 *   **Narrative Hook:** A special birthday greeting from Ollie can be found on your PC at the start of the game!
 
 ### Reflavored Consultants & Dialogue
-*   **Niky (Mum):** The player's mother has been renamed and updated with hockey-obsessed dialogue.
+*   **Niky & Gary:** The player's home features supportive, encouraging dialogue from Niky and Gary.
 *   **Brand Manager:** The Name Rater (Masquerade Town) performs "brand audits".
 *   **Style Consultant:** The Move Deleter (Hustler City) "trims" out-of-fashion moves.
 *   **Humorous Choices:** Dialogue options include adult/humorous variants like the **YES / FUCK OFF!** menu.
@@ -80,37 +119,12 @@ The cities and badges have been renamed after professional hair color shades (Da
 *   **No Trading Required:** Trade evolutions trigger via **Level-up (Lv. 36)** or using the relevant **Evolution Item**.
 *   **Version Merged:** All LeafGreen exclusives and starters are findable in the wild.
 
-### Modified Boss Teams
-*   **PAVEMENT CITY (Faris):** Pidgey (10), Vileplume (11), Zapdos (12), Diglett (13), Blastoise (14).
-*   **POOLSIDE CITY (Bryony):** Jigglypuff (18), Jynx (19), Mr. Mime (19), Poliwhirl (20), Flareon (20), Vileplume (21).
-*   **BURNOUT CITY (Hrishi):** Voltorb (21), Pikachu (18), Raichu (24).
-*   **EMPIRE CITY (David):** Arcanine (29), Magikarp (24), Dragonair (29), Mr. Mime (30), Haunter (30), Machamp (32).
-*   **HUSTLER CITY (Milan):** Koffing (37), Muk (39), Koffing (37), Weezing (43).
-*   **STARRIDER CITY (Diva):** Kadabra (38), Mr. Mime (37), Venomoth (38), Alakazam (43).
-*   **DIABLO ISLAND (Devang):** Growlithe (42), Ponyta (40), Rapidash (42), Arcanine (47).
-*   **ADRENALINE CITY (Zaynab & Aliyah):** Double Battle takeover from Giovanni. Venusaur (50), Arcanine (50), Lapras (50), Tyranitar (52), Metagross (52), Salamence (54).
-*   **ELITE FOUR MEMBER 1 (Lorelei):** Dewgong (52), Cloyster (51), Slowbro (52), Jynx (54), Lapras (54).
-*   **ELITE FOUR MEMBER 2 (Bruno):** Onix (51), Hitmonchan (53), Hitmonlee (53), Onix (54), Machamp (56).
-*   **ELITE FOUR MEMBER 3 (Jacquie):** Tech-inept theme with Swinub (15), Snorunt (12), Spheal (14), Smoochum (10), Delibird (16).
-*   **ELITE FOUR MEMBER 4 (Lance):** Gyarados (56), Dragonair (54), Dragonair (54), Aerodactyl (58), Dragonite (60).
-*   **CHAMPION OLLIE:** Gengar (63), Gyarados (62), Snorlax (63), Raichu (62), Dragonite (64), Charizard (65).
-
 ---
 
 ## 📜 Complete Quest Guide
 
 ### 1. Main Story (29 Steps)
 Follow the Quest Log. It will guide you through all 8 Gyms, the Elite Four, and the final post-game confrontation with Mewtwo.
-
-**Gym Leaders:**
-*   **Pavement:** Faris (Poo Bag reward)
-*   **Poolside:** Bryony
-*   **Burnout:** Hrishi (Thunder/Burnout Badge reward)
-*   **Empire:** David (Protein Bar reward)
-*   **Hustler:** Milan
-*   **Starrider:** Diva
-*   **Diablo:** Devang
-*   **Adrenaline:** Zaynab & Aliyah (Double Battle takeover)
 
 ### 2. Stacey's Redundancy
 *   **Step 1: Poolside City (Berry Bakery):** Sabotage her oven with a **WATER-type move**. Reward: Charcoal.
@@ -164,6 +178,7 @@ Once you are the Champion, 8 friends are hidden in cities across Kanto. Find and
 
 ## 🛠️ Technical Details
 *   **Automated Intro:** Bypasses the Oak speech and places you directly in the bedroom with your identity (SHUKTI/Female) already set.
+*   **Playtest Build Pop-up:** A startup message clarifying the build status, Debug NPC usage, and feedback instructions.
 *   **Poryscript:** Fully integrated into the build system for advanced quest scripting.
 *   **Debug NPC:** A Mew sprite in every Pokémon Center and the player's bedroom.
     *   **GIVEMON:** Level 100 Mew.

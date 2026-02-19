@@ -1,13 +1,13 @@
 VermilionCity_House1_Text_ImFishingGuruDoYouLikeToFish::
-    .string "I'm the FISHING GURU!\p"
-    .string "I simply looove fishing!\n"
-    .string "I can't bear to go without.\p"
-    .string "Tell me, do you like to fish?$"
+    .string "DAN: LIV and I love the sunset views\n"
+    .string "from this harbor! It's the best\l"
+    .string "place to relax after a long day.$"
 
 VermilionCity_House1_Text_TakeThisAndFish::
-    .string "Grand! I like your style.\n"
-    .string "I think we can be friends.\p"
-    .string "Take this and fish, young friend!$"
+    .string "LIV: Welcome to our home!\n"
+    .string "DAN is usually out by the harbor,\n"
+    .string "but I prefer the comfort of our\l"
+    .string "cosy little house.$"
 
 VermilionCity_House1_Text_ReceivedOldRodFromFishingGuru::
     .string "{PLAYER} received an OLD ROD from\n"

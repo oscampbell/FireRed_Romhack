@@ -1,14 +1,10 @@
 PewterCity_House2_Text_MonsLearnTechniquesAsTheyGrow::
-    .string "POKéMON learn new techniques as\n"
-    .string "they grow.\p"
-    .string "But some moves must be taught to\n"
-    .string "them by people.$"
+    .string "FARIS: I'm usually over at the GYM,\n"
+    .string "but this is where I relax with\l"
+    .string "BRYONY. It's our little sanctuary!$"
 
 PewterCity_House2_Text_MonsEasierCatchIfStatused::
-    .string "A POKéMON becomes easier to \n"
-    .string "catch if it has a status problem.\p"
-    .string "Sleep, poison, burn, or paralysis…\n"
-    .string "Those are all effective.\p"
-    .string "But catching POKéMON is never\n"
-    .string "a sure thing!$"
+    .string "BRYONY: I love our home here in\n"
+    .string "PAVEMENT CITY! FARIS is always so\l"
+    .string "busy, but we make it work.$"
 

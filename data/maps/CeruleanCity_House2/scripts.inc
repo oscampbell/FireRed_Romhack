@@ -1,21 +1,12 @@
 CeruleanCity_House2_MapScripts::
 	.byte 0
 
-CeruleanCity_House2_EventScript_Hiker::
-	lock
-	faceplayer
-	goto_if_set FLAG_GOT_TM28_FROM_ROCKET, CeruleanCity_House2_EventScript_HikerGotTM28
-	msgbox CeruleanCity_House2_Text_RocketsStoleTMForDig
-	release
+CeruleanCity_House2_EventScript_Brandon::
+	msgbox CeruleanCity_House2_Text_RocketsStoleTMForDig, MSGBOX_NPC
 	end
 
-CeruleanCity_House2_EventScript_HikerGotTM28::
-	msgbox CeruleanCity_House2_Text_TeachDiglettDigWithoutTM
-	release
-	end
-
-CeruleanCity_House2_EventScript_Lass::
-	msgbox CeruleanCity_House2_Text_TeamRocketTryingToDigIntoNoGood, MSGBOX_NPC
+CeruleanCity_House2_EventScript_Hannah::
+	msgbox CeruleanCity_House2_Text_TeachDiglettDigWithoutTM, MSGBOX_NPC
 	end
 
 CeruleanCity_House2_EventScript_WallHole::

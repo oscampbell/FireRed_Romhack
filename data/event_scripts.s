@@ -889,6 +889,10 @@ Text_GiveNicknameToReceivedMon::
 	.string "Want to give a nickname to the\n"
 	.string "{STR_VAR_2} you received?$"
 
+Text_WelcomeChampion::
+    .string "Welcome back, CHAMPION SHUKTI!\n"
+    .string "Would you like to heal your team?$"
+
 Text_WelcomeWantToHealPkmn::
 	.string "Welcome to our POKéMON CENTER!\p"
 	.string "Would you like me to heal your\n"

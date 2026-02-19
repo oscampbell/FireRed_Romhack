@@ -17,7 +17,7 @@
   "object_events": [
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_BALDING_MAN",
+      "graphics_id": "OBJ_EVENT_GFX_BOY",
       "x": 1,
       "y": 2,
       "elevation": 3,
@@ -26,12 +26,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "PewterCity_House1_EventScript_BaldingMan",
+      "script": "PewterCity_House1_EventScript_John",
       "flag": "0"
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_LITTLE_BOY",
+      "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
       "x": 5,
       "y": 3,
       "elevation": 3,
@@ -40,7 +40,7 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "PewterCity_House1_EventScript_LittleBoy",
+      "script": "PewterCity_House1_EventScript_Carolyn",
       "flag": "0"
     },
     {

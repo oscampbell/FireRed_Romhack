@@ -1,3 +1,14 @@
+CinnabarIsland_PokemonLab_Lounge_Text_Devang::
+    .string "DEVANG: Hah! Even in the lounge,\n"
+    .string "my research into fiery POKéMON\l"
+    .string "never stops! PAT keeps me grounded\l"
+    .string "with her volcanic patience.$"
+
+CinnabarIsland_PokemonLab_Lounge_Text_Pat::
+    .string "PAT: Welcome to our fiery little\n"
+    .string "island retreat! DEVANG is always\l"
+    .string "so fired up, but I love it here.$"
+
 CinnabarIsland_PokemonLab_Lounge_Text_FoundFossilInMtMoon::
     .string "I found this most remarkable fossil\n"
     .string "inside MT. MOON.\p"
@@ -42,4 +53,3 @@ CinnabarIsland_PokemonLab_Lounge_EventScript_Garett_DeclinedText::
 
 CinnabarIsland_PokemonLab_Lounge_EventScript_Garett_NoRoomText::
     .string "You've got no room in your party!"
-

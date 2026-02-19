@@ -53,3 +53,7 @@ PalletTown_PlayersHouse_1F_EventScript_TVScreenMale::
 PalletTown_PlayersHouse_1F_EventScript_TVScreenFemale::
 	msgbox PalletTown_PlayersHouse_1F_Text_MovieOnTVGirlOnBrickRoad
 	return
+
+PalletTown_PlayersHouse_1F_EventScript_Gary::
+	msgbox PalletTown_PlayersHouse_1F_Text_Gary, MSGBOX_NPC
+	end

@@ -1,13 +1,12 @@
 CeladonCity_House1_Text_SlotsReelInTheDough::
-    .string "Hehehe!\p"
-    .string "The slots just reel in the dough,\n"
-    .string "big-time!$"
+    .string "ASHLEY: I love the rainbow vibes of\n"
+    .string "this city! MATT and I are so lucky\l"
+    .string "to live here.$"
 
 CeladonCity_House1_Text_ShippedMonsAsSlotPrizes::
-    .string "CHIEF!\p"
-    .string "We just shipped two thousand\n"
-    .string "more POKéMON as slot prizes\l"
-    .string "again today!$"
+    .string "MATT: This city is so luxurious!\n"
+    .string "I just hope poor FIG is safe somewhere\l"
+    .string "nearby. I've been keeping a look out.$"
 
 CeladonCity_House1_Text_DontTouchGameCornerPoster::
     .string "Don't touch the poster at the GAME\n"

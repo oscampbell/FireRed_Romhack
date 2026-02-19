@@ -1,7 +1,18 @@
 EventScript_PkmnCenterNurse::
 	goto_if_questlog EventScript_ReleaseEnd
+	goto_if_set FLAG_SYS_GAME_CLEAR, EventScript_PkmnCenterNurse_Champion
 	message Text_WelcomeWantToHealPkmn
 	waitmessage
+	goto EventScript_PkmnCenterNurse_Choice
+	end
+
+EventScript_PkmnCenterNurse_Champion::
+	message Text_WelcomeChampion
+	waitmessage
+	goto EventScript_PkmnCenterNurse_Choice
+	end
+
+EventScript_PkmnCenterNurse_Choice::
 	multichoice 19, 8, MULTICHOICE_YES_NO, FALSE | (TRUE << 1)
 	switch VAR_RESULT
 	case 0, EventScript_PkmnCenterNurse_HealPkmn

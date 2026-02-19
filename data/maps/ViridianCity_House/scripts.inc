@@ -1,11 +1,11 @@
 ViridianCity_House_MapScripts::
 	.byte 0
 
-ViridianCity_House_EventScript_BaldingMan::
+ViridianCity_House_EventScript_Chris::
 	msgbox ViridianCity_House_Text_NicknamingIsFun, MSGBOX_NPC
 	end
 
-ViridianCity_House_EventScript_LittleGirl::
+ViridianCity_House_EventScript_Ellie::
 	msgbox ViridianCity_House_Text_MyDaddyLovesMonsToo, MSGBOX_NPC
 	end
 
@@ -21,4 +21,8 @@ ViridianCity_House_EventScript_Speary::
 
 ViridianCity_House_EventScript_NicknameSign::
 	msgbox ViridianCity_House_Text_SpearowNameSpeary, MSGBOX_SIGN
+	end
+
+ViridianCity_House_EventScript_HockeyTV::
+	msgbox ViridianCity_House_Text_HockeyTV, MSGBOX_SIGN
 	end

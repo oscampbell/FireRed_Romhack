@@ -1,21 +1,14 @@
 CinnabarIsland_PokemonLab_Lounge_MapScripts::
 	.byte 0
 
-CinnabarIsland_PokemonLab_Lounge_EventScript_Scientist::
-	msgbox CinnabarIsland_PokemonLab_Lounge_Text_FoundFossilInMtMoon, MSGBOX_NPC
+CinnabarIsland_PokemonLab_Lounge_EventScript_Devang::
+	msgbox CinnabarIsland_PokemonLab_Lounge_Text_Devang, MSGBOX_NPC
 	end
 
-CinnabarIsland_PokemonLab_Lounge_EventScript_Clifton::
+CinnabarIsland_PokemonLab_Lounge_EventScript_Pat::
 	lock
 	faceplayer
-	goto_if_set FLAG_ALOLAN_GIFT_6, CinnabarIsland_PokemonLab_Lounge_EventScript_Clifton_Done
-	msgbox CinnabarIsland_PokemonLab_Lounge_EventScript_Clifton_Intro, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, CinnabarIsland_PokemonLab_Lounge_EventScript_Clifton_Declined
-	checkitemspace ITEM_POKE_BALL, 1
-	goto_if_eq VAR_RESULT, FALSE, CinnabarIsland_PokemonLab_Lounge_EventScript_Clifton_NoRoom
-	givemon SPECIES_GEODUDE_ALOLA, 35
-	setflag FLAG_ALOLAN_GIFT_6
-	msgbox CinnabarIsland_PokemonLab_Lounge_EventScript_Clifton_Outro
+	msgbox CinnabarIsland_PokemonLab_Lounge_Text_Pat
 	release
 	end
 

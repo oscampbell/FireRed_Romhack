@@ -1,14 +1,13 @@
 CeruleanCity_House1_Text_BadgesHaveAmazingSecrets::
-    .string "Only skilled TRAINERS can collect\n"
-    .string "POKéMON BADGES.\p"
-    .string "I see you have at least one.\p"
-    .string "Those BADGES have amazing secrets,\n"
-    .string "did you know?$"
+    .string "STEVE: This city has such a cool\n"
+    .string "aura! FERNANDA and I are so\l"
+    .string "glad we moved here.$"
 
 CeruleanCity_House1_Text_DescribeWhichBadge::
-    .string "Now then…\p"
-    .string "Which of the eight BADGES should\n"
-    .string "I describe?$"
+    .string "FERNANDA: I love our little house\n"
+    .string "by the pool! It's so peaceful\l"
+    .string "when STEVE isn't talking about\l"
+    .string "his latest Pokémon catch.$"
 
 CeruleanCity_House1_Text_ComeVisitAnytime::
     .string "Come visit me anytime you wish.$"

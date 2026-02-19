@@ -1,12 +1,12 @@
 CinnabarIsland_PokemonLab_ResearchRoom_MapScripts::
 	.byte 0
 
-CinnabarIsland_PokemonLab_ResearchRoom_EventScript_MetronomeTutor::
-	goto EventScript_MetronomeTutor
+CinnabarIsland_PokemonLab_ResearchRoom_EventScript_Aditi::
+	msgbox CinnabarIsland_PokemonLab_ResearchRoom_Text_Aditi, MSGBOX_NPC
 	end
 
-CinnabarIsland_PokemonLab_ResearchRoom_EventScript_Scientist::
-	msgbox CinnabarIsland_PokemonLab_ResearchRoom_Text_EeveeCanEvolveIntroThreeMons, MSGBOX_NPC
+CinnabarIsland_PokemonLab_ResearchRoom_EventScript_Kethan::
+	msgbox CinnabarIsland_PokemonLab_ResearchRoom_Text_Kethan, MSGBOX_NPC
 	end
 
 CinnabarIsland_PokemonLab_ResearchRoom_EventScript_Computer::

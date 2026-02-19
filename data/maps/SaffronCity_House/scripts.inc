@@ -1,12 +1,12 @@
 SaffronCity_House_MapScripts::
 	.byte 0
 
-SaffronCity_House_EventScript_Lass::
-	msgbox SaffronCity_House_Text_DontLookAtMyLetter, MSGBOX_NPC
+SaffronCity_House_EventScript_Janhvi::
+	msgbox SaffronCity_House_Text_Janhvi, MSGBOX_NPC
 	end
 
-SaffronCity_House_EventScript_Youngster::
-	msgbox SaffronCity_House_Text_GettingCopycatPokeDoll, MSGBOX_NPC
+SaffronCity_House_EventScript_Justin::
+	msgbox SaffronCity_House_Text_Justin, MSGBOX_NPC
 	end
 
 SaffronCity_House_EventScript_Pidgey::
