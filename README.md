@@ -63,6 +63,7 @@ The cities and badges have been renamed after professional hair color shades (Da
 *   **Liquid Death:** Lemonade has been replaced with Liquid Death water cans.
 *   **Poo Bag:** Received from **Faris**. Decreases a Pokémon's level by 1 (Anti-Rare Candy).
 *   **Protein Bar:** Received from **David**. Functions as an Ultra Rare Candy for serious gains!
+*   **Global EXP Share:** Experience is automatically shared with your entire party from the start of the game—no item or toggle required!
 *   **Starting Resources:** Starting money increased to **¥35,000**. Evolution stones are scattered around Clear Town for early Eevee forms.
 *   **Quest Log:** A new Start Menu feature tracking 7 quests and a 29-step main path.
 
