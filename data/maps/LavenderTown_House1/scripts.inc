@@ -40,7 +40,7 @@ LavenderTown_House1_EventScript_Stacey::
 	goto_if_set FLAG_GOT_LAVENDER_STACEY_GIFT, LavenderTown_House1_EventScript_Stacey_Done
 	msgbox LavenderTown_House1_Text_StaceyIntro
 	setvar VAR_0x8004, TYPE_GHOST
-	special PlayerHasMonWithType
+	special Script_PlayerHasMonWithType
 	goto_if_eq VAR_RESULT, FALSE, LavenderTown_House1_EventScript_Stacey_Scared
 	msgbox LavenderTown_House1_Text_StaceyNotScared
 	checkitemspace ITEM_SPELL_TAG, 1

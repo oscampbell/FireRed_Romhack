@@ -1,0 +1,21 @@
+{{ doNotModifyHeader }}
+#ifndef GUARD_INCLUDE_REGION_MAP_NAMES_H
+#define GUARD_INCLUDE_REGION_MAP_NAMES_H
+
+#include "global.h"
+#include "region_map.h"
+
+// Extern declarations for sMapName_ definitions
+## for map_section in map_sections
+{% if existsIn(map_section, "name") %}
+extern const u8 sMapName_{{ cleanString(map_section.id) }}[];
+{% endif %}
+{% if existsIn(map_section, "name_clone") %}
+extern const u8 sMapName_{{ cleanString(map_section.id) }}_Clone[];
+{% endif %}
+## endfor
+
+// Extern declaration for gRegionMapEntries
+extern const struct RegionMapLocation gRegionMapEntries[];
+
+#endif // GUARD_INCLUDE_REGION_MAP_NAMES_H

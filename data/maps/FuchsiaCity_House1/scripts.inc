@@ -1,11 +1,11 @@
 FuchsiaCity_House1_MapScripts::
 	.byte 0
 
-FuchsiaCity_House1_EventScript_Woman::
+FuchsiaCity_House1_EventScript_Milan::
 	msgbox FuchsiaCity_House1_Text_WardenIsOldHasFalseTeeth, MSGBOX_NPC
 	end
 
-FuchsiaCity_House1_EventScript_OldMan::
+FuchsiaCity_House1_EventScript_Woman::
 	msgbox FuchsiaCity_House1_Text_WardenIsOldHasFalseTeeth, MSGBOX_NPC
 	end
 

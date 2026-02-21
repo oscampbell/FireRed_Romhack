@@ -1,0 +1,100 @@
+    if (gTasks[taskId].tBlendTarget1 == 16)
+    {
+        gTasks[gTasks[taskId].tParentTaskId].tTrainerPicFadeState = 1;
+        DestroyTask(taskId);
+    }
+    else
+    {
+        if (gTasks[taskId].tFadeTimer != 0)
+        {
+            gTasks[taskId].tFadeTimer--;
+        }
+        else
+        {
+            gTasks[taskId].tFadeTimer = gTasks[taskId].tTimer;
+            gTasks[taskId].tBlendTarget1++;
+            gTasks[taskId].tBlendTarget2--;
+            if (gTasks[taskId].tBlendTarget1 == 8)
+            {
+                for (i = PIKACHU_BODY_PLATFORM_LEFT; i < NUM_PIKACHU_PLATFORM_SPRITES; i++)
+                    gSprites[gTasks[taskId].tPikachuPlatformSpriteId(i)].invisible ^= TRUE;
+            }
+            SetGpuReg(REG_OFFSET_BLDALPHA, (gTasks[taskId].tBlendTarget2 * 256) + gTasks[taskId].tBlendTarget1);
+        }
+    }
+}
+
+static void CreateFadeOutTask(u8 taskId, u8 delay)
+{
+    u8 taskId2;
+    u8 i = 0;
+
+    SetGpuReg(REG_OFFSET_BLDCNT, BLDCNT_TGT1_BG2 | BLDCNT_EFFECT_BLEND | BLDCNT_TGT2_BG1 | BLDCNT_TGT2_OBJ);
+    SetGpuReg(REG_OFFSET_BLDALPHA, BLDALPHA_BLEND(0, 16));
+    SetGpuReg(REG_OFFSET_BLDY, 0);
+    gTasks[taskId].tTrainerPicFadeState = 0;
+    taskId2 = CreateTask(Task_SlowFadeOut, 0);
+    gTasks[taskId2].tParentTaskId = taskId;
+    gTasks[taskId2].tBlendTarget1 = 0;
+    gTasks[taskId2].tBlendTarget2 = 16;
+    gTasks[taskId2].tUnusedState = delay; // assigned, but never read
+    gTasks[taskId2].tFadeTimer = delay;
+    for (i = PIKACHU_BODY_PLATFORM_LEFT; i < NUM_PIKACHU_PLATFORM_SPRITES; i++)
+        gTasks[taskId2].tPikachuPlatformSpriteId(i) = gTasks[taskId].tPikachuPlatformSpriteId(i);
+}
+
+static void PrintNameChoiceOptions(u8 taskId, u8 hasPlayerBeenNamed)
+{
+    int i;
+    u8 windowId;
+    u8 numChoices;
+    const u8 *const *choices;
+
+    if (hasPlayerBeenNamed == FALSE)
+    {
+        if (gSaveBlock2Ptr->playerGender == MALE)
+            choices = sMaleNameChoices;
+        else
+            choices = sFemaleNameChoices;
+        numChoices = 1; // Restricted
+    }
+    else
+    {
+        choices = sRivalNameChoices;
+        numChoices = 1; // Restricted
+    }
+
+    windowId = AddWindow(&sIntro_WindowTemplates[WIN_INTRO_NAMES]);
+    gTasks[taskId].tMenuWindowId = windowId;
+    PutWindowTilemap(windowId);
+    DrawStdFrameWithCustomTileAndPalette(windowId, TRUE, GetStandardFrameBaseTileNum(), 14);
+    FillWindowPixelBuffer(windowId, PIXEL_FILL(1));
+
+    for (i = 0; i < numChoices; i++)
+    {
+        AddTextPrinterParameterized3(windowId, FONT_NORMAL, 8, i * 16 + 1, sOakSpeechResources->textColor, 0, choices[i]);
+    }
+
+    InitMenuNormal(windowId, FONT_NORMAL, 0, 1, 16, numChoices, 0);
+    CopyWindowToVram(windowId, COPYWIN_FULL);
+}
+
+static void GetDefaultName(u8 hasPlayerBeenNamed, u8 nameId)
+{
+    const u8 *const *choices;
+
+    if (hasPlayerBeenNamed == FALSE)
+    {
+        if (gSaveBlock2Ptr->playerGender == MALE)
+            choices = sMaleNameChoices;
+        else
+            choices = sFemaleNameChoices;
+        StringCopy(gSaveBlock2Ptr->playerName, choices[nameId]);
+    }
+    else
+    {
+        choices = sRivalNameChoices;
+        StringCopy(gSaveBlock1Ptr->rivalName, choices[nameId]);
+    }
+}
+

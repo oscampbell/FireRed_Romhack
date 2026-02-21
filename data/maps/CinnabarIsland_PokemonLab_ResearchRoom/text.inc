@@ -16,3 +16,10 @@ CinnabarIsland_PokemonLab_ResearchRoom_Text_EeveeCanEvolveIntroThreeMons::
 
 CinnabarIsland_PokemonLab_ResearchRoom_Text_AnAmberPipe::
     .string "An amber pipe!$"
+CinnabarIsland_PokemonLab_ResearchRoom_Text_LegendaryBirdEmail::
+    .string "EMAIL: TO RESEARCH STAFF\n"
+    .string "FROM: PROF. TREE\p"
+    .string "I have sightings of the legendary\n"
+    .string "birds in the Sevii Islands!\p"
+    .string "Please investigate and report\n"
+    .string "back to me.$"

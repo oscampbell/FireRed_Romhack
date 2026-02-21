@@ -1,4 +1,6 @@
 #include "global.h"
+#include "constants/songs.h" // For SE_SELECT
+#include "move.h" // For gMovesInfo
 #include "gflib.h"
 #include "menu.h"
 #include "task.h"
@@ -243,7 +245,7 @@ static void BufferQuestDetails(void)
     FillWindowPixelBuffer(1, PIXEL_FILL(1));
     if (step >= gQuests[questIdx].numSteps)
     {
-        AddTextPrinterParameterized(1, FONT_NORMAL, _("COMPLETED"), 4, 2, TEXT_SKIP_DRAW, NULL);
+        AddTextPrinterParameterized(1, FONT_NORMAL, (const u8 *)"COMPLETED", 4, 2, TEXT_SKIP_DRAW, NULL);
     }
     else
     {

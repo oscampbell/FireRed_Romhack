@@ -1,0 +1,100 @@
+            if (gTasks[taskId].tBlendTarget1 == 8)
+            {
+                for (i = PIKACHU_BODY_PLATFORM_LEFT; i < NUM_PIKACHU_PLATFORM_SPRITES; i++)
+                    gSprites[gTasks[taskId].tPikachuPlatformSpriteId(i)].invisible ^= TRUE;
+            }
+            SetGpuReg(REG_OFFSET_BLDALPHA, (gTasks[taskId].tBlendTarget2 * 256) + gTasks[taskId].tBlendTarget1);
+        }
+    }
+}
+
+static void CreateFadeOutTask(u8 taskId, u8 delay)
+{
+    u8 taskId2;
+    u8 i = 0;
+
+    SetGpuReg(REG_OFFSET_BLDCNT, BLDCNT_TGT1_BG2 | BLDCNT_EFFECT_BLEND | BLDCNT_TGT2_BG1 | BLDCNT_TGT2_OBJ);
+    SetGpuReg(REG_OFFSET_BLDALPHA, BLDALPHA_BLEND(0, 16));
+    SetGpuReg(REG_OFFSET_BLDY, 0);
+    gTasks[taskId].tTrainerPicFadeState = 0;
+
+    taskId2 = CreateTask(Task_SlowFadeOut, 0);
+    gTasks[taskId2].tParentTaskId = taskId;
+    gTasks[taskId2].tBlendTarget1 = 0;
+    gTasks[taskId2].tBlendTarget2 = 16;
+    gTasks[taskId2].tUnusedState = delay; // assigned, but never read
+    gTasks[taskId2].tFadeTimer = delay;
+    for (i = PIKACHU_BODY_PLATFORM_LEFT; i < NUM_PIKACHU_PLATFORM_SPRITES; i++)
+        gTasks[taskId2].tPikachuPlatformSpriteId(i) = gTasks[taskId].tPikachuPlatformSpriteId(i);
+}
+
+static void PrintNameChoiceOptions(u8 taskId, u8 hasPlayerBeenNamed)
+{
+    s16 *data = gTasks[taskId].data;
+    const u8 *const *textPtrs;
+    u8 i;
+
+    tMenuWindowId = AddWindow(&sIntro_WindowTemplates[WIN_INTRO_NAMES]);
+    PutWindowTilemap(tMenuWindowId);
+    DrawStdFrameWithCustomTileAndPalette(tMenuWindowId, 1, GetStandardFrameBaseTileNum(), 14);
+    FillWindowPixelBuffer(gTasks[taskId].tMenuWindowId, PIXEL_FILL(1));
+    AddTextPrinterParameterized(tMenuWindowId, FONT_NORMAL, gOtherText_NewName, 8, 1, 0, NULL);
+    if (hasPlayerBeenNamed == FALSE)
+        textPtrs = gSaveBlock2Ptr->playerGender == MALE ? sMaleNameChoices : sFemaleNameChoices;
+    else
+        textPtrs = sRivalNameChoices;
+    for (i = 0; i < ARRAY_COUNT(sRivalNameChoices); i++)
+        AddTextPrinterParameterized(tMenuWindowId, FONT_NORMAL, textPtrs[i], 8, 16 * (i + 1) + 1, 0, NULL);
+    InitMenuNormal(tMenuWindowId, FONT_NORMAL, 0, 1, 16, 5, 0);
+    CopyWindowToVram(tMenuWindowId, COPYWIN_FULL);
+}
+
+static void GetDefaultName(u8 hasPlayerBeenNamed, u8 nameChoice)
+{
+    const u8 *src;
+    u8 *dest;
+    u8 i;
+    if (hasPlayerBeenNamed == FALSE)
+    {
+        if (gSaveBlock2Ptr->playerGender == MALE)
+            src = sMaleNameChoices[Random() % ARRAY_COUNT(sMaleNameChoices)];
+        else
+            src = sFemaleNameChoices[Random() % ARRAY_COUNT(sFemaleNameChoices)];
+        dest = gSaveBlock2Ptr->playerName;
+    }
+    else
+    {
+        src = sRivalNameChoices[nameChoice];
+        dest = gSaveBlock1Ptr->rivalName;
+    }
+    for (i = 0; i < PLAYER_NAME_LENGTH && src[i] != EOS; i++)
+        dest[i] = src[i];
+    for (; i < PLAYER_NAME_LENGTH + 1; i++)
+        dest[i] = EOS;
+}
+
+#undef tSpriteTimer
+#undef tTrainerPicPosX
+#undef tTrainerPicFadeState
+#undef tTimer
+#undef tNidoranFSpriteId
+#undef tTextCursorSpriteId
+#undef tPokeBallSpriteId
+#undef tMenuWindowId
+#undef tTextboxWindowId
+#undef tDelta
+#undef tPlayerPicFadeOutTimer
+#undef tScaleDelta
+#undef tPlayerIsShrunk
+#undef shrinkTimer
+#undef tPlayerPicFadeWhiteTimer
+#undef tUnderflowingTimer
+#undef tSecondaryTimer
+#undef tBlendCoefficient
+#undef tNameNotConfirmed
+#undef sBodySpriteId
+#undef tParentTaskId
+#undef tBlendTarget1
+#undef tBlendTarget2
+#undef tUnusedState
+#undef tFadeTimer

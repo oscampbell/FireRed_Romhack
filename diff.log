@@ -1,0 +1,1202 @@
+--- src/data/trainers.party	2026-02-13 09:12:31.671837353 +0000
++++ "original code/FireRedUltra/src/data/trainers.party"	2026-02-13 08:47:40.117017763 +0000
+@@ -5801,7 +5801,7 @@
+ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+ 
+ === TRAINER_RIVAL_OAKS_LAB_SQUIRTLE ===
+-Name: STACEY
++Name: TERRY
+ Class: Rival Early
+ Pic: Rival Early
+ Gender: Male
+@@ -5816,7 +5816,7 @@
+ - Tail Whip
+ 
+ === TRAINER_RIVAL_OAKS_LAB_BULBASAUR ===
+-Name: STACEY
++Name: TERRY
+ Class: Rival Early
+ Pic: Rival Early
+ Gender: Male
+@@ -5831,7 +5831,7 @@
+ - Growl
+ 
+ === TRAINER_RIVAL_OAKS_LAB_CHARMANDER ===
+-Name: STACEY
++Name: TERRY
+ Class: Rival Early
+ Pic: Rival Early
+ Gender: Male
+@@ -5846,7 +5846,7 @@
+ - Growl
+ 
+ === TRAINER_RIVAL_ROUTE22_EARLY_SQUIRTLE ===
+-Name: STACEY
++Name: TERRY
+ Class: Rival Early
+ Pic: Rival Early
+ Gender: Male
+@@ -5867,7 +5867,7 @@
+ - Tail Whip
+ 
+ === TRAINER_RIVAL_ROUTE22_EARLY_BULBASAUR ===
+-Name: STACEY
++Name: TERRY
+ Class: Rival Early
+ Pic: Rival Early
+ Gender: Male
+@@ -5888,7 +5888,7 @@
+ - Growl
+ 
+ === TRAINER_RIVAL_ROUTE22_EARLY_CHARMANDER ===
+-Name: STACEY
++Name: TERRY
+ Class: Rival Early
+ Pic: Rival Early
+ Gender: Male
+@@ -5909,7 +5909,7 @@
+ - Growl
+ 
+ === TRAINER_RIVAL_CERULEAN_SQUIRTLE ===
+-Name: STACEY
++Name: TERRY
+ Class: Rival Early
+ Pic: Rival Early
+ Gender: Male
+@@ -5946,7 +5946,7 @@
+ - Water Gun
+ 
+ === TRAINER_RIVAL_CERULEAN_BULBASAUR ===
+-Name: STACEY
++Name: TERRY
+ Class: Rival Early
+ Pic: Rival Early
+ Gender: Male
+@@ -5983,7 +5983,7 @@
+ - Leech Seed
+ 
+ === TRAINER_RIVAL_CERULEAN_CHARMANDER ===
+-Name: STACEY
++Name: TERRY
+ Class: Rival Early
+ Pic: Rival Early
+ Gender: Male
+@@ -6395,38 +6395,54 @@
+ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+ 
+ === TRAINER_LEADER_GIOVANNI ===
+-Name: Z&A
++Name: GIOVANNI
+ Class: Leader
+-Pic: RS May 1
++Pic: Leader Giovanni
+ Gender: Male
+-Music: Intense
+-Items: Hyper Potion / Full Heal
+-Double Battle: Yes
++Music: Aqua
++Items: Hyper Potion / Hyper Potion / Full Heal
++Double Battle: No
+ AI: Check Bad Move / Try To Faint / Check Viability
+ 
+-Venusaur
+-Level: 50
+-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-
+-Arcanine
+-Level: 50
++Rhyhorn
++Level: 45
+ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
++- Take Down
++- Rock Blast
++- Scary Face
++- Earthquake
+ 
+-Lapras
+-Level: 50
++Dugtrio
++Level: 42
+ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
++- Slash
++- Sand Tomb
++- Mud Slap
++- Earthquake
+ 
+-Tyranitar
+-Level: 52
++Nidoqueen
++Level: 44
+ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
++- Body Slam
++- Double Kick
++- Poison Sting
++- Earthquake
+ 
+-Metagross
+-Level: 52
++Nidoking
++Level: 45
+ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
++- Thrash
++- Double Kick
++- Poison Sting
++- Earthquake
+ 
+-Salamence
+-Level: 54
++Rhyhorn
++Level: 50
+ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
++- Take Down
++- Rock Blast
++- Scary Face
++- Earthquake
+ 
+ === TRAINER_TEAM_ROCKET_GRUNT ===
+ Name: GRUNT
+@@ -8289,35 +8305,55 @@
+ - Rock Tomb
+ 
+ === TRAINER_ELITE_FOUR_AGATHA ===
+-Name: JACQUIE
++Name: AGATHA
+ Class: Elite Four
+ Pic: Elite Four Agatha
+-Gender: Female
++Gender: Male
+ Music: Elite Four
+ Items: Full Restore / Full Restore
+ Double Battle: No
+ AI: Check Bad Move / Try To Faint / Check Viability
+ Mugshot: Pink
+ 
+-Swinub
+-Level: 15
+-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
++Gengar
++Level: 54
++IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
++- Shadow Punch
++- Confuse Ray
++- Toxic
++- Double Team
+ 
+-Snorunt
+-Level: 12
+-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
++Golbat
++Level: 54
++IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
++- Confuse Ray
++- Poison Fang
++- Air Cutter
++- Bite
+ 
+-Spheal
+-Level: 14
+-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
++Haunter
++Level: 53
++IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
++- Hypnosis
++- Dream Eater
++- Curse
++- Mean Look
+ 
+-Smoochum
+-Level: 10
+-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
++Arbok
++Level: 56
++IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
++- Sludge Bomb
++- Screech
++- Iron Tail
++- Bite
+ 
+-Delibird
+-Level: 16
+-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
++Gengar @ Sitrus Berry
++Level: 58
++IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
++- Shadow Ball
++- Sludge Bomb
++- Hypnosis
++- Nightmare
+ 
+ === TRAINER_ELITE_FOUR_LANCE ===
+ Name: LANCE
+@@ -8371,7 +8407,7 @@
+ - Wing Attack
+ 
+ === TRAINER_LEADER_BROCK ===
+-Name: FARIS
++Name: BROCK
+ Class: Leader
+ Pic: Leader Brock
+ Gender: Male
+@@ -8379,24 +8415,21 @@
+ Double Battle: No
+ AI: Check Bad Move / Try To Faint / Check Viability
+ 
+-Pidgey
+-Level: 10
+-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-
+-Hoothoot
+-Level: 11
+-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-
+-Spearow
++Geodude
+ Level: 12
+ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
++- Tackle
++- Defense Curl
+ 
+-Pidgeotto
++Onix
+ Level: 14
+-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
++IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
++- Tackle
++- Bind
++- Rock Tomb
+ 
+ === TRAINER_LEADER_MISTY ===
+-Name: BRYONY
++Name: MISTY
+ Class: Leader
+ Pic: Leader Misty
+ Gender: Male
+@@ -8405,53 +8438,21 @@
+ Double Battle: No
+ AI: Check Bad Move / Try To Faint / Check Viability
+ 
+-Jigglypuff
++Staryu
+ Level: 18
+-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-- Sing
+-- Pound
+-- Defense Curl
+-- Disarming Voice
+-
+-Jynx
+-Level: 19
+-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-- Powder Snow
+-- Lovely Kiss
+-- Confusion
+-- Lick
+-
+-Mr Mime
+-Level: 19
+-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-- Confusion
+-- Barrier
+-- Substitute
+-- Magical Leaf
+-
+-Poliwhirl
+-Level: 20
+-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
++IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
++- Tackle
++- Harden
++- Recover
+ - Water Pulse
+-- Bubble Beam
+-- Mud Shot
+-- Hypnosis
+ 
+-Flareon
+-Level: 20
+-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-- Fire Fang
+-- Quick Attack
+-- Bite
+-- Sand Attack
+-
+-Vileplume @ Sitrus Berry
++Starmie
+ Level: 21
+-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-- Giga Drain
+-- Acid
+-- Sleep Powder
+-- Sunny Day
++IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
++- Swift
++- Recover
++- Rapid Spin
++- Water Pulse
+ 
+ === TRAINER_LEADER_LT_SURGE ===
+ Name: LT. SURGE
+@@ -8466,48 +8467,57 @@
+ Voltorb
+ Level: 21
+ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
++- Sonic Boom
++- Tackle
++- Screech
++- Shock Wave
+ 
+ Pikachu
+ Level: 18
+ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
++- Quick Attack
++- Thunder Wave
++- Double Team
++- Shock Wave
+ 
+ Raichu
+ Level: 24
+ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
++- Quick Attack
++- Thunder Wave
++- Double Team
++- Shock Wave
+ 
+ === TRAINER_LEADER_ERIKA ===
+-Name: DAVID
++Name: ERIKA
+ Class: Leader
+-Pic: RS Black Belt
++Pic: Leader Erika
+ Gender: Male
+-Music: Male
++Music: Female
+ Items: Hyper Potion / Full Heal
+ Double Battle: No
+ AI: Check Bad Move / Try To Faint / Check Viability
+ 
+-Arcanine
++Victreebel
+ Level: 29
+ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
++- Stun Spore
++- Acid
++- Poison Powder
++- Giga Drain
+ 
+-Magikarp
++Tangela
+ Level: 24
+ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
++- Poison Powder
++- Constrict
++- Ingrain
++- Giga Drain
+ 
+-Dragonair
++Vileplume
+ Level: 29
+ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-
+-Mr. Mime
+-Level: 30
+-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-
+-Haunter
+-Level: 30
+-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-
+-Machamp
+-Level: 32
+-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
++- Sleep Powder
+ - Acid
+ - Stun Spore
+ - Giga Drain
+@@ -8600,27 +8610,43 @@
+ Name: SABRINA
+ Class: Leader
+ Pic: Leader Sabrina
+-Gender: Female
++Gender: Male
+ Music: Female
+-Items: Hyper Potion / Full Heal
++Items: Hyper Potion / Hyper Potion / Full Heal
+ Double Battle: No
+ AI: Check Bad Move / Try To Faint / Check Viability
+ 
+ Kadabra
+ Level: 38
+ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
++- Psybeam
++- Reflect
++- Future Sight
++- Calm Mind
+ 
+-Mr. Mime
++Mr Mime
+ Level: 37
+ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
++- Barrier
++- Psybeam
++- Baton Pass
++- Calm Mind
+ 
+ Venomoth
+ Level: 38
+ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
++- Psybeam
++- Gust
++- Leech Life
++- Supersonic
+ 
+ Alakazam
+ Level: 43
+ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
++- Psychic
++- Recover
++- Future Sight
++- Calm Mind
+ 
+ === TRAINER_GENTLEMAN_THOMAS ===
+ Name: THOMAS
+@@ -8700,7 +8726,7 @@
+ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+ 
+ === TRAINER_RIVAL_SS_ANNE_SQUIRTLE ===
+-Name: STACEY
++Name: TERRY
+ Class: Rival Late
+ Pic: Rival Late
+ Gender: Male
+@@ -8725,7 +8751,7 @@
+ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+ 
+ === TRAINER_RIVAL_SS_ANNE_BULBASAUR ===
+-Name: STACEY
++Name: TERRY
+ Class: Rival Late
+ Pic: Rival Late
+ Gender: Male
+@@ -8750,7 +8776,7 @@
+ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+ 
+ === TRAINER_RIVAL_SS_ANNE_CHARMANDER ===
+-Name: STACEY
++Name: TERRY
+ Class: Rival Late
+ Pic: Rival Late
+ Gender: Male
+@@ -8775,7 +8801,7 @@
+ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+ 
+ === TRAINER_RIVAL_POKEMON_TOWER_SQUIRTLE ===
+-Name: STACEY
++Name: TERRY
+ Class: Rival Late
+ Pic: Rival Late
+ Gender: Male
+@@ -8804,7 +8830,7 @@
+ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+ 
+ === TRAINER_RIVAL_POKEMON_TOWER_BULBASAUR ===
+-Name: STACEY
++Name: TERRY
+ Class: Rival Late
+ Pic: Rival Late
+ Gender: Male
+@@ -8833,7 +8859,7 @@
+ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+ 
+ === TRAINER_RIVAL_POKEMON_TOWER_CHARMANDER ===
+-Name: STACEY
++Name: TERRY
+ Class: Rival Late
+ Pic: Rival Late
+ Gender: Male
+@@ -8862,7 +8888,7 @@
+ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+ 
+ === TRAINER_RIVAL_SILPH_SQUIRTLE ===
+-Name: STACEY
++Name: TERRY
+ Class: Rival Late
+ Pic: Rival Late
+ Gender: Male
+@@ -8891,7 +8917,7 @@
+ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+ 
+ === TRAINER_RIVAL_SILPH_BULBASAUR ===
+-Name: STACEY
++Name: TERRY
+ Class: Rival Late
+ Pic: Rival Late
+ Gender: Male
+@@ -8920,7 +8946,7 @@
+ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+ 
+ === TRAINER_RIVAL_SILPH_CHARMANDER ===
+-Name: STACEY
++Name: TERRY
+ Class: Rival Late
+ Pic: Rival Late
+ Gender: Male
+@@ -8949,7 +8975,7 @@
+ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+ 
+ === TRAINER_RIVAL_ROUTE22_LATE_SQUIRTLE ===
+-Name: STACEY
++Name: TERRY
+ Class: Rival Late
+ Pic: Rival Late
+ Gender: Male
+@@ -9006,7 +9032,7 @@
+ - Rapid Spin
+ 
+ === TRAINER_RIVAL_ROUTE22_LATE_BULBASAUR ===
+-Name: STACEY
++Name: TERRY
+ Class: Rival Late
+ Pic: Rival Late
+ Gender: Male
+@@ -9063,7 +9089,7 @@
+ - Synthesis
+ 
+ === TRAINER_RIVAL_ROUTE22_LATE_CHARMANDER ===
+-Name: STACEY
++Name: TERRY
+ Class: Rival Late
+ Pic: Rival Late
+ Gender: Male
+@@ -9120,7 +9146,7 @@
+ - Scary Face
+ 
+ === TRAINER_CHAMPION_FIRST_SQUIRTLE ===
+-Name: OLLIE
++Name: TERRY
+ Class: Champion
+ Pic: Champion Rival
+ Gender: Male
+@@ -9130,56 +9156,56 @@
+ AI: Check Bad Move / Try To Faint / Check Viability
+ Mugshot: Yellow
+ 
+-Gengar
+-Level: 63
++Pidgeot
++Level: 59
+ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-- Shadow Ball
+-- Sludge Bomb
+-- Thunderbolt
+-- Psychic
++- Aerial Ace
++- Feather Dance
++- Sand Attack
++- Whirlwind
+ 
+-Gyarados
+-Level: 62
++Alakazam
++Level: 57
+ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-- Dragon Dance
+-- Waterfall
+-- Ice Fang
+-- Earthquake
++- Psychic
++- Future Sight
++- Recover
++- Reflect
+ 
+-Snorlax
+-Level: 63
++Rhydon
++Level: 59
+ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-- Body Slam
+-- Rest
+-- Sleep Talk
++- Take Down
+ - Earthquake
++- Rock Tomb
++- Scary Face
+ 
+-Raichu
+-Level: 62
++Arcanine
++Level: 59
+ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-- Thunderbolt
+-- Iron Tail
+-- Focus Blast
+-- Thunder Wave
++- Extreme Speed
++- Flamethrower
++- Roar
++- Bite
+ 
+-Dragonite
+-Level: 64
++Exeggutor
++Level: 61
+ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-- Dragon Dance
+-- Outrage
+-- Extreme Speed
+-- Fire Punch
++- Giga Drain
++- Egg Bomb
++- Sleep Powder
++- Light Screen
+ 
+-Charizard @ Sitrus Berry
+-Level: 65
++Blastoise @ Sitrus Berry
++Level: 63
+ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-- Flamethrower
+-- Dragon Claw
+-- Air Slash
+-- Blast Burn
++- Hydro Pump
++- Rain Dance
++- Skull Bash
++- Bite
+ 
+ === TRAINER_CHAMPION_FIRST_BULBASAUR ===
+-Name: OLLIE
++Name: TERRY
+ Class: Champion
+ Pic: Champion Rival
+ Gender: Male
+@@ -9189,56 +9215,56 @@
+ AI: Check Bad Move / Try To Faint / Check Viability
+ Mugshot: Yellow
+ 
+-Gengar
+-Level: 63
++Pidgeot
++Level: 59
+ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-- Shadow Ball
+-- Sludge Bomb
+-- Thunderbolt
+-- Psychic
++- Aerial Ace
++- Feather Dance
++- Sand Attack
++- Whirlwind
+ 
+-Gyarados
+-Level: 62
++Alakazam
++Level: 57
+ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-- Dragon Dance
+-- Waterfall
+-- Ice Fang
+-- Earthquake
++- Psychic
++- Future Sight
++- Recover
++- Reflect
+ 
+-Snorlax
+-Level: 63
++Rhydon
++Level: 59
+ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-- Body Slam
+-- Rest
+-- Sleep Talk
++- Take Down
+ - Earthquake
++- Rock Tomb
++- Scary Face
+ 
+-Raichu
+-Level: 62
++Gyarados
++Level: 59
+ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-- Thunderbolt
+-- Iron Tail
+-- Focus Blast
+-- Thunder Wave
++- Hydro Pump
++- Dragon Rage
++- Bite
++- Thrash
+ 
+-Dragonite
+-Level: 64
++Arcanine
++Level: 61
+ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-- Dragon Dance
+-- Outrage
+ - Extreme Speed
+-- Fire Punch
++- Flamethrower
++- Roar
++- Bite
+ 
+-Charizard @ Sitrus Berry
+-Level: 65
++Venusaur @ Sitrus Berry
++Level: 63
+ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-- Flamethrower
+-- Dragon Claw
+-- Air Slash
+-- Blast Burn
++- Solar Beam
++- Synthesis
++- Sunny Day
++- Growth
+ 
+ === TRAINER_CHAMPION_FIRST_CHARMANDER ===
+-Name: OLLIE
++Name: TERRY
+ Class: Champion
+ Pic: Champion Rival
+ Gender: Male
+@@ -9248,53 +9274,53 @@
+ AI: Check Bad Move / Try To Faint / Check Viability
+ Mugshot: Yellow
+ 
+-Gengar
+-Level: 63
++Pidgeot
++Level: 59
+ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-- Shadow Ball
+-- Sludge Bomb
+-- Thunderbolt
+-- Psychic
++- Aerial Ace
++- Feather Dance
++- Sand Attack
++- Whirlwind
+ 
+-Gyarados
+-Level: 62
++Alakazam
++Level: 57
+ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-- Dragon Dance
+-- Waterfall
+-- Ice Fang
+-- Earthquake
++- Psychic
++- Future Sight
++- Recover
++- Reflect
+ 
+-Snorlax
+-Level: 63
++Rhydon
++Level: 59
+ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-- Body Slam
+-- Rest
+-- Sleep Talk
++- Take Down
+ - Earthquake
++- Rock Tomb
++- Scary Face
+ 
+-Raichu
+-Level: 62
++Exeggutor
++Level: 59
+ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-- Thunderbolt
+-- Iron Tail
+-- Focus Blast
+-- Thunder Wave
++- Giga Drain
++- Egg Bomb
++- Sleep Powder
++- Light Screen
+ 
+-Dragonite
+-Level: 64
++Gyarados
++Level: 61
+ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-- Dragon Dance
+-- Outrage
+-- Extreme Speed
+-- Fire Punch
++- Hydro Pump
++- Dragon Rage
++- Bite
++- Thrash
+ 
+ Charizard @ Sitrus Berry
+-Level: 65
++Level: 63
+ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-- Flamethrower
+-- Dragon Claw
+-- Air Slash
+-- Blast Burn
++- Fire Blast
++- Aerial Ace
++- Slash
++- Fire Spin
+ 
+ === TRAINER_CHANNELER_PATRICIA ===
+ Name: PATRICIA
+@@ -10475,7 +10501,7 @@
+ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+ 
+ === TRAINER_PKMN_PROF_PROF_OAK ===
+-Name: PROF. TREE
++Name: PROF. OAK
+ Class: Pkmn Prof
+ Pic: Professor Oak
+ Gender: Male
+@@ -15094,35 +15120,55 @@
+ - Rock Slide
+ 
+ === TRAINER_ELITE_FOUR_AGATHA_2 ===
+-Name: JACQUIE
++Name: AGATHA
+ Class: Elite Four
+ Pic: Elite Four Agatha
+-Gender: Female
++Gender: Male
+ Music: Elite Four
+ Items: Full Restore / Full Restore
+ Double Battle: No
+ AI: Check Bad Move / Try To Faint / Check Viability
+ Mugshot: Pink
+ 
+-Piloswine
+-Level: 25
+-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
++Gengar
++Level: 66
++IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
++- Shadow Ball
++- Psychic
++- Confuse Ray
++- Hypnosis
+ 
+-Glalie
+-Level: 22
+-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
++Crobat
++Level: 66
++IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
++- Sludge Bomb
++- Air Cutter
++- Shadow Ball
++- Confuse Ray
+ 
+-Sealeo
+-Level: 24
+-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
++Misdreavus
++Level: 65
++IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
++- Shadow Ball
++- Psychic
++- Thunderbolt
++- Attract
+ 
+-Jynx
+-Level: 20
+-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
++Arbok
++Level: 68
++IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
++- Sludge Bomb
++- Earthquake
++- Giga Drain
++- Double Team
+ 
+-Delibird
+-Level: 26
+-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
++Gengar @ Chesto Berry
++Level: 70
++IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
++- Shadow Ball
++- Psychic
++- Thunderbolt
++- Sludge Bomb
+ 
+ === TRAINER_ELITE_FOUR_LANCE_2 ===
+ Name: LANCE
+@@ -15176,7 +15222,7 @@
+ - Ice Beam
+ 
+ === TRAINER_CHAMPION_REMATCH_SQUIRTLE ===
+-Name: OLLIE
++Name: TERRY
+ Class: Champion
+ Pic: Champion Rival
+ Gender: Male
+@@ -15186,56 +15232,56 @@
+ AI: Check Bad Move / Try To Faint / Check Viability
+ Mugshot: Yellow
+ 
+-Gengar
+-Level: 73
++Heracross
++Level: 72
+ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-- Shadow Ball
+-- Sludge Bomb
+-- Thunderbolt
+-- Psychic
++- Megahorn
++- Earthquake
++- Counter
++- Rock Tomb
+ 
+-Gyarados
++Alakazam
+ Level: 73
+ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-- Dragon Dance
+-- Waterfall
+-- Ice Fang
+-- Earthquake
++- Psychic
++- Shadow Ball
++- Calm Mind
++- Reflect
+ 
+-Snorlax
+-Level: 73
++Tyranitar
++Level: 72
+ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-- Body Slam
+-- Rest
+-- Sleep Talk
++- Crunch
+ - Earthquake
++- Thunderbolt
++- Aerial Ace
+ 
+-Raichu
++Arcanine
+ Level: 73
+ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-- Thunderbolt
++- Extreme Speed
++- Overheat
++- Aerial Ace
+ - Iron Tail
+-- Focus Blast
+-- Thunder Wave
+ 
+-Dragonite
+-Level: 74
++Exeggutor
++Level: 73
+ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-- Dragon Dance
+-- Outrage
+-- Extreme Speed
+-- Fire Punch
++- Giga Drain
++- Psychic
++- Sleep Powder
++- Light Screen
+ 
+-Charizard @ Sitrus Berry
++Blastoise @ Sitrus Berry
+ Level: 75
+ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-- Flamethrower
+-- Dragon Claw
+-- Air Slash
+-- Blast Burn
++- Hydro Pump
++- Ice Beam
++- Earthquake
++- Rain Dance
+ 
+ === TRAINER_CHAMPION_REMATCH_BULBASAUR ===
+-Name: OLLIE
++Name: TERRY
+ Class: Champion
+ Pic: Champion Rival
+ Gender: Male
+@@ -15245,56 +15291,56 @@
+ AI: Check Bad Move / Try To Faint / Check Viability
+ Mugshot: Yellow
+ 
+-Gengar
++Heracross
++Level: 72
++IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
++- Megahorn
++- Earthquake
++- Counter
++- Rock Tomb
++
++Alakazam
+ Level: 73
+ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-- Shadow Ball
+-- Sludge Bomb
+-- Thunderbolt
+ - Psychic
++- Shadow Ball
++- Calm Mind
++- Reflect
+ 
+-Gyarados
+-Level: 73
++Tyranitar
++Level: 72
+ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-- Dragon Dance
+-- Waterfall
+-- Ice Fang
++- Crunch
+ - Earthquake
++- Thunderbolt
++- Aerial Ace
+ 
+-Snorlax
++Gyarados
+ Level: 73
+ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-- Body Slam
+-- Rest
+-- Sleep Talk
++- Hydro Pump
++- Dragon Dance
+ - Earthquake
++- Hyper Beam
+ 
+-Raichu
++Arcanine
+ Level: 73
+ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-- Thunderbolt
+-- Iron Tail
+-- Focus Blast
+-- Thunder Wave
+-
+-Dragonite
+-Level: 74
+-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-- Dragon Dance
+-- Outrage
+ - Extreme Speed
+-- Fire Punch
++- Overheat
++- Aerial Ace
++- Iron Tail
+ 
+-Charizard @ Sitrus Berry
++Venusaur @ Sitrus Berry
+ Level: 75
+ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-- Flamethrower
+-- Dragon Claw
+-- Air Slash
+-- Blast Burn
++- Solar Beam
++- Sludge Bomb
++- Earthquake
++- Sunny Day
+ 
+ === TRAINER_CHAMPION_REMATCH_CHARMANDER ===
+-Name: OLLIE
++Name: TERRY
+ Class: Champion
+ Pic: Champion Rival
+ Gender: Male
+@@ -15304,53 +15350,53 @@
+ AI: Check Bad Move / Try To Faint / Check Viability
+ Mugshot: Yellow
+ 
+-Gengar
+-Level: 73
++Heracross
++Level: 72
+ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-- Shadow Ball
+-- Sludge Bomb
+-- Thunderbolt
+-- Psychic
++- Megahorn
++- Earthquake
++- Counter
++- Rock Tomb
+ 
+-Gyarados
++Alakazam
+ Level: 73
+ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-- Dragon Dance
+-- Waterfall
+-- Ice Fang
+-- Earthquake
++- Psychic
++- Shadow Ball
++- Calm Mind
++- Reflect
+ 
+-Snorlax
+-Level: 73
++Tyranitar
++Level: 72
+ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-- Body Slam
+-- Rest
+-- Sleep Talk
++- Crunch
+ - Earthquake
++- Thunderbolt
++- Aerial Ace
+ 
+-Raichu
++Exeggutor
+ Level: 73
+ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-- Thunderbolt
+-- Iron Tail
+-- Focus Blast
+-- Thunder Wave
++- Giga Drain
++- Psychic
++- Sleep Powder
++- Light Screen
+ 
+-Dragonite
+-Level: 74
++Gyarados
++Level: 73
+ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
++- Hydro Pump
+ - Dragon Dance
+-- Outrage
+-- Extreme Speed
+-- Fire Punch
++- Earthquake
++- Hyper Beam
+ 
+ Charizard @ Sitrus Berry
+ Level: 75
+ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-- Flamethrower
++- Fire Blast
+ - Dragon Claw
+-- Air Slash
+-- Blast Burn
++- Aerial Ace
++- Earthquake
+ 
+ === TRAINER_CUE_BALL_PAXTON ===
+ Name: PAXTON

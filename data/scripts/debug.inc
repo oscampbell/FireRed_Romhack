@@ -13,12 +13,11 @@ Debug_CheatStart::
 	setflag FLAG_PALLET_LADY_NOT_BLOCKING_SIGN
 	setflag FLAG_OPENED_START_MENU
 	setflag FLAG_VISITED_OAKS_LAB
-	setflag FLAG_BEAT_RIVAL_IN_OAKS_LAB
-	givemon SPECIES_BULBASAUR, 20, ITEM_NONE
-	givemon SPECIES_CHARMANDER, 20, ITEM_NONE
-	givemon SPECIES_SQUIRTLE, 20, ITEM_NONE
-	clearflag FLAG_HIDE_OAK_IN_HIS_LAB
-	setflag FLAG_HIDE_RIVAL_IN_LAB
+	        setflag FLAG_BEAT_RIVAL_IN_OAKS_LAB
+	        givemon SPECIES_MORPEKO, 20, ITEM_NONE
+	        givemon SPECIES_EEVEE, 20, ITEM_NONE
+	        givemon SPECIES_RAICHU_ALOLA, 20, ITEM_NONE
+	        clearflag FLAG_HIDE_OAK_IN_HIS_LAB	setflag FLAG_HIDE_RIVAL_IN_LAB
 	setvar VAR_MAP_SCENE_PALLET_TOWN_OAK, 1 @ prevents Oak scene when trying to enter Route 1
 	setflag FLAG_SYS_POKEDEX_GET
 	special SetUnlockedPokedexFlags

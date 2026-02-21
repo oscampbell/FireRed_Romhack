@@ -654,7 +654,7 @@ static const u8 *GetInteractedMetatileScript(struct MapPosition *position, u8 me
     if (MetatileBehavior_IsPlayerFacingPokeMartSign(metatileBehavior, direction) == TRUE)
     {
         MsgSetSignpost();
-        return EventScript_PokeASDASign;
+        return EventScript_PokemartSign;
     }
     if (MetatileBehavior_IsPlayerFacingPokemonCenterSign(metatileBehavior, direction) == TRUE)
     {
@@ -837,7 +837,7 @@ static bool8 TrySetUpWalkIntoSignpostScript(struct MapPosition * position, u16 m
     }
     else if (signpostType == SIGNPOST_POKEMART)
     {
-        SetUpWalkIntoSignScript(EventScript_PokeASDASign, playerDirection);
+        SetUpWalkIntoSignScript(EventScript_PokemartSign, playerDirection);
         return TRUE;
     }
     else if (signpostType == SIGNPOST_INDIGO_1)

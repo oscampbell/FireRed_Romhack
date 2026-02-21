@@ -1,4 +1,4 @@
-Route6_UnusedHouse_MapScripts::
+PalletTown_BirthdayPartyRoom_MapScripts::
 	.byte 0
 
 Route6_UnusedHouse_EventScript_Surprise::

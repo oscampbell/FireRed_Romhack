@@ -1,7 +1,7 @@
 CeruleanCity_House1_MapScripts::
 	.byte 0
 
-CeruleanCity_House1_EventScript_BadgeGuy::
+CeruleanCity_House1_EventScript_Steve::
 	lock
 	faceplayer
 	msgbox CeruleanCity_House1_Text_BadgesHaveAmazingSecrets
@@ -84,4 +84,7 @@ CeruleanCity_House1_EventScript_DescribeEarthBadge::
 CeruleanCity_House1_EventScript_StopDescribingBadges::
 	msgbox CeruleanCity_House1_Text_ComeVisitAnytime
 	release
+	end
+CeruleanCity_House1_EventScript_Fernanda::
+	msgbox CeruleanCity_House1_Text_DescribeWhichBadge, MSGBOX_NPC
 	end

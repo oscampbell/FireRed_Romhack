@@ -23,17 +23,17 @@ CeruleanCity_Gym_EventScript_Bowie::
 	lock
 	faceplayer
 	setvar VAR_TEMP_1, SPECIES_HOUNDOOM
-	givemon_msg CeruleanCity_Gym_Text_BowieIntro, SPECIES_HOUNDOOM, 20
+	msgbox CeruleanCity_Gym_Text_BowieIntro, MSGBOX_DEFAULT
 	@ Wild battle script style
 	waitse
 	playmoncry SPECIES_HOUNDOOM, CRY_MODE_ENCOUNTER
 	delay 40
 	waitmoncry
 	setwildbattle SPECIES_HOUNDOOM, 20
-	setflag FLAG_SYS_CTRL_OBJ_CONFIRM
+	setflag FLAG_SYS_SPECIAL_WILD_BATTLE
 	special BattleSetup_StartLegendaryBattle
 	waitstate
-	clearflag FLAG_SYS_CTRL_OBJ_CONFIRM
+	clearflag FLAG_SYS_SPECIAL_WILD_BATTLE
 	specialvar VAR_RESULT, GetBattleOutcome
 	goto_if_eq VAR_RESULT, B_OUTCOME_CAUGHT, CeruleanCity_Gym_EventScript_CaughtBowie
 	goto_if_eq VAR_RESULT, B_OUTCOME_WON, CeruleanCity_Gym_EventScript_DefeatedBowie

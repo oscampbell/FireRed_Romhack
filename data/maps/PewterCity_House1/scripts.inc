@@ -1,11 +1,11 @@
 PewterCity_House1_MapScripts::
 	.byte 0
 
-PewterCity_House1_EventScript_BaldingMan::
+PewterCity_House1_EventScript_Carolyn::
 	msgbox PewterCity_House1_Text_TradeMonsAreFinicky, MSGBOX_NPC
 	end
 
-PewterCity_House1_EventScript_LittleBoy::
+PewterCity_House1_EventScript_John::
 	lock
 	msgbox PewterCity_House1_Text_NidoranSit
 	call PewterCity_House1_EventScript_DoNidoranCry

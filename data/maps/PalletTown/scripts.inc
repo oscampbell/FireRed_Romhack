@@ -504,48 +504,48 @@ PalletTown_EventScript_Hairdresser::
 	goto_if_eq VAR_QUEST_PALETTE, 3, PalletTown_EventScript_Hairdresser_Step3
 	goto_if_eq VAR_QUEST_PALETTE, 2, PalletTown_EventScript_Hairdresser_Step2
 	goto_if_eq VAR_QUEST_PALETTE, 1, PalletTown_EventScript_Hairdresser_Step1
-	msgbox PalletTown_Text_Hairdresser_Intro
+	msgbox PalletTown_Text_Colorist_Intro
 	setvar VAR_QUEST_PALETTE, 1
 	release
 	end
 
 PalletTown_EventScript_Hairdresser_Step1::
-	msgbox PalletTown_Text_Hairdresser_AskNeonGreen
+	msgbox PalletTown_Text_Colorist_AskNeonGreen
 	setvar VAR_0x8004, SPECIES_VICTREEBEL
-	special PlayerHasSpecies
+	special Script_PlayerHasSpecies
 	goto_if_eq VAR_RESULT, FALSE, PalletTown_EventScript_Hairdresser_NoMon
-	msgbox PalletTown_Text_Hairdresser_FoundNeonGreen
+	msgbox PalletTown_Text_Colorist_FoundNeonGreen
 	setvar VAR_QUEST_PALETTE, 2
 	release
 	end
 
 PalletTown_EventScript_Hairdresser_Step2::
-	msgbox PalletTown_Text_Hairdresser_AskFieryRed
+	msgbox PalletTown_Text_Colorist_AskFieryRed
 	setvar VAR_0x8004, SPECIES_FLAREON
-	special PlayerHasSpecies
+	special Script_PlayerHasSpecies
 	goto_if_eq VAR_RESULT, FALSE, PalletTown_EventScript_Hairdresser_NoMon
-	msgbox PalletTown_Text_Hairdresser_FoundFieryRed
+	msgbox PalletTown_Text_Colorist_FoundFieryRed
 	setvar VAR_QUEST_PALETTE, 3
 	release
 	end
 
 PalletTown_EventScript_Hairdresser_Step3::
-	msgbox PalletTown_Text_Hairdresser_AskMasqueradePurple
+	msgbox PalletTown_Text_Colorist_AskMasqueradePurple
 	setvar VAR_0x8004, SPECIES_GENGAR
-	special PlayerHasSpecies
+	special Script_PlayerHasSpecies
 	goto_if_eq VAR_RESULT, FALSE, PalletTown_EventScript_Hairdresser_NoMon
-	msgbox PalletTown_Text_Hairdresser_FoundMasqueradePurple
+	msgbox PalletTown_Text_Colorist_FoundMasqueradePurple
 	setvar VAR_QUEST_PALETTE, 4
 	giveitem ITEM_SHINY_STONE
 	release
 	end
 
 PalletTown_EventScript_Hairdresser_NoMon::
-	msgbox PalletTown_Text_Hairdresser_NoMon
+	msgbox PalletTown_Text_Colorist_NoMon
 	release
 	end
 
 PalletTown_EventScript_Hairdresser_Done::
-	msgbox PalletTown_Text_Hairdresser_Done
+	msgbox PalletTown_Text_Colorist_Done
 	release
 	end

@@ -1,0 +1,23 @@
+{{ doNotModifyHeader }}
+#include "global.h"
+#include "region_map.h"
+#include "region_map_names.h" // Include the declarations
+
+// sMapName_ definitions
+## for map_section in map_sections
+{% if existsIn(map_section, "name") %}
+const u8 sMapName_{{ cleanString(map_section.id) }}[] = _("{{ map_section.name }}");
+{% endif %}
+{% if existsIn(map_section, "name_clone") %}
+const u8 sMapName_{{ cleanString(map_section.id) }}_Clone[] = _("{{ map_section.name }}");
+{% endif %}
+## endfor
+
+// gRegionMapEntries definition
+const struct RegionMapLocation gRegionMapEntries[] = {
+## for map_section in map_sections
+{% if existsIn(map_section, "x") and existsIn(map_section, "y") and existsIn(map_section, "width") and existsIn(map_section, "height") and existsIn(map_section, "name") %}
+    [{{ map_section.id }} - KANTO_MAPSEC_START] = { {{ map_section.x }}, {{ map_section.y }}, {{ map_section.width }}, {{ map_section.height }}, sMapName_{{ cleanString(map_section.id) }}{% if existsIn(map_section, "name_clone") %}_Clone{% endif %} },
+{% endif %}
+## endfor
+};

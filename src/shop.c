@@ -1,5 +1,6 @@
 #include "global.h"
 #include "gflib.h"
+#include "event_data.h" // For FlagGet
 #include "shop.h"
 #include "menu.h"
 #include "data.h"

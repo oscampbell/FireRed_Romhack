@@ -2,7 +2,7 @@ CeladonCity_Gym_Text_ErikaIntro::
     .string "BOOM! Look at those gains!\n"
     .string "Welcome to the EMPIRE GYM!\p"
     .string "I'm DAVID, and I don't just train\n"
-    .string "POKéMON—I train for LIFE.\p"
+    .string "POKéMON-I train for LIFE.\p"
     .string "You want this BADGE? You're gonna\n"
     .string "have to show me some real muscle!\p"
     .string "Let's hit it!{PLAY_BGM MUS_ENCOUNTER_GYM_LEADER}$"
@@ -23,7 +23,7 @@ CeladonCity_Gym_Text_ExplainRainbowBadgeTakeThis::
     .string "up to Lv. 50 obey you.\p"
     .string "It also lets you use STRENGTH\n"
     .string "to move heavy boulders.\p"
-    .string "And here—you need this for\n"
+    .string "And here-you need this for\n"
     .string "proper recovery.$"
 
 CeladonCity_Gym_Text_ReceivedProteinBarFromDavid::

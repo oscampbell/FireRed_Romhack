@@ -351,6 +351,7 @@ gStdScriptsEnd::
 	.include "data/maps/PalletTown_PlayersHouse_2F/scripts.inc"
 	.include "data/maps/PalletTown_RivalsHouse/scripts.inc"
 	.include "data/maps/PalletTown_ProfessorOaksLab/scripts.inc"
+	.include "data/maps/PalletTown_BirthdayPartyRoom/scripts.inc"
 	.include "data/maps/ViridianCity_House/scripts.inc"
 	.include "data/maps/ViridianCity_Gym/scripts.inc"
 	.include "data/maps/ViridianCity_School/scripts.inc"
@@ -677,6 +678,7 @@ gStdScriptsEnd::
 	.include "data/maps/PalletTown_PlayersHouse_2F/text.inc"
 	.include "data/maps/PalletTown_RivalsHouse/text.inc"
 	.include "data/maps/PalletTown_ProfessorOaksLab/text.inc"
+	.include "data/maps/PalletTown_BirthdayPartyRoom/text.inc"
 	.include "data/maps/ViridianCity_House/text.inc"
 	.include "data/maps/ViridianCity_Gym/text.inc"
 	.include "data/maps/ViridianCity_School/text.inc"
@@ -1157,7 +1159,7 @@ EventScript_EeveeAdoption_Nickname::
 	setvar VAR_0x8004, 0
 	call EventScript_ChangePokemonNickname
 	setvar VAR_QUEST_EEVEE, 1
-	special CountAdoptedEevees
+	special Script_CountAdoptedEevees
 	goto_if_eq VAR_RESULT, 10, EventScript_EeveeQuest_Complete
 	release
 	end
@@ -1185,7 +1187,7 @@ EventScript_InviteFriend::
 	msgbox Text_BirthdayInvite, MSGBOX_DEFAULT
 	setflag VAR_0x8004
 	setvar VAR_QUEST_BIRTHDAY, 1
-	special CheckAllFriendsInvited
+	special Script_CheckAllFriendsInvited
 	goto_if_eq VAR_RESULT, TRUE, EventScript_AllFriendsInvited
 	release
 	end
