@@ -14,7 +14,7 @@ Route11_EastEntrance_1F_Text_ManInLavenderRatesNames::
     .string "POKéMON, too.$"
 
 Route11_EastEntrance_1F_Text_RockTunnelToReachLavender::
-    .string "If you're aiming to reach LAVENDER\n"
+    .string "If you're aiming to reach MASQUERADE\n"
     .string "TOWN, take ROCK TUNNEL.\p"
     .string "You can get to ROCK TUNNEL from\n"
     .string "POOLSIDE CITY.$"

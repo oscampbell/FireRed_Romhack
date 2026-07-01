@@ -1,0 +1,63 @@
+These are the bugs from the first uncompleted playtest
+
+Pokemon bugs
+Rearrange evo stones in pallet town
+Oak still called oak in first demo battle
+Trees dialogue about losing the chapters happens if you speak to him before the first battle, this doesn’t make sense, we want to make this quest available only after we have finished his first fetch quest to get the parcel
+Stacey has the wrong Pokemon in the first battle, when I pick raichu she chooses eevee but then in the battle has a squirtle.
+There was a line where one of trees aides would comment on professor tree being an unimaginative name, not sure if that’s gotten lost somewhere.
+In viridian (probably elsewhere) the sign outside the pokemart still says pokemart on interaction, not pokeasda 
+Is the girl in the school in viridian meant to be Stacy? If so she isn’t named and is the wrong sprite 
+The boy to the left of viridian has crap dialogue, need to change this, it’s fine without the “smelled like the sweet spot” part.
+The quest log is very bugged, needs a different font size or something
+If you adopt the eevee in the pokemart in viridian, the text says “do you want to give a nickname to this Autumn?” It is correctly named eevee if you choose not to.
+It’s not extremely clear that daisy is investigating Stacey and what for, maybe we have her introduce herself as “daisy, from some business practices investigation thing” and say that stacey is under active investigation.
+In the viridian house, change Ellie’s dialogue just to say “shh, I’m watching the tv, I love hockey so much!”
+Change the old man dialogue back to default, stop the network engineer part, but keep the fuck off dialogue option.
+Same with the old man outside the gym, keep it as is but remove the network stack part.
+When we pick up the figs treats item, we get an item in our bag but the overworld pokeball sprite does not disappear. Also the text box that comes up when you interact with the overworld item doesn’t go away until you interact with something to bring up a new text box. This also means you can pick it up repeatedly.
+Carolyn has some confusing dialogue, we need to make it make sense or remove the yes/no part where if you say yes she takes you to the museum 
+The Eevee you get from the mart in pavement city is called Steve in the nickname menu
+In the first gym, Ollie has the wrong overworld sprite, it’s currently the same as Stacey. Also the dialogue here needs work. 
+Faris pre battle text seems wrong, need to check what he asked for.
+Also need to check his team, I don’t think he wanted diglett.
+After the Faris fight, he gives us a bolder badge, shouldn’t it have the new name pavement badge?
+All the Ollie pre and post battle gym text needs work.
+The Eevee adoption person in viridian (pavement) town gives you an Eevee every time you ask, an unlimited number of times, also in the “do you want to nickname” it says do you want to nickname this Autumn.
+Need to change the niky dialogue when the player gets the running shoes, it’s ok but we can do better by hand writing it.
+Npc on route 4 refers to the boulder badge and brock when it should be pavement badge and Faris 
+The man at the table in the pokecenter calls cerulean by its old name, need to check while game for old names in dialogue
+Change the newspaper that man is reading to say “it’s a newspaper… heated rivalry is on.”
+Add a line to someone’s post fight trainer dialogue saying “why are there so many men here….”
+Maybe I could add in a custom item, perhaps a menu option, that works like an ultra repel, completely turning off wild encounters until deactivated. Mount moon made me think of this.
+Add turning off wild encounters to the debug menu
+The man who is excavating fossils in mount moon names brock when it should have been changed to Faris. He also names the town wrong
+I don’t like the dialogue throughout the game where the player is referred to as a kid, need to rip that all out and replace it. Shukti (the protagonist) is a grown woman
+In poolside pokemart, again you can repeated adopt the Eevee, and this time it says “would you like to rename this Fernanda” - we need to look at all of these, I won’t continue noting every one
+In poolside there are 2 npcs both called Milan. I’m not generally happy with the named NPC dialogue so I think we need to pull it all out in a way I can put it in a spreadsheet so I can work on jt like that and then hand it back to you to modify in the code
+The old man in the first house in poolside has bugged dialogue, he starts saying one thing and then it kind of ghosts into another in the text box 
+Steve and Fernanda’s text is bugged, Fernanda is fine but Steve says something unrelated to the fact that his npc has a menu that lets you ask what you get for having the various badges (level obeying) so the menu doesn’t make sense to come up, I want to keep the menu so modify Steve’s dialogue accordingly. Also Fernanda’s dialogue keeps triggering inbetween every line of Steve’s dialogue, very weird
+Stacey’s berry quest is confusing, all her text dumps at once. I want her to say something like “don’t tamper with my machine” and then the player has to interact with some object in the world to break it, then speak to Stacy to complete it. This needs to have accurate triggers and next step for the quest log
+If we catch Bowie in Bryony’s gym, the Pokédex entry is broken, let’s fix that and give it a custom dex entry
+On nugget bridge, let’s name the trainers after our favourite types of chicken nuggets, ask me what ones to use
+Rename the SS Anne to the princess cruise ship that we went on, need to look up its name, it’s on the fridge
+The couple of trainers after bills house call the town cerulean instead of poolside. Also they name the gym leader misty instead of bryony.
+Brandon and Hannah’s dialogue doesn’t make sense, need to work on all the renamed npc dialogue to make it sound like them
+Bug: for some reason we already have professor trees farfeched available to use cut before we actually get cut on the ss Anne. Not sure why but we shouldn’t have it from the start.
+The shiny fur on route 9 is bugged, it has the same text bug as the figs treats item. Also it is inside a wall where it is currently placed, move it left and up a few tiles
+The Alolan rescue person in burnout city has bugged text, we need to check all the alolan people. It’s half mashed up with the npcs original text.
+The Eevee givers are in the same place in every town. I’d like to switch that up, and give them unique dialogue about why they are giving up the Eevee 
+We need to do a very thorough check for old town names in the whole codebase
+All alolan adoption people are broken it seems
+In the house on route 2, there is a man who’s trying to give an alolan Pokemon and also talking about HM05. It’s broken and he gives neither. I think we put too many npcs on top of existing npcs rather than making new ones. It’s important that we can still get important items like HMs, this may be breaking the game
+By as Anne the game has become too easy, I’ve done every trainer battle and now my team is 10 levels ahead in every battle, even the rival battle on the ship
+Some main story quest steps are wrong, after I’ve gotten cut the next step should be to defeat the gym leader in burnout city
+Gym leaders by burnout are far too easy, my full team of 6 are all 10+ levels ahead of the leaders team of 3. Let’s make all gym leaders have full teams of 6 like the customised ones we have done so far (Faris and bryony for example) 
+After getting the badge in burnout, we need to go via digletts cave to route 2 to pick up hm05 from trees aide, however this is broken because that npc is also trying to give us an alolan adoption. This is currently game breaking as I have no way to get flash and proceed through rock tunnel
+That statement above is wrong, I found the aide who gives us flash, however there is an npc in the house north of this who garbles some text about flash, and doesn’t give us the alolan like intended.
+Thinking about ways to raise the difficulty, perhaps we reduce the amount of exp shared by the exp share, or globally reduce exp gained from battles? Easier than levelling up every fight in the whole game 
+Lets change the elite 4 to various rivals Shukti has defeated in the past. Let’s go with Nick, Andrea, and I need to think of 2 more, remind me
+There are duplicate NPCs in masquerade town, 2 ambers and 2 divas
+The sign on route 12 says lavender not masquerade 
+Let’s change some of the random drop items that you find on the floor throughout the game to be love balls, with a message that they have been “left for you by Ollie”
+The ch.1 item in Pokemon tower is bugged in the same way as the other custom items

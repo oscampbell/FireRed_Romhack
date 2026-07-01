@@ -552,7 +552,7 @@
 #define FLAG_0x206               0x206
 #define FLAG_0x207               0x207
 #define FLAG_0x208               0x208
-#define FLAG_0x209               0x209
+#define FLAG_HIDE_VIRIDIAN_SCHOOL_PROTEIN_BAR 0x209
 #define FLAG_0x20A               0x20A
 #define FLAG_0x20B               0x20B
 #define FLAG_0x20C               0x20C

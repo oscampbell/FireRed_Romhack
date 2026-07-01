@@ -87,7 +87,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "ViridianCity_EventScript_TutorialOldMan",
-      "flag": "0"
+      "flag": "FLAG_BADGE01_GET"
     },
     {
       "local_id": "LOCALID_VIRIDIAN_WOMAN",
@@ -102,7 +102,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "ViridianCity_EventScript_Woman",
-      "flag": "0"
+      "flag": "FLAG_BADGE01_GET"
     },
     {
       "type": "object",

@@ -137,8 +137,8 @@ gFameCheckerFlavorText_Misty3:: @ 0x81ADBD9
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\p"
 	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Strong TRAINERS and WATER POKéMON\n"
 	.string "are common sights in these parts.\p"
-	.string "They say that MISTY of the\n"
-	.string "CERULEAN GYM trains here.$"
+	.string "They say that BRYONY of the\n"
+	.string "POOLSIDE GYM trains here.$"
 
 gFameCheckerFlavorText_Misty4:: @ 0x81ADC72
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\p"
@@ -855,16 +855,16 @@ gFameCheckerFlavorTextOriginLocation_Misty0::
 	.string "CURL-ULEAN CITY$"
 
 gFameCheckerFlavorTextOriginLocation_Misty1::
-	.string "CERULEAN GYM$"
+	.string "POOLSIDE GYM$"
 
 gFameCheckerFlavorTextOriginLocation_Misty2::
-	.string "CERULEAN GYM$"
+	.string "POOLSIDE GYM$"
 
 gFameCheckerFlavorTextOriginLocation_Misty3::
 	.string "SEAFOAM ISLANDS$"
 
 gFameCheckerFlavorTextOriginLocation_Misty4::
-	.string "CERULEAN CAPE$"
+	.string "POOLSIDE CAPE$"
 
 gFameCheckerFlavorTextOriginLocation_Misty5::
 	.string "CURL-ULEAN CITY$"
@@ -1382,9 +1382,9 @@ PokemonJournal_Text_SpecialFeatureBrock::
 
 PokemonJournal_Text_SpecialFeatureMisty::
 	.string "POKéMON JOURNAL\p"
-	.string "Special Feature: CERULEAN GYM\n"
-	.string "LEADER MISTY!\p"
-	.string "MISTY is said to worship LORELEI\n"
+	.string "Special Feature: POOLSIDE GYM\n"
+	.string "LEADER BRYONY!\p"
+	.string "BRYONY is said to worship LORELEI\n"
 	.string "of the ELITE FOUR.$"
 
 PokemonJournal_Text_SpecialFeatureLtSurge::

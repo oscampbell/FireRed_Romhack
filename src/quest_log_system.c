@@ -231,7 +231,7 @@ static void BufferQuestList(void)
     for (i = 0; i < sQuestLogPtr->numActiveQuests; i++)
     {
         u8 questIdx = sQuestLogPtr->activeQuestIndices[i];
-        AddTextPrinterParameterized(0, FONT_NORMAL, gQuests[questIdx].name, 8, i * 16 + 2, TEXT_SKIP_DRAW, NULL);
+        AddTextPrinterParameterized(0, FONT_SMALL, gQuests[questIdx].name, 8, i * 16 + 2, TEXT_SKIP_DRAW, NULL);
     }
     PutWindowTilemap(0);
     CopyWindowToVram(0, COPYWIN_FULL);
@@ -245,11 +245,11 @@ static void BufferQuestDetails(void)
     FillWindowPixelBuffer(1, PIXEL_FILL(1));
     if (step >= gQuests[questIdx].numSteps)
     {
-        AddTextPrinterParameterized(1, FONT_NORMAL, (const u8 *)"COMPLETED", 4, 2, TEXT_SKIP_DRAW, NULL);
+        AddTextPrinterParameterized(1, FONT_SMALL, (const u8 *)"COMPLETED", 4, 2, TEXT_SKIP_DRAW, NULL);
     }
     else
     {
-        AddTextPrinterParameterized(1, FONT_NORMAL, gQuests[questIdx].steps[step].description, 4, 2, TEXT_SKIP_DRAW, NULL);
+        AddTextPrinterParameterized(1, FONT_SMALL, gQuests[questIdx].steps[step].description, 4, 2, TEXT_SKIP_DRAW, NULL);
     }
     PutWindowTilemap(1);
     CopyWindowToVram(1, COPYWIN_FULL);

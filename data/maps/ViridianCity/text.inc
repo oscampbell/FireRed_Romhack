@@ -1,7 +1,6 @@
 ViridianCity_Text_CanCarryMonsAnywhere::
     .string "I saw a Rocket Grunt earlier...\n"
-    .string "He was struggling with a dog cage\l"
-    .string "that smelled like The Sweet Spot!\p"
+    .string "He was struggling with a dog cage.\p"
     .string "They must be taking that poor\n"
     .string "shiny dog to EMPIRE CITY.$"
 

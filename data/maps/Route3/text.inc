@@ -1,7 +1,7 @@
 Route3_Text_TunnelFromCeruleanTiring::
     .string "Whew… I better take a rest…\n"
     .string "Groan…\p"
-    .string "That tunnel from CERULEAN takes a\n"
+    .string "That tunnel from POOLSIDE takes a\n"
     .string "lot out of you!$"
 
 Route3_Text_ColtonIntro::

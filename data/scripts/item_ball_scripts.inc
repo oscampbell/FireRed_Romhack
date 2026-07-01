@@ -700,3 +700,7 @@ Route9_EventScript_ItemShinyFur::
 	giveitem ITEM_SHINY_FUR_CLUMP
 	msgbox Text_Clue_Fur
 	end
+
+ViridianCity_School_EventScript_ItemProteinBar::
+	finditem ITEM_PROTEIN_BAR
+	end

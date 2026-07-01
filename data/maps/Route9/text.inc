@@ -23,7 +23,7 @@ Route9_Text_ChrisPostBattle::
 
 Route9_Text_DrewIntro::
     .string "I'm taking the ROCK TUNNEL to\n"
-    .string "go to LAVENDER…$"
+    .string "go to MASQUERADE…$"
 
 Route9_Text_DrewDefeat::
     .string "Can't measure up…$"

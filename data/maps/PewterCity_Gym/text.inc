@@ -5,7 +5,7 @@ PewterCity_Gym_Text_BrockIntro::
 PewterCity_Gym_Text_BrockDefeat::
     .string "YOU BEAT ME?!\n"
     .string "Take this to remember me by.\p"
-    .string "{FONT_NORMAL}{PLAYER} received the BOULDERBADGE\n"
+    .string "{FONT_NORMAL}{PLAYER} received the PAVEMENTBADGE\n"
     .string "from FARIS!{PAUSE_MUSIC}{PLAY_BGM}{MUS_OBTAIN_BADGE}{PAUSE 0xFE}{PAUSE 0x56}{RESUME_MUSIC}\p"
     .string "{FONT_MALE}YOU BEAT ME?! Take this to remember\n"
     .string "me by...$"

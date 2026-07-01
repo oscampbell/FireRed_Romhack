@@ -32,7 +32,7 @@ Text_Snacks::
 
 Text_PokemartSign::
 	.string "All your item needs fulfilled!\n"
-	.string "POKéMON MART$"
+	.string "POKéASDA$"
 
 Text_PokecenterSign::
 	.string "Heal Your POKéMON!\n"

@@ -956,7 +956,7 @@ const u8 gText_QuestLog_MainStory_Step25[] = _("Defeat LANCE of the ELITE FOUR."
 const u8 gText_QuestLog_MainStory_Step26[] = _("Defeat the CHAMPION!");
 const u8 gText_QuestLog_MainStory_Step27[] = _("Visit CELIO at the POKéMON CENTER on\nONE ISLAND.");
 const u8 gText_QuestLog_MainStory_Step28[] = _("Recover the RUBY and SAPPHIRE gems\nfrom the SEVII ISLANDS.");
-const u8 gText_QuestLog_MainStory_Step29[] = _("Confront MEWTWO in the depths of the\nCERULEAN CAVE.");
+const u8 gText_QuestLog_MainStory_Step29[] = _("Confront MEWTWO in the depths of the\nPOOLSIDE CAVE.");
 
 const u8 gText_QuestLog_StaceyQuest_Step0[] = _("Stacey is causing trouble in Poolside\nCity. See what her latest 'venture' is.");
 const u8 gText_QuestLog_StaceyQuest_Step1[] = _("Stacey has moved her Spiritual Consulting\nto Masquerade Town. Check in on her.");
